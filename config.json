@@ -2,18 +2,20 @@
   "sources": [
     {
       "owner": "Fausto",
-      "type": "collection",
-      "url": "https://moxfield.com/collection/e-2x4HBT1EO2CXbU3t8LdA"
+      "urls": [
+        "https://moxfield.com/collection/e-2x4HBT1EO2CXbU3t8LdA"
+      ]
     },
     {
       "owner": "Nacho",
-      "type": "collection",
-      "url": "https://moxfield.com/collection/hqGRNY2Eik2OPTXmZOWAEQ"
+      "urls": [
+        "https://moxfield.com/collection/hqGRNY2Eik2OPTXmZOWAEQ"
+      ]
     }
   ],
 
   "phoneSecretNames": {
     "Fausto":  "PHONE_VALLHAY",
-    "Nacho":  "PHONE_NACHO"
+    "Nacho":   "PHONE_NACHO"
   }
 }

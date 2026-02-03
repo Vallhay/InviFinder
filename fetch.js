@@ -19,7 +19,7 @@ const path  = require('path');
 // ═══════════════════════════════════════════════════════════════════════════
 //  ⚙️ CONFIG — paste your Cloudflare Worker URL here
 // ═══════════════════════════════════════════════════════════════════════════
-const WORKER_URL = 'https://moxfield-proxy.faguaz.workers.dev';
+const WORKER_URL = 'https://YOUR-WORKER-NAME.workers.dev';
 // Example: 'https://moxfield-proxy.workers.dev'
 //
 // Deploy the worker.js file to Cloudflare Workers (free), then paste the URL here.
@@ -166,42 +166,47 @@ async function main() {
   const cardsMap  = {};   // lowerName → { name, owners: { ownerName: qty } }
 
   for (const src of config.sources) {
-    console.log(`\nProcessing: ${src.owner} (${src.type})`);
+    console.log(`\nProcessing: ${src.owner}`);
 
-    const parsed = parseMoxfieldUrl(src.url);
-    if (!parsed) {
-      console.error(`  ✗ Could not parse URL: ${src.url}`);
-      continue;
-    }
-
-    let cards;
-    try {
-      cards = parsed.type === 'deck'
-        ? await fetchDeck(parsed.id)
-        : await fetchCollection(parsed.id);
-    } catch (e) {
-      console.error(`  ✗ Failed to fetch: ${e.message}`);
-      continue;
-    }
-
-    // register owner
+    // ensure owner exists
     if (!ownersMap[src.owner]) {
-      // pull phone from env secret (name defined in config)
       const secretKey = config.phoneSecretNames?.[src.owner];
       const phone     = secretKey ? (process.env[secretKey] || '') : '';
       ownersMap[src.owner] = { name: src.owner, phone, cardCount: 0 };
     }
-    ownersMap[src.owner].cardCount += cards.length;
 
-    // merge cards
-    for (const { name, qty } of cards) {
-      const key = name.toLowerCase();
-      if (!cardsMap[key]) cardsMap[key] = { name, owners: {} };
-      cardsMap[key].owners[src.owner] = (cardsMap[key].owners[src.owner] || 0) + qty;
+    // handle both old format (single "url") and new format (array of "urls")
+    const urls = src.urls ? src.urls : (src.url ? [src.url] : []);
+    
+    for (const url of urls) {
+      const parsed = parseMoxfieldUrl(url);
+      if (!parsed) {
+        console.error(`  ✗ Could not parse URL: ${url}`);
+        continue;
+      }
+
+      let cards;
+      try {
+        cards = parsed.type === 'deck'
+          ? await fetchDeck(parsed.id)
+          : await fetchCollection(parsed.id);
+      } catch (e) {
+        console.error(`  ✗ Failed to fetch ${url}: ${e.message}`);
+        continue;
+      }
+
+      ownersMap[src.owner].cardCount += cards.length;
+
+      // merge cards under this owner
+      for (const { name, qty } of cards) {
+        const key = name.toLowerCase();
+        if (!cardsMap[key]) cardsMap[key] = { name, owners: {} };
+        cardsMap[key].owners[src.owner] = (cardsMap[key].owners[src.owner] || 0) + qty;
+      }
+
+      // small pause between URLs from the same owner
+      await sleep(1000);
     }
-
-    // small pause between sources
-    await sleep(1000);
   }
 
   // ── 3. write output ──

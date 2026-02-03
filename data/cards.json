@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-03T20:44:01.119Z",
+  "lastUpdated": "2026-02-03T22:23:18.568Z",
   "owners": [
     {
       "name": "Fausto",
@@ -9,7 +9,7 @@
     {
       "name": "Nacho",
       "phone": "",
-      "cardCount": 4682
+      "cardCount": 4681
     }
   ],
   "cards": {
@@ -19768,7 +19768,7 @@
     "cache grab": {
       "name": "Cache Grab",
       "owners": {
-        "Nacho": 7
+        "Nacho": 3
       }
     },
     "cadira, caller of the small": {
@@ -29068,7 +29068,7 @@
     "soul-guide lantern": {
       "name": "Soul-Guide Lantern",
       "owners": {
-        "Nacho": 3
+        "Nacho": 2
       }
     },
     "soulknife spy": {

@@ -12,15 +12,24 @@
  */
 
 const https = require('https');
+const http  = require('http');
 const fs    = require('fs');
 const path  = require('path');
+
+// ─── CORS proxies to try (same as frontend) ────────────────────────────────
+const PROXIES = [
+  'https://corsproxy.io/?',
+  'https://api.codetabs.com/v1/proxy?quest=',
+  '',  // direct (last resort)
+];
 
 // ─── helpers ────────────────────────────────────────────────────────────────
 
 /** Simple GET that returns parsed JSON. Retries once on transient errors. */
 function httpGet(url, retries = 2) {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'MTG-Card-Tracker-Fetcher/1.0' } }, (res) => {
+    const protocol = url.startsWith('https:') ? https : http;
+    protocol.get(url, { headers: { 'User-Agent': 'MTG-Card-Tracker-Fetcher/1.0' } }, (res) => {
       if (res.statusCode === 429 || res.statusCode >= 500) {
         // rate-limited or server error — wait and retry
         if (retries > 0) {
@@ -52,6 +61,22 @@ function httpGet(url, retries = 2) {
 /** Sleep helper for rate-limiting politeness. */
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+/** Fetch with automatic proxy fallback (tries all proxies until one works). */
+async function autoFetch(targetUrl) {
+  let lastErr = null;
+  for (const proxy of PROXIES) {
+    const url = proxy ? `${proxy}${encodeURIComponent(targetUrl)}` : targetUrl;
+    try {
+      const data = await httpGet(url);
+      return data; // success
+    } catch (e) {
+      lastErr = e.message;
+      console.log(`  ↻ Proxy failed (${proxy || 'direct'}): ${e.message}`);
+    }
+  }
+  throw new Error(`All proxies failed. Last error: ${lastErr}`);
+}
+
 // ─── Moxfield fetchers ──────────────────────────────────────────────────────
 
 const MOX_API = 'https://api2.moxfield.com';
@@ -62,7 +87,7 @@ const MOX_API = 'https://api2.moxfield.com';
  */
 async function fetchDeck(id) {
   console.log(`  GET deck ${id}`);
-  const data = await httpGet(`${MOX_API}/v2/decks/all/${id}`);
+  const data = await autoFetch(`${MOX_API}/v2/decks/all/${id}`);
 
   const cards = [];
   const sections = ['mainboard', 'sideboard', 'commanders', 'considering', 'maybeboard'];
@@ -92,7 +117,7 @@ async function fetchCollection(id) {
       + `?sortType=cardName&sortDirection=ascending&pageNumber=${page}&pageSize=50`;
 
     console.log(`  GET collection page ${page}/${totalPages}`);
-    const data = await httpGet(url);
+    const data = await autoFetch(url);
 
     if (page === 1) totalPages = data.totalPages || 1;
 

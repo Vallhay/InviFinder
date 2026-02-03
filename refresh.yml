@@ -23,7 +23,7 @@ jobs:
         run: node fetch.js
         env:
           PHONE_VALLHAY:  ${{ secrets.PHONE_VALLHAY }}
-          PHONE_FRIEND1:  ${{ secrets.PHONE_FRIEND1 }}
+          PHONE_NACHO:  ${{ secrets.PHONE_NACHO }}
           # ── add more phones here as you add people ──
           # PHONE_FRIEND2:  ${{ secrets.PHONE_FRIEND2 }}
 

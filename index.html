@@ -209,7 +209,7 @@ let currentFilter = 'all';
   setStatus('Loading card data…', 'loading');
 
   try {
-    const res  = await fetch('/data/cards.json');
+    const res  = await fetch('./data/cards.json');
     if (!res.ok) throw new Error(`data/cards.json returned HTTP ${res.status}`);
     const data = await res.json();
 

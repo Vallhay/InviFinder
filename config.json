@@ -1,19 +1,19 @@
 {
   "sources": [
     {
-      "owner": "Vallhay",
+      "owner": "Fausto",
       "type": "collection",
       "url": "https://moxfield.com/collection/e-2x4HBT1EO2CXbU3t8LdA"
     },
     {
-      "owner": "Friend1",
-      "type": "deck",
-      "url": "https://moxfield.com/decks/REPLACE_ME"
+      "owner": "Nacho",
+      "type": "collection",
+      "url": "https://moxfield.com/collection/hqGRNY2Eik2OPTXmZOWAEQ"
     }
   ],
 
   "phoneSecretNames": {
-    "Vallhay":  "PHONE_VALLHAY",
-    "Friend1":  "PHONE_FRIEND1"
+    "Fausto":  "PHONE_VALLHAY",
+    "Nacho":  "PHONE_NACHO"
   }
 }

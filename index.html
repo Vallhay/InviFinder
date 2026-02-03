@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>MTG Card Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --bg-deep:#0a0c10;--bg-card:#131720;--bg-hover:#1a1f2e;--bg-input:#161c2a;
+    --border:#2a3348;--border-focus:#6c63ff;
+    --txt:#eef0f5;--txt2:#8892a4;
+    --accent:#6c63ff;--accent-g:rgba(108,99,255,.35);
+    --accent2:#ff6b6b;--gold:#d4a94c;--green:#4caf7a;
+    --tag-bg:rgba(108,99,255,.12);--tag-border:rgba(108,99,255,.3);
+    --r:10px;--r-sm:6px;--shadow:0 4px 24px rgba(0,0,0,.4);
+  }
+  html{font-size:16px;-webkit-font-smoothing:antialiased}
+  body{font-family:'Inter',sans-serif;background:var(--bg-deep);color:var(--txt);min-height:100vh;line-height:1.5}
+
+  /* top glow */
+  body::before{content:'';position:fixed;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent 0%,var(--accent) 40%,var(--gold) 60%,transparent 100%);z-index:999}
+
+  /* ─ header ─ */
+  header{position:sticky;top:0;z-index:100;background:rgba(10,12,16,.82);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid var(--border);padding:14px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  .logo{font-family:'Cinzel',serif;font-weight:700;font-size:1.35rem;background:linear-gradient(135deg,var(--gold),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;white-space:nowrap;letter-spacing:.5px}
+  .logo span{font-weight:400;font-size:.82rem;opacity:.7;display:block;-webkit-text-fill-color:var(--txt2);margin-top:-2px}
+
+  /* ─ header meta (last updated + card count) ─ */
+  .header-meta{margin-left:auto;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  .meta-badge{font-size:.76rem;color:var(--txt2);background:var(--bg-input);border:1px solid var(--border);border-radius:14px;padding:4px 10px;white-space:nowrap}
+  .meta-badge strong{color:var(--txt)}
+
+  /* ─ layout ─ */
+  .container{max-width:1100px;margin:0 auto;padding:28px 20px}
+  .section-label{font-family:'Cinzel',serif;font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:var(--txt2);margin-bottom:10px}
+  .panel{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);padding:20px;margin-bottom:24px}
+
+  /* ─ inputs ─ */
+  input[type="text"]{background:var(--bg-input);border:1px solid var(--border);border-radius:var(--r-sm);color:var(--txt);font-family:inherit;font-size:.9rem;padding:10px 14px;outline:none;transition:border-color .2s,box-shadow .2s;width:100%}
+  input:focus{border-color:var(--border-focus)!important;box-shadow:0 0 0 3px var(--accent-g)}
+  input::placeholder{color:var(--txt2)}
+
+  /* ─ owner cards row ─ */
+  .owners-row{display:flex;gap:10px;flex-wrap:wrap}
+  .owner-card{background:var(--bg-input);border:1px solid var(--border);border-radius:var(--r);padding:12px 16px;flex:1 1 140px;min-width:120px;max-width:220px;transition:border-color .2s}
+  .owner-card:hover{border-color:var(--accent)}
+  .owner-card .oc-name{font-weight:600;color:var(--gold);font-size:.92rem;margin-bottom:3px}
+  .owner-card .oc-count{font-size:.78rem;color:var(--txt2)}
+  .owner-card .oc-phone{font-size:.76rem;color:var(--txt2);margin-top:4px;opacity:.7}
+
+  /* ─ status ─ */
+  .status-bar{font-size:.82rem;color:var(--txt2);min-height:20px;margin-top:10px;display:flex;align-items:center;gap:8px}
+  .status-bar .spinner{width:14px;height:14px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .6s linear infinite;display:none}
+  .status-bar.loading .spinner{display:block}
+  .status-bar .err{color:var(--accent2)}
+  .status-bar .ok{color:var(--green)}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  /* ─ search ─ */
+  .search-wrap{position:relative}
+  .search-wrap input{padding-left:38px}
+  .search-wrap .search-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--txt2);pointer-events:none;font-size:1rem}
+  .autocomplete{position:absolute;top:calc(100% + 4px);left:0;right:0;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow);z-index:200;max-height:260px;overflow-y:auto;display:none}
+  .autocomplete.open{display:block}
+  .autocomplete-item{padding:9px 14px;cursor:pointer;font-size:.88rem;border-bottom:1px solid var(--border);transition:background .15s;display:flex;align-items:center;gap:10px}
+  .autocomplete-item:last-child{border-bottom:none}
+  .autocomplete-item:hover{background:var(--bg-hover)}
+  .autocomplete-item .ac-name{color:var(--txt)}
+  .autocomplete-item .ac-type{color:var(--txt2);font-size:.78rem}
+
+  /* ─ filter chips ─ */
+  .filter-chips{display:flex;gap:6px;flex-wrap:wrap}
+  .chip{background:var(--bg-input);border:1px solid var(--border);border-radius:16px;padding:5px 12px;font-size:.8rem;color:var(--txt2);cursor:pointer;transition:all .15s}
+  .chip:hover,.chip.active{border-color:var(--accent);background:var(--tag-bg);color:var(--txt)}
+
+  /* ─ results ─ */
+  .results-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px}
+  .results-count{font-size:.85rem;color:var(--txt2)}
+  .table-wrap{overflow-x:auto}
+  table{width:100%;border-collapse:collapse;font-size:.88rem}
+  thead th{text-align:left;font-weight:600;font-size:.72rem;text-transform:uppercase;letter-spacing:1.2px;color:var(--txt2);padding:8px 12px;border-bottom:2px solid var(--border);position:sticky;top:0;background:var(--bg-card);white-space:nowrap}
+  thead th[data-sort]{cursor:pointer;user-select:none}
+  thead th[data-sort]:hover{color:var(--accent)}
+  thead th .sort-arrow{margin-left:4px;opacity:.5;font-size:.65rem}
+  tbody tr{border-bottom:1px solid rgba(42,51,72,.5);transition:background .15s;cursor:pointer}
+  tbody tr:hover{background:var(--bg-hover)}
+  tbody td{padding:10px 12px}
+  .card-name-cell{font-weight:500;color:var(--txt)}
+  .owner-badge{display:inline-block;background:var(--tag-bg);border:1px solid var(--tag-border);border-radius:12px;padding:2px 9px;font-size:.76rem;color:var(--gold);margin:2px}
+
+  /* ─ empty ─ */
+  .empty-state{text-align:center;padding:48px 20px;color:var(--txt2)}
+  .empty-state .icon{font-size:2.5rem;margin-bottom:10px;opacity:.4}
+  .empty-state p{font-size:.92rem;max-width:420px;margin:0 auto;line-height:1.6}
+
+  /* ─ modal ─ */
+  .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);backdrop-filter:blur(4px);z-index:500;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .25s}
+  .modal-overlay.open{opacity:1;pointer-events:auto}
+  .modal{background:var(--bg-card);border:1px solid var(--border);border-radius:14px;max-width:640px;width:100%;max-height:85vh;overflow-y:auto;padding:28px;position:relative;transform:translateY(18px);transition:transform .25s}
+  .modal-overlay.open .modal{transform:translateY(0)}
+  .modal-close{position:absolute;top:14px;right:16px;background:none;border:none;color:var(--txt2);font-size:1.4rem;cursor:pointer;transition:color .15s}
+  .modal-close:hover{color:var(--accent2)}
+  .modal-card-name{font-family:'Cinzel',serif;font-size:1.25rem;font-weight:600;margin-bottom:12px;color:var(--txt)}
+  .modal-img-wrap{text-align:center;margin:16px 0}
+  .modal-img-wrap img{max-width:100%;max-height:300px;border-radius:8px;box-shadow:0 8px 32px rgba(0,0,0,.5)}
+
+  /* ─ modal owner rows ─ */
+  .modal-owner-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border)}
+  .modal-owner-row:last-child{border-bottom:none}
+  .modal-owner-row .mor-name{color:var(--gold);font-weight:600;font-size:.88rem;min-width:90px}
+  .modal-owner-row .mor-qty{color:var(--accent);font-weight:600;font-size:.82rem}
+  .modal-owner-row .mor-phone{color:var(--txt2);font-size:.78rem;margin-left:auto}
+
+  /* ─ responsive ─ */
+  @media(max-width:600px){
+    header{padding:10px 14px}
+    .header-meta{margin-left:0;width:100%}
+    .container{padding:18px 12px}
+    .panel{padding:14px}
+    table{font-size:.82rem}
+    thead th,tbody td{padding:7px 8px}
+    .owner-card{flex:1 1 100%;max-width:100%}
+  }
+  ::-webkit-scrollbar{width:6px}
+  ::-webkit-scrollbar-track{background:var(--bg-deep)}
+  ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+  ::-webkit-scrollbar-thumb:hover{background:var(--accent)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">✦ MTG Card Tracker<span>Find who owns what — instantly</span></div>
+  <div class="header-meta">
+    <div class="meta-badge" id="metaCards"><strong>—</strong> cards</div>
+    <div class="meta-badge" id="metaUpdated">updated <strong>—</strong></div>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- ── OWNERS ── -->
+  <div class="panel">
+    <div class="section-label">Collection Owners</div>
+    <div class="owners-row" id="ownersRow"></div>
+    <div class="status-bar" id="statusBar">
+      <div class="spinner"></div>
+      <span id="statusText">Loading data…</span>
+    </div>
+  </div>
+
+  <!-- ── SEARCH ── -->
+  <div class="panel">
+    <div class="section-label">Search Cards</div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search card name…" oninput="onSearchInput()" autocomplete="off"/>
+      <div class="autocomplete" id="autocomplete"></div>
+    </div>
+    <div style="height:10px"></div>
+    <div class="filter-chips" id="filterChips">
+      <div class="chip active" data-filter="all" onclick="setFilter('all')">All</div>
+    </div>
+  </div>
+
+  <!-- ── RESULTS ── -->
+  <div class="panel">
+    <div class="results-header">
+      <span class="section-label" style="margin:0">Results</span>
+      <span class="results-count" id="resultsCount"></span>
+    </div>
+    <div id="resultsBody">
+      <div class="empty-state">
+        <div class="icon">🃏</div>
+        <p>Loading…</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── MODAL ── -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">&times;</button>
+    <div class="modal-card-name" id="modalName"></div>
+    <div class="modal-img-wrap" id="modalImg"></div>
+    <div id="modalOwners"></div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════
+//  STATE
+// ═══════════════════════════════════════════════════
+// cardDB: Map<lowerName, { name, owners: Map<lowerOwner, {display, qty}>, scryfallData }>
+const cardDB  = new Map();
+
+// owners: [ { name, phone, cardCount } ]  — from the JSON
+let owners = [];
+
+let currentFilter = 'all';
+
+// ═══════════════════════════════════════════════════
+//  BOOT  —  fetch the pre-built JSON and populate everything
+// ═══════════════════════════════════════════════════
+(async function boot() {
+  setStatus('Loading card data…', 'loading');
+
+  try {
+    const res  = await fetch('/data/cards.json');
+    if (!res.ok) throw new Error(`data/cards.json returned HTTP ${res.status}`);
+    const data = await res.json();
+
+    // ── store owners ──
+    owners = data.owners || [];
+
+    // ── populate cardDB from the flat cards object ──
+    // data.cards = { "lightning bolt": { name: "Lightning Bolt", owners: { "Vallhay": 4 } } }
+    for (const [key, card] of Object.entries(data.cards)) {
+      const ownerMap = new Map();
+      for (const [ownerName, qty] of Object.entries(card.owners)) {
+        ownerMap.set(ownerName.toLowerCase(), { display: ownerName, qty });
+      }
+      cardDB.set(key, { name: card.name, owners: ownerMap, scryfallData: null });
+    }
+
+    // ── update header meta ──
+    document.getElementById('metaCards').innerHTML =
+      `<strong>${cardDB.size.toLocaleString()}</strong> cards`;
+
+    if (data.lastUpdated) {
+      const d = new Date(data.lastUpdated);
+      const rel = relativeTime(d);
+      document.getElementById('metaUpdated').innerHTML =
+        `updated <strong>${rel}</strong>`;
+    }
+
+    setStatus(`✓ Loaded ${cardDB.size.toLocaleString()} unique cards from ${owners.length} owner${owners.length !== 1 ? 's' : ''}.`, 'ok');
+
+    renderOwners();
+    renderFilterChips();
+    renderResults();
+
+  } catch (e) {
+    setStatus(`Could not load data: ${e.message}. The data/cards.json file may not exist yet — run the GitHub Action manually once.`, 'err');
+  }
+})();
+
+// ═══════════════════════════════════════════════════
+//  RENDER: owner cards
+// ═══════════════════════════════════════════════════
+function renderOwners() {
+  document.getElementById('ownersRow').innerHTML = owners.map(o =>
+    `<div class="owner-card">
+       <div class="oc-name">${esc(o.name)}</div>
+       <div class="oc-count">${o.cardCount.toLocaleString()} cards</div>
+       ${o.phone ? `<div class="oc-phone">📞 ${esc(o.phone)}</div>` : ''}
+     </div>`
+  ).join('');
+}
+
+// ═══════════════════════════════════════════════════
+//  RENDER: filter chips (one per owner + "All")
+// ═══════════════════════════════════════════════════
+function renderFilterChips() {
+  let html = `<div class="chip ${currentFilter === 'all' ? 'active' : ''}" onclick="setFilter('all')">All</div>`;
+  for (const o of owners) {
+    const key = o.name.toLowerCase();
+    html += `<div class="chip ${currentFilter === key ? 'active' : ''}" onclick="setFilter('${key}')">${esc(o.name)}</div>`;
+  }
+  document.getElementById('filterChips').innerHTML = html;
+}
+
+function setFilter(f) {
+  currentFilter = f;
+  renderFilterChips();
+  renderResults();
+}
+
+// ═══════════════════════════════════════════════════
+//  RENDER: results table
+// ═══════════════════════════════════════════════════
+let sortCol = 'name', sortDir = 1;
+
+function renderResults() {
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  let rows = [];
+
+  for (const [key, entry] of cardDB) {
+    if (q && !key.includes(q)) continue;
+    if (currentFilter !== 'all' && !entry.owners.has(currentFilter)) continue;
+    rows.push(entry);
+  }
+
+  // sort
+  rows.sort((a, b) => {
+    if (sortCol === 'owners') return sortDir * (b.owners.size - a.owners.size);
+    return sortDir * a.name.localeCompare(b.name);
+  });
+
+  document.getElementById('resultsCount').textContent = rows.length
+    ? `${rows.length.toLocaleString()} card${rows.length !== 1 ? 's' : ''}`
+    : '';
+
+  if (!rows.length) {
+    document.getElementById('resultsBody').innerHTML =
+      `<div class="empty-state"><div class="icon">🔍</div>
+       <p>${cardDB.size === 0 ? 'No cards loaded yet.' : 'No cards match your search or filter.'}</p></div>`;
+    return;
+  }
+
+  const arrow = col => sortCol === col ? (sortDir === 1 ? '▲' : '▼') : '';
+
+  let html = `<div class="table-wrap"><table><thead><tr>
+    <th data-sort="name"   onclick="toggleSort('name')">Card <span class="sort-arrow">${arrow('name')}</span></th>
+    <th data-sort="owners" onclick="toggleSort('owners')">Owned by <span class="sort-arrow">${arrow('owners')}</span></th>
+  </tr></thead><tbody>`;
+
+  for (const entry of rows) {
+    const badges = [...entry.owners.values()].map(v =>
+      `<span class="owner-badge">${esc(v.display)} <span style="color:var(--accent);font-weight:600">${v.qty}×</span></span>`
+    ).join('');
+    html += `<tr onclick="openModal('${entry.name.replace(/'/g, "\\'")}')">
+               <td class="card-name-cell">${esc(entry.name)}</td>
+               <td>${badges}</td>
+             </tr>`;
+  }
+  html += '</tbody></table></div>';
+  document.getElementById('resultsBody').innerHTML = html;
+}
+
+function toggleSort(col) {
+  if (sortCol === col) sortDir *= -1;
+  else { sortCol = col; sortDir = 1; }
+  renderResults();
+}
+
+// ═══════════════════════════════════════════════════
+//  SCRYFALL  autocomplete on search box
+// ═══════════════════════════════════════════════════
+let acTimeout = null;
+let lastAcQ   = '';
+
+function onSearchInput() {
+  const q = document.getElementById('searchInput').value.trim();
+  clearTimeout(acTimeout);
+  renderResults();                          // live filter
+
+  if (q.length < 2) { closeAC(); return; }
+  acTimeout = setTimeout(() => fetchScryfall(q), 380);
+}
+
+async function fetchScryfall(q) {
+  if (q === lastAcQ) return;
+  lastAcQ = q;
+  try {
+    const r = await fetch(`https://api.scryfall.com/cards/search?q=${encodeURIComponent(q)}&unique=cards&order=name&limit=12`);
+    if (!r.ok) { closeAC(); return; }
+    const d = await r.json();
+    renderAC(d.data || []);
+  } catch { closeAC(); }
+}
+
+function renderAC(cards) {
+  const el = document.getElementById('autocomplete');
+  if (!cards.length) { closeAC(); return; }
+  el.innerHTML = cards.slice(0,10).map(c =>
+    `<div class="autocomplete-item" onclick="selectAC('${c.name.replace(/'/g, "\\'")}')">
+       <div><span class="ac-name">${esc(c.name)}</span><br/>
+            <span class="ac-type">${esc(c.type_line||'')}</span></div>
+     </div>`
+  ).join('');
+  el.classList.add('open');
+}
+
+function selectAC(name) {
+  document.getElementById('searchInput').value = name;
+  closeAC();
+  renderResults();
+}
+
+function closeAC() { document.getElementById('autocomplete').classList.remove('open'); }
+document.addEventListener('mousedown', e => { if (!e.target.closest('.search-wrap')) closeAC(); });
+
+// ═══════════════════════════════════════════════════
+//  CARD DETAIL MODAL  —  fetches Scryfall image on demand
+// ═══════════════════════════════════════════════════
+async function openModal(name) {
+  const entry = cardDB.get(name.toLowerCase());
+  if (!entry) return;
+
+  document.getElementById('modalName').textContent = entry.name;
+
+  // ── owners list with phones ──
+  // build a quick lookup: ownerName (lower) → phone
+  const phoneMap = {};
+  for (const o of owners) phoneMap[o.name.toLowerCase()] = o.phone || '';
+
+  document.getElementById('modalOwners').innerHTML =
+    `<div class="section-label" style="margin-top:16px">Owners</div>` +
+    [...entry.owners.values()].map(v => {
+      const phone = phoneMap[v.display.toLowerCase()] || '';
+      return `<div class="modal-owner-row">
+                <span class="mor-name">${esc(v.display)}</span>
+                <span class="mor-qty">${v.qty}×</span>
+                ${phone ? `<span class="mor-phone">📞 ${esc(phone)}</span>` : ''}
+              </div>`;
+    }).join('');
+
+  // ── image ──
+  const imgEl = document.getElementById('modalImg');
+  imgEl.innerHTML = '<span style="color:var(--txt2);font-size:.82rem">Loading image…</span>';
+
+  if (!entry.scryfallData) {
+    try {
+      const r = await fetch(`https://api.scryfall.com/cards/named?exact=${encodeURIComponent(entry.name)}`);
+      if (r.ok) entry.scryfallData = await r.json();
+    } catch {}
+  }
+
+  const sf   = entry.scryfallData;
+  const src  = sf?.image_uris?.normal || sf?.card_faces?.[0]?.image_uris?.normal || '';
+  imgEl.innerHTML = src
+    ? `<img src="${src}" alt="${esc(entry.name)}" loading="lazy"/>`
+    : '<span style="color:var(--txt2)">No image available.</span>';
+
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function closeModal(e) {
+  if (e && e.target !== document.getElementById('modalOverlay')) return;
+  document.getElementById('modalOverlay').classList.remove('open');
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+// ═══════════════════════════════════════════════════
+//  STATUS BAR
+// ═══════════════════════════════════════════════════
+function setStatus(msg, type) {
+  const bar  = document.getElementById('statusBar');
+  const text = document.getElementById('statusText');
+  bar.className = 'status-bar' + (type === 'loading' ? ' loading' : '');
+  text.className = type === 'err' ? 'err' : type === 'ok' ? 'ok' : '';
+  text.textContent = msg;
+}
+
+// ═══════════════════════════════════════════════════
+//  UTILS
+// ═══════════════════════════════════════════════════
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/** "3 hours ago", "just now", etc. */
+function relativeTime(date) {
+  const diff = Date.now() - date.getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 1)  return 'just now';
+  if (mins < 60) return `${mins}m ago`;
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24)  return `${hrs}h ago`;
+  const days = Math.floor(hrs / 24);
+  return `${days}d ago`;
+}
+
+document.getElementById('searchInput').addEventListener('keydown', e => { if (e.key==='Enter') closeAC(); });
+</script>
+</body>
+</html>

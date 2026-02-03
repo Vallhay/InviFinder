@@ -1,0 +1,37 @@
+name: Refresh MTG Card Data
+
+on:
+  # ── runs every day at 6:00 AM UTC ──
+  schedule:
+    - cron: '0 6 * * *'
+
+  # ── also lets you click "Run workflow" manually in the Actions tab ──
+  # This is how you trigger it instantly after adding a new person to config.json.
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── checkout the repo ──
+      - uses: actions/checkout@v4
+
+      # ── run the fetcher ──
+      # All PHONE_* secrets are passed as env vars automatically.
+      - name: Fetch card data from Moxfield
+        run: node fetch.js
+        env:
+          PHONE_VALLHAY:  ${{ secrets.PHONE_VALLHAY }}
+          PHONE_FRIEND1:  ${{ secrets.PHONE_FRIEND1 }}
+          # ── add more phones here as you add people ──
+          # PHONE_FRIEND2:  ${{ secrets.PHONE_FRIEND2 }}
+
+      # ── commit & push the new data/cards.json back to the repo ──
+      # If nothing changed (no new cards), this step does nothing.
+      - name: Commit updated data
+        uses: EndeavorYoung/git-auto-commit-action@v1
+        with:
+          commit_message: "chore: refresh card data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          branch: main
+          commit_options: '--allow-empty'

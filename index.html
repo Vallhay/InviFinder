@@ -53,9 +53,11 @@
   .search-wrap .search-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--txt2);pointer-events:none;font-size:1.1rem}
   .autocomplete{position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow);z-index:200;max-height:300px;overflow-y:auto;display:none}
   .autocomplete.open{display:block}
-  .autocomplete-item{padding:10px 14px;cursor:pointer;font-size:.88rem;border-bottom:1px solid var(--border);transition:background .15s}
+  .autocomplete-item{padding:10px 14px;cursor:pointer;font-size:.88rem;border-bottom:1px solid var(--border);transition:background .15s;display:flex;align-items:center;gap:10px}
   .autocomplete-item:last-child{border-bottom:none}
   .autocomplete-item:hover{background:var(--bg-hover)}
+  .autocomplete-item img{width:50px;height:70px;object-fit:cover;border-radius:4px;flex-shrink:0}
+  .autocomplete-item .ac-info{flex:1;min-width:0}
   .autocomplete-item .ac-name{color:var(--txt);font-weight:500}
   .autocomplete-item .ac-type{color:var(--txt2);font-size:.76rem;margin-top:2px}
   
@@ -243,12 +245,6 @@
     </div>
   </div>
   
-  <!-- FILTER CHIPS -->
-  <div class="filter-row" id="filterRow" style="display:none">
-    <span class="filter-label">Filtrar por:</span>
-    <div id="filterChips"></div>
-  </div>
-  
   <!-- MISSING CARDS ALERT (for bulk import) -->
   <div id="missingAlert" style="display:none"></div>
   
@@ -311,9 +307,6 @@ const cart = new Map();
 // current mode: 'single' or 'bulk'
 let currentMode = 'single';
 
-// current filter
-let currentFilter = 'all';
-
 // bulk results (for filtering)
 let bulkResults = [];
 
@@ -350,7 +343,6 @@ let bulkResults = [];
 
     setStatus(`✓ ${cardDB.size.toLocaleString()} cartas únicas cargadas.`, 'ok');
     
-    renderFilterChips();
     loadCartFromStorage();
     updateCartBadge();
 
@@ -431,7 +423,6 @@ function processBulk() {
   }
   
   bulkResults = parsed;
-  currentFilter = 'all';
   
   setBulkStatus(`✓ ${parsed.length} cartas encontradas.${missing.length ? ` ${missing.length} no disponibles.` : ''}`, 'ok');
   
@@ -446,8 +437,6 @@ function processBulk() {
     document.getElementById('missingAlert').style.display = 'none';
   }
   
-  document.getElementById('filterRow').style.display = 'flex';
-  renderFilterChips();
   renderBulkResults();
 }
 
@@ -455,7 +444,6 @@ function clearBulk() {
   document.getElementById('bulkInput').value = '';
   bulkResults = [];
   document.getElementById('missingAlert').style.display = 'none';
-  document.getElementById('filterRow').style.display = 'none';
   setBulkStatus('', '');
   document.getElementById('resultsBody').innerHTML =
     `<div class="empty-state"><div class="icon">📋</div>
@@ -468,8 +456,6 @@ function renderBulkResults() {
   for (const item of bulkResults) {
     const entry = cardDB.get(item.key);
     if (!entry) continue;
-    
-    if (currentFilter !== 'all' && !entry.owners.has(currentFilter)) continue;
     
     rows.push({ ...entry, requestedQty: item.qty });
   }
@@ -488,6 +474,7 @@ function renderBulkResults() {
   let html = `<div class="table-wrap"><table><thead><tr>
     <th>Carta (solicitadas)</th>
     <th>Disponible en</th>
+    <th style="text-align:right;width:80px">Precio</th>
   </tr></thead><tbody>`;
   
   for (const entry of rows) {
@@ -512,11 +499,17 @@ function renderBulkResults() {
     html += `<tr onclick="openModal('${entry.name.replace(/'/g, "\\'")}')">
                <td class="card-name-cell">${esc(entry.name)} <span style="color:var(--txt2);font-size:.8rem">(${entry.requestedQty})</span></td>
                <td><div class="owner-badges">${badges}</div></td>
+               <td style="text-align:right;color:var(--txt2);font-size:.82rem" id="price-${entry.name.replace(/[^a-z0-9]/gi,'_')}">—</td>
              </tr>`;
   }
   
   html += '</tbody></table></div>';
   document.getElementById('resultsBody').innerHTML = html;
+  
+  // fetch prices
+  for (const entry of rows) {
+    fetchPrice(entry);
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -532,7 +525,6 @@ function renderResults() {
   
   for (const [key, entry] of cardDB) {
     if (q && !key.includes(q)) continue;
-    if (currentFilter !== 'all' && !entry.owners.has(currentFilter)) continue;
     rows.push(entry);
   }
   
@@ -557,6 +549,7 @@ function renderResults() {
   let html = `<div class="table-wrap"><table><thead><tr>
     <th data-sort="name" onclick="toggleSort('name')">Carta <span class="sort-arrow">${arrow('name')}</span></th>
     <th data-sort="owners" onclick="toggleSort('owners')">Disponible en <span class="sort-arrow">${arrow('owners')}</span></th>
+    <th style="text-align:right;width:80px">Precio</th>
   </tr></thead><tbody>`;
   
   for (const entry of rows) {
@@ -581,17 +574,58 @@ function renderResults() {
     html += `<tr onclick="openModal('${entry.name.replace(/'/g, "\\'")}')">
                <td class="card-name-cell">${esc(entry.name)}</td>
                <td><div class="owner-badges">${badges}</div></td>
+               <td style="text-align:right;color:var(--txt2);font-size:.82rem" id="price-${entry.name.replace(/[^a-z0-9]/gi,'_')}">—</td>
              </tr>`;
   }
   
   html += '</tbody></table></div>';
   document.getElementById('resultsBody').innerHTML = html;
+  
+  // fetch prices asynchronously for visible cards (don't block rendering)
+  for (const entry of rows) {
+    fetchPrice(entry);
+  }
 }
 
 function toggleSort(col) {
   if (sortCol === col) sortDir *= -1;
   else { sortCol = col; sortDir = 1; }
   renderResults();
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+//  PRICE FETCHING
+// ═══════════════════════════════════════════════════════════════════════════
+async function fetchPrice(entry) {
+  const cellId = `price-${entry.name.replace(/[^a-z0-9]/gi,'_')}`;
+  const cell = document.getElementById(cellId);
+  if (!cell) return;
+  
+  // if we already have scryfall data with price, use it
+  if (entry.scryfallData?.prices?.usd) {
+    cell.textContent = `$${entry.scryfallData.prices.usd}`;
+    return;
+  }
+  
+  // otherwise fetch it
+  try {
+    const r = await fetch(`https://api.scryfall.com/cards/named?exact=${encodeURIComponent(entry.name)}`);
+    if (!r.ok) {
+      cell.textContent = '—';
+      return;
+    }
+    const data = await r.json();
+    entry.scryfallData = data; // cache it
+    
+    const price = data.prices?.usd;
+    if (price) {
+      cell.textContent = `$${price}`;
+    } else {
+      cell.textContent = '—';
+    }
+  } catch {
+    cell.textContent = '—';
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -614,9 +648,10 @@ async function fetchScryfall(q) {
   lastAcQ = q;
   
   try {
-    // Scryfall supports lang:es or lang:any for multilingual search
-    // We'll search with lang:any to catch Spanish names
-    const r = await fetch(`https://api.scryfall.com/cards/search?q=${encodeURIComponent(q)}&unique=cards&order=name&limit=15`);
+    // Search both English and Spanish names
+    // Use parentheses to OR search: (name:query OR name_es:query)
+    const searchQuery = `(name:${q} OR name_es:${q})`;
+    const r = await fetch(`https://api.scryfall.com/cards/search?q=${encodeURIComponent(searchQuery)}&unique=cards&order=name&limit=15`);
     if (!r.ok) { closeAC(); return; }
     const d = await r.json();
     renderAC(d.data || [], q);
@@ -643,12 +678,16 @@ function renderAC(cards, query) {
     return 0;
   });
   
-  el.innerHTML = cards.slice(0, 10).map(c =>
-    `<div class="autocomplete-item" onclick="selectAC('${c.name.replace(/'/g, "\\'")}')">
-       <div class="ac-name">${esc(c.name)}</div>
-       <div class="ac-type">${esc(c.type_line || '')}</div>
-     </div>`
-  ).join('');
+  el.innerHTML = cards.slice(0, 10).map(c => {
+    const imgSrc = c.image_uris?.small || c.card_faces?.[0]?.image_uris?.small || '';
+    return `<div class="autocomplete-item" onclick="selectAC('${c.name.replace(/'/g, "\\'")}')">
+       ${imgSrc ? `<img src="${imgSrc}" alt="" loading="lazy"/>` : ''}
+       <div class="ac-info">
+         <div class="ac-name">${esc(c.name)}</div>
+         <div class="ac-type">${esc(c.type_line || '')}</div>
+       </div>
+     </div>`;
+  }).join('');
   el.classList.add('open');
 }
 
@@ -665,29 +704,6 @@ function closeAC() {
 document.addEventListener('mousedown', e => {
   if (!e.target.closest('.search-wrap')) closeAC();
 });
-
-// ═══════════════════════════════════════════════════════════════════════════
-//  FILTER CHIPS
-// ═══════════════════════════════════════════════════════════════════════════
-function renderFilterChips() {
-  let html = `<div class="chip ${currentFilter === 'all' ? 'active' : ''}" onclick="setFilter('all')">Todos</div>`;
-  for (const o of owners) {
-    const key = o.name.toLowerCase();
-    html += `<div class="chip ${currentFilter === key ? 'active' : ''}" onclick="setFilter('${key}')">${esc(o.name)}</div>`;
-  }
-  document.getElementById('filterChips').innerHTML = html;
-}
-
-function setFilter(f) {
-  currentFilter = f;
-  renderFilterChips();
-  
-  if (currentMode === 'bulk' && bulkResults.length) {
-    renderBulkResults();
-  } else {
-    renderResults();
-  }
-}
 
 // ═══════════════════════════════════════════════════════════════════════════
 //  CART

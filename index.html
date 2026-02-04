@@ -1058,8 +1058,20 @@ function relativeTime(date) {
 
 document.getElementById('searchInput').addEventListener('keydown', e => {
   if (e.key === 'Enter') {
+    const autocomplete = document.getElementById('autocomplete');
+    
+    // If autocomplete is open, select the first result
+    if (autocomplete.classList.contains('open')) {
+      const firstItem = autocomplete.querySelector('.autocomplete-item');
+      if (firstItem) {
+        firstItem.click(); // trigger the onclick handler
+        return;
+      }
+    }
+    
+    // Otherwise just close autocomplete and trigger search
     closeAC();
-    renderResults(); // NOW render results when user presses Enter
+    renderResults();
   }
 });
 </script>

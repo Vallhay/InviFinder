@@ -521,11 +521,24 @@ function renderResults() {
   if (currentMode === 'bulk') return;
   
   const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  
+  // NEVER show all cards - require search query
+  if (!q) {
+    document.getElementById('resultsCount').textContent = '';
+    document.getElementById('resultsBody').innerHTML =
+      `<div class="empty-state"><div class="icon">🔍</div>
+       <p>Escribe el nombre de una carta para buscar.</p></div>`;
+    return;
+  }
+  
   let rows = [];
   
   for (const [key, entry] of cardDB) {
-    if (q && !key.includes(q)) continue;
+    if (!key.includes(q)) continue;
     rows.push(entry);
+    
+    // Limit to 100 results max to avoid performance issues
+    if (rows.length >= 100) break;
   }
   
   rows.sort((a, b) => {
@@ -534,13 +547,13 @@ function renderResults() {
   });
   
   document.getElementById('resultsCount').textContent = rows.length
-    ? `${rows.length.toLocaleString()} carta${rows.length !== 1 ? 's' : ''}`
+    ? `${rows.length.toLocaleString()} carta${rows.length !== 1 ? 's' : ''}${rows.length >= 100 ? ' (limitado a 100, refina tu búsqueda)' : ''}`
     : '';
   
   if (!rows.length) {
     document.getElementById('resultsBody').innerHTML =
       `<div class="empty-state"><div class="icon">🔍</div>
-       <p>${cardDB.size === 0 ? 'No hay cartas cargadas.' : 'No se encontraron cartas con ese filtro.'}</p></div>`;
+       <p>No se encontraron cartas con "${esc(q)}".</p></div>`;
     return;
   }
   
@@ -637,8 +650,14 @@ let lastAcQ   = '';
 function onSearchInput() {
   const q = document.getElementById('searchInput').value.trim();
   clearTimeout(acTimeout);
-  // DON'T render results while typing — only show autocomplete
   
+  // Close autocomplete if search is empty
+  if (q.length === 0) {
+    closeAC();
+    return;
+  }
+  
+  // Only show autocomplete if 2+ chars
   if (q.length < 2) { closeAC(); return; }
   acTimeout = setTimeout(() => fetchScryfall(q), 350);
 }
@@ -648,10 +667,9 @@ async function fetchScryfall(q) {
   lastAcQ = q;
   
   try {
-    // Search both English and Spanish names
-    // Use parentheses to OR search: (name:query OR name_es:query)
-    const searchQuery = `(name:${q} OR name_es:${q})`;
-    const r = await fetch(`https://api.scryfall.com/cards/search?q=${encodeURIComponent(searchQuery)}&unique=cards&order=name&limit=15`);
+    // Scryfall's printed_name searches across ALL printed languages
+    // This will catch Spanish, English, and any other language
+    const r = await fetch(`https://api.scryfall.com/cards/search?q=printed_name:${encodeURIComponent(q)}&unique=cards&order=name&limit=15`);
     if (!r.ok) { closeAC(); return; }
     const d = await r.json();
     renderAC(d.data || [], q);

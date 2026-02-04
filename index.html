@@ -8,12 +8,12 @@
 <style>
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
   :root{
-    --bg-deep:#0d0806;--bg-card:#1a1210;--bg-hover:#251916;--bg-input:#1f1612;
-    --border:#3a2820;--border-focus:#c44e3a;
-    --txt:#f5ede8;--txt2:#9a8378;
-    --accent:#c44e3a;--accent-g:rgba(196,78,58,.25);
-    --gold:#d4a952;--green:#5a9467;
-    --tag-bg:rgba(196,78,58,.08);--tag-border:rgba(196,78,58,.25);
+    --bg-deep:#0f0f0f;--bg-card:#1a1a1a;--bg-hover:#242424;--bg-input:#181818;
+    --border:#2a2a2a;--border-focus:#e63946;
+    --txt:#f0f0f0;--txt2:#8a8a8a;
+    --accent:#e63946;--accent-g:rgba(230,57,70,.25);
+    --gold:#d4af37;--green:#5a9467;
+    --tag-bg:rgba(230,57,70,.08);--tag-border:rgba(230,57,70,.25);
     --r:8px;--r-sm:4px;--shadow:0 6px 30px rgba(0,0,0,.6);
   }
   html{font-size:16px;-webkit-font-smoothing:antialiased;background:var(--bg-deep)}
@@ -29,7 +29,7 @@
   
   .header-actions{display:flex;gap:12px;align-items:center}
   .cart-btn{position:relative;background:var(--accent);color:#fff;border:none;border-radius:var(--r-sm);font-family:inherit;font-size:.82rem;font-weight:600;padding:8px 16px;cursor:pointer;transition:all .2s;display:flex;align-items:center;gap:6px}
-  .cart-btn:hover{background:#d15843;box-shadow:0 0 16px var(--accent-g)}
+  .cart-btn:hover{background:#ff4757;box-shadow:0 0 16px var(--accent-g)}
   .cart-btn .badge{position:absolute;top:-6px;right:-6px;background:var(--gold);color:#000;border-radius:12px;padding:2px 6px;font-size:.7rem;font-weight:700;min-width:18px;text-align:center}
   
   .meta-info{font-size:.7rem;color:var(--txt2);text-align:right;line-height:1.3}
@@ -67,7 +67,7 @@
   .bulk-area textarea::placeholder{color:var(--txt2)}
   .bulk-actions{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
   .btn{background:var(--accent);color:#fff;border:none;border-radius:var(--r-sm);font-family:inherit;font-size:.85rem;font-weight:600;padding:10px 20px;cursor:pointer;transition:all .2s}
-  .btn:hover{background:#d15843;box-shadow:0 0 12px var(--accent-g)}
+  .btn:hover{background:#ff4757;box-shadow:0 0 12px var(--accent-g)}
   .btn-secondary{background:var(--bg-input);color:var(--txt);border:1px solid var(--border)}
   .btn-secondary:hover{background:var(--bg-hover);box-shadow:none}
   
@@ -93,8 +93,8 @@
   .owner-badges{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
   .owner-badge{position:relative;display:inline-flex;align-items:center;gap:8px;background:var(--tag-bg);border:1px solid var(--tag-border);border-radius:12px;padding:4px 10px;font-size:.76rem;color:var(--gold);font-weight:600}
   .owner-badge .qty{color:var(--accent);margin-left:2px}
-  .owner-badge .add-btn{background:var(--accent);color:#fff;border:none;border-radius:50%;width:20px;height:20px;font-size:1rem;line-height:1;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center;padding:0}
-  .owner-badge .add-btn:hover{background:#d15843;transform:scale(1.1)}
+  .owner-badge .add-btn{background:var(--accent);color:#fff;border:none;border-radius:50%;width:32px;height:32px;font-size:1.2rem;line-height:1;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center;padding:0;flex-shrink:0}
+  .owner-badge .add-btn:hover{background:#ff4757;transform:scale(1.1)}
   
   /* ─ empty state ─ */
   .empty-state{text-align:center;padding:60px 20px;color:var(--txt2)}
@@ -131,8 +131,8 @@
   .cart-item:last-child{border-bottom:none}
   .cart-item-name{color:var(--txt);font-weight:500}
   .cart-item-qty{color:var(--accent);font-weight:600;margin-right:auto;margin-left:10px}
-  .cart-item-remove{background:none;border:none;color:var(--txt2);cursor:pointer;font-size:1.1rem;padding:0 6px;transition:color .15s}
-  .cart-item-remove:hover{color:var(--accent)}
+  .cart-item-remove{background:var(--accent);color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:1.1rem;font-weight:700;padding:4px 10px;transition:all .15s;min-width:32px;text-align:center}
+  .cart-item-remove:hover{background:#ff4757;transform:scale(1.05)}
   
   .cart-actions{display:flex;gap:10px;margin-top:20px;padding-top:20px;border-top:2px solid var(--border)}
   
@@ -153,8 +153,8 @@
   .modal-owner-row .mor-name{color:var(--gold);font-weight:600;font-size:.88rem}
   .modal-owner-row .mor-qty{color:var(--accent);font-weight:700;font-size:.82rem;margin-left:auto;margin-right:12px}
   .modal-owner-row .mor-phone{color:var(--txt2);font-size:.76rem;margin-right:12px}
-  .modal-owner-row .add-btn{background:var(--accent);color:#fff;border:none;border-radius:50%;width:28px;height:28px;font-size:1.1rem;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center;padding:0}
-  .modal-owner-row .add-btn:hover{background:#d15843;transform:scale(1.08)}
+  .modal-owner-row .add-btn{background:var(--accent);color:#fff;border:none;border-radius:50%;width:36px;height:36px;font-size:1.3rem;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center;padding:0;flex-shrink:0}
+  .modal-owner-row .add-btn:hover{background:#ff4757;transform:scale(1.08)}
   
   /* ─ status bar ─ */
   .status-bar{font-size:.8rem;color:var(--txt2);min-height:20px;margin-top:12px;display:flex;align-items:center;gap:8px}
@@ -216,7 +216,7 @@
     <div id="singleSearch" class="single-search">
       <div class="search-wrap">
         <span class="search-icon">🔍</span>
-        <input type="text" id="searchInput" placeholder="Buscar carta..." oninput="onSearchInput()" autocomplete="off"/>
+        <input type="text" id="searchInput" placeholder="Buscar carta... (presiona Enter)" oninput="onSearchInput()" autocomplete="off"/>
         <div class="autocomplete" id="autocomplete"></div>
       </div>
       <div class="status-bar" id="statusBar">
@@ -493,9 +493,19 @@ function renderBulkResults() {
   for (const entry of rows) {
     const badges = [...entry.owners.values()].map(v => {
       const ownerLower = v.display.toLowerCase();
+      const ownerName = v.display;
+      
+      // calculate remaining
+      const inCart = cart.has(ownerName) ? (cart.get(ownerName).get(entry.name) || 0) : 0;
+      const remaining = v.qty - inCart;
+      const disabled = remaining <= 0;
+      
       return `<div class="owner-badge">
-                ${esc(v.display)} <span class="qty">${v.qty}×</span>
-                <button class="add-btn" onclick="addToCart('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',1)" title="Añadir al carrito">+</button>
+                ${esc(v.display)} <span class="qty">${remaining}×</span>
+                <button class="add-btn" 
+                  onclick="addToCart('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',1)" 
+                  title="Añadir al carrito"
+                  ${disabled ? 'disabled style="opacity:0.3;cursor:not-allowed"' : ''}>+</button>
               </div>`;
     }).join('');
     
@@ -552,9 +562,19 @@ function renderResults() {
   for (const entry of rows) {
     const badges = [...entry.owners.values()].map(v => {
       const ownerLower = v.display.toLowerCase();
+      const ownerName = v.display;
+      
+      // calculate how many are already in cart
+      const inCart = cart.has(ownerName) ? (cart.get(ownerName).get(entry.name) || 0) : 0;
+      const remaining = v.qty - inCart;
+      const disabled = remaining <= 0;
+      
       return `<div class="owner-badge">
-                ${esc(v.display)} <span class="qty">${v.qty}×</span>
-                <button class="add-btn" onclick="addToCart('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',1)" title="Añadir al carrito">+</button>
+                ${esc(v.display)} <span class="qty">${remaining}×</span>
+                <button class="add-btn" 
+                  onclick="addToCart('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',1)" 
+                  title="Añadir al carrito"
+                  ${disabled ? 'disabled style="opacity:0.3;cursor:not-allowed"' : ''}>+</button>
               </div>`;
     }).join('');
     
@@ -583,7 +603,7 @@ let lastAcQ   = '';
 function onSearchInput() {
   const q = document.getElementById('searchInput').value.trim();
   clearTimeout(acTimeout);
-  renderResults();
+  // DON'T render results while typing — only show autocomplete
   
   if (q.length < 2) { closeAC(); return; }
   acTimeout = setTimeout(() => fetchScryfall(q), 350);
@@ -635,7 +655,7 @@ function renderAC(cards, query) {
 function selectAC(name) {
   document.getElementById('searchInput').value = name;
   closeAC();
-  renderResults();
+  renderResults(); // NOW render results when user selects from autocomplete
 }
 
 function closeAC() {
@@ -689,7 +709,45 @@ function addToCart(ownerLower, cardName, qty = 1) {
   updateCartBadge();
   saveCartToStorage();
   
-  // brief visual feedback
+  // refresh the current view to update quantities
+  if (currentMode === 'bulk' && bulkResults.length) {
+    renderBulkResults();
+  } else {
+    renderResults();
+  }
+  
+  // if modal is open and it's this card, refresh the modal too
+  const modalOverlay = document.getElementById('modalOverlay');
+  if (modalOverlay.classList.contains('open')) {
+    const modalName = document.getElementById('modalName').textContent;
+    if (modalName === cardName) {
+      // just update the modal owners section without re-fetching image
+      const entry = cardDB.get(cardName.toLowerCase());
+      if (entry) {
+        const ownersHTML = [...entry.owners.values()].map(v => {
+          const ownerLower = v.display.toLowerCase();
+          const ownerName = v.display;
+          
+          const inCart = cart.has(ownerName) ? (cart.get(ownerName).get(entry.name) || 0) : 0;
+          const remaining = v.qty - inCart;
+          const disabled = remaining <= 0;
+          
+          return `<div class="modal-owner-row">
+            <span class="mor-name">${esc(v.display)}</span>
+            <span class="mor-qty">${remaining}×</span>
+            <button class="add-btn" 
+              onclick="addToCart('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',1)" 
+              title="Añadir al carrito"
+              ${disabled ? 'disabled style="opacity:0.3;cursor:not-allowed"' : ''}>+</button>
+          </div>`;
+        }).join('');
+        
+        document.getElementById('modalOwners').innerHTML = ownersHTML;
+      }
+    }
+  }
+  
+  // brief visual feedback on the button that was clicked
   const btn = event.target;
   const orig = btn.textContent;
   btn.textContent = '✓';
@@ -859,13 +917,21 @@ async function openModal(name) {
   for (const o of owners) phoneMap[o.name.toLowerCase()] = o.phone || '';
   
   const ownersHTML = [...entry.owners.values()].map(v => {
-    const phone = phoneMap[v.display.toLowerCase()] || '';
     const ownerLower = v.display.toLowerCase();
+    const ownerName = v.display;
+    
+    // calculate remaining
+    const inCart = cart.has(ownerName) ? (cart.get(ownerName).get(entry.name) || 0) : 0;
+    const remaining = v.qty - inCart;
+    const disabled = remaining <= 0;
+    
     return `<div class="modal-owner-row">
       <span class="mor-name">${esc(v.display)}</span>
-      <span class="mor-qty">${v.qty}×</span>
-      ${phone ? `<span class="mor-phone">📞 ${esc(phone)}</span>` : ''}
-      <button class="add-btn" onclick="addToCart('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',1)" title="Añadir al carrito">+</button>
+      <span class="mor-qty">${remaining}×</span>
+      <button class="add-btn" 
+        onclick="addToCart('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',1)" 
+        title="Añadir al carrito"
+        ${disabled ? 'disabled style="opacity:0.3;cursor:not-allowed"' : ''}>+</button>
     </div>`;
   }).join('');
   
@@ -944,7 +1010,10 @@ function relativeTime(date) {
 }
 
 document.getElementById('searchInput').addEventListener('keydown', e => {
-  if (e.key === 'Enter') closeAC();
+  if (e.key === 'Enter') {
+    closeAC();
+    renderResults(); // NOW render results when user presses Enter
+  }
 });
 </script>
 </body>

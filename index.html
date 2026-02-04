@@ -474,7 +474,7 @@ function renderBulkResults() {
   let html = `<div class="table-wrap"><table><thead><tr>
     <th>Carta (solicitadas)</th>
     <th>Disponible en</th>
-    <th style="text-align:right;width:80px">Precio</th>
+    <th style="text-align:right;width:100px">Precio estimado</th>
   </tr></thead><tbody>`;
   
   for (const entry of rows) {
@@ -562,7 +562,7 @@ function renderResults() {
   let html = `<div class="table-wrap"><table><thead><tr>
     <th data-sort="name" onclick="toggleSort('name')">Carta <span class="sort-arrow">${arrow('name')}</span></th>
     <th data-sort="owners" onclick="toggleSort('owners')">Disponible en <span class="sort-arrow">${arrow('owners')}</span></th>
-    <th style="text-align:right;width:80px">Precio</th>
+    <th style="text-align:right;width:100px">Precio estimado</th>
   </tr></thead><tbody>`;
   
   for (const entry of rows) {
@@ -667,12 +667,25 @@ async function fetchScryfall(q) {
   lastAcQ = q;
   
   try {
-    // Scryfall's printed_name searches across ALL printed languages
-    // This will catch Spanish, English, and any other language
-    const r = await fetch(`https://api.scryfall.com/cards/search?q=printed_name:${encodeURIComponent(q)}&unique=cards&order=name&limit=15`);
+    // Use Scryfall's autocomplete endpoint for partial matching
+    const r = await fetch(`https://api.scryfall.com/cards/autocomplete?q=${encodeURIComponent(q)}`);
     if (!r.ok) { closeAC(); return; }
     const d = await r.json();
-    renderAC(d.data || [], q);
+    
+    // Autocomplete returns just card names, we need full card data
+    // So we take the names and fetch details for the first few
+    const names = d.data || [];
+    if (!names.length) { closeAC(); return; }
+    
+    // Fetch full card data for first 8 results (for images and details)
+    const cardPromises = names.slice(0, 8).map(name =>
+      fetch(`https://api.scryfall.com/cards/named?exact=${encodeURIComponent(name)}`)
+        .then(r => r.ok ? r.json() : null)
+        .catch(() => null)
+    );
+    
+    const cards = (await Promise.all(cardPromises)).filter(c => c !== null);
+    renderAC(cards, q);
   } catch { closeAC(); }
 }
 

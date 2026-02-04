@@ -19,7 +19,7 @@ const path  = require('path');
 // ═══════════════════════════════════════════════════════════════════════════
 //  ⚙️ CONFIG — paste your Cloudflare Worker URL here
 // ═══════════════════════════════════════════════════════════════════════════
-const WORKER_URL = 'https://moxfield-proxy.faguaz.workers.dev';
+const WORKER_URL = 'https://moxfield-proxy.faguaz.workers.dev/';
 // Example: 'https://moxfield-proxy.workers.dev'
 //
 // Deploy the worker.js file to Cloudflare Workers (free), then paste the URL here.
@@ -69,6 +69,40 @@ function httpGet(url, retries = 2) {
 /** Sleep helper for rate-limiting politeness. */
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+/** Fetch price for a specific printing using Scryfall ID */
+async function fetchPrice(scryfallId, set, collectorNumber, cardName) {
+  if (!scryfallId && (!set || !collectorNumber)) {
+    console.log(`  ⚠ No Scryfall ID or set+cn for ${cardName}, skipping price`);
+    return null;
+  }
+  
+  try {
+    let url;
+    if (scryfallId) {
+      url = `https://api.scryfall.com/cards/${scryfallId}`;
+    } else {
+      url = `https://api.scryfall.com/cards/${set}/${collectorNumber}`;
+    }
+    
+    const data = await httpGet(url);
+    
+    // Try TCGPlayer market price first (most reliable), fall back to USD
+    const price = data.prices?.usd_foil || data.prices?.usd || null;
+    
+    if (price) {
+      console.log(`  💰 ${cardName} [${set}]: $${price}`);
+    }
+    
+    // Rate limit: ~100ms between requests = ~10 req/sec (Scryfall's limit)
+    await sleep(100);
+    
+    return price;
+  } catch (e) {
+    console.log(`  ✗ Price fetch failed for ${cardName}: ${e.message}`);
+    return null;
+  }
+}
+
 // ─── Moxfield fetchers ──────────────────────────────────────────────────────
 
 const MOX_API = 'https://api2.moxfield.com';
@@ -86,8 +120,17 @@ async function fetchDeck(id) {
   for (const sec of sections) {
     const obj = data[sec];
     if (!obj || typeof obj !== 'object') continue;
-    for (const [name, details] of Object.entries(obj)) {
-      cards.push({ name: name.trim(), qty: details?.quantity ?? 1 });
+    for (const [name, card] of Object.entries(obj)) {
+      cards.push({
+        name: name.trim(),
+        qty: card?.quantity ?? 1,
+        set: card?.card?.set || 'unknown',
+        setName: card?.card?.setName || '',
+        collectorNumber: card?.card?.cn || '',
+        finishes: card?.card?.finishes || card?.finishes || [],
+        isFoil: (card?.card?.finishes || card?.finishes || []).includes('foil'),
+        scryfallId: card?.card?.scryfall_id || card?.card?.scryfallId || '',
+      });
     }
   }
   console.log(`  ✓ deck  → ${cards.length} cards`);
@@ -115,9 +158,20 @@ async function fetchCollection(id) {
 
     if (Array.isArray(data.data)) {
       for (const item of data.data) {
-        const name = item?.card?.name;
-        const qty  = item?.quantity ?? 1;
-        if (name) allCards.push({ name: name.trim(), qty });
+        const card = item?.card;
+        if (!card?.name) continue;
+        
+        // Extract all the printing details
+        allCards.push({
+          name: card.name.trim(),
+          qty: item.quantity ?? 1,
+          set: card.set || 'unknown',
+          setName: card.setName || '',
+          collectorNumber: card.cn || '',
+          finishes: card.finishes || [],
+          isFoil: (card.finishes || []).includes('foil'),
+          scryfallId: card.scryfall_id || card.scryfallId || '',
+        });
       }
     }
 
@@ -149,21 +203,27 @@ async function main() {
   const config = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'utf8'));
 
   // ── 2. fetch every source ──
-  // Output structure:
+  // NEW Output structure:
   //   {
   //     "lastUpdated": "2026-02-03T06:00:00Z",
   //     "owners": [
-  //       { "name": "Vallhay", "phone": "+54 …", "cardCount": 3063 },
-  //       …
+  //       { "name": "Fausto", "phone": "+54 …", "cardCount": 3063 },
   //     ],
   //     "cards": {
-  //       "lightning bolt": { "name": "Lightning Bolt", "owners": { "Vallhay": 4, "Friend1": 2 } },
-  //       …
+  //       "lightning bolt": {
+  //         "name": "Lightning Bolt",
+  //         "owners": {
+  //           "Fausto": [
+  //             { qty: 2, set: "lea", setName: "Limited Edition Alpha", isFoil: false, price: null },
+  //             { qty: 2, set: "mh3", setName: "Modern Horizons 3", isFoil: true, price: null }
+  //           ]
+  //         }
+  //       }
   //     }
   //   }
 
   const ownersMap = {};   // owner → { name, phone, cardCount }
-  const cardsMap  = {};   // lowerName → { name, owners: { ownerName: qty } }
+  const cardsMap  = {};   // lowerName → { name, owners: { ownerName: [printings] } }
 
   for (const src of config.sources) {
     console.log(`\nProcessing: ${src.owner}`);
@@ -197,11 +257,35 @@ async function main() {
 
       ownersMap[src.owner].cardCount += cards.length;
 
-      // merge cards under this owner
-      for (const { name, qty } of cards) {
-        const key = name.toLowerCase();
-        if (!cardsMap[key]) cardsMap[key] = { name, owners: {} };
-        cardsMap[key].owners[src.owner] = (cardsMap[key].owners[src.owner] || 0) + qty;
+      // merge cards under this owner, preserving printings
+      for (const card of cards) {
+        const key = card.name.toLowerCase();
+        if (!cardsMap[key]) {
+          cardsMap[key] = { name: card.name, owners: {} };
+        }
+        if (!cardsMap[key].owners[src.owner]) {
+          cardsMap[key].owners[src.owner] = [];
+        }
+        
+        // Group by set+foil — if same printing exists, add to qty
+        const printings = cardsMap[key].owners[src.owner];
+        const existingPrinting = printings.find(p => 
+          p.set === card.set && p.isFoil === card.isFoil
+        );
+        
+        if (existingPrinting) {
+          existingPrinting.qty += card.qty;
+        } else {
+          printings.push({
+            qty: card.qty,
+            set: card.set,
+            setName: card.setName,
+            isFoil: card.isFoil,
+            collectorNumber: card.collectorNumber,
+            scryfallId: card.scryfallId,
+            price: null  // will be fetched separately if needed
+          });
+        }
       }
 
       // small pause between URLs from the same owner
@@ -209,7 +293,33 @@ async function main() {
     }
   }
 
-  // ── 3. write output ──
+  // ── 3. fetch prices for all printings ──
+  console.log(`\n📊 Fetching prices for all printings...`);
+  let pricesFetched = 0;
+  let pricesTotal = 0;
+  
+  for (const [cardKey, cardData] of Object.entries(cardsMap)) {
+    for (const [ownerName, printings] of Object.entries(cardData.owners)) {
+      for (const printing of printings) {
+        pricesTotal++;
+        const price = await fetchPrice(
+          printing.scryfallId,
+          printing.set,
+          printing.collectorNumber,
+          cardData.name
+        );
+        
+        if (price !== null) {
+          printing.price = parseFloat(price);
+          pricesFetched++;
+        }
+      }
+    }
+  }
+  
+  console.log(`\n💰 Prices fetched: ${pricesFetched}/${pricesTotal} (${((pricesFetched/pricesTotal)*100).toFixed(1)}%)`);
+
+  // ── 4. write output ──
   const output = {
     lastUpdated: new Date().toISOString(),
     owners: Object.values(ownersMap),

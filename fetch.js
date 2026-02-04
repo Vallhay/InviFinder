@@ -19,7 +19,7 @@ const path  = require('path');
 // ═══════════════════════════════════════════════════════════════════════════
 //  ⚙️ CONFIG — paste your Cloudflare Worker URL here
 // ═══════════════════════════════════════════════════════════════════════════
-const WORKER_URL = 'https://YOUR-WORKER-NAME.workers.dev';
+const WORKER_URL = 'https://moxfield-proxy.faguaz.workers.dev';
 // Example: 'https://moxfield-proxy.workers.dev'
 //
 // Deploy the worker.js file to Cloudflare Workers (free), then paste the URL here.

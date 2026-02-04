@@ -11,11 +11,18 @@
       "urls": [
         "https://moxfield.com/collection/hqGRNY2Eik2OPTXmZOWAEQ"
       ]
+    },
+    {
+      "owner": "Rodrigo Deganutti",
+      "urls": [
+        "https://moxfield.com/decks/n0Qhd3aCDkCdf7y0s0YorA"
+      ]
     }
   ],
 
   "phoneSecretNames": {
     "Fausto":  "PHONE_VALLHAY",
-    "Nacho":   "PHONE_NACHO"
+    "Nacho":   "PHONE_NACHO",
+    "Rodrigo Deganutti":  "PHONE_RODRIGO_DEGANUTTI"
   }
 }

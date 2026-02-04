@@ -93,7 +93,8 @@
   tbody td{padding:12px 14px}
   .card-name-cell{font-weight:600;color:var(--txt)}
   .owner-badges{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
-  .owner-badge{position:relative;display:inline-flex;align-items:center;gap:8px;background:var(--tag-bg);border:1px solid var(--tag-border);border-radius:12px;padding:4px 10px;font-size:.76rem;color:var(--gold);font-weight:600}
+  .owner-badge{position:relative;display:inline-flex;align-items:center;gap:6px;background:var(--tag-bg);border:1px solid var(--tag-border);border-radius:12px;padding:4px 10px;font-size:.76rem;color:var(--gold);font-weight:600}
+  .owner-badge .set-icon{width:14px;height:14px;opacity:.7}
   .owner-badge .qty{color:var(--accent);margin-left:2px}
   .owner-badge .add-btn{background:var(--accent);color:#fff;border:none;border-radius:50%;width:32px;height:32px;font-size:1.2rem;line-height:1;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center;padding:0;flex-shrink:0}
   .owner-badge .add-btn:hover{background:#ff4757;transform:scale(1.1)}
@@ -129,8 +130,9 @@
   .whatsapp-btn{background:#25d366;color:#fff;border:none;border-radius:var(--r-sm);font-family:inherit;font-size:.8rem;font-weight:600;padding:8px 16px;cursor:pointer;transition:all .2s;display:flex;align-items:center;gap:6px}
   .whatsapp-btn:hover{background:#20ba56;box-shadow:0 0 12px rgba(37,211,102,.3)}
   
-  .cart-item{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid rgba(58,40,32,.3);font-size:.85rem}
+  .cart-item{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid rgba(58,40,32,.3);font-size:.85rem;gap:8px}
   .cart-item:last-child{border-bottom:none}
+  .cart-item .set-icon-cart{width:14px;height:14px;opacity:.6}
   .cart-item-name{color:var(--txt);font-weight:500}
   .cart-item-qty{color:var(--accent);font-weight:600;margin-right:auto;margin-left:10px}
   .cart-item-remove{background:var(--accent);color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:1.1rem;font-weight:700;padding:4px 10px;transition:all .15s;min-width:32px;text-align:center}
@@ -300,8 +302,9 @@ const cardDB  = new Map();
 // owners: [ { name, phone, cardCount } ]
 let owners = [];
 
-// cart: Map<ownerName, Map<cardName, qty>>
-// e.g. { "Fausto": { "Lightning Bolt": 2, "Island": 1 } }
+// cart: Map<ownerName, Map<cardName, Map<printingKey, { qty, printing }>>>
+// printingKey = `${set}_${isFoil}` to uniquely identify each printing
+// e.g. { "Fausto": { "Lightning Bolt": { "lea_false": { qty: 1, printing: {...} } } } }
 const cart = new Map();
 
 // current mode: 'single' or 'bulk'
@@ -323,10 +326,16 @@ let bulkResults = [];
 
     owners = data.owners || [];
 
+    // NEW data structure: owners is now an array of printings
+    // data.cards = { "lightning bolt": { name: "Lightning Bolt", owners: { "Fausto": [{ qty, set, isFoil, price }] } } }
     for (const [key, card] of Object.entries(data.cards)) {
       const ownerMap = new Map();
-      for (const [ownerName, qty] of Object.entries(card.owners)) {
-        ownerMap.set(ownerName.toLowerCase(), { display: ownerName, qty });
+      for (const [ownerName, printings] of Object.entries(card.owners)) {
+        // printings is an array of { qty, set, setName, isFoil, price }
+        ownerMap.set(ownerName.toLowerCase(), {
+          display: ownerName,
+          printings: printings  // store the full array
+        });
       }
       cardDB.set(key, { name: card.name, owners: ownerMap, scryfallData: null });
     }
@@ -478,38 +487,61 @@ function renderBulkResults() {
   </tr></thead><tbody>`;
   
   for (const entry of rows) {
-    const badges = [...entry.owners.values()].map(v => {
-      const ownerLower = v.display.toLowerCase();
-      const ownerName = v.display;
+    let allBadges = [];
+    
+    for (const [ownerKey, ownerData] of entry.owners) {
+      const ownerName = ownerData.display;
+      const printings = ownerData.printings || [];
       
-      // calculate remaining
-      const inCart = cart.has(ownerName) ? (cart.get(ownerName).get(entry.name) || 0) : 0;
-      const remaining = v.qty - inCart;
-      const disabled = remaining <= 0;
-      
-      return `<div class="owner-badge">
-                ${esc(v.display)} <span class="qty">${remaining}×</span>
-                <button class="add-btn" 
-                  onclick="addToCart('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',1)" 
-                  title="Añadir al carrito"
-                  ${disabled ? 'disabled style="opacity:0.3;cursor:not-allowed"' : ''}>+</button>
-              </div>`;
-    }).join('');
+      for (const printing of printings) {
+        const ownerLower = ownerKey;
+        const printingKey = `${printing.set}_${printing.isFoil}`;
+        
+        const inCart = cart.has(ownerName) && cart.get(ownerName).has(entry.name)
+          ? (cart.get(ownerName).get(entry.name).get(printingKey)?.qty || 0)
+          : 0;
+        const remaining = printing.qty - inCart;
+        const disabled = remaining <= 0;
+        
+        const setIconUrl = `https://svgs.scryfall.io/sets/${printing.set.toLowerCase()}.svg`;
+        const foilIndicator = printing.isFoil ? ' ★' : '';
+        
+        allBadges.push(`<div class="owner-badge">
+                  ${esc(ownerName)}
+                  <img src="${setIconUrl}" class="set-icon" title="${esc(printing.setName)}" onerror="this.style.display='none'" />
+                  ${foilIndicator}
+                  <span class="qty">${remaining}×</span>
+                  <button class="add-btn" 
+                    onclick="addToCartPrinting('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',${JSON.stringify(printing).replace(/"/g,'&quot;')})" 
+                    title="Añadir al carrito"
+                    ${disabled ? 'disabled style="opacity:0.3;cursor:not-allowed"' : ''}>+</button>
+                </div>`);
+      }
+    }
+    
+    const badges = allBadges.join('');
+    
+    // Calculate cheapest price
+    let cheapestPrice = null;
+    for (const [ownerKey, ownerData] of entry.owners) {
+      for (const printing of (ownerData.printings || [])) {
+        if (printing.price && (cheapestPrice === null || printing.price < cheapestPrice)) {
+          cheapestPrice = printing.price;
+        }
+      }
+    }
+    
+    const priceCell = cheapestPrice ? `<span style="color:var(--green)">$${cheapestPrice.toFixed(2)}</span>` : '—';
     
     html += `<tr onclick="openModal('${entry.name.replace(/'/g, "\\'")}')">
                <td class="card-name-cell">${esc(entry.name)} <span style="color:var(--txt2);font-size:.8rem">(${entry.requestedQty})</span></td>
                <td><div class="owner-badges">${badges}</div></td>
-               <td style="text-align:right;color:var(--txt2);font-size:.82rem" id="price-${entry.name.replace(/[^a-z0-9]/gi,'_')}">—</td>
+               <td style="text-align:right;color:var(--txt2);font-size:.82rem">${priceCell}</td>
              </tr>`;
   }
   
   html += '</tbody></table></div>';
   document.getElementById('resultsBody').innerHTML = html;
-  
-  // fetch prices
-  for (const entry of rows) {
-    fetchPrice(entry);
-  }
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -566,38 +598,65 @@ function renderResults() {
   </tr></thead><tbody>`;
   
   for (const entry of rows) {
-    const badges = [...entry.owners.values()].map(v => {
-      const ownerLower = v.display.toLowerCase();
-      const ownerName = v.display;
+    let allBadges = [];
+    
+    // Each owner can have multiple printings
+    for (const [ownerKey, ownerData] of entry.owners) {
+      const ownerName = ownerData.display;
+      const printings = ownerData.printings || [];
       
-      // calculate how many are already in cart
-      const inCart = cart.has(ownerName) ? (cart.get(ownerName).get(entry.name) || 0) : 0;
-      const remaining = v.qty - inCart;
-      const disabled = remaining <= 0;
-      
-      return `<div class="owner-badge">
-                ${esc(v.display)} <span class="qty">${remaining}×</span>
-                <button class="add-btn" 
-                  onclick="addToCart('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',1)" 
-                  title="Añadir al carrito"
-                  ${disabled ? 'disabled style="opacity:0.3;cursor:not-allowed"' : ''}>+</button>
-              </div>`;
-    }).join('');
+      for (const printing of printings) {
+        const ownerLower = ownerKey;
+        const printingKey = `${printing.set}_${printing.isFoil}`;
+        
+        // calculate how many of THIS SPECIFIC PRINTING are in cart
+        const inCart = cart.has(ownerName) && cart.get(ownerName).has(entry.name) 
+          ? (cart.get(ownerName).get(entry.name).get(printingKey)?.qty || 0)
+          : 0;
+        const remaining = printing.qty - inCart;
+        const disabled = remaining <= 0;
+        
+        // Set symbol URL from Scryfall
+        const setIconUrl = `https://svgs.scryfall.io/sets/${printing.set.toLowerCase()}.svg`;
+        const foilIndicator = printing.isFoil ? ' ★' : '';
+        const priceDisplay = printing.price ? ` <span style="color:var(--green)">$${printing.price}</span>` : '';
+        
+        allBadges.push(`<div class="owner-badge">
+                  ${esc(ownerName)}
+                  <img src="${setIconUrl}" class="set-icon" title="${esc(printing.setName)}" onerror="this.style.display='none'" />
+                  ${foilIndicator}
+                  <span class="qty">${remaining}×</span>${priceDisplay}
+                  <button class="add-btn" 
+                    onclick="addToCartPrinting('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',${JSON.stringify(printing).replace(/"/g,'&quot;')})" 
+                    title="Añadir al carrito"
+                    ${disabled ? 'disabled style="opacity:0.3;cursor:not-allowed"' : ''}>+</button>
+                </div>`);
+      }
+    }
+    
+    const badges = allBadges.join('');
+    
+    // Calculate cheapest price from all printings
+    let cheapestPrice = null;
+    for (const [ownerKey, ownerData] of entry.owners) {
+      for (const printing of (ownerData.printings || [])) {
+        if (printing.price && (cheapestPrice === null || printing.price < cheapestPrice)) {
+          cheapestPrice = printing.price;
+        }
+      }
+    }
+    
+    const priceCell = cheapestPrice ? `<span style="color:var(--green)">$${cheapestPrice.toFixed(2)}</span>` : '—';
     
     html += `<tr onclick="openModal('${entry.name.replace(/'/g, "\\'")}')">
                <td class="card-name-cell">${esc(entry.name)}</td>
                <td><div class="owner-badges">${badges}</div></td>
-               <td style="text-align:right;color:var(--txt2);font-size:.82rem" id="price-${entry.name.replace(/[^a-z0-9]/gi,'_')}">—</td>
+               <td style="text-align:right;color:var(--txt2);font-size:.82rem">${priceCell}</td>
              </tr>`;
   }
   
   html += '</tbody></table></div>';
   document.getElementById('resultsBody').innerHTML = html;
-  
-  // fetch prices asynchronously for visible cards (don't block rendering)
-  for (const entry of rows) {
-    fetchPrice(entry);
-  }
 }
 
 function toggleSort(col) {
@@ -607,42 +666,7 @@ function toggleSort(col) {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
-//  PRICE FETCHING
-// ═══════════════════════════════════════════════════════════════════════════
-async function fetchPrice(entry) {
-  const cellId = `price-${entry.name.replace(/[^a-z0-9]/gi,'_')}`;
-  const cell = document.getElementById(cellId);
-  if (!cell) return;
-  
-  // if we already have scryfall data with price, use it
-  if (entry.scryfallData?.prices?.usd) {
-    cell.textContent = `$${entry.scryfallData.prices.usd}`;
-    return;
-  }
-  
-  // otherwise fetch it
-  try {
-    const r = await fetch(`https://api.scryfall.com/cards/named?exact=${encodeURIComponent(entry.name)}`);
-    if (!r.ok) {
-      cell.textContent = '—';
-      return;
-    }
-    const data = await r.json();
-    entry.scryfallData = data; // cache it
-    
-    const price = data.prices?.usd;
-    if (price) {
-      cell.textContent = `$${price}`;
-    } else {
-      cell.textContent = '—';
-    }
-  } catch {
-    cell.textContent = '—';
-  }
-}
-
-// ═══════════════════════════════════════════════════════════════════════════
-//  SCRYFALL AUTOCOMPLETE (with Spanish support)
+//  SCRYFALL AUTOCOMPLETE
 // ═══════════════════════════════════════════════════════════════════════════
 let acTimeout = null;
 let lastAcQ   = '';
@@ -739,62 +763,48 @@ document.addEventListener('mousedown', e => {
 // ═══════════════════════════════════════════════════════════════════════════
 //  CART
 // ═══════════════════════════════════════════════════════════════════════════
-function addToCart(ownerLower, cardName, qty = 1) {
-  event.stopPropagation(); // prevent modal from opening when clicking + in table
+function addToCartPrinting(ownerLower, cardName, printing) {
+  event.stopPropagation();
   
-  // find the actual owner display name
   const owner = owners.find(o => o.name.toLowerCase() === ownerLower);
   if (!owner) return;
   
   const ownerName = owner.name;
+  const printingKey = `${printing.set}_${printing.isFoil}`;
   
+  // Initialize cart structure if needed
   if (!cart.has(ownerName)) cart.set(ownerName, new Map());
+  if (!cart.get(ownerName).has(cardName)) cart.get(ownerName).set(cardName, new Map());
   
-  const ownerCart = cart.get(ownerName);
-  ownerCart.set(cardName, (ownerCart.get(cardName) || 0) + qty);
+  const cardPrintings = cart.get(ownerName).get(cardName);
+  
+  if (!cardPrintings.has(printingKey)) {
+    cardPrintings.set(printingKey, { qty: 0, printing: printing });
+  }
+  
+  cardPrintings.get(printingKey).qty += 1;
   
   updateCartBadge();
   saveCartToStorage();
   
-  // refresh the current view to update quantities
+  // refresh the current view
   if (currentMode === 'bulk' && bulkResults.length) {
     renderBulkResults();
   } else {
     renderResults();
   }
   
-  // if modal is open and it's this card, refresh the modal too
+  // if modal is open for this card, refresh it
   const modalOverlay = document.getElementById('modalOverlay');
   if (modalOverlay.classList.contains('open')) {
     const modalName = document.getElementById('modalName').textContent;
     if (modalName === cardName) {
-      // just update the modal owners section without re-fetching image
       const entry = cardDB.get(cardName.toLowerCase());
-      if (entry) {
-        const ownersHTML = [...entry.owners.values()].map(v => {
-          const ownerLower = v.display.toLowerCase();
-          const ownerName = v.display;
-          
-          const inCart = cart.has(ownerName) ? (cart.get(ownerName).get(entry.name) || 0) : 0;
-          const remaining = v.qty - inCart;
-          const disabled = remaining <= 0;
-          
-          return `<div class="modal-owner-row">
-            <span class="mor-name">${esc(v.display)}</span>
-            <span class="mor-qty">${remaining}×</span>
-            <button class="add-btn" 
-              onclick="addToCart('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',1)" 
-              title="Añadir al carrito"
-              ${disabled ? 'disabled style="opacity:0.3;cursor:not-allowed"' : ''}>+</button>
-          </div>`;
-        }).join('');
-        
-        document.getElementById('modalOwners').innerHTML = ownersHTML;
-      }
+      if (entry) renderModalOwners(entry);
     }
   }
   
-  // brief visual feedback on the button that was clicked
+  // visual feedback
   const btn = event.target;
   const orig = btn.textContent;
   btn.textContent = '✓';
@@ -805,17 +815,25 @@ function addToCart(ownerLower, cardName, qty = 1) {
   }, 400);
 }
 
-function removeFromCart(ownerName, cardName) {
+function removeFromCart(ownerName, cardName, printingKey) {
   if (!cart.has(ownerName)) return;
-  
   const ownerCart = cart.get(ownerName);
-  const current = ownerCart.get(cardName) || 0;
+  if (!ownerCart.has(cardName)) return;
+  const cardPrintings = ownerCart.get(cardName);
+  if (!cardPrintings.has(printingKey)) return;
   
-  if (current > 1) {
-    ownerCart.set(cardName, current - 1);
+  const printingData = cardPrintings.get(printingKey);
+  
+  if (printingData.qty > 1) {
+    printingData.qty -= 1;
   } else {
-    ownerCart.delete(cardName);
-    if (ownerCart.size === 0) cart.delete(ownerName);
+    cardPrintings.delete(printingKey);
+    if (cardPrintings.size === 0) {
+      ownerCart.delete(cardName);
+      if (ownerCart.size === 0) {
+        cart.delete(ownerName);
+      }
+    }
   }
   
   updateCartBadge();
@@ -833,8 +851,12 @@ function clearCart() {
 
 function updateCartBadge() {
   let total = 0;
-  for (const ownerCart of cart.values()) {
-    for (const qty of ownerCart.values()) total += qty;
+  for (const ownerCards of cart.values()) {
+    for (const cardPrintings of ownerCards.values()) {
+      for (const printingData of cardPrintings.values()) {
+        total += printingData.qty;
+      }
+    }
   }
   
   const badge = document.getElementById('cartBadge');
@@ -884,12 +906,21 @@ function renderCart() {
         </button>
       </div>`;
     
-    for (const [cardName, qty] of ownerCart) {
-      html += `<div class="cart-item">
-        <span class="cart-item-name">${esc(cardName)}</span>
-        <span class="cart-item-qty">${qty}×</span>
-        <button class="cart-item-remove" onclick="removeFromCart('${ownerName.replace(/'/g, "\\'")}','${cardName.replace(/'/g, "\\'")}')" title="Quitar una copia">−</button>
-      </div>`;
+    for (const [cardName, cardPrintings] of ownerCart) {
+      for (const [printingKey, printingData] of cardPrintings) {
+        const p = printingData.printing;
+        const setIconUrl = `https://svgs.scryfall.io/sets/${p.set.toLowerCase()}.svg`;
+        const foilIndicator = p.isFoil ? ' ★' : '';
+        const priceDisplay = p.price ? ` <span style="color:var(--green);margin-left:4px">$${p.price}</span>` : '';
+        
+        html += `<div class="cart-item">
+          <span class="cart-item-name">${esc(cardName)}</span>
+          <img src="${setIconUrl}" class="set-icon-cart" title="${esc(p.setName)}" onerror="this.style.display='none'" />
+          <span style="color:var(--txt2);font-size:.75rem">${p.set.toUpperCase()}${foilIndicator}</span>${priceDisplay}
+          <span class="cart-item-qty">${printingData.qty}×</span>
+          <button class="cart-item-remove" onclick="removeFromCart('${ownerName.replace(/'/g, "\\'")}','${cardName.replace(/'/g, "\\'")}','${printingKey}')" title="Quitar una copia">−</button>
+        </div>`;
+      }
     }
     
     html += `</div>`;
@@ -908,15 +939,17 @@ function sendWhatsApp(ownerName) {
   const ownerCart = cart.get(ownerName);
   if (!ownerCart || ownerCart.size === 0) return;
   
-  // Build message in Spanish
+  // Build message with set info
   let msg = `Hola ${ownerName}, me interesan estas cartas:\n`;
   
-  for (const [cardName, qty] of ownerCart) {
-    msg += `${qty}x ${cardName}\n`;
+  for (const [cardName, cardPrintings] of ownerCart) {
+    for (const [printingKey, printingData] of cardPrintings) {
+      const p = printingData.printing;
+      const foilText = p.isFoil ? ' (foil)' : '';
+      msg += `${printingData.qty}x ${cardName} [${p.set.toUpperCase()}]${foilText}\n`;
+    }
   }
   
-  // WhatsApp URL format: https://wa.me/PHONE?text=MESSAGE
-  // Remove any non-digits from phone
   const cleanPhone = owner.phone.replace(/\D/g, '');
   const url = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(msg)}`;
   
@@ -927,8 +960,14 @@ function sendWhatsApp(ownerName) {
 function saveCartToStorage() {
   try {
     const data = {};
-    for (const [owner, items] of cart) {
-      data[owner] = Object.fromEntries(items);
+    for (const [owner, cards] of cart) {
+      data[owner] = {};
+      for (const [cardName, printings] of cards) {
+        data[owner][cardName] = {};
+        for (const [printingKey, printingData] of printings) {
+          data[owner][cardName][printingKey] = printingData;
+        }
+      }
     }
     localStorage.setItem('invifinder_cart', JSON.stringify(data));
   } catch (e) {
@@ -942,8 +981,16 @@ function loadCartFromStorage() {
     if (!stored) return;
     
     const data = JSON.parse(stored);
-    for (const [owner, items] of Object.entries(data)) {
-      cart.set(owner, new Map(Object.entries(items)));
+    for (const [owner, cards] of Object.entries(data)) {
+      const ownerMap = new Map();
+      for (const [cardName, printings] of Object.entries(cards)) {
+        const printingMap = new Map();
+        for (const [printingKey, printingData] of Object.entries(printings)) {
+          printingMap.set(printingKey, printingData);
+        }
+        ownerMap.set(cardName, printingMap);
+      }
+      cart.set(owner, ownerMap);
     }
   } catch (e) {
     console.warn('No se pudo cargar el carrito:', e);
@@ -953,36 +1000,50 @@ function loadCartFromStorage() {
 // ═══════════════════════════════════════════════════════════════════════════
 //  MODAL (card details)
 // ═══════════════════════════════════════════════════════════════════════════
+function renderModalOwners(entry) {
+  let ownersHTML = '';
+  
+  for (const [ownerKey, ownerData] of entry.owners) {
+    const printings = ownerData.printings || [];
+    
+    for (const printing of printings) {
+      const ownerName = ownerData.display;
+      const ownerLower = ownerKey;
+      const printingKey = `${printing.set}_${printing.isFoil}`;
+      
+      const inCart = cart.has(ownerName) && cart.get(ownerName).has(entry.name)
+        ? (cart.get(ownerName).get(entry.name).get(printingKey)?.qty || 0)
+        : 0;
+      const remaining = printing.qty - inCart;
+      const disabled = remaining <= 0;
+      
+      const setIconUrl = `https://svgs.scryfall.io/sets/${printing.set.toLowerCase()}.svg`;
+      const foilIndicator = printing.isFoil ? ' ★' : '';
+      const priceDisplay = printing.price ? ` <span style="color:var(--green);margin-left:6px">$${printing.price}</span>` : '';
+      
+      ownersHTML += `<div class="modal-owner-row">
+        <span class="mor-name">${esc(ownerName)}</span>
+        <img src="${setIconUrl}" class="set-icon" title="${esc(printing.setName)}" onerror="this.style.display='none'" />
+        <span style="color:var(--txt2);font-size:.75rem">${printing.set.toUpperCase()}${foilIndicator}</span>${priceDisplay}
+        <span class="mor-qty">${remaining}×</span>
+        <button class="add-btn" 
+          onclick="addToCartPrinting('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',${JSON.stringify(printing).replace(/"/g,'&quot;')})" 
+          title="Añadir al carrito"
+          ${disabled ? 'disabled style="opacity:0.3;cursor:not-allowed"' : ''}>+</button>
+      </div>`;
+    }
+  }
+  
+  document.getElementById('modalOwners').innerHTML = ownersHTML;
+}
+
 async function openModal(name) {
   const entry = cardDB.get(name.toLowerCase());
   if (!entry) return;
   
   document.getElementById('modalName').textContent = entry.name;
   
-  // build owner rows with + buttons
-  const phoneMap = {};
-  for (const o of owners) phoneMap[o.name.toLowerCase()] = o.phone || '';
-  
-  const ownersHTML = [...entry.owners.values()].map(v => {
-    const ownerLower = v.display.toLowerCase();
-    const ownerName = v.display;
-    
-    // calculate remaining
-    const inCart = cart.has(ownerName) ? (cart.get(ownerName).get(entry.name) || 0) : 0;
-    const remaining = v.qty - inCart;
-    const disabled = remaining <= 0;
-    
-    return `<div class="modal-owner-row">
-      <span class="mor-name">${esc(v.display)}</span>
-      <span class="mor-qty">${remaining}×</span>
-      <button class="add-btn" 
-        onclick="addToCart('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',1)" 
-        title="Añadir al carrito"
-        ${disabled ? 'disabled style="opacity:0.3;cursor:not-allowed"' : ''}>+</button>
-    </div>`;
-  }).join('');
-  
-  document.getElementById('modalOwners').innerHTML = ownersHTML;
+  renderModalOwners(entry);
   
   // image
   const imgEl = document.getElementById('modalImg');

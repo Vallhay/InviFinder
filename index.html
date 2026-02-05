@@ -315,6 +315,94 @@ let currentMode = 'single';
 // bulk results (for filtering)
 let bulkResults = [];
 
+// price cache: Map<cacheKey, price> where cacheKey = "scryfallId" or "set_cn_foil"
+const priceCache = new Map();
+const priceFetchQueue = [];
+let isFetchingPrices = false;
+
+// ═══════════════════════════════════════════════════════════════════════════
+//  PRICE FETCHING (ON-DEMAND)
+// ═══════════════════════════════════════════════════════════════════════════
+async function fetchPriceForPrinting(printing) {
+  const cacheKey = printing.scryfallId 
+    ? printing.scryfallId 
+    : `${printing.set}_${printing.collectorNumber}_${printing.isFoil}`;
+  
+  // Check cache first
+  if (priceCache.has(cacheKey)) {
+    return priceCache.get(cacheKey);
+  }
+  
+  try {
+    let url;
+    if (printing.scryfallId) {
+      url = `https://api.scryfall.com/cards/${printing.scryfallId}`;
+    } else if (printing.set && printing.collectorNumber) {
+      url = `https://api.scryfall.com/cards/${printing.set}/${printing.collectorNumber}`;
+    } else {
+      return null;
+    }
+    
+    const response = await fetch(url);
+    if (!response.ok) return null;
+    
+    const data = await response.json();
+    
+    // Get correct price based on foil status
+    const price = printing.isFoil 
+      ? (data.prices?.usd_foil || null)
+      : (data.prices?.usd || null);
+    
+    const parsedPrice = price ? parseFloat(price) : null;
+    priceCache.set(cacheKey, parsedPrice);
+    
+    // Rate limit: 100ms between requests
+    await new Promise(r => setTimeout(r, 100));
+    
+    return parsedPrice;
+  } catch (e) {
+    priceCache.set(cacheKey, null);
+    return null;
+  }
+}
+
+async function fetchPricesForVisibleCards(entries) {
+  if (isFetchingPrices) return;
+  isFetchingPrices = true;
+  
+  // Collect all printings that need prices
+  const printingsToFetch = [];
+  for (const entry of entries) {
+    for (const [ownerKey, ownerData] of entry.owners) {
+      for (const printing of (ownerData.printings || [])) {
+        const cacheKey = printing.scryfallId 
+          ? printing.scryfallId 
+          : `${printing.set}_${printing.collectorNumber}_${printing.isFoil}`;
+        
+        if (!priceCache.has(cacheKey)) {
+          printingsToFetch.push({ entry, printing, cacheKey });
+        }
+      }
+    }
+  }
+  
+  // Fetch prices (limit to first 50 to avoid too many requests)
+  const toFetch = printingsToFetch.slice(0, 50);
+  for (const { entry, printing } of toFetch) {
+    const price = await fetchPriceForPrinting(printing);
+    printing.price = price; // Store on the printing object
+  }
+  
+  isFetchingPrices = false;
+  
+  // Re-render to show the newly fetched prices
+  if (currentMode === 'bulk' && bulkResults.length) {
+    renderBulkResults();
+  } else {
+    renderResults();
+  }
+}
+
 // ═══════════════════════════════════════════════════════════════════════════
 //  BOOT
 // ═══════════════════════════════════════════════════════════════════════════
@@ -482,6 +570,11 @@ function renderBulkResults() {
     return;
   }
   
+  // Fetch prices for visible cards (async, will re-render when done)
+  if (!isFetchingPrices) {
+    fetchPricesForVisibleCards(rows);
+  }
+  
   let html = `<div class="table-wrap"><table><thead><tr>
     <th>Carta (solicitadas)</th>
     <th>Disponible en</th>
@@ -507,7 +600,7 @@ function renderBulkResults() {
         
         const setIconUrl = `https://svgs.scryfall.io/sets/${printing.set.toLowerCase()}.svg`;
         const foilIndicator = printing.isFoil ? ' ✨' : '';
-        const priceDisplay = printing.price ? ` <span style="color:var(--green);font-size:.72rem">$${printing.price}</span>` : '';
+        const priceDisplay = printing.price ? ` <span style="color:var(--green);font-size:.72rem">$${printing.price.toFixed(2)}</span>` : '';
         
         allBadges.push(`<div class="owner-badge">
                   ${esc(ownerName)}
@@ -534,7 +627,7 @@ function renderBulkResults() {
       }
     }
     
-    const priceCell = cheapestPrice ? `<span style="color:var(--green)">$${cheapestPrice.toFixed(2)}</span>` : '—';
+    const priceCell = cheapestPrice ? `<span style="color:var(--green)">$${cheapestPrice.toFixed(2)}</span>` : '<span style="color:var(--txt2);font-size:.75rem">—</span>';
     
     html += `<tr onclick="openModal('${entry.name.replace(/'/g, "\\'")}')">
                <td class="card-name-cell">${esc(entry.name)} <span style="color:var(--txt2);font-size:.8rem">(${entry.requestedQty})</span></td>
@@ -592,6 +685,11 @@ function renderResults() {
     return;
   }
   
+  // Fetch prices for visible cards (async, will re-render when done)
+  if (!isFetchingPrices) {
+    fetchPricesForVisibleCards(rows);
+  }
+  
   const arrow = col => sortCol === col ? (sortDir === 1 ? '▲' : '▼') : '';
   
   let html = `<div class="table-wrap"><table><thead><tr>
@@ -622,7 +720,7 @@ function renderResults() {
         // Set symbol URL from Scryfall
         const setIconUrl = `https://svgs.scryfall.io/sets/${printing.set.toLowerCase()}.svg`;
         const foilIndicator = printing.isFoil ? ' ✨' : '';
-        const priceDisplay = printing.price ? ` <span style="color:var(--green);font-size:.72rem">$${printing.price}</span>` : '';
+        const priceDisplay = printing.price ? ` <span style="color:var(--green);font-size:.72rem">$${printing.price.toFixed(2)}</span>` : '';
         
         allBadges.push(`<div class="owner-badge">
                   ${esc(ownerName)}
@@ -649,7 +747,7 @@ function renderResults() {
       }
     }
     
-    const priceCell = cheapestPrice ? `<span style="color:var(--green)">$${cheapestPrice.toFixed(2)}</span>` : '—';
+    const priceCell = cheapestPrice ? `<span style="color:var(--green)">$${cheapestPrice.toFixed(2)}</span>` : '<span style="color:var(--txt2);font-size:.75rem">—</span>';
     
     html += `<tr onclick="openModal('${entry.name.replace(/'/g, "\\'")}')">
                <td class="card-name-cell">${esc(entry.name)}</td>
@@ -914,7 +1012,7 @@ function renderCart() {
         const p = printingData.printing;
         const setIconUrl = `https://svgs.scryfall.io/sets/${p.set.toLowerCase()}.svg`;
         const foilIndicator = p.isFoil ? ' ✨' : '';
-        const priceDisplay = p.price ? ` <span style="color:var(--green);margin-left:4px;font-size:.75rem">$${p.price}</span>` : '';
+        const priceDisplay = p.price ? ` <span style="color:var(--green);margin-left:4px;font-size:.75rem">$${p.price.toFixed(2)}</span>` : '';
         
         html += `<div class="cart-item">
           <span class="cart-item-name">${esc(cardName)}</span>
@@ -1022,7 +1120,7 @@ function renderModalOwners(entry) {
       
       const setIconUrl = `https://svgs.scryfall.io/sets/${printing.set.toLowerCase()}.svg`;
       const foilIndicator = printing.isFoil ? ' ✨' : '';
-      const priceDisplay = printing.price ? ` <span style="color:var(--green);font-size:.75rem">$${printing.price}</span>` : '';
+      const priceDisplay = printing.price ? ` <span style="color:var(--green);font-size:.75rem">$${printing.price.toFixed(2)}</span>` : '';
       
       ownersHTML += `<div class="modal-owner-row">
         <span class="mor-name">${esc(ownerName)}</span>

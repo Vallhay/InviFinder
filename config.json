@@ -25,6 +25,11 @@
         "https://moxfield.com/decks/DdTs9MROwkqw7MtcT8Fy-g"
       ]
     },
+    "owner": "Carmelo",
+      "urls": [
+        "https://moxfield.com/decks/sUd5P7_md02ilXfmsMY4DQ"
+      ]
+    },
     {
       "owner": "Rodrigo Deganutti",
       "urls": [
@@ -38,6 +43,7 @@
     "Nacho":   "PHONE_NACHO",
     "Guillo": "PHONE_GUILLO",
     "Angie": "PHONE_ANGIE",
+    "Carmelo": "PHONE_CARMELO",
     "Rodrigo Deganutti":  "PHONE_RODRIGO_DEGANUTTI"
   }
 }

@@ -68,37 +68,6 @@ function httpGet(url, retries = 2) {
 /** Sleep helper for rate-limiting politeness. */
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-/** Fetch price for a specific printing using Scryfall ID */
-async function fetchPrice(scryfallId, set, collectorNumber, cardName, isFoil) {
-  if (!scryfallId && (!set || !collectorNumber)) {
-    return null;
-  }
-  
-  try {
-    let url;
-    if (scryfallId) {
-      url = `https://api.scryfall.com/cards/${scryfallId}`;
-    } else {
-      url = `https://api.scryfall.com/cards/${set}/${collectorNumber}`;
-    }
-    
-    const data = await httpGet(url, 1); // Only retry once, not twice
-    
-    // Get the correct price based on whether card is foil or not
-    const price = isFoil 
-      ? (data.prices?.usd_foil || null)  // If foil, only get foil price
-      : (data.prices?.usd || null);       // If non-foil, only get non-foil price
-    
-    // Rate limit: 75ms between requests = ~13 req/sec (just under Scryfall's 10/sec averaged over time)
-    await sleep(75);
-    
-    return price;
-  } catch (e) {
-    // Don't log every failure - too noisy
-    return null;
-  }
-}
-
 // ─── Moxfield fetchers ──────────────────────────────────────────────────────
 
 const MOX_API = 'https://api2.moxfield.com';
@@ -117,29 +86,17 @@ async function fetchDeck(id) {
     const obj = data[sec];
     if (!obj || typeof obj !== 'object') continue;
     for (const [name, card] of Object.entries(obj)) {
-      // DEBUG: Log first card to see structure
-      if (cards.length === 0) {
-        console.log(`  [DEBUG] Sample deck card:`, JSON.stringify({ name, card }, null, 2));
-      }
-      
-      const finishes = card?.card?.finishes || card?.finishes || [];
-      
-      // Check multiple possible locations for foil status:
-      // 1. card.isFoil or card.finish (direct property)
-      // 2. card.card.isFoil (nested)
-      // 3. If finishes array has only "foil"
-      const isFoil = card?.isFoil === true 
-        || card?.finish === 'foil'
-        || card?.card?.isFoil === true
-        || (finishes.length === 1 && finishes[0] === 'foil');
+      // Foil status is in card.finish and card.isFoil (NOT card.card.finishes)
+      // card.finish can be "foil" or "nonFoil"
+      const isFoil = card?.finish === 'foil' || card?.isFoil === true;
       
       cards.push({
         name: name.trim(),
         qty: card?.quantity ?? 1,
         set: card?.card?.set || 'unknown',
-        setName: card?.card?.setName || '',
+        setName: card?.card?.set_name || '',
         collectorNumber: card?.card?.cn || '',
-        finishes: finishes,
+        finishes: card?.card?.finishes || [],
         isFoil: isFoil,
         scryfallId: card?.card?.scryfall_id || card?.card?.scryfallId || '',
       });
@@ -173,21 +130,16 @@ async function fetchCollection(id) {
         const card = item?.card;
         if (!card?.name) continue;
         
-        // DEBUG: Log first item to see structure (only once per collection)
-        if (allCards.length === 0) {
-          console.log(`  [DEBUG] Sample collection item:`, JSON.stringify(item, null, 2));
-        }
-        
-        // For collections, foil status is on the ITEM level, not the card level
-        // Moxfield stores it as item.isFoil or item.finish
-        const isFoil = item.isFoil === true || item.finish === 'foil';
+        // For collections, foil status is on the ITEM level
+        // item.finish can be "foil" or "nonFoil"
+        const isFoil = item.finish === 'foil' || item.isFoil === true;
         
         // Extract all the printing details
         allCards.push({
           name: card.name.trim(),
           qty: item.quantity ?? 1,
           set: card.set || 'unknown',
-          setName: card.setName || '',
+          setName: card.set_name || '',
           collectorNumber: card.cn || '',
           finishes: card.finishes || [],
           isFoil: isFoil,
@@ -303,8 +255,7 @@ async function main() {
             setName: card.setName,
             isFoil: card.isFoil,
             collectorNumber: card.collectorNumber,
-            scryfallId: card.scryfallId,
-            price: null  // will be fetched separately if needed
+            scryfallId: card.scryfallId
           });
         }
       }
@@ -314,71 +265,7 @@ async function main() {
     }
   }
 
-  // ── 3. fetch prices for all printings ──
-  console.log(`\n📊 Fetching prices for all unique printings...`);
-  
-  // Build a map of unique printings (by scryfallId or set+cn) to avoid duplicate fetches
-  const priceCache = new Map(); // key: scryfallId or "set_cn" → price
-  const printingsToFetch = [];
-  let pricesTotal = 0; // Track total printing instances
-  
-  // Collect all unique printings
-  for (const [cardKey, cardData] of Object.entries(cardsMap)) {
-    for (const [ownerName, printings] of Object.entries(cardData.owners)) {
-      for (const printing of printings) {
-        pricesTotal++; // Count total instances
-        const cacheKey = printing.scryfallId || `${printing.set}_${printing.collectorNumber}`;
-        if (!priceCache.has(cacheKey)) {
-          priceCache.set(cacheKey, null); // placeholder
-          printingsToFetch.push({ cacheKey, printing, cardName: cardData.name });
-        }
-      }
-    }
-  }
-  
-  console.log(`  Found ${printingsToFetch.length} unique printings (deduplicated from ${pricesTotal} total instances)`);
-  
-  // Fetch prices for unique printings
-  let pricesFetched = 0;
-  for (let i = 0; i < printingsToFetch.length; i++) {
-    const { cacheKey, printing, cardName } = printingsToFetch[i];
-    
-    const price = await fetchPrice(
-      printing.scryfallId,
-      printing.set,
-      printing.collectorNumber,
-      cardName,
-      printing.isFoil  // Pass the foil status
-    );
-    
-    if (price !== null) {
-      priceCache.set(cacheKey, parseFloat(price));
-      pricesFetched++;
-    }
-    
-    // Progress every 100 cards
-    if ((i + 1) % 100 === 0) {
-      console.log(`  Progress: ${i + 1}/${printingsToFetch.length} (${((pricesFetched / (i + 1)) * 100).toFixed(0)}% success rate)`);
-    }
-  }
-  
-  // Apply cached prices to all printings
-  for (const [cardKey, cardData] of Object.entries(cardsMap)) {
-    for (const [ownerName, printings] of Object.entries(cardData.owners)) {
-      for (const printing of printings) {
-        const cacheKey = printing.scryfallId || `${printing.set}_${printing.collectorNumber}`;
-        const price = priceCache.get(cacheKey);
-        if (price !== null && price !== undefined) {
-          printing.price = price;
-        }
-      }
-    }
-  }
-  
-  console.log(`\n💰 Prices applied: ${pricesFetched}/${printingsToFetch.length} unique printings fetched (${((pricesFetched/printingsToFetch.length)*100).toFixed(1)}%)`);
-  console.log(`   Total printing instances: ${pricesTotal}`);
-
-  // ── 4. write output ──
+  // ── 3. write output ──
   const output = {
     lastUpdated: new Date().toISOString(),
     owners: Object.values(ownersMap),

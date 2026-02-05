@@ -25,6 +25,7 @@ jobs:
           PHONE_VALLHAY:  ${{ secrets.PHONE_VALLHAY }}
           PHONE_NACHO:  ${{ secrets.PHONE_NACHO }}
           PHONE_GUILLO: ${{secrets.PHONE_GUILLO}}
+          PHONE_ANGIE: ${{secrets.PHONE_ANGIE}}
           PHONE_RODRIGO_DEGANUTTI: ${{ secrets.PHONE_RODRIGO_DEGANUTTI }}
           # ── add more phones here as you add people ──
           # PHONE_FRIEND2:  ${{ secrets.PHONE_FRIEND2 }}

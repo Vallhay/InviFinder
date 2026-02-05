@@ -117,10 +117,21 @@ async function fetchDeck(id) {
     const obj = data[sec];
     if (!obj || typeof obj !== 'object') continue;
     for (const [name, card] of Object.entries(obj)) {
+      // DEBUG: Log first card to see structure
+      if (cards.length === 0) {
+        console.log(`  [DEBUG] Sample deck card:`, JSON.stringify({ name, card }, null, 2));
+      }
+      
       const finishes = card?.card?.finishes || card?.finishes || [];
-      // Only mark as foil if it's EXCLUSIVELY foil (not available in both)
-      // If both nonfoil and foil are available, we default to nonfoil
-      const isFoil = finishes.length === 1 && finishes[0] === 'foil';
+      
+      // Check multiple possible locations for foil status:
+      // 1. card.isFoil or card.finish (direct property)
+      // 2. card.card.isFoil (nested)
+      // 3. If finishes array has only "foil"
+      const isFoil = card?.isFoil === true 
+        || card?.finish === 'foil'
+        || card?.card?.isFoil === true
+        || (finishes.length === 1 && finishes[0] === 'foil');
       
       cards.push({
         name: name.trim(),
@@ -162,9 +173,14 @@ async function fetchCollection(id) {
         const card = item?.card;
         if (!card?.name) continue;
         
-        const finishes = card.finishes || [];
-        // Only mark as foil if it's EXCLUSIVELY foil (not available in both)
-        const isFoil = finishes.length === 1 && finishes[0] === 'foil';
+        // DEBUG: Log first item to see structure (only once per collection)
+        if (allCards.length === 0) {
+          console.log(`  [DEBUG] Sample collection item:`, JSON.stringify(item, null, 2));
+        }
+        
+        // For collections, foil status is on the ITEM level, not the card level
+        // Moxfield stores it as item.isFoil or item.finish
+        const isFoil = item.isFoil === true || item.finish === 'foil';
         
         // Extract all the printing details
         allCards.push({
@@ -173,7 +189,7 @@ async function fetchCollection(id) {
           set: card.set || 'unknown',
           setName: card.setName || '',
           collectorNumber: card.cn || '',
-          finishes: finishes,
+          finishes: card.finishes || [],
           isFoil: isFoil,
           scryfallId: card.scryfall_id || card.scryfallId || '',
         });

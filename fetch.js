@@ -293,11 +293,13 @@ async function main() {
   // Build a map of unique printings (by scryfallId or set+cn) to avoid duplicate fetches
   const priceCache = new Map(); // key: scryfallId or "set_cn" → price
   const printingsToFetch = [];
+  let pricesTotal = 0; // Track total printing instances
   
   // Collect all unique printings
   for (const [cardKey, cardData] of Object.entries(cardsMap)) {
     for (const [ownerName, printings] of Object.entries(cardData.owners)) {
       for (const printing of printings) {
+        pricesTotal++; // Count total instances
         const cacheKey = printing.scryfallId || `${printing.set}_${printing.collectorNumber}`;
         if (!priceCache.has(cacheKey)) {
           priceCache.set(cacheKey, null); // placeholder
@@ -333,11 +335,9 @@ async function main() {
   }
   
   // Apply cached prices to all printings
-  let pricesTotal = 0;
   for (const [cardKey, cardData] of Object.entries(cardsMap)) {
     for (const [ownerName, printings] of Object.entries(cardData.owners)) {
       for (const printing of printings) {
-        pricesTotal++;
         const cacheKey = printing.scryfallId || `${printing.set}_${printing.collectorNumber}`;
         const price = priceCache.get(cacheKey);
         if (price !== null && price !== undefined) {

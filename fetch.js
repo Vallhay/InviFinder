@@ -41,8 +41,7 @@ function httpGet(url, retries = 2) {
       if (res.statusCode === 429 || res.statusCode >= 500) {
         // rate-limited or server error — wait and retry
         if (retries > 0) {
-          const wait = res.statusCode === 429 ? 5000 : 2000;
-          console.log(`  ↻ HTTP ${res.statusCode}, retrying in ${wait / 1000}s…`);
+          const wait = res.statusCode === 429 ? 1000 : 500; // Reduced from 5000/2000
           setTimeout(() => httpGet(url, retries - 1).then(resolve).catch(reject), wait);
           res.resume(); // discard body
           return;
@@ -72,7 +71,6 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 /** Fetch price for a specific printing using Scryfall ID */
 async function fetchPrice(scryfallId, set, collectorNumber, cardName) {
   if (!scryfallId && (!set || !collectorNumber)) {
-    console.log(`  ⚠ No Scryfall ID or set+cn for ${cardName}, skipping price`);
     return null;
   }
   
@@ -84,21 +82,17 @@ async function fetchPrice(scryfallId, set, collectorNumber, cardName) {
       url = `https://api.scryfall.com/cards/${set}/${collectorNumber}`;
     }
     
-    const data = await httpGet(url);
+    const data = await httpGet(url, 1); // Only retry once, not twice
     
-    // Try TCGPlayer market price first (most reliable), fall back to USD
+    // Try USD price (foil or non-foil depending on what's available)
     const price = data.prices?.usd_foil || data.prices?.usd || null;
     
-    if (price) {
-      console.log(`  💰 ${cardName} [${set}]: $${price}`);
-    }
-    
-    // Rate limit: ~100ms between requests = ~10 req/sec (Scryfall's limit)
-    await sleep(100);
+    // Rate limit: 75ms between requests = ~13 req/sec (just under Scryfall's 10/sec averaged over time)
+    await sleep(75);
     
     return price;
   } catch (e) {
-    console.log(`  ✗ Price fetch failed for ${cardName}: ${e.message}`);
+    // Don't log every failure - too noisy
     return null;
   }
 }
@@ -294,30 +288,67 @@ async function main() {
   }
 
   // ── 3. fetch prices for all printings ──
-  console.log(`\n📊 Fetching prices for all printings...`);
-  let pricesFetched = 0;
-  let pricesTotal = 0;
+  console.log(`\n📊 Fetching prices for all unique printings...`);
   
+  // Build a map of unique printings (by scryfallId or set+cn) to avoid duplicate fetches
+  const priceCache = new Map(); // key: scryfallId or "set_cn" → price
+  const printingsToFetch = [];
+  
+  // Collect all unique printings
   for (const [cardKey, cardData] of Object.entries(cardsMap)) {
     for (const [ownerName, printings] of Object.entries(cardData.owners)) {
       for (const printing of printings) {
-        pricesTotal++;
-        const price = await fetchPrice(
-          printing.scryfallId,
-          printing.set,
-          printing.collectorNumber,
-          cardData.name
-        );
-        
-        if (price !== null) {
-          printing.price = parseFloat(price);
-          pricesFetched++;
+        const cacheKey = printing.scryfallId || `${printing.set}_${printing.collectorNumber}`;
+        if (!priceCache.has(cacheKey)) {
+          priceCache.set(cacheKey, null); // placeholder
+          printingsToFetch.push({ cacheKey, printing, cardName: cardData.name });
         }
       }
     }
   }
   
-  console.log(`\n💰 Prices fetched: ${pricesFetched}/${pricesTotal} (${((pricesFetched/pricesTotal)*100).toFixed(1)}%)`);
+  console.log(`  Found ${printingsToFetch.length} unique printings (deduplicated from ${pricesTotal} total instances)`);
+  
+  // Fetch prices for unique printings
+  let pricesFetched = 0;
+  for (let i = 0; i < printingsToFetch.length; i++) {
+    const { cacheKey, printing, cardName } = printingsToFetch[i];
+    
+    const price = await fetchPrice(
+      printing.scryfallId,
+      printing.set,
+      printing.collectorNumber,
+      cardName
+    );
+    
+    if (price !== null) {
+      priceCache.set(cacheKey, parseFloat(price));
+      pricesFetched++;
+    }
+    
+    // Progress every 100 cards
+    if ((i + 1) % 100 === 0) {
+      console.log(`  Progress: ${i + 1}/${printingsToFetch.length} (${((pricesFetched / (i + 1)) * 100).toFixed(0)}% success rate)`);
+    }
+  }
+  
+  // Apply cached prices to all printings
+  let pricesTotal = 0;
+  for (const [cardKey, cardData] of Object.entries(cardsMap)) {
+    for (const [ownerName, printings] of Object.entries(cardData.owners)) {
+      for (const printing of printings) {
+        pricesTotal++;
+        const cacheKey = printing.scryfallId || `${printing.set}_${printing.collectorNumber}`;
+        const price = priceCache.get(cacheKey);
+        if (price !== null && price !== undefined) {
+          printing.price = price;
+        }
+      }
+    }
+  }
+  
+  console.log(`\n💰 Prices applied: ${pricesFetched}/${printingsToFetch.length} unique printings fetched (${((pricesFetched/printingsToFetch.length)*100).toFixed(1)}%)`);
+  console.log(`   Total printing instances: ${pricesTotal}`);
 
   // ── 4. write output ──
   const output = {

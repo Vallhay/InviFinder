@@ -94,7 +94,7 @@
   .card-name-cell{font-weight:600;color:var(--txt)}
   .owner-badges{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
   .owner-badge{position:relative;display:inline-flex;align-items:center;gap:6px;background:var(--tag-bg);border:1px solid var(--tag-border);border-radius:12px;padding:4px 10px;font-size:.76rem;color:var(--gold);font-weight:600}
-  .owner-badge .set-icon{width:14px;height:14px;opacity:.7}
+  .owner-badge .set-icon{width:16px;height:16px;opacity:.9;filter:brightness(0) invert(1)}
   .owner-badge .qty{color:var(--accent);margin-left:2px}
   .owner-badge .add-btn{background:var(--accent);color:#fff;border:none;border-radius:50%;width:32px;height:32px;font-size:1.2rem;line-height:1;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center;padding:0;flex-shrink:0}
   .owner-badge .add-btn:hover{background:#ff4757;transform:scale(1.1)}
@@ -132,7 +132,7 @@
   
   .cart-item{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid rgba(58,40,32,.3);font-size:.85rem;gap:8px}
   .cart-item:last-child{border-bottom:none}
-  .cart-item .set-icon-cart{width:14px;height:14px;opacity:.6}
+  .cart-item .set-icon-cart{width:14px;height:14px;opacity:.9;filter:brightness(0) invert(1)}
   .cart-item-name{color:var(--txt);font-weight:500}
   .cart-item-qty{color:var(--accent);font-weight:600;margin-right:auto;margin-left:10px}
   .cart-item-remove{background:var(--accent);color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:1.1rem;font-weight:700;padding:4px 10px;transition:all .15s;min-width:32px;text-align:center}
@@ -153,10 +153,12 @@
   
   .modal-owners-section{margin-top:20px}
   .modal-section-label{font-size:.75rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--txt2);font-weight:600;margin-bottom:10px}
-  .modal-owner-row{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;background:var(--bg-input);border:1px solid var(--border);border-radius:var(--r-sm);margin-bottom:8px}
+  .modal-owner-row{display:flex;align-items:center;justify-content:flex-start;gap:8px;padding:10px 14px;background:var(--bg-input);border:1px solid var(--border);border-radius:var(--r-sm);margin-bottom:8px;flex-wrap:wrap}
   .modal-owner-row .mor-name{color:var(--gold);font-weight:600;font-size:.88rem}
-  .modal-owner-row .mor-qty{color:var(--accent);font-weight:700;font-size:.82rem;margin-left:auto;margin-right:12px}
-  .modal-owner-row .mor-phone{color:var(--txt2);font-size:.76rem;margin-right:12px}
+  .modal-owner-row .set-icon{width:18px;height:18px;opacity:.9;filter:brightness(0) invert(1)}
+  .modal-owner-row .mor-set{color:var(--txt2);font-size:.75rem}
+  .modal-owner-row .mor-qty{color:var(--accent);font-weight:700;font-size:.82rem;margin-left:auto}
+  .modal-owner-row .mor-phone{color:var(--txt2);font-size:.76rem}
   .modal-owner-row .add-btn{background:var(--accent);color:#fff;border:none;border-radius:50%;width:36px;height:36px;font-size:1.3rem;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center;padding:0;flex-shrink:0}
   .modal-owner-row .add-btn:hover{background:#ff4757;transform:scale(1.08)}
   
@@ -504,12 +506,13 @@ function renderBulkResults() {
         const disabled = remaining <= 0;
         
         const setIconUrl = `https://svgs.scryfall.io/sets/${printing.set.toLowerCase()}.svg`;
-        const foilIndicator = printing.isFoil ? ' ★' : '';
+        const foilIndicator = printing.isFoil ? ' ✨' : '';
+        const priceDisplay = printing.price ? ` <span style="color:var(--green);font-size:.72rem">$${printing.price}</span>` : '';
         
         allBadges.push(`<div class="owner-badge">
                   ${esc(ownerName)}
                   <img src="${setIconUrl}" class="set-icon" title="${esc(printing.setName)}" onerror="this.style.display='none'" />
-                  ${foilIndicator}
+                  <span style="color:var(--txt2);font-size:.7rem">${printing.set.toUpperCase()}</span>${foilIndicator}${priceDisplay}
                   <span class="qty">${remaining}×</span>
                   <button class="add-btn" 
                     onclick="addToCartPrinting('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',${JSON.stringify(printing).replace(/"/g,'&quot;')})" 
@@ -618,14 +621,14 @@ function renderResults() {
         
         // Set symbol URL from Scryfall
         const setIconUrl = `https://svgs.scryfall.io/sets/${printing.set.toLowerCase()}.svg`;
-        const foilIndicator = printing.isFoil ? ' ★' : '';
-        const priceDisplay = printing.price ? ` <span style="color:var(--green)">$${printing.price}</span>` : '';
+        const foilIndicator = printing.isFoil ? ' ✨' : '';
+        const priceDisplay = printing.price ? ` <span style="color:var(--green);font-size:.72rem">$${printing.price}</span>` : '';
         
         allBadges.push(`<div class="owner-badge">
                   ${esc(ownerName)}
                   <img src="${setIconUrl}" class="set-icon" title="${esc(printing.setName)}" onerror="this.style.display='none'" />
-                  ${foilIndicator}
-                  <span class="qty">${remaining}×</span>${priceDisplay}
+                  <span style="color:var(--txt2);font-size:.7rem">${printing.set.toUpperCase()}</span>${foilIndicator}${priceDisplay}
+                  <span class="qty">${remaining}×</span>
                   <button class="add-btn" 
                     onclick="addToCartPrinting('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',${JSON.stringify(printing).replace(/"/g,'&quot;')})" 
                     title="Añadir al carrito"
@@ -910,13 +913,13 @@ function renderCart() {
       for (const [printingKey, printingData] of cardPrintings) {
         const p = printingData.printing;
         const setIconUrl = `https://svgs.scryfall.io/sets/${p.set.toLowerCase()}.svg`;
-        const foilIndicator = p.isFoil ? ' ★' : '';
-        const priceDisplay = p.price ? ` <span style="color:var(--green);margin-left:4px">$${p.price}</span>` : '';
+        const foilIndicator = p.isFoil ? ' ✨' : '';
+        const priceDisplay = p.price ? ` <span style="color:var(--green);margin-left:4px;font-size:.75rem">$${p.price}</span>` : '';
         
         html += `<div class="cart-item">
           <span class="cart-item-name">${esc(cardName)}</span>
           <img src="${setIconUrl}" class="set-icon-cart" title="${esc(p.setName)}" onerror="this.style.display='none'" />
-          <span style="color:var(--txt2);font-size:.75rem">${p.set.toUpperCase()}${foilIndicator}</span>${priceDisplay}
+          <span style="color:var(--txt2);font-size:.72rem">${p.set.toUpperCase()}${foilIndicator}</span>${priceDisplay}
           <span class="cart-item-qty">${printingData.qty}×</span>
           <button class="cart-item-remove" onclick="removeFromCart('${ownerName.replace(/'/g, "\\'")}','${cardName.replace(/'/g, "\\'")}','${printingKey}')" title="Quitar una copia">−</button>
         </div>`;
@@ -1018,13 +1021,13 @@ function renderModalOwners(entry) {
       const disabled = remaining <= 0;
       
       const setIconUrl = `https://svgs.scryfall.io/sets/${printing.set.toLowerCase()}.svg`;
-      const foilIndicator = printing.isFoil ? ' ★' : '';
-      const priceDisplay = printing.price ? ` <span style="color:var(--green);margin-left:6px">$${printing.price}</span>` : '';
+      const foilIndicator = printing.isFoil ? ' ✨' : '';
+      const priceDisplay = printing.price ? ` <span style="color:var(--green);font-size:.75rem">$${printing.price}</span>` : '';
       
       ownersHTML += `<div class="modal-owner-row">
         <span class="mor-name">${esc(ownerName)}</span>
         <img src="${setIconUrl}" class="set-icon" title="${esc(printing.setName)}" onerror="this.style.display='none'" />
-        <span style="color:var(--txt2);font-size:.75rem">${printing.set.toUpperCase()}${foilIndicator}</span>${priceDisplay}
+        <span class="mor-set">${printing.set.toUpperCase()}${foilIndicator}</span>${priceDisplay}
         <span class="mor-qty">${remaining}×</span>
         <button class="add-btn" 
           onclick="addToCartPrinting('${ownerLower}','${entry.name.replace(/'/g,"\\'")}',${JSON.stringify(printing).replace(/"/g,'&quot;')})" 

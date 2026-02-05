@@ -19,6 +19,13 @@
       ]
     },
     {
+      "owner": "Angie",
+      "urls": [
+        "https://moxfield.com/decks/1oOJK6qI8EmUUGdclz8fYg",
+        "https://moxfield.com/decks/DdTs9MROwkqw7MtcT8Fy-g"
+      ]
+    },
+    {
       "owner": "Rodrigo Deganutti",
       "urls": [
         "https://moxfield.com/decks/n0Qhd3aCDkCdf7y0s0YorA"
@@ -30,6 +37,7 @@
     "Fausto":  "PHONE_VALLHAY",
     "Nacho":   "PHONE_NACHO",
     "Guillo": "PHONE_GUILLO",
+    "Angie": "PHONE_ANGIE",
     "Rodrigo Deganutti":  "PHONE_RODRIGO_DEGANUTTI"
   }
 }

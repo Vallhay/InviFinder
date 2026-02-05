@@ -69,7 +69,7 @@ function httpGet(url, retries = 2) {
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 /** Fetch price for a specific printing using Scryfall ID */
-async function fetchPrice(scryfallId, set, collectorNumber, cardName) {
+async function fetchPrice(scryfallId, set, collectorNumber, cardName, isFoil) {
   if (!scryfallId && (!set || !collectorNumber)) {
     return null;
   }
@@ -84,8 +84,10 @@ async function fetchPrice(scryfallId, set, collectorNumber, cardName) {
     
     const data = await httpGet(url, 1); // Only retry once, not twice
     
-    // Try USD price (foil or non-foil depending on what's available)
-    const price = data.prices?.usd_foil || data.prices?.usd || null;
+    // Get the correct price based on whether card is foil or not
+    const price = isFoil 
+      ? (data.prices?.usd_foil || null)  // If foil, only get foil price
+      : (data.prices?.usd || null);       // If non-foil, only get non-foil price
     
     // Rate limit: 75ms between requests = ~13 req/sec (just under Scryfall's 10/sec averaged over time)
     await sleep(75);
@@ -115,14 +117,19 @@ async function fetchDeck(id) {
     const obj = data[sec];
     if (!obj || typeof obj !== 'object') continue;
     for (const [name, card] of Object.entries(obj)) {
+      const finishes = card?.card?.finishes || card?.finishes || [];
+      // Only mark as foil if it's EXCLUSIVELY foil (not available in both)
+      // If both nonfoil and foil are available, we default to nonfoil
+      const isFoil = finishes.length === 1 && finishes[0] === 'foil';
+      
       cards.push({
         name: name.trim(),
         qty: card?.quantity ?? 1,
         set: card?.card?.set || 'unknown',
         setName: card?.card?.setName || '',
         collectorNumber: card?.card?.cn || '',
-        finishes: card?.card?.finishes || card?.finishes || [],
-        isFoil: (card?.card?.finishes || card?.finishes || []).includes('foil'),
+        finishes: finishes,
+        isFoil: isFoil,
         scryfallId: card?.card?.scryfall_id || card?.card?.scryfallId || '',
       });
     }
@@ -155,6 +162,10 @@ async function fetchCollection(id) {
         const card = item?.card;
         if (!card?.name) continue;
         
+        const finishes = card.finishes || [];
+        // Only mark as foil if it's EXCLUSIVELY foil (not available in both)
+        const isFoil = finishes.length === 1 && finishes[0] === 'foil';
+        
         // Extract all the printing details
         allCards.push({
           name: card.name.trim(),
@@ -162,8 +173,8 @@ async function fetchCollection(id) {
           set: card.set || 'unknown',
           setName: card.setName || '',
           collectorNumber: card.cn || '',
-          finishes: card.finishes || [],
-          isFoil: (card.finishes || []).includes('foil'),
+          finishes: finishes,
+          isFoil: isFoil,
           scryfallId: card.scryfall_id || card.scryfallId || '',
         });
       }
@@ -320,7 +331,8 @@ async function main() {
       printing.scryfallId,
       printing.set,
       printing.collectorNumber,
-      cardName
+      cardName,
+      printing.isFoil  // Pass the foil status
     );
     
     if (price !== null) {

@@ -233,10 +233,11 @@
     
     <!-- BULK IMPORT -->
     <div id="bulkSearch" class="bulk-area">
-      <textarea id="bulkInput" placeholder="Pega tu lista aquí:
-1 Aqueous Form
-4 Armored Armadillo
-2 Brazen Borrower / Petty Theft
+      <textarea id="bulkInput" placeholder="Pega tu lista aquí (con o sin cantidades):
+1 Aqueous Form (THS) 39 *F*
+4 Armored Armadillo (OTJ) 3
+Brazen Borrower
+Lightning Bolt
 ..."></textarea>
       <div class="bulk-actions">
         <button class="btn" onclick="processBulk()">Analizar Lista</button>
@@ -493,17 +494,25 @@ function processBulk() {
   for (const line of lines) {
     if (!line.trim()) continue;
     
-    // Parse format: "4 Card Name (SET) 123 *F*"
-    // We want: qty + name
-    // Ignore everything in parentheses and after
-    const match = line.match(/^(\d+)\s+(.+?)(?:\s+\(|$)/);
-    if (!match) continue;
+    let qty = 1;
+    let name = line.trim();
     
-    const qty  = parseInt(match[1], 10);
-    let name   = match[2].trim();
+    // Try to parse format with quantity: "4 Card Name (SET) 123 *F*"
+    const matchWithQty = line.match(/^(\d+)\s+(.+?)(?:\s+\(|$)/);
+    if (matchWithQty) {
+      qty = parseInt(matchWithQty[1], 10);
+      name = matchWithQty[2].trim();
+    } else {
+      // No quantity found, try to extract just the card name
+      // Remove anything in parentheses and after
+      const matchNoQty = line.match(/^(.+?)(?:\s+\(|$)/);
+      if (matchNoQty) {
+        name = matchNoQty[1].trim();
+      }
+    }
     
-    // remove any trailing stuff like " / Petty Theft" (double-faced cards)
-    // keep only the first part
+    // Remove any trailing stuff like " / Petty Theft" (double-faced cards)
+    // Keep only the first part
     if (name.includes(' // ')) name = name.split(' // ')[0].trim();
     if (name.includes(' / '))  name = name.split(' / ')[0].trim();
     

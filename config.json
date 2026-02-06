@@ -32,6 +32,12 @@
       ]
     },
     {
+    "owner": "Licha",
+      "urls": [
+        "https://moxfield.com/decks/48kzlGDFP0CKHl_So1SDVA"
+      ]
+    },
+    {
       "owner": "Rodrigo Deganutti",
       "urls": [
         "https://moxfield.com/decks/n0Qhd3aCDkCdf7y0s0YorA"
@@ -45,6 +51,7 @@
     "Guillo": "PHONE_GUILLO",
     "Angie": "PHONE_ANGIE",
     "Carmelo": "PHONE_CARMELO",
+    "Licha": "PHONE_LICHA",
     "Rodrigo Deganutti":  "PHONE_RODRIGO_DEGANUTTI"
   }
 }

@@ -38,6 +38,12 @@
       ]
     },
     {
+    "owner": "Lucho",
+      "urls": [
+        "https://moxfield.com/collection/AbEYLuUK0Eaue6VwTKPRAA"
+      ]
+    },
+    {
       "owner": "Rodrigo Deganutti",
       "urls": [
         "https://moxfield.com/decks/n0Qhd3aCDkCdf7y0s0YorA"
@@ -52,6 +58,7 @@
     "Angie": "PHONE_ANGIE",
     "Carmelo": "PHONE_CARMELO",
     "Licha": "PHONE_LICHA",
+    "Lucho": "PHONE_LUCHO",
     "Rodrigo Deganutti":  "PHONE_RODRIGO_DEGANUTTI"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-12T06:59:22.158Z",
+  "lastUpdated": "2026-02-13T06:57:15.005Z",
   "owners": [
     {
       "name": "Fausto",
@@ -118502,6 +118502,276 @@
         ]
       }
     },
+    "geist of saint traft": {
+      "name": "Geist of Saint Traft",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "ddq",
+            "setName": "Duel Decks: Blessed vs. Cursed",
+            "isFoil": true,
+            "collectorNumber": "1",
+            "scryfallId": "0ba5dd1a-6906-4b45-bbf7-2f10cb955083"
+          }
+        ]
+      }
+    },
+    "kyler, sigardian emissary": {
+      "name": "Kyler, Sigardian Emissary",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "mic",
+            "setName": "Midnight Hunt Commander",
+            "isFoil": true,
+            "collectorNumber": "4",
+            "scryfallId": "62a78aae-598e-4f2b-a7bc-c3afc1d0d191"
+          }
+        ]
+      }
+    },
+    "chandra, dressed to kill": {
+      "name": "Chandra, Dressed to Kill",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "vow",
+            "setName": "Innistrad: Crimson Vow",
+            "isFoil": true,
+            "collectorNumber": "279",
+            "scryfallId": "7129a358-4628-4426-ae3b-e3d9288a6355"
+          }
+        ]
+      }
+    },
+    "llanowar wastes": {
+      "name": "Llanowar Wastes",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "pbro",
+            "setName": "The Brothers' War Promos",
+            "isFoil": true,
+            "collectorNumber": "264s",
+            "scryfallId": "660cf964-ae3d-46c1-932f-b65d91643776"
+          }
+        ]
+      }
+    },
+    "tiller of flesh": {
+      "name": "Tiller of Flesh",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "mom",
+            "setName": "March of the Machine",
+            "isFoil": true,
+            "collectorNumber": "44",
+            "scryfallId": "49e206f2-1647-4456-8f2f-b67d053413e2"
+          }
+        ]
+      }
+    },
+    "hew the entwood": {
+      "name": "Hew the Entwood",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "ltr",
+            "setName": "The Lord of the Rings: Tales of Middle-earth",
+            "isFoil": true,
+            "collectorNumber": "136",
+            "scryfallId": "81940498-a5bf-4bcd-b06d-8816887b2a2b"
+          }
+        ]
+      }
+    },
+    "fall of cair andros": {
+      "name": "Fall of Cair Andros",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "ltr",
+            "setName": "The Lord of the Rings: Tales of Middle-earth",
+            "isFoil": true,
+            "collectorNumber": "770",
+            "scryfallId": "4dcfd032-ab7f-48e1-a02a-7611aa7354e1"
+          }
+        ]
+      }
+    },
+    "glamdring": {
+      "name": "Glamdring",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "pltr",
+            "setName": "Tales of Middle-earth Promos",
+            "isFoil": true,
+            "collectorNumber": "239s",
+            "scryfallId": "6828d86d-531e-4e90-a67f-99eb88881913"
+          }
+        ]
+      }
+    },
+    "nature's will": {
+      "name": "Nature's Will",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "wot",
+            "setName": "Wilds of Eldraine: Enchanting Tales",
+            "isFoil": true,
+            "collectorNumber": "82",
+            "scryfallId": "e17dc4ea-dda8-4384-9f87-af853eba2f66"
+          }
+        ]
+      }
+    },
+    "hidden necropolis": {
+      "name": "Hidden Necropolis",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": true,
+            "collectorNumber": "275",
+            "scryfallId": "f67fd04f-05da-4418-97de-abeb7346cc69"
+          }
+        ]
+      }
+    },
+    "oltec cloud guard": {
+      "name": "Oltec Cloud Guard",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": true,
+            "collectorNumber": "28",
+            "scryfallId": "02d68a38-2e0b-401b-b67d-a55e2af5b18d"
+          }
+        ]
+      }
+    },
+    "reenact the crime": {
+      "name": "Reenact the Crime",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": true,
+            "collectorNumber": "70",
+            "scryfallId": "d942e4ce-f582-4264-89aa-9b4a743e6b29"
+          }
+        ]
+      }
+    },
+    "another round": {
+      "name": "Another Round",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "otj",
+            "setName": "Outlaws of Thunder Junction",
+            "isFoil": true,
+            "collectorNumber": "1",
+            "scryfallId": "4f8dc511-e307-4412-bb79-375a6077312d"
+          }
+        ]
+      }
+    },
+    "archmage of runes": {
+      "name": "Archmage of Runes",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": true,
+            "collectorNumber": "30",
+            "scryfallId": "334b5018-2da9-49f1-9d09-83d312ecfb02"
+          }
+        ]
+      }
+    },
+    "mossborn hydra": {
+      "name": "Mossborn Hydra",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "pfdn",
+            "setName": "Foundations Promos",
+            "isFoil": true,
+            "collectorNumber": "107s",
+            "scryfallId": "4f900c26-3d75-4106-92e5-cea11b48a21e"
+          }
+        ]
+      }
+    },
+    "lumbering worldwagon": {
+      "name": "Lumbering Worldwagon",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": true,
+            "collectorNumber": "316",
+            "scryfallId": "11c196dd-61a9-4e75-bd43-9531ba3dc961"
+          }
+        ]
+      }
+    },
+    "excalibur ii": {
+      "name": "Excalibur II",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "fin",
+            "setName": "Final Fantasy",
+            "isFoil": true,
+            "collectorNumber": "352",
+            "scryfallId": "becf759b-e3bc-4281-a1e1-1da9f36247ef"
+          }
+        ]
+      }
+    },
+    "gwenom, remorseless": {
+      "name": "Gwenom, Remorseless",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "spm",
+            "setName": "Marvel's Spider-Man",
+            "isFoil": true,
+            "collectorNumber": "286",
+            "scryfallId": "a5b191f5-f01b-4d6c-8363-19591c61e6cc"
+          }
+        ]
+      }
+    },
     "teysa karlov": {
       "name": "Teysa Karlov",
       "owners": {
@@ -118648,21 +118918,6 @@
             "isFoil": false,
             "collectorNumber": "209",
             "scryfallId": "54fef322-b214-40b4-bed5-bc867bcf280b"
-          }
-        ]
-      }
-    },
-    "geist of saint traft": {
-      "name": "Geist of Saint Traft",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "ddq",
-            "setName": "Duel Decks: Blessed vs. Cursed",
-            "isFoil": true,
-            "collectorNumber": "1",
-            "scryfallId": "0ba5dd1a-6906-4b45-bbf7-2f10cb955083"
           }
         ]
       }
@@ -118918,21 +119173,6 @@
             "isFoil": false,
             "collectorNumber": "284",
             "scryfallId": "f571fef1-1fd2-4355-b803-5edccb6f4b94"
-          }
-        ]
-      }
-    },
-    "jared carthalion, true heir": {
-      "name": "Jared Carthalion, True Heir",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "cmr",
-            "setName": "Commander Legends",
-            "isFoil": false,
-            "collectorNumber": "601",
-            "scryfallId": "6b925277-89e7-4143-8985-46c2fe3aeb9c"
           }
         ]
       }
@@ -119247,21 +119487,6 @@
         ]
       }
     },
-    "kyler, sigardian emissary": {
-      "name": "Kyler, Sigardian Emissary",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "mic",
-            "setName": "Midnight Hunt Commander",
-            "isFoil": true,
-            "collectorNumber": "4",
-            "scryfallId": "62a78aae-598e-4f2b-a7bc-c3afc1d0d191"
-          }
-        ]
-      }
-    },
     "angel of glory's rise": {
       "name": "Angel of Glory's Rise",
       "owners": {
@@ -119352,21 +119577,6 @@
         ]
       }
     },
-    "bloodline culling": {
-      "name": "Bloodline Culling",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "pmid",
-            "setName": "Innistrad: Midnight Hunt Promos",
-            "isFoil": false,
-            "collectorNumber": "89p",
-            "scryfallId": "861da541-059a-43de-923d-3ee8e3802012"
-          }
-        ]
-      }
-    },
     "voldaren bloodcaster // bloodbat summoner": {
       "name": "Voldaren Bloodcaster // Bloodbat Summoner",
       "owners": {
@@ -119412,21 +119622,6 @@
         ]
       }
     },
-    "dreamroot cascade": {
-      "name": "Dreamroot Cascade",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "vow",
-            "setName": "Innistrad: Crimson Vow",
-            "isFoil": false,
-            "collectorNumber": "262",
-            "scryfallId": "eb604455-c411-414d-a2ef-e7567ee86a4d"
-          }
-        ]
-      }
-    },
     "manaform hellkite": {
       "name": "Manaform Hellkite",
       "owners": {
@@ -119467,21 +119662,6 @@
         ]
       }
     },
-    "lantern flare": {
-      "name": "Lantern Flare",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "vow",
-            "setName": "Innistrad: Crimson Vow",
-            "isFoil": false,
-            "collectorNumber": "23",
-            "scryfallId": "dfd59300-7b5c-4263-a7fd-775c9fcb05ad"
-          }
-        ]
-      }
-    },
     "dollhouse of horrors": {
       "name": "Dollhouse of Horrors",
       "owners": {
@@ -119493,21 +119673,6 @@
             "isFoil": false,
             "collectorNumber": "255",
             "scryfallId": "396abc9e-a738-430d-85cc-448ace2548f9"
-          }
-        ]
-      }
-    },
-    "chandra, dressed to kill": {
-      "name": "Chandra, Dressed to Kill",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "vow",
-            "setName": "Innistrad: Crimson Vow",
-            "isFoil": true,
-            "collectorNumber": "279",
-            "scryfallId": "7129a358-4628-4426-ae3b-e3d9288a6355"
           }
         ]
       }
@@ -119627,31 +119792,6 @@
         ]
       }
     },
-    "winged portent": {
-      "name": "Winged Portent",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "vow",
-            "setName": "Innistrad: Crimson Vow",
-            "isFoil": false,
-            "collectorNumber": "89",
-            "scryfallId": "3494a4fc-37e5-4095-a3bb-5cd9280f4c77"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "vow",
-            "setName": "Innistrad: Crimson Vow",
-            "isFoil": false,
-            "collectorNumber": "89",
-            "scryfallId": "3494a4fc-37e5-4095-a3bb-5cd9280f4c77"
-          }
-        ]
-      }
-    },
     "avabruck caretaker // hollowhenge huntmaster": {
       "name": "Avabruck Caretaker // Hollowhenge Huntmaster",
       "owners": {
@@ -119693,21 +119833,6 @@
             "isFoil": false,
             "collectorNumber": "172",
             "scryfallId": "d9702fa3-9323-4e2f-92c9-6c31df198af2"
-          }
-        ]
-      }
-    },
-    "odric, blood-cursed": {
-      "name": "Odric, Blood-Cursed",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "vow",
-            "setName": "Innistrad: Crimson Vow",
-            "isFoil": false,
-            "collectorNumber": "314",
-            "scryfallId": "7e8335a9-2880-4e12-8d93-b75a297272dc"
           }
         ]
       }
@@ -119847,36 +119972,6 @@
         ]
       }
     },
-    "reckless stormseeker // storm-charged slasher": {
-      "name": "Reckless Stormseeker // Storm-Charged Slasher",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "dbl",
-            "setName": "Innistrad: Double Feature",
-            "isFoil": false,
-            "collectorNumber": "157",
-            "scryfallId": "061171f6-7da3-494d-82d1-1406fd7f5439"
-          }
-        ]
-      }
-    },
-    "surgehacker mech": {
-      "name": "Surgehacker Mech",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "neo",
-            "setName": "Kamigawa: Neon Dynasty",
-            "isFoil": false,
-            "collectorNumber": "260",
-            "scryfallId": "3c4bf679-01cc-4786-a3bd-89c8ae70fdfa"
-          }
-        ]
-      }
-    },
     "the dragon-kami reborn // dragon-kami's egg": {
       "name": "The Dragon-Kami Reborn // Dragon-Kami's Egg",
       "owners": {
@@ -119948,21 +120043,6 @@
             "isFoil": false,
             "collectorNumber": "34",
             "scryfallId": "a11a33ae-e7fa-4bd4-8cd8-3a3239a29bcc"
-          }
-        ]
-      }
-    },
-    "inventive iteration // living breakthrough": {
-      "name": "Inventive Iteration // Living Breakthrough",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "neo",
-            "setName": "Kamigawa: Neon Dynasty",
-            "isFoil": false,
-            "collectorNumber": "57",
-            "scryfallId": "ea6d3242-8059-4203-aa06-58a6a3925eda"
           }
         ]
       }
@@ -120052,36 +120132,6 @@
         ]
       }
     },
-    "volo, itinerant scholar": {
-      "name": "Volo, Itinerant Scholar",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "clb",
-            "setName": "Commander Legends: Battle for Baldur's Gate",
-            "isFoil": false,
-            "collectorNumber": "103",
-            "scryfallId": "862b6d5e-548f-4765-9d39-08d6115b4012"
-          }
-        ]
-      }
-    },
-    "ellyn harbreeze, busybody": {
-      "name": "Ellyn Harbreeze, Busybody",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "clb",
-            "setName": "Commander Legends: Battle for Baldur's Gate",
-            "isFoil": false,
-            "collectorNumber": "16",
-            "scryfallId": "a038dbc9-0da1-4e65-9369-45c614f285f8"
-          }
-        ]
-      }
-    },
     "lulu, loyal hollyphant": {
       "name": "Lulu, Loyal Hollyphant",
       "owners": {
@@ -120112,36 +120162,6 @@
         ]
       }
     },
-    "halsin, emerald archdruid": {
-      "name": "Halsin, Emerald Archdruid",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 5,
-            "set": "clb",
-            "setName": "Commander Legends: Battle for Baldur's Gate",
-            "isFoil": false,
-            "collectorNumber": "234",
-            "scryfallId": "5e185e5c-b6f9-4d36-a6b1-d7315de38fca"
-          }
-        ]
-      }
-    },
-    "raised by giants": {
-      "name": "Raised by Giants",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "clb",
-            "setName": "Commander Legends: Battle for Baldur's Gate",
-            "isFoil": false,
-            "collectorNumber": "520",
-            "scryfallId": "dc9caae7-fb67-42bf-bee0-b935a1b88d79"
-          }
-        ]
-      }
-    },
     "the council of four": {
       "name": "The Council of Four",
       "owners": {
@@ -120157,21 +120177,6 @@
         ]
       }
     },
-    "mirror of life trapping": {
-      "name": "Mirror of Life Trapping",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "clb",
-            "setName": "Commander Legends: Battle for Baldur's Gate",
-            "isFoil": false,
-            "collectorNumber": "326",
-            "scryfallId": "a0937a60-887b-46d0-b573-099626d57bcf"
-          }
-        ]
-      }
-    },
     "veteran soldier": {
       "name": "Veteran Soldier",
       "owners": {
@@ -120183,51 +120188,6 @@
             "isFoil": false,
             "collectorNumber": "48",
             "scryfallId": "3f4f074e-914e-4924-8b5e-b80b247bc341"
-          }
-        ]
-      }
-    },
-    "thrakkus the butcher": {
-      "name": "Thrakkus the Butcher",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "clb",
-            "setName": "Commander Legends: Battle for Baldur's Gate",
-            "isFoil": false,
-            "collectorNumber": "440",
-            "scryfallId": "2c3f56b9-7460-49b6-8f6d-48cccd7978fd"
-          }
-        ]
-      }
-    },
-    "gale's redirection": {
-      "name": "Gale's Redirection",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "clb",
-            "setName": "Commander Legends: Battle for Baldur's Gate",
-            "isFoil": false,
-            "collectorNumber": "73",
-            "scryfallId": "1f5ddcf8-c87b-4a26-b226-8593f517a74a"
-          }
-        ]
-      }
-    },
-    "call to the void": {
-      "name": "Call to the Void",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "clb",
-            "setName": "Commander Legends: Battle for Baldur's Gate",
-            "isFoil": false,
-            "collectorNumber": "118",
-            "scryfallId": "6836cfea-c203-49f4-b8d1-f1e8aa790db5"
           }
         ]
       }
@@ -120378,21 +120338,6 @@
             "isFoil": false,
             "collectorNumber": "34",
             "scryfallId": "874b3590-932a-46b7-a7aa-e3e864ec22d1"
-          }
-        ]
-      }
-    },
-    "myrkul's invoker": {
-      "name": "Myrkul's Invoker",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "clb",
-            "setName": "Commander Legends: Battle for Baldur's Gate",
-            "isFoil": false,
-            "collectorNumber": "136",
-            "scryfallId": "ca67faa9-2c23-4cc5-b77f-ff75cf0349f3"
           }
         ]
       }
@@ -120737,21 +120682,6 @@
         ]
       }
     },
-    "hall of tagsin": {
-      "name": "Hall of Tagsin",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "bro",
-            "setName": "The Brothers' War",
-            "isFoil": false,
-            "collectorNumber": "263",
-            "scryfallId": "a8007012-39c5-4247-ba77-1cfcaade37fa"
-          }
-        ]
-      }
-    },
     "simian simulacrum": {
       "name": "Simian Simulacrum",
       "owners": {
@@ -120912,21 +120842,6 @@
         ]
       }
     },
-    "skirsdag high priest": {
-      "name": "Skirsdag High Priest",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "j22",
-            "setName": "Jumpstart 2022",
-            "isFoil": false,
-            "collectorNumber": "467",
-            "scryfallId": "1265ed45-2954-4fca-b13f-5c1afd1ef134"
-          }
-        ]
-      }
-    },
     "shadowborn demon": {
       "name": "Shadowborn Demon",
       "owners": {
@@ -120953,21 +120868,6 @@
             "isFoil": false,
             "collectorNumber": "749",
             "scryfallId": "64ca258b-981f-4762-a398-ae8de81f6713"
-          }
-        ]
-      }
-    },
-    "llanowar wastes": {
-      "name": "Llanowar Wastes",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "pbro",
-            "setName": "The Brothers' War Promos",
-            "isFoil": true,
-            "collectorNumber": "264s",
-            "scryfallId": "660cf964-ae3d-46c1-932f-b65d91643776"
           }
         ]
       }
@@ -121122,21 +121022,6 @@
         ]
       }
     },
-    "assemble the legion": {
-      "name": "Assemble the Legion",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "onc",
-            "setName": "Phyrexia: All Will Be One Commander",
-            "isFoil": false,
-            "collectorNumber": "115",
-            "scryfallId": "61eb1823-429d-4219-9fc3-62a35f58ae31"
-          }
-        ]
-      }
-    },
     "glissa, herald of predation": {
       "name": "Glissa, Herald of Predation",
       "owners": {
@@ -121163,21 +121048,6 @@
             "isFoil": false,
             "collectorNumber": "16",
             "scryfallId": "9503a1e6-f0bf-44d0-a28b-56fbfcff1ff2"
-          }
-        ]
-      }
-    },
-    "tiller of flesh": {
-      "name": "Tiller of Flesh",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "mom",
-            "setName": "March of the Machine",
-            "isFoil": true,
-            "collectorNumber": "44",
-            "scryfallId": "49e206f2-1647-4456-8f2f-b67d053413e2"
           }
         ]
       }
@@ -121257,36 +121127,6 @@
         ]
       }
     },
-    "hew the entwood": {
-      "name": "Hew the Entwood",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "ltr",
-            "setName": "The Lord of the Rings: Tales of Middle-earth",
-            "isFoil": true,
-            "collectorNumber": "136",
-            "scryfallId": "81940498-a5bf-4bcd-b06d-8816887b2a2b"
-          }
-        ]
-      }
-    },
-    "nazgûl": {
-      "name": "Nazgûl",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "ltr",
-            "setName": "The Lord of the Rings: Tales of Middle-earth",
-            "isFoil": false,
-            "collectorNumber": "333",
-            "scryfallId": "69b32f90-b32f-41a6-af0c-1c967ec49b73"
-          }
-        ]
-      }
-    },
     "there and back again": {
       "name": "There and Back Again",
       "owners": {
@@ -121358,36 +121198,6 @@
             "isFoil": false,
             "collectorNumber": "211",
             "scryfallId": "cc857755-62e6-4d29-95f5-82f5d4bde522"
-          }
-        ]
-      }
-    },
-    "rangers of ithilien": {
-      "name": "Rangers of Ithilien",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "ltr",
-            "setName": "The Lord of the Rings: Tales of Middle-earth",
-            "isFoil": false,
-            "collectorNumber": "66",
-            "scryfallId": "819b4208-7a29-41fa-947f-614bf669b300"
-          }
-        ]
-      }
-    },
-    "fall of cair andros": {
-      "name": "Fall of Cair Andros",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "ltr",
-            "setName": "The Lord of the Rings: Tales of Middle-earth",
-            "isFoil": true,
-            "collectorNumber": "770",
-            "scryfallId": "4dcfd032-ab7f-48e1-a02a-7611aa7354e1"
           }
         ]
       }
@@ -121477,21 +121287,6 @@
         ]
       }
     },
-    "glamdring": {
-      "name": "Glamdring",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "pltr",
-            "setName": "Tales of Middle-earth Promos",
-            "isFoil": true,
-            "collectorNumber": "239s",
-            "scryfallId": "6828d86d-531e-4e90-a67f-99eb88881913"
-          }
-        ]
-      }
-    },
     "pitiless horde": {
       "name": "Pitiless Horde",
       "owners": {
@@ -121518,21 +121313,6 @@
             "isFoil": false,
             "collectorNumber": "1028",
             "scryfallId": "1c137634-7531-4573-9bfa-623d8edf839c"
-          }
-        ]
-      }
-    },
-    "priest of the blood rite": {
-      "name": "Priest of the Blood Rite",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "cmm",
-            "setName": "Commander Masters",
-            "isFoil": false,
-            "collectorNumber": "179",
-            "scryfallId": "14db0f35-905b-45c9-a0cc-1c47720380eb"
           }
         ]
       }
@@ -121612,21 +121392,6 @@
         ]
       }
     },
-    "three blind mice": {
-      "name": "Three Blind Mice",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "35",
-            "scryfallId": "0d2ba371-854c-4529-b72b-e4a1887e33ab"
-          }
-        ]
-      }
-    },
     "realm-scorcher hellkite": {
       "name": "Realm-Scorcher Hellkite",
       "owners": {
@@ -121638,101 +121403,6 @@
             "isFoil": false,
             "collectorNumber": "145",
             "scryfallId": "845b3c26-05da-4a09-a6c9-4ea4166104a7"
-          }
-        ]
-      }
-    },
-    "decadent dragon // expensive taste": {
-      "name": "Decadent Dragon // Expensive Taste",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "223",
-            "scryfallId": "315cbbf7-a2ad-4565-9877-1e903d7fd797"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "223",
-            "scryfallId": "315cbbf7-a2ad-4565-9877-1e903d7fd797"
-          }
-        ]
-      }
-    },
-    "neva, stalked by nightmares": {
-      "name": "Neva, Stalked by Nightmares",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 6,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "209",
-            "scryfallId": "e6f925ab-ade7-4da8-a791-185e098d18f2"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "209",
-            "scryfallId": "e6f925ab-ade7-4da8-a791-185e098d18f2"
-          }
-        ]
-      }
-    },
-    "sharae of numbing depths": {
-      "name": "Sharae of Numbing Depths",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "213",
-            "scryfallId": "600bc36a-3ef0-459c-9a93-94ec45b8c3d9"
-          }
-        ]
-      }
-    },
-    "totentanz, swarm piper": {
-      "name": "Totentanz, Swarm Piper",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 4,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "216",
-            "scryfallId": "1422d6db-fe5b-4a89-951a-fbd7985a29fc"
-          }
-        ]
-      }
-    },
-    "faunsbane troll": {
-      "name": "Faunsbane Troll",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "203",
-            "scryfallId": "2d8bd585-c5ea-46f8-8e11-f33c067f2f8e"
           }
         ]
       }
@@ -121777,36 +121447,6 @@
         ]
       }
     },
-    "farsight ritual": {
-      "name": "Farsight Ritual",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "49",
-            "scryfallId": "c958257e-fa70-4fa3-90a1-0497967abef3"
-          }
-        ]
-      }
-    },
-    "the end": {
-      "name": "The End",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "87",
-            "scryfallId": "b18402dc-c4ab-417c-92d1-5e4d9cfb840d"
-          }
-        ]
-      }
-    },
     "thunderous debut": {
       "name": "Thunderous Debut",
       "owners": {
@@ -121818,91 +121458,6 @@
             "isFoil": false,
             "collectorNumber": "190",
             "scryfallId": "d98f51ec-8eae-434a-ab62-85bdb6586fa2"
-          }
-        ]
-      }
-    },
-    "nature's will": {
-      "name": "Nature's Will",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "wot",
-            "setName": "Wilds of Eldraine: Enchanting Tales",
-            "isFoil": true,
-            "collectorNumber": "82",
-            "scryfallId": "e17dc4ea-dda8-4384-9f87-af853eba2f66"
-          }
-        ]
-      }
-    },
-    "specter of mortality": {
-      "name": "Specter of Mortality",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 4,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "107",
-            "scryfallId": "5e4c00b5-f6d6-4fbd-828f-ad30321f2cd9"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "107",
-            "scryfallId": "5e4c00b5-f6d6-4fbd-828f-ad30321f2cd9"
-          }
-        ]
-      }
-    },
-    "leyline of lightning": {
-      "name": "Leyline of Lightning",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "wot",
-            "setName": "Wilds of Eldraine: Enchanting Tales",
-            "isFoil": false,
-            "collectorNumber": "45",
-            "scryfallId": "d1670149-b64b-44a8-8858-59637679065c"
-          }
-        ]
-      }
-    },
-    "talion's messenger": {
-      "name": "Talion's Messenger",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "73",
-            "scryfallId": "35fb0640-5b04-4687-b863-46a8b8d36809"
-          }
-        ]
-      }
-    },
-    "extraordinary journey": {
-      "name": "Extraordinary Journey",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 4,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "48",
-            "scryfallId": "a69fb480-a9fc-4f09-ac4e-3ce52c485ea9"
           }
         ]
       }
@@ -121922,21 +121477,6 @@
         ]
       }
     },
-    "the apprentice's folly": {
-      "name": "The Apprentice's Folly",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "200",
-            "scryfallId": "0edb58bb-8ff3-4e34-b3d1-d83b5bd8c178"
-          }
-        ]
-      }
-    },
     "virtue of loyalty // ardenvale fealty": {
       "name": "Virtue of Loyalty // Ardenvale Fealty",
       "owners": {
@@ -121952,36 +121492,6 @@
         ]
       }
     },
-    "raging battle mouse": {
-      "name": "Raging Battle Mouse",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": true,
-            "collectorNumber": "143",
-            "scryfallId": "4d0ab162-540e-4999-902c-9dacd6687aca"
-          }
-        ]
-      }
-    },
-    "archon of the wild rose": {
-      "name": "Archon of the Wild Rose",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "1",
-            "scryfallId": "00174be7-0dc8-43b9-81b6-f25a8c3fb4eb"
-          }
-        ]
-      }
-    },
     "hylda's crown of winter": {
       "name": "Hylda's Crown of Winter",
       "owners": {
@@ -121993,141 +121503,6 @@
             "isFoil": false,
             "collectorNumber": "247",
             "scryfallId": "b0d4a6c0-f00e-45a7-9c88-899460007020"
-          }
-        ]
-      }
-    },
-    "rotisserie elemental": {
-      "name": "Rotisserie Elemental",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "148",
-            "scryfallId": "8d787045-3918-4ed6-85ea-843d1f2356f2"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "148",
-            "scryfallId": "8d787045-3918-4ed6-85ea-843d1f2356f2"
-          }
-        ]
-      }
-    },
-    "a tale for the ages": {
-      "name": "A Tale for the Ages",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "34",
-            "scryfallId": "ca0c8d3b-ce30-4da5-a6a8-9bdcb3c757f9"
-          }
-        ]
-      }
-    },
-    "heartflame duelist // heartflame slash": {
-      "name": "Heartflame Duelist // Heartflame Slash",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "290",
-            "scryfallId": "f54b25e1-193a-41fb-9d24-3147cb381dbe"
-          }
-        ]
-      }
-    },
-    "goddric, cloaked reveler": {
-      "name": "Goddric, Cloaked Reveler",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 5,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "132",
-            "scryfallId": "fe93ef82-51de-40ad-9b52-8f3fd11c144f"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "132",
-            "scryfallId": "fe93ef82-51de-40ad-9b52-8f3fd11c144f"
-          }
-        ]
-      }
-    },
-    "devouring sugarmaw // have for dinner": {
-      "name": "Devouring Sugarmaw // Have for Dinner",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "288",
-            "scryfallId": "f2848594-1718-43f2-8ccf-34a18a55e4b2"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "224",
-            "scryfallId": "58c7f52e-a97d-4475-ae00-3149991e723e"
-          }
-        ]
-      }
-    },
-    "elusive otter // grove's bounty": {
-      "name": "Elusive Otter // Grove's Bounty",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "225",
-            "scryfallId": "bc9bdf96-3e3b-4dca-aae2-e81d4cbeafe8"
-          }
-        ]
-      }
-    },
-    "the irencrag": {
-      "name": "The Irencrag",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "248",
-            "scryfallId": "8051c5ec-54a6-45a8-8945-fb93c5feaa39"
           }
         ]
       }
@@ -122158,36 +121533,6 @@
             "isFoil": false,
             "collectorNumber": "231",
             "scryfallId": "9869ac70-5907-45fa-952c-31aef70c5066"
-          }
-        ]
-      }
-    },
-    "food fight": {
-      "name": "Food Fight",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "129",
-            "scryfallId": "1a7cc43c-6e8c-41d2-a885-24604dfc7e7f"
-          }
-        ]
-      }
-    },
-    "gumdrop poisoner // tempt with treats": {
-      "name": "Gumdrop Poisoner // Tempt with Treats",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "280",
-            "scryfallId": "ec5d0453-ef17-47f0-81d4-13941f1380d5"
           }
         ]
       }
@@ -122262,21 +121607,6 @@
         ]
       }
     },
-    "hidden necropolis": {
-      "name": "Hidden Necropolis",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": true,
-            "collectorNumber": "275",
-            "scryfallId": "f67fd04f-05da-4418-97de-abeb7346cc69"
-          }
-        ]
-      }
-    },
     "intrepid paleontologist": {
       "name": "Intrepid Paleontologist",
       "owners": {
@@ -122288,36 +121618,6 @@
             "isFoil": false,
             "collectorNumber": "193",
             "scryfallId": "871a164a-0fe6-480e-a1be-cbffce884bd3"
-          }
-        ]
-      }
-    },
-    "throne of the grim captain // the grim captain": {
-      "name": "Throne of the Grim Captain // The Grim Captain",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": true,
-            "collectorNumber": "266",
-            "scryfallId": "c13e8e3d-2a6b-4782-a3c9-71af7336a881"
-          }
-        ]
-      }
-    },
-    "oltec cloud guard": {
-      "name": "Oltec Cloud Guard",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": true,
-            "collectorNumber": "28",
-            "scryfallId": "02d68a38-2e0b-401b-b67d-a55e2af5b18d"
           }
         ]
       }
@@ -122537,21 +121837,6 @@
         ]
       }
     },
-    "altar of the wretched // wretched bonemass": {
-      "name": "Altar of the Wretched // Wretched Bonemass",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "lcc",
-            "setName": "The Lost Caverns of Ixalan Commander",
-            "isFoil": false,
-            "collectorNumber": "22",
-            "scryfallId": "5842332a-b27b-49ac-948d-f88a21deb1de"
-          }
-        ]
-      }
-    },
     "arch of orazca": {
       "name": "Arch of Orazca",
       "owners": {
@@ -122707,51 +121992,6 @@
         ]
       }
     },
-    "stalactite stalker": {
-      "name": "Stalactite Stalker",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "plci",
-            "setName": "The Lost Caverns of Ixalan Promos",
-            "isFoil": false,
-            "collectorNumber": "122p",
-            "scryfallId": "4bdd31d0-4d90-4a8b-8b4d-f0b71f7db112"
-          }
-        ]
-      }
-    },
-    "crackling drake": {
-      "name": "Crackling Drake",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "rvr",
-            "setName": "Ravnica Remastered",
-            "isFoil": true,
-            "collectorNumber": "362",
-            "scryfallId": "62c771ca-0865-43a7-9db1-5101e72280ff"
-          }
-        ]
-      }
-    },
-    "quasiduplicate": {
-      "name": "Quasiduplicate",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "rvr",
-            "setName": "Ravnica Remastered",
-            "isFoil": false,
-            "collectorNumber": "55",
-            "scryfallId": "f0b75745-08a8-432c-9175-d39a92406b3d"
-          }
-        ]
-      }
-    },
     "assure // assemble": {
       "name": "Assure // Assemble",
       "owners": {
@@ -122823,21 +122063,6 @@
             "isFoil": false,
             "collectorNumber": "135",
             "scryfallId": "5524b712-c67d-4d2e-9344-9e85a6ce3227"
-          }
-        ]
-      }
-    },
-    "lush portico": {
-      "name": "Lush Portico",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "263",
-            "scryfallId": "c17816e8-28b1-4295-a637-efb0e5c18873"
           }
         ]
       }
@@ -122942,21 +122167,6 @@
         ]
       }
     },
-    "tenth district hero": {
-      "name": "Tenth District Hero",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "34",
-            "scryfallId": "7c65a79e-f28a-4f30-95a4-1ea55fd84564"
-          }
-        ]
-      }
-    },
     "martial impetus": {
       "name": "Martial Impetus",
       "owners": {
@@ -122968,21 +122178,6 @@
             "isFoil": false,
             "collectorNumber": "65",
             "scryfallId": "a5d4c308-23c2-451a-a65d-444fe2f87754"
-          }
-        ]
-      }
-    },
-    "reenact the crime": {
-      "name": "Reenact the Crime",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": true,
-            "collectorNumber": "70",
-            "scryfallId": "d942e4ce-f582-4264-89aa-9b4a743e6b29"
           }
         ]
       }
@@ -123032,36 +122227,6 @@
         ]
       }
     },
-    "hell to pay": {
-      "name": "Hell to Pay",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "otj",
-            "setName": "Outlaws of Thunder Junction",
-            "isFoil": false,
-            "collectorNumber": "126",
-            "scryfallId": "84ad8ed7-1429-432e-8217-a4db3b97675c"
-          }
-        ]
-      }
-    },
-    "mabel, heir to cragflame": {
-      "name": "Mabel, Heir to Cragflame",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "224",
-            "scryfallId": "be6627fd-729d-44f2-b6bf-5299f49d1e3d"
-          }
-        ]
-      }
-    },
     "duelist of the mind": {
       "name": "Duelist of the Mind",
       "owners": {
@@ -123103,36 +122268,6 @@
             "isFoil": false,
             "collectorNumber": "108",
             "scryfallId": "5724a15f-0ba0-421a-9cd4-a2b701e6141f"
-          }
-        ]
-      }
-    },
-    "dust bowl": {
-      "name": "Dust Bowl",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "otp",
-            "setName": "Breaking News",
-            "isFoil": false,
-            "collectorNumber": "65",
-            "scryfallId": "18d24d9a-a49e-4ce8-9158-03fe4cea39e2"
-          }
-        ]
-      }
-    },
-    "step between worlds": {
-      "name": "Step Between Worlds",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "otj",
-            "setName": "Outlaws of Thunder Junction",
-            "isFoil": false,
-            "collectorNumber": "70",
-            "scryfallId": "70ea2054-3d22-42ce-ab50-501ef09c2128"
           }
         ]
       }
@@ -123182,21 +122317,6 @@
         ]
       }
     },
-    "seraphic steed": {
-      "name": "Seraphic Steed",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "otj",
-            "setName": "Outlaws of Thunder Junction",
-            "isFoil": false,
-            "collectorNumber": "232",
-            "scryfallId": "7ada7ab4-0dee-4ff3-9817-1e61ca3f2ccf"
-          }
-        ]
-      }
-    },
     "double down": {
       "name": "Double Down",
       "owners": {
@@ -123238,36 +122358,6 @@
             "isFoil": false,
             "collectorNumber": "217",
             "scryfallId": "e21f90ea-5934-4757-8515-38ef116afac1"
-          }
-        ]
-      }
-    },
-    "another round": {
-      "name": "Another Round",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "otj",
-            "setName": "Outlaws of Thunder Junction",
-            "isFoil": true,
-            "collectorNumber": "1",
-            "scryfallId": "4f8dc511-e307-4412-bb79-375a6077312d"
-          }
-        ]
-      }
-    },
-    "ghired, mirror of the wilds": {
-      "name": "Ghired, Mirror of the Wilds",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "otj",
-            "setName": "Outlaws of Thunder Junction",
-            "isFoil": false,
-            "collectorNumber": "205",
-            "scryfallId": "e43e3d71-4fb8-4ab1-8c8f-b65ae3ad4cc4"
           }
         ]
       }
@@ -123402,21 +122492,6 @@
         ]
       }
     },
-    "pest control": {
-      "name": "Pest Control",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "big",
-            "setName": "The Big Score",
-            "isFoil": false,
-            "collectorNumber": "22",
-            "scryfallId": "a4a01b92-dafb-4ea6-8eff-29f881f6be24"
-          }
-        ]
-      }
-    },
     "harvester of misery": {
       "name": "Harvester of Misery",
       "owners": {
@@ -123458,21 +122533,6 @@
             "isFoil": false,
             "collectorNumber": "39",
             "scryfallId": "28aef7c8-58b3-463c-91d3-2d1ff8a815ee"
-          }
-        ]
-      }
-    },
-    "llanowar elves": {
-      "name": "Llanowar Elves",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "227",
-            "scryfallId": "6a0b230b-d391-4998-a3f7-7b158a0ec2cd"
           }
         ]
       }
@@ -123582,36 +122642,6 @@
         ]
       }
     },
-    "valley questcaller": {
-      "name": "Valley Questcaller",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "36",
-            "scryfallId": "ba629ca8-a368-4282-8a61-9bf6a5c217f0"
-          }
-        ]
-      }
-    },
-    "valley rotcaller": {
-      "name": "Valley Rotcaller",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "119",
-            "scryfallId": "4da80a9a-b1d5-4fc5-92f7-36946195d0c7"
-          }
-        ]
-      }
-    },
     "fell": {
       "name": "Fell",
       "owners": {
@@ -123627,21 +122657,6 @@
         ]
       }
     },
-    "dreamdew entrancer": {
-      "name": "Dreamdew Entrancer",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "211",
-            "scryfallId": "26bd6b0d-8606-4a37-8be3-a852f1a8e99c"
-          }
-        ]
-      }
-    },
     "manifold mouse": {
       "name": "Manifold Mouse",
       "owners": {
@@ -123653,31 +122668,6 @@
             "isFoil": false,
             "collectorNumber": "143",
             "scryfallId": "db3832b5-e83f-4569-bd49-fb7b86fa2d47"
-          }
-        ]
-      }
-    },
-    "zoraline, cosmos caller": {
-      "name": "Zoraline, Cosmos Caller",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "242",
-            "scryfallId": "b7f99fd5-5298-4b27-923d-9d31203c931a"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "242",
-            "scryfallId": "b7f99fd5-5298-4b27-923d-9d31203c931a"
           }
         ]
       }
@@ -123723,21 +122713,6 @@
             "isFoil": false,
             "collectorNumber": "120",
             "scryfallId": "29089810-d7fb-4abe-b729-bfabed6aed2b"
-          }
-        ]
-      }
-    },
-    "darkstar augur": {
-      "name": "Darkstar Augur",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "90",
-            "scryfallId": "1c603751-1e2b-4c8e-a8d2-5c0876e7254f"
           }
         ]
       }
@@ -123847,21 +122822,6 @@
         ]
       }
     },
-    "keen-eyed curator": {
-      "name": "Keen-Eyed Curator",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "181",
-            "scryfallId": "8cf33d80-0704-4dc4-8e8d-1dcbcbc35add"
-          }
-        ]
-      }
-    },
     "portent of calamity": {
       "name": "Portent of Calamity",
       "owners": {
@@ -123952,21 +122912,6 @@
         ]
       }
     },
-    "mirror room // fractured realm": {
-      "name": "Mirror Room // Fractured Realm",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "dsk",
-            "setName": "Duskmourn: House of Horror",
-            "isFoil": false,
-            "collectorNumber": "67",
-            "scryfallId": "c2e085dd-a448-4f5a-9cfa-5c2034234e7c"
-          }
-        ]
-      }
-    },
     "tyvar, the pummeler": {
       "name": "Tyvar, the Pummeler",
       "owners": {
@@ -124023,21 +122968,6 @@
             "isFoil": false,
             "collectorNumber": "44",
             "scryfallId": "e548befc-4cd4-46be-951f-045452261cda"
-          }
-        ]
-      }
-    },
-    "marina vendrell's grimoire": {
-      "name": "Marina Vendrell's Grimoire",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "dsk",
-            "setName": "Duskmourn: House of Horror",
-            "isFoil": false,
-            "collectorNumber": "64",
-            "scryfallId": "1ab1aef7-4171-4869-8eb5-fe42e3ca9e45"
           }
         ]
       }
@@ -124113,21 +123043,6 @@
             "isFoil": false,
             "collectorNumber": "227",
             "scryfallId": "ac794b2f-b5ea-449d-bb0b-4f0e6cc145ef"
-          }
-        ]
-      }
-    },
-    "nashi, searcher in the dark": {
-      "name": "Nashi, Searcher in the Dark",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "dsk",
-            "setName": "Duskmourn: House of Horror",
-            "isFoil": false,
-            "collectorNumber": "223",
-            "scryfallId": "0fbf9e1e-43f2-499e-844d-22fc10dbad06"
           }
         ]
       }
@@ -124237,21 +123152,6 @@
         ]
       }
     },
-    "archmage of runes": {
-      "name": "Archmage of Runes",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": true,
-            "collectorNumber": "30",
-            "scryfallId": "334b5018-2da9-49f1-9d09-83d312ecfb02"
-          }
-        ]
-      }
-    },
     "time stop": {
       "name": "Time Stop",
       "owners": {
@@ -124263,21 +123163,6 @@
             "isFoil": false,
             "collectorNumber": "166",
             "scryfallId": "d938603b-0f1e-44c4-b86e-38e15f4a0d27"
-          }
-        ]
-      }
-    },
-    "twinflame tyrant": {
-      "name": "Twinflame Tyrant",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": true,
-            "collectorNumber": "97",
-            "scryfallId": "1eb34f51-0bd2-43c3-af95-2ce8dabcc7bb"
           }
         ]
       }
@@ -124312,21 +123197,6 @@
         ]
       }
     },
-    "exemplar of light": {
-      "name": "Exemplar of Light",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "11",
-            "scryfallId": "920c8fc5-fdd2-446a-a676-5c363f96928f"
-          }
-        ]
-      }
-    },
     "lunar insight": {
       "name": "Lunar Insight",
       "owners": {
@@ -124357,21 +123227,6 @@
         ]
       }
     },
-    "scrawling crawler": {
-      "name": "Scrawling Crawler",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "132",
-            "scryfallId": "a1176dcf-40ee-4342-aa74-791b8352e99a"
-          }
-        ]
-      }
-    },
     "curator of destinies": {
       "name": "Curator of Destinies",
       "owners": {
@@ -124398,31 +123253,6 @@
             "isFoil": false,
             "collectorNumber": "129",
             "scryfallId": "b9c03336-a321-4c06-94d1-809f328fabd8"
-          }
-        ]
-      }
-    },
-    "sire of seven deaths": {
-      "name": "Sire of Seven Deaths",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "1",
-            "scryfallId": "8d8432a7-1c8a-4cfb-947c-ecf9791063eb"
-          }
-        ],
-        "Lucho": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "1",
-            "scryfallId": "8d8432a7-1c8a-4cfb-947c-ecf9791063eb"
           }
         ]
       }
@@ -124607,21 +123437,6 @@
         ]
       }
     },
-    "mossborn hydra": {
-      "name": "Mossborn Hydra",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "pfdn",
-            "setName": "Foundations Promos",
-            "isFoil": true,
-            "collectorNumber": "107s",
-            "scryfallId": "4f900c26-3d75-4106-92e5-cea11b48a21e"
-          }
-        ]
-      }
-    },
     "bulwark ox": {
       "name": "Bulwark Ox",
       "owners": {
@@ -124723,21 +123538,6 @@
             "isFoil": false,
             "collectorNumber": "301",
             "scryfallId": "4aeb6fa4-569e-4ede-94c5-a8f3c28f55e4"
-          }
-        ]
-      }
-    },
-    "muraganda raceway": {
-      "name": "Muraganda Raceway",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "257",
-            "scryfallId": "5041ae16-29ff-4ad5-8a37-4736e9409294"
           }
         ]
       }
@@ -124847,21 +123647,6 @@
         ]
       }
     },
-    "count on luck": {
-      "name": "Count on Luck",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "118",
-            "scryfallId": "8f31beae-9b8f-4c32-af84-9f3ee767ba1d"
-          }
-        ]
-      }
-    },
     "thopter fabricator": {
       "name": "Thopter Fabricator",
       "owners": {
@@ -124922,36 +123707,6 @@
         ]
       }
     },
-    "guardian sunmare": {
-      "name": "Guardian Sunmare",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "15",
-            "scryfallId": "7c274595-94e2-4587-9cef-b38639d6429a"
-          }
-        ]
-      }
-    },
-    "lumbering worldwagon": {
-      "name": "Lumbering Worldwagon",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": true,
-            "collectorNumber": "316",
-            "scryfallId": "11c196dd-61a9-4e75-bd43-9531ba3dc961"
-          }
-        ]
-      }
-    },
     "howlsquad heavy": {
       "name": "Howlsquad Heavy",
       "owners": {
@@ -124963,21 +123718,6 @@
             "isFoil": false,
             "collectorNumber": "342",
             "scryfallId": "6a758d38-adfe-4894-bf27-d988a228e944"
-          }
-        ]
-      }
-    },
-    "webstrike elite": {
-      "name": "Webstrike Elite",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "345",
-            "scryfallId": "14e8e016-2b68-43d1-b25a-553bad97e431"
           }
         ]
       }
@@ -125072,21 +123812,6 @@
         ]
       }
     },
-    "jill, shiva's dominant // shiva, warden of ice": {
-      "name": "Jill, Shiva's Dominant // Shiva, Warden of Ice",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "58",
-            "scryfallId": "1f163763-4802-4a96-a5bc-f3c381db7b5c"
-          }
-        ]
-      }
-    },
     "zodiark, umbral god": {
       "name": "Zodiark, Umbral God",
       "owners": {
@@ -125123,21 +123848,6 @@
             "isFoil": false,
             "collectorNumber": "105",
             "scryfallId": "f8c86be0-e1b3-4a78-9254-238dd936914b"
-          }
-        ]
-      }
-    },
-    "firion, wild rose warrior": {
-      "name": "Firion, Wild Rose Warrior",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "137",
-            "scryfallId": "98366937-d15b-4a66-b9f6-878d50b63871"
           }
         ]
       }
@@ -125337,36 +124047,6 @@
         ]
       }
     },
-    "the wind crystal": {
-      "name": "The Wind Crystal",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "43",
-            "scryfallId": "19bd0885-baaa-40f2-9c59-b1ea53807540"
-          }
-        ]
-      }
-    },
-    "summon: titan": {
-      "name": "Summon: Titan",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "204",
-            "scryfallId": "5ce6ea96-7293-496d-b9c8-8ed6d6109a4d"
-          }
-        ]
-      }
-    },
     "adeline, resplendent cathar": {
       "name": "Adeline, Resplendent Cathar",
       "owners": {
@@ -125468,21 +124148,6 @@
             "isFoil": false,
             "collectorNumber": "353",
             "scryfallId": "a288efba-7c70-428d-a2b7-571891976f78"
-          }
-        ]
-      }
-    },
-    "excalibur ii": {
-      "name": "Excalibur II",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": true,
-            "collectorNumber": "352",
-            "scryfallId": "becf759b-e3bc-4281-a1e1-1da9f36247ef"
           }
         ]
       }
@@ -125622,21 +124287,6 @@
         ]
       }
     },
-    "multiversal passage": {
-      "name": "Multiversal Passage",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "spm",
-            "setName": "Marvel's Spider-Man",
-            "isFoil": false,
-            "collectorNumber": "180",
-            "scryfallId": "f5fb426a-5618-4dd4-9c51-0cc847be8c1d"
-          }
-        ]
-      }
-    },
     "kraven's last hunt": {
       "name": "Kraven's Last Hunt",
       "owners": {
@@ -125723,21 +124373,6 @@
             "isFoil": false,
             "collectorNumber": "133",
             "scryfallId": "afdab464-3674-449b-be01-1cbd21fced23"
-          }
-        ]
-      }
-    },
-    "gwenom, remorseless": {
-      "name": "Gwenom, Remorseless",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "spm",
-            "setName": "Marvel's Spider-Man",
-            "isFoil": true,
-            "collectorNumber": "286",
-            "scryfallId": "a5b191f5-f01b-4d6c-8363-19591c61e6cc"
           }
         ]
       }
@@ -125907,21 +124542,6 @@
         ]
       }
     },
-    "raven eagle": {
-      "name": "Raven Eagle",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "116",
-            "scryfallId": "2262f24b-db6b-4f86-96d0-47a20fc015ab"
-          }
-        ]
-      }
-    },
     "earthen ally": {
       "name": "Earthen Ally",
       "owners": {
@@ -125933,21 +124553,6 @@
             "isFoil": false,
             "collectorNumber": "177",
             "scryfallId": "d7a0f2d9-efa4-4a53-a24b-36694457bd1c"
-          }
-        ]
-      }
-    },
-    "south pole voyager": {
-      "name": "South Pole Voyager",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "35",
-            "scryfallId": "4b5ad895-be8d-476b-91ca-22fad7a3cc58"
           }
         ]
       }
@@ -126067,21 +124672,6 @@
         ]
       }
     },
-    "sear": {
-      "name": "Sear",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "154",
-            "scryfallId": "aeb4612c-758b-4492-ba03-eb6741b4176e"
-          }
-        ]
-      }
-    },
     "gathering stone": {
       "name": "Gathering Stone",
       "owners": {
@@ -126123,6 +124713,1416 @@
             "isFoil": false,
             "collectorNumber": "292",
             "scryfallId": "f7604799-1d32-4c6c-92c6-0d1b274a1115"
+          }
+        ]
+      }
+    },
+    "bloodline culling": {
+      "name": "Bloodline Culling",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "pmid",
+            "setName": "Innistrad: Midnight Hunt Promos",
+            "isFoil": false,
+            "collectorNumber": "89p",
+            "scryfallId": "861da541-059a-43de-923d-3ee8e3802012"
+          }
+        ]
+      }
+    },
+    "dreamroot cascade": {
+      "name": "Dreamroot Cascade",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "vow",
+            "setName": "Innistrad: Crimson Vow",
+            "isFoil": false,
+            "collectorNumber": "262",
+            "scryfallId": "eb604455-c411-414d-a2ef-e7567ee86a4d"
+          }
+        ]
+      }
+    },
+    "lantern flare": {
+      "name": "Lantern Flare",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "vow",
+            "setName": "Innistrad: Crimson Vow",
+            "isFoil": false,
+            "collectorNumber": "23",
+            "scryfallId": "dfd59300-7b5c-4263-a7fd-775c9fcb05ad"
+          }
+        ]
+      }
+    },
+    "winged portent": {
+      "name": "Winged Portent",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "vow",
+            "setName": "Innistrad: Crimson Vow",
+            "isFoil": false,
+            "collectorNumber": "89",
+            "scryfallId": "3494a4fc-37e5-4095-a3bb-5cd9280f4c77"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "vow",
+            "setName": "Innistrad: Crimson Vow",
+            "isFoil": false,
+            "collectorNumber": "89",
+            "scryfallId": "3494a4fc-37e5-4095-a3bb-5cd9280f4c77"
+          }
+        ]
+      }
+    },
+    "odric, blood-cursed": {
+      "name": "Odric, Blood-Cursed",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "vow",
+            "setName": "Innistrad: Crimson Vow",
+            "isFoil": false,
+            "collectorNumber": "314",
+            "scryfallId": "7e8335a9-2880-4e12-8d93-b75a297272dc"
+          }
+        ]
+      }
+    },
+    "reckless stormseeker // storm-charged slasher": {
+      "name": "Reckless Stormseeker // Storm-Charged Slasher",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "dbl",
+            "setName": "Innistrad: Double Feature",
+            "isFoil": false,
+            "collectorNumber": "157",
+            "scryfallId": "061171f6-7da3-494d-82d1-1406fd7f5439"
+          }
+        ]
+      }
+    },
+    "surgehacker mech": {
+      "name": "Surgehacker Mech",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "neo",
+            "setName": "Kamigawa: Neon Dynasty",
+            "isFoil": false,
+            "collectorNumber": "260",
+            "scryfallId": "3c4bf679-01cc-4786-a3bd-89c8ae70fdfa"
+          }
+        ]
+      }
+    },
+    "inventive iteration // living breakthrough": {
+      "name": "Inventive Iteration // Living Breakthrough",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "neo",
+            "setName": "Kamigawa: Neon Dynasty",
+            "isFoil": false,
+            "collectorNumber": "57",
+            "scryfallId": "ea6d3242-8059-4203-aa06-58a6a3925eda"
+          }
+        ]
+      }
+    },
+    "volo, itinerant scholar": {
+      "name": "Volo, Itinerant Scholar",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "clb",
+            "setName": "Commander Legends: Battle for Baldur's Gate",
+            "isFoil": false,
+            "collectorNumber": "103",
+            "scryfallId": "862b6d5e-548f-4765-9d39-08d6115b4012"
+          }
+        ]
+      }
+    },
+    "ellyn harbreeze, busybody": {
+      "name": "Ellyn Harbreeze, Busybody",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "clb",
+            "setName": "Commander Legends: Battle for Baldur's Gate",
+            "isFoil": false,
+            "collectorNumber": "16",
+            "scryfallId": "a038dbc9-0da1-4e65-9369-45c614f285f8"
+          }
+        ]
+      }
+    },
+    "mirror of life trapping": {
+      "name": "Mirror of Life Trapping",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "clb",
+            "setName": "Commander Legends: Battle for Baldur's Gate",
+            "isFoil": false,
+            "collectorNumber": "326",
+            "scryfallId": "a0937a60-887b-46d0-b573-099626d57bcf"
+          }
+        ]
+      }
+    },
+    "gale's redirection": {
+      "name": "Gale's Redirection",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "clb",
+            "setName": "Commander Legends: Battle for Baldur's Gate",
+            "isFoil": false,
+            "collectorNumber": "73",
+            "scryfallId": "1f5ddcf8-c87b-4a26-b226-8593f517a74a"
+          }
+        ]
+      }
+    },
+    "call to the void": {
+      "name": "Call to the Void",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "clb",
+            "setName": "Commander Legends: Battle for Baldur's Gate",
+            "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "6836cfea-c203-49f4-b8d1-f1e8aa790db5"
+          }
+        ]
+      }
+    },
+    "myrkul's invoker": {
+      "name": "Myrkul's Invoker",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "clb",
+            "setName": "Commander Legends: Battle for Baldur's Gate",
+            "isFoil": false,
+            "collectorNumber": "136",
+            "scryfallId": "ca67faa9-2c23-4cc5-b77f-ff75cf0349f3"
+          }
+        ]
+      }
+    },
+    "hall of tagsin": {
+      "name": "Hall of Tagsin",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "bro",
+            "setName": "The Brothers' War",
+            "isFoil": false,
+            "collectorNumber": "263",
+            "scryfallId": "a8007012-39c5-4247-ba77-1cfcaade37fa"
+          }
+        ]
+      }
+    },
+    "skirsdag high priest": {
+      "name": "Skirsdag High Priest",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "j22",
+            "setName": "Jumpstart 2022",
+            "isFoil": false,
+            "collectorNumber": "467",
+            "scryfallId": "1265ed45-2954-4fca-b13f-5c1afd1ef134"
+          }
+        ]
+      }
+    },
+    "assemble the legion": {
+      "name": "Assemble the Legion",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "onc",
+            "setName": "Phyrexia: All Will Be One Commander",
+            "isFoil": false,
+            "collectorNumber": "115",
+            "scryfallId": "61eb1823-429d-4219-9fc3-62a35f58ae31"
+          }
+        ]
+      }
+    },
+    "rangers of ithilien": {
+      "name": "Rangers of Ithilien",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "ltr",
+            "setName": "The Lord of the Rings: Tales of Middle-earth",
+            "isFoil": false,
+            "collectorNumber": "66",
+            "scryfallId": "819b4208-7a29-41fa-947f-614bf669b300"
+          }
+        ]
+      }
+    },
+    "priest of the blood rite": {
+      "name": "Priest of the Blood Rite",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "cmm",
+            "setName": "Commander Masters",
+            "isFoil": false,
+            "collectorNumber": "179",
+            "scryfallId": "14db0f35-905b-45c9-a0cc-1c47720380eb"
+          }
+        ]
+      }
+    },
+    "faunsbane troll": {
+      "name": "Faunsbane Troll",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "203",
+            "scryfallId": "2d8bd585-c5ea-46f8-8e11-f33c067f2f8e"
+          }
+        ]
+      }
+    },
+    "farsight ritual": {
+      "name": "Farsight Ritual",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "49",
+            "scryfallId": "c958257e-fa70-4fa3-90a1-0497967abef3"
+          }
+        ]
+      }
+    },
+    "the end": {
+      "name": "The End",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "87",
+            "scryfallId": "b18402dc-c4ab-417c-92d1-5e4d9cfb840d"
+          }
+        ]
+      }
+    },
+    "the apprentice's folly": {
+      "name": "The Apprentice's Folly",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "200",
+            "scryfallId": "0edb58bb-8ff3-4e34-b3d1-d83b5bd8c178"
+          }
+        ]
+      }
+    },
+    "a tale for the ages": {
+      "name": "A Tale for the Ages",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "34",
+            "scryfallId": "ca0c8d3b-ce30-4da5-a6a8-9bdcb3c757f9"
+          }
+        ]
+      }
+    },
+    "heartflame duelist // heartflame slash": {
+      "name": "Heartflame Duelist // Heartflame Slash",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "290",
+            "scryfallId": "f54b25e1-193a-41fb-9d24-3147cb381dbe"
+          }
+        ]
+      }
+    },
+    "devouring sugarmaw // have for dinner": {
+      "name": "Devouring Sugarmaw // Have for Dinner",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "288",
+            "scryfallId": "f2848594-1718-43f2-8ccf-34a18a55e4b2"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "224",
+            "scryfallId": "58c7f52e-a97d-4475-ae00-3149991e723e"
+          }
+        ]
+      }
+    },
+    "elusive otter // grove's bounty": {
+      "name": "Elusive Otter // Grove's Bounty",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "225",
+            "scryfallId": "bc9bdf96-3e3b-4dca-aae2-e81d4cbeafe8"
+          }
+        ]
+      }
+    },
+    "the irencrag": {
+      "name": "The Irencrag",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "248",
+            "scryfallId": "8051c5ec-54a6-45a8-8945-fb93c5feaa39"
+          }
+        ]
+      }
+    },
+    "gumdrop poisoner // tempt with treats": {
+      "name": "Gumdrop Poisoner // Tempt with Treats",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "280",
+            "scryfallId": "ec5d0453-ef17-47f0-81d4-13941f1380d5"
+          }
+        ]
+      }
+    },
+    "altar of the wretched // wretched bonemass": {
+      "name": "Altar of the Wretched // Wretched Bonemass",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "lcc",
+            "setName": "The Lost Caverns of Ixalan Commander",
+            "isFoil": false,
+            "collectorNumber": "22",
+            "scryfallId": "5842332a-b27b-49ac-948d-f88a21deb1de"
+          }
+        ]
+      }
+    },
+    "quasiduplicate": {
+      "name": "Quasiduplicate",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "rvr",
+            "setName": "Ravnica Remastered",
+            "isFoil": false,
+            "collectorNumber": "55",
+            "scryfallId": "f0b75745-08a8-432c-9175-d39a92406b3d"
+          }
+        ]
+      }
+    },
+    "lush portico": {
+      "name": "Lush Portico",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "263",
+            "scryfallId": "c17816e8-28b1-4295-a637-efb0e5c18873"
+          }
+        ]
+      }
+    },
+    "tenth district hero": {
+      "name": "Tenth District Hero",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "34",
+            "scryfallId": "7c65a79e-f28a-4f30-95a4-1ea55fd84564"
+          }
+        ]
+      }
+    },
+    "hell to pay": {
+      "name": "Hell to Pay",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "otj",
+            "setName": "Outlaws of Thunder Junction",
+            "isFoil": false,
+            "collectorNumber": "126",
+            "scryfallId": "84ad8ed7-1429-432e-8217-a4db3b97675c"
+          }
+        ]
+      }
+    },
+    "mabel, heir to cragflame": {
+      "name": "Mabel, Heir to Cragflame",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "224",
+            "scryfallId": "be6627fd-729d-44f2-b6bf-5299f49d1e3d"
+          }
+        ]
+      }
+    },
+    "step between worlds": {
+      "name": "Step Between Worlds",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "otj",
+            "setName": "Outlaws of Thunder Junction",
+            "isFoil": false,
+            "collectorNumber": "70",
+            "scryfallId": "70ea2054-3d22-42ce-ab50-501ef09c2128"
+          }
+        ]
+      }
+    },
+    "seraphic steed": {
+      "name": "Seraphic Steed",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "otj",
+            "setName": "Outlaws of Thunder Junction",
+            "isFoil": false,
+            "collectorNumber": "232",
+            "scryfallId": "7ada7ab4-0dee-4ff3-9817-1e61ca3f2ccf"
+          }
+        ]
+      }
+    },
+    "pest control": {
+      "name": "Pest Control",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "big",
+            "setName": "The Big Score",
+            "isFoil": false,
+            "collectorNumber": "22",
+            "scryfallId": "a4a01b92-dafb-4ea6-8eff-29f881f6be24"
+          }
+        ]
+      }
+    },
+    "valley rotcaller": {
+      "name": "Valley Rotcaller",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "119",
+            "scryfallId": "4da80a9a-b1d5-4fc5-92f7-36946195d0c7"
+          }
+        ]
+      }
+    },
+    "dreamdew entrancer": {
+      "name": "Dreamdew Entrancer",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "211",
+            "scryfallId": "26bd6b0d-8606-4a37-8be3-a852f1a8e99c"
+          }
+        ]
+      }
+    },
+    "zoraline, cosmos caller": {
+      "name": "Zoraline, Cosmos Caller",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "242",
+            "scryfallId": "b7f99fd5-5298-4b27-923d-9d31203c931a"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "242",
+            "scryfallId": "b7f99fd5-5298-4b27-923d-9d31203c931a"
+          }
+        ]
+      }
+    },
+    "darkstar augur": {
+      "name": "Darkstar Augur",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "90",
+            "scryfallId": "1c603751-1e2b-4c8e-a8d2-5c0876e7254f"
+          }
+        ]
+      }
+    },
+    "keen-eyed curator": {
+      "name": "Keen-Eyed Curator",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "181",
+            "scryfallId": "8cf33d80-0704-4dc4-8e8d-1dcbcbc35add"
+          }
+        ]
+      }
+    },
+    "mirror room // fractured realm": {
+      "name": "Mirror Room // Fractured Realm",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "dsk",
+            "setName": "Duskmourn: House of Horror",
+            "isFoil": false,
+            "collectorNumber": "67",
+            "scryfallId": "c2e085dd-a448-4f5a-9cfa-5c2034234e7c"
+          }
+        ]
+      }
+    },
+    "marina vendrell's grimoire": {
+      "name": "Marina Vendrell's Grimoire",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "dsk",
+            "setName": "Duskmourn: House of Horror",
+            "isFoil": false,
+            "collectorNumber": "64",
+            "scryfallId": "1ab1aef7-4171-4869-8eb5-fe42e3ca9e45"
+          }
+        ]
+      }
+    },
+    "nashi, searcher in the dark": {
+      "name": "Nashi, Searcher in the Dark",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "dsk",
+            "setName": "Duskmourn: House of Horror",
+            "isFoil": false,
+            "collectorNumber": "223",
+            "scryfallId": "0fbf9e1e-43f2-499e-844d-22fc10dbad06"
+          }
+        ]
+      }
+    },
+    "exemplar of light": {
+      "name": "Exemplar of Light",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "11",
+            "scryfallId": "920c8fc5-fdd2-446a-a676-5c363f96928f"
+          }
+        ]
+      }
+    },
+    "scrawling crawler": {
+      "name": "Scrawling Crawler",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "132",
+            "scryfallId": "a1176dcf-40ee-4342-aa74-791b8352e99a"
+          }
+        ]
+      }
+    },
+    "sire of seven deaths": {
+      "name": "Sire of Seven Deaths",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "1",
+            "scryfallId": "8d8432a7-1c8a-4cfb-947c-ecf9791063eb"
+          }
+        ],
+        "Lucho": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "1",
+            "scryfallId": "8d8432a7-1c8a-4cfb-947c-ecf9791063eb"
+          }
+        ]
+      }
+    },
+    "muraganda raceway": {
+      "name": "Muraganda Raceway",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": false,
+            "collectorNumber": "257",
+            "scryfallId": "5041ae16-29ff-4ad5-8a37-4736e9409294"
+          }
+        ]
+      }
+    },
+    "webstrike elite": {
+      "name": "Webstrike Elite",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": false,
+            "collectorNumber": "345",
+            "scryfallId": "14e8e016-2b68-43d1-b25a-553bad97e431"
+          }
+        ]
+      }
+    },
+    "jill, shiva's dominant // shiva, warden of ice": {
+      "name": "Jill, Shiva's Dominant // Shiva, Warden of Ice",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "fin",
+            "setName": "Final Fantasy",
+            "isFoil": false,
+            "collectorNumber": "58",
+            "scryfallId": "1f163763-4802-4a96-a5bc-f3c381db7b5c"
+          }
+        ]
+      }
+    },
+    "firion, wild rose warrior": {
+      "name": "Firion, Wild Rose Warrior",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "fin",
+            "setName": "Final Fantasy",
+            "isFoil": false,
+            "collectorNumber": "137",
+            "scryfallId": "98366937-d15b-4a66-b9f6-878d50b63871"
+          }
+        ]
+      }
+    },
+    "the wind crystal": {
+      "name": "The Wind Crystal",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "fin",
+            "setName": "Final Fantasy",
+            "isFoil": false,
+            "collectorNumber": "43",
+            "scryfallId": "19bd0885-baaa-40f2-9c59-b1ea53807540"
+          }
+        ]
+      }
+    },
+    "summon: titan": {
+      "name": "Summon: Titan",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "fin",
+            "setName": "Final Fantasy",
+            "isFoil": false,
+            "collectorNumber": "204",
+            "scryfallId": "5ce6ea96-7293-496d-b9c8-8ed6d6109a4d"
+          }
+        ]
+      }
+    },
+    "multiversal passage": {
+      "name": "Multiversal Passage",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "spm",
+            "setName": "Marvel's Spider-Man",
+            "isFoil": false,
+            "collectorNumber": "180",
+            "scryfallId": "f5fb426a-5618-4dd4-9c51-0cc847be8c1d"
+          }
+        ]
+      }
+    },
+    "raven eagle": {
+      "name": "Raven Eagle",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "tla",
+            "setName": "Avatar: The Last Airbender",
+            "isFoil": false,
+            "collectorNumber": "116",
+            "scryfallId": "2262f24b-db6b-4f86-96d0-47a20fc015ab"
+          }
+        ]
+      }
+    },
+    "south pole voyager": {
+      "name": "South Pole Voyager",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "tla",
+            "setName": "Avatar: The Last Airbender",
+            "isFoil": false,
+            "collectorNumber": "35",
+            "scryfallId": "4b5ad895-be8d-476b-91ca-22fad7a3cc58"
+          }
+        ]
+      }
+    },
+    "sear": {
+      "name": "Sear",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "154",
+            "scryfallId": "aeb4612c-758b-4492-ba03-eb6741b4176e"
+          }
+        ]
+      }
+    },
+    "jared carthalion, true heir": {
+      "name": "Jared Carthalion, True Heir",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "cmr",
+            "setName": "Commander Legends",
+            "isFoil": false,
+            "collectorNumber": "601",
+            "scryfallId": "6b925277-89e7-4143-8985-46c2fe3aeb9c"
+          }
+        ]
+      }
+    },
+    "raised by giants": {
+      "name": "Raised by Giants",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "clb",
+            "setName": "Commander Legends: Battle for Baldur's Gate",
+            "isFoil": false,
+            "collectorNumber": "520",
+            "scryfallId": "dc9caae7-fb67-42bf-bee0-b935a1b88d79"
+          }
+        ]
+      }
+    },
+    "thrakkus the butcher": {
+      "name": "Thrakkus the Butcher",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "clb",
+            "setName": "Commander Legends: Battle for Baldur's Gate",
+            "isFoil": false,
+            "collectorNumber": "440",
+            "scryfallId": "2c3f56b9-7460-49b6-8f6d-48cccd7978fd"
+          }
+        ]
+      }
+    },
+    "nazgûl": {
+      "name": "Nazgûl",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "ltr",
+            "setName": "The Lord of the Rings: Tales of Middle-earth",
+            "isFoil": false,
+            "collectorNumber": "333",
+            "scryfallId": "69b32f90-b32f-41a6-af0c-1c967ec49b73"
+          }
+        ]
+      }
+    },
+    "three blind mice": {
+      "name": "Three Blind Mice",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "35",
+            "scryfallId": "0d2ba371-854c-4529-b72b-e4a1887e33ab"
+          }
+        ]
+      }
+    },
+    "decadent dragon // expensive taste": {
+      "name": "Decadent Dragon // Expensive Taste",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "223",
+            "scryfallId": "315cbbf7-a2ad-4565-9877-1e903d7fd797"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "223",
+            "scryfallId": "315cbbf7-a2ad-4565-9877-1e903d7fd797"
+          }
+        ]
+      }
+    },
+    "sharae of numbing depths": {
+      "name": "Sharae of Numbing Depths",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "213",
+            "scryfallId": "600bc36a-3ef0-459c-9a93-94ec45b8c3d9"
+          }
+        ]
+      }
+    },
+    "leyline of lightning": {
+      "name": "Leyline of Lightning",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "wot",
+            "setName": "Wilds of Eldraine: Enchanting Tales",
+            "isFoil": false,
+            "collectorNumber": "45",
+            "scryfallId": "d1670149-b64b-44a8-8858-59637679065c"
+          }
+        ]
+      }
+    },
+    "talion's messenger": {
+      "name": "Talion's Messenger",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "73",
+            "scryfallId": "35fb0640-5b04-4687-b863-46a8b8d36809"
+          }
+        ]
+      }
+    },
+    "archon of the wild rose": {
+      "name": "Archon of the Wild Rose",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "1",
+            "scryfallId": "00174be7-0dc8-43b9-81b6-f25a8c3fb4eb"
+          }
+        ]
+      }
+    },
+    "rotisserie elemental": {
+      "name": "Rotisserie Elemental",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "148",
+            "scryfallId": "8d787045-3918-4ed6-85ea-843d1f2356f2"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "148",
+            "scryfallId": "8d787045-3918-4ed6-85ea-843d1f2356f2"
+          }
+        ]
+      }
+    },
+    "food fight": {
+      "name": "Food Fight",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "129",
+            "scryfallId": "1a7cc43c-6e8c-41d2-a885-24604dfc7e7f"
+          }
+        ]
+      }
+    },
+    "stalactite stalker": {
+      "name": "Stalactite Stalker",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "plci",
+            "setName": "The Lost Caverns of Ixalan Promos",
+            "isFoil": false,
+            "collectorNumber": "122p",
+            "scryfallId": "4bdd31d0-4d90-4a8b-8b4d-f0b71f7db112"
+          }
+        ]
+      }
+    },
+    "dust bowl": {
+      "name": "Dust Bowl",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "otp",
+            "setName": "Breaking News",
+            "isFoil": false,
+            "collectorNumber": "65",
+            "scryfallId": "18d24d9a-a49e-4ce8-9158-03fe4cea39e2"
+          }
+        ]
+      }
+    },
+    "ghired, mirror of the wilds": {
+      "name": "Ghired, Mirror of the Wilds",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "otj",
+            "setName": "Outlaws of Thunder Junction",
+            "isFoil": false,
+            "collectorNumber": "205",
+            "scryfallId": "e43e3d71-4fb8-4ab1-8c8f-b65ae3ad4cc4"
+          }
+        ]
+      }
+    },
+    "llanowar elves": {
+      "name": "Llanowar Elves",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "227",
+            "scryfallId": "6a0b230b-d391-4998-a3f7-7b158a0ec2cd"
+          }
+        ]
+      }
+    },
+    "valley questcaller": {
+      "name": "Valley Questcaller",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "ba629ca8-a368-4282-8a61-9bf6a5c217f0"
+          }
+        ]
+      }
+    },
+    "count on luck": {
+      "name": "Count on Luck",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "8f31beae-9b8f-4c32-af84-9f3ee767ba1d"
+          }
+        ]
+      }
+    },
+    "guardian sunmare": {
+      "name": "Guardian Sunmare",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": false,
+            "collectorNumber": "15",
+            "scryfallId": "7c274595-94e2-4587-9cef-b38639d6429a"
+          }
+        ]
+      }
+    },
+    "halsin, emerald archdruid": {
+      "name": "Halsin, Emerald Archdruid",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 5,
+            "set": "clb",
+            "setName": "Commander Legends: Battle for Baldur's Gate",
+            "isFoil": false,
+            "collectorNumber": "234",
+            "scryfallId": "5e185e5c-b6f9-4d36-a6b1-d7315de38fca"
+          }
+        ]
+      }
+    },
+    "goddric, cloaked reveler": {
+      "name": "Goddric, Cloaked Reveler",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 5,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "132",
+            "scryfallId": "fe93ef82-51de-40ad-9b52-8f3fd11c144f"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "132",
+            "scryfallId": "fe93ef82-51de-40ad-9b52-8f3fd11c144f"
+          }
+        ]
+      }
+    },
+    "neva, stalked by nightmares": {
+      "name": "Neva, Stalked by Nightmares",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 6,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "209",
+            "scryfallId": "e6f925ab-ade7-4da8-a791-185e098d18f2"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "209",
+            "scryfallId": "e6f925ab-ade7-4da8-a791-185e098d18f2"
+          }
+        ]
+      }
+    },
+    "totentanz, swarm piper": {
+      "name": "Totentanz, Swarm Piper",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 4,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "216",
+            "scryfallId": "1422d6db-fe5b-4a89-951a-fbd7985a29fc"
+          }
+        ]
+      }
+    },
+    "specter of mortality": {
+      "name": "Specter of Mortality",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 4,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "107",
+            "scryfallId": "5e4c00b5-f6d6-4fbd-828f-ad30321f2cd9"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "107",
+            "scryfallId": "5e4c00b5-f6d6-4fbd-828f-ad30321f2cd9"
+          }
+        ]
+      }
+    },
+    "extraordinary journey": {
+      "name": "Extraordinary Journey",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 4,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "48",
+            "scryfallId": "a69fb480-a9fc-4f09-ac4e-3ce52c485ea9"
+          }
+        ]
+      }
+    },
+    "raging battle mouse": {
+      "name": "Raging Battle Mouse",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": true,
+            "collectorNumber": "143",
+            "scryfallId": "4d0ab162-540e-4999-902c-9dacd6687aca"
+          }
+        ]
+      }
+    },
+    "throne of the grim captain // the grim captain": {
+      "name": "Throne of the Grim Captain // The Grim Captain",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": true,
+            "collectorNumber": "266",
+            "scryfallId": "c13e8e3d-2a6b-4782-a3c9-71af7336a881"
+          }
+        ]
+      }
+    },
+    "crackling drake": {
+      "name": "Crackling Drake",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "rvr",
+            "setName": "Ravnica Remastered",
+            "isFoil": true,
+            "collectorNumber": "362",
+            "scryfallId": "62c771ca-0865-43a7-9db1-5101e72280ff"
+          }
+        ]
+      }
+    },
+    "twinflame tyrant": {
+      "name": "Twinflame Tyrant",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": true,
+            "collectorNumber": "97",
+            "scryfallId": "1eb34f51-0bd2-43c3-af95-2ce8dabcc7bb"
           }
         ]
       }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-13T06:57:15.005Z",
+  "lastUpdated": "2026-02-14T06:41:26.703Z",
   "owners": [
     {
       "name": "Fausto",
@@ -19,7 +19,7 @@
     {
       "name": "Angie",
       "phone": "+5493436989068",
-      "cardCount": 751
+      "cardCount": 749
     },
     {
       "name": "Carmelo",
@@ -124602,21 +124602,6 @@
         ]
       }
     },
-    "kinbinding": {
-      "name": "Kinbinding",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "20",
-            "scryfallId": "b6e35fd5-de7e-40a8-a23c-00d07fd1ac56"
-          }
-        ]
-      }
-    },
     "trystan, callous cultivator // trystan, penitent culler": {
       "name": "Trystan, Callous Cultivator // Trystan, Penitent Culler",
       "owners": {
@@ -124683,21 +124668,6 @@
             "isFoil": false,
             "collectorNumber": "257",
             "scryfallId": "81dfbfe1-143a-4637-b683-a34cfc51993d"
-          }
-        ]
-      }
-    },
-    "morcant's loyalist": {
-      "name": "Morcant's Loyalist",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "236",
-            "scryfallId": "175c6b1c-8790-41a2-ae15-5031206c410f"
           }
         ]
       }

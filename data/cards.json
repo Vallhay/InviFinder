@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-15T06:47:25.039Z",
+  "lastUpdated": "2026-02-16T07:00:32.387Z",
   "owners": [
     {
       "name": "Fausto",
@@ -117159,6 +117159,21 @@
         ]
       }
     },
+    "grim bauble": {
+      "name": "Grim Bauble",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 6,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": false,
+            "collectorNumber": "88",
+            "scryfallId": "9bfdf60a-6f67-4872-8961-d63776b192c3"
+          }
+        ]
+      }
+    },
     "liliana, dreadhorde general": {
       "name": "Liliana, Dreadhorde General",
       "owners": {
@@ -117407,21 +117422,6 @@
         ]
       }
     },
-    "burst lightning": {
-      "name": "Burst Lightning",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 7,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "192",
-            "scryfallId": "aec5d380-d354-4750-931a-6c91853e2edc"
-          }
-        ]
-      }
-    },
     "kellan, planar trailblazer": {
       "name": "Kellan, Planar Trailblazer",
       "owners": {
@@ -117448,31 +117448,6 @@
             "isFoil": false,
             "collectorNumber": "160",
             "scryfallId": "a829747f-cf9b-4d81-ba66-9f0630ed4565"
-          }
-        ]
-      }
-    },
-    "abrade": {
-      "name": "Abrade",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 4,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "188",
-            "scryfallId": "548947dc-a5ca-43b5-9531-bcef20fa4ae5"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "hou",
-            "setName": "Hour of Devastation",
-            "isFoil": false,
-            "collectorNumber": "83",
-            "scryfallId": "84319dfb-eaf7-4b98-8c4f-30f5e779591b"
           }
         ]
       }
@@ -117513,21 +117488,6 @@
             "isFoil": false,
             "collectorNumber": "22",
             "scryfallId": "6c6be129-56da-4fe7-a6bd-6a1d402c09e1"
-          }
-        ]
-      }
-    },
-    "hare apparent": {
-      "name": "Hare Apparent",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 7,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "15",
-            "scryfallId": "9fc6f0e9-eb5f-4bc0-b3d7-756644b66d12"
           }
         ]
       }
@@ -117587,66 +117547,6 @@
         ]
       }
     },
-    "dwynen's elite": {
-      "name": "Dwynen's Elite",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 4,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "218",
-            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "218",
-            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
-          }
-        ],
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "j22",
-            "setName": "Jumpstart 2022",
-            "isFoil": false,
-            "collectorNumber": "651",
-            "scryfallId": "31eee7a7-af13-4de5-9f4b-5f803335cfc5"
-          }
-        ],
-        "Lucho": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "218",
-            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
-          }
-        ]
-      }
-    },
-    "cathar commando": {
-      "name": "Cathar Commando",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 5,
-            "set": "inr",
-            "setName": "Innistrad Remastered",
-            "isFoil": false,
-            "collectorNumber": "15",
-            "scryfallId": "7cd21530-ca72-4986-a0f2-142b9f23c413"
-          }
-        ]
-      }
-    },
     "zahur, glory's past": {
       "name": "Zahur, Glory's Past",
       "owners": {
@@ -117658,21 +117558,6 @@
             "isFoil": false,
             "collectorNumber": "229",
             "scryfallId": "31944ea5-045d-481d-9aff-3c7ed663813a"
-          }
-        ]
-      }
-    },
-    "momentum breaker": {
-      "name": "Momentum Breaker",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "97",
-            "scryfallId": "38513b53-384f-45e7-9905-80dd2c3c4918"
           }
         ]
       }
@@ -117748,21 +117633,6 @@
             "isFoil": false,
             "collectorNumber": "177",
             "scryfallId": "36f569cc-ed09-4c27-b753-18b22ad7f425"
-          }
-        ]
-      }
-    },
-    "grim bauble": {
-      "name": "Grim Bauble",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 6,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "88",
-            "scryfallId": "9bfdf60a-6f67-4872-8961-d63776b192c3"
           }
         ]
       }
@@ -117932,21 +117802,6 @@
         ]
       }
     },
-    "summon: primal garuda": {
-      "name": "Summon: Primal Garuda",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": true,
-            "collectorNumber": "360",
-            "scryfallId": "f6ee6624-79be-4a76-8c12-80bf31f81ae2"
-          }
-        ]
-      }
-    },
     "laboratory maniac": {
       "name": "Laboratory Maniac",
       "owners": {
@@ -117958,21 +117813,6 @@
             "isFoil": false,
             "collectorNumber": "30",
             "scryfallId": "44ede007-b6db-4396-8b25-9e2621cfeec4"
-          }
-        ]
-      }
-    },
-    "the fire crystal": {
-      "name": "The Fire Crystal",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "135",
-            "scryfallId": "ea430b17-2014-4b8e-b53f-43bcfc06f7cd"
           }
         ]
       }
@@ -118458,6 +118298,166 @@
             "isFoil": false,
             "collectorNumber": "54",
             "scryfallId": "690f1f31-f8c5-4336-9ec9-72ff761e3adc"
+          }
+        ]
+      }
+    },
+    "burst lightning": {
+      "name": "Burst Lightning",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 7,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "192",
+            "scryfallId": "aec5d380-d354-4750-931a-6c91853e2edc"
+          }
+        ]
+      }
+    },
+    "abrade": {
+      "name": "Abrade",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 4,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "188",
+            "scryfallId": "548947dc-a5ca-43b5-9531-bcef20fa4ae5"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "hou",
+            "setName": "Hour of Devastation",
+            "isFoil": false,
+            "collectorNumber": "83",
+            "scryfallId": "84319dfb-eaf7-4b98-8c4f-30f5e779591b"
+          }
+        ]
+      }
+    },
+    "dwynen's elite": {
+      "name": "Dwynen's Elite",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 4,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "218",
+            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "218",
+            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
+          }
+        ],
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "j22",
+            "setName": "Jumpstart 2022",
+            "isFoil": false,
+            "collectorNumber": "651",
+            "scryfallId": "31eee7a7-af13-4de5-9f4b-5f803335cfc5"
+          }
+        ],
+        "Lucho": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "218",
+            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
+          }
+        ]
+      }
+    },
+    "hare apparent": {
+      "name": "Hare Apparent",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 7,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "15",
+            "scryfallId": "9fc6f0e9-eb5f-4bc0-b3d7-756644b66d12"
+          }
+        ]
+      }
+    },
+    "cathar commando": {
+      "name": "Cathar Commando",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 5,
+            "set": "inr",
+            "setName": "Innistrad Remastered",
+            "isFoil": false,
+            "collectorNumber": "15",
+            "scryfallId": "7cd21530-ca72-4986-a0f2-142b9f23c413"
+          }
+        ]
+      }
+    },
+    "the fire crystal": {
+      "name": "The Fire Crystal",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 2,
+            "set": "fin",
+            "setName": "Final Fantasy",
+            "isFoil": false,
+            "collectorNumber": "135",
+            "scryfallId": "ea430b17-2014-4b8e-b53f-43bcfc06f7cd"
+          }
+        ]
+      }
+    },
+    "momentum breaker": {
+      "name": "Momentum Breaker",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": false,
+            "collectorNumber": "97",
+            "scryfallId": "38513b53-384f-45e7-9905-80dd2c3c4918"
+          }
+        ]
+      }
+    },
+    "summon: primal garuda": {
+      "name": "Summon: Primal Garuda",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "fin",
+            "setName": "Final Fantasy",
+            "isFoil": true,
+            "collectorNumber": "360",
+            "scryfallId": "f6ee6624-79be-4a76-8c12-80bf31f81ae2"
           }
         ]
       }

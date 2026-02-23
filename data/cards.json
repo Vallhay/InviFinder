@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-22T06:43:45.814Z",
+  "lastUpdated": "2026-02-23T07:01:29.807Z",
   "owners": [
     {
       "name": "Fausto",
@@ -19,7 +19,7 @@
     {
       "name": "Angie",
       "phone": "+5493436989068",
-      "cardCount": 756
+      "cardCount": 757
     },
     {
       "name": "Carmelo",
@@ -117878,17 +117878,162 @@
         ]
       }
     },
-    "grim bauble": {
-      "name": "Grim Bauble",
+    "brainstorm": {
+      "name": "Brainstorm",
       "owners": {
         "Angie": [
           {
-            "qty": 6,
-            "set": "dft",
-            "setName": "Aetherdrift",
+            "qty": 2,
+            "set": "fca",
+            "setName": "Final Fantasy: Through the Ages",
             "isFoil": false,
-            "collectorNumber": "88",
-            "scryfallId": "9bfdf60a-6f67-4872-8961-d63776b192c3"
+            "collectorNumber": "28",
+            "scryfallId": "c14f8bce-d5b3-4d01-8346-8a4923ec03d9"
+          }
+        ]
+      }
+    },
+    "burst lightning": {
+      "name": "Burst Lightning",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 7,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "192",
+            "scryfallId": "aec5d380-d354-4750-931a-6c91853e2edc"
+          }
+        ]
+      }
+    },
+    "laboratory maniac": {
+      "name": "Laboratory Maniac",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "fca",
+            "setName": "Final Fantasy: Through the Ages",
+            "isFoil": false,
+            "collectorNumber": "30",
+            "scryfallId": "44ede007-b6db-4396-8b25-9e2621cfeec4"
+          }
+        ]
+      }
+    },
+    "urza's rage": {
+      "name": "Urza's Rage",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "sta",
+            "setName": "Strixhaven Mystical Archive",
+            "isFoil": false,
+            "collectorNumber": "47",
+            "scryfallId": "d80e9897-d84c-4992-9e8e-3a00f377c7e5"
+          }
+        ]
+      }
+    },
+    "vial smasher the fierce": {
+      "name": "Vial Smasher the Fierce",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "fca",
+            "setName": "Final Fantasy: Through the Ages",
+            "isFoil": false,
+            "collectorNumber": "59",
+            "scryfallId": "958077e8-a226-4cb5-839f-35557051c953"
+          }
+        ]
+      }
+    },
+    "breeding pool": {
+      "name": "Breeding Pool",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "251",
+            "scryfallId": "3c750d5a-f743-41ff-b5ba-02025ca0bec2"
+          }
+        ]
+      }
+    },
+    "godless shrine": {
+      "name": "Godless Shrine",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "254",
+            "scryfallId": "8c542ea4-98c3-4c2d-9066-205ab7aa697a"
+          }
+        ]
+      }
+    },
+    "command beacon": {
+      "name": "Command Beacon",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "fca",
+            "setName": "Final Fantasy: Through the Ages",
+            "isFoil": false,
+            "collectorNumber": "64",
+            "scryfallId": "2670653e-fcaa-46e3-b3bf-cb8e8b981a9c"
+          }
+        ]
+      }
+    },
+    "thousand-year storm": {
+      "name": "Thousand-Year Storm",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "248",
+            "scryfallId": "76c48a67-1410-40f1-9b93-0172d85e4688"
+          }
+        ]
+      }
+    },
+    "abrade": {
+      "name": "Abrade",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 4,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "188",
+            "scryfallId": "548947dc-a5ca-43b5-9531-bcef20fa4ae5"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "hou",
+            "setName": "Hour of Devastation",
+            "isFoil": false,
+            "collectorNumber": "83",
+            "scryfallId": "84319dfb-eaf7-4b98-8c4f-30f5e779591b"
           }
         ]
       }
@@ -117916,6 +118061,66 @@
         ]
       }
     },
+    "kinnan, bonder prodigy": {
+      "name": "Kinnan, Bonder Prodigy",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "fca",
+            "setName": "Final Fantasy: Through the Ages",
+            "isFoil": false,
+            "collectorNumber": "55",
+            "scryfallId": "e141f975-945e-4e2c-ac04-6083b5bdaf16"
+          }
+        ]
+      }
+    },
+    "dwynen's elite": {
+      "name": "Dwynen's Elite",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 4,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "218",
+            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "218",
+            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
+          }
+        ],
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "j22",
+            "setName": "Jumpstart 2022",
+            "isFoil": false,
+            "collectorNumber": "651",
+            "scryfallId": "31eee7a7-af13-4de5-9f4b-5f803335cfc5"
+          }
+        ],
+        "Lucho": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "218",
+            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
+          }
+        ]
+      }
+    },
     "court of grace": {
       "name": "Court of Grace",
       "owners": {
@@ -117931,17 +118136,17 @@
         ]
       }
     },
-    "urza's rage": {
-      "name": "Urza's Rage",
+    "venerable warsinger": {
+      "name": "Venerable Warsinger",
       "owners": {
         "Angie": [
           {
-            "qty": 1,
-            "set": "sta",
-            "setName": "Strixhaven Mystical Archive",
+            "qty": 2,
+            "set": "stx",
+            "setName": "Strixhaven: School of Mages",
             "isFoil": false,
-            "collectorNumber": "47",
-            "scryfallId": "d80e9897-d84c-4992-9e8e-3a00f377c7e5"
+            "collectorNumber": "246",
+            "scryfallId": "006313f8-cc60-4a4e-8ec6-953cdf1c16e3"
           }
         ]
       }
@@ -118006,17 +118211,17 @@
         ]
       }
     },
-    "venerable warsinger": {
-      "name": "Venerable Warsinger",
+    "cathar commando": {
+      "name": "Cathar Commando",
       "owners": {
         "Angie": [
           {
-            "qty": 2,
-            "set": "stx",
-            "setName": "Strixhaven: School of Mages",
+            "qty": 5,
+            "set": "inr",
+            "setName": "Innistrad Remastered",
             "isFoil": false,
-            "collectorNumber": "246",
-            "scryfallId": "006313f8-cc60-4a4e-8ec6-953cdf1c16e3"
+            "collectorNumber": "15",
+            "scryfallId": "7cd21530-ca72-4986-a0f2-142b9f23c413"
           }
         ]
       }
@@ -118156,17 +118361,27 @@
         ]
       }
     },
-    "thousand-year storm": {
-      "name": "Thousand-Year Storm",
+    "soulstone sanctuary": {
+      "name": "Soulstone Sanctuary",
       "owners": {
         "Angie": [
+          {
+            "qty": 2,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "356",
+            "scryfallId": "98f4cc78-c25f-494c-b57e-c185d37605e8"
+          }
+        ],
+        "Carmelo": [
           {
             "qty": 1,
             "set": "fdn",
             "setName": "Foundations",
             "isFoil": false,
-            "collectorNumber": "248",
-            "scryfallId": "76c48a67-1410-40f1-9b93-0172d85e4688"
+            "collectorNumber": "133",
+            "scryfallId": "642553a7-6d0f-483d-a873-3a703786db42"
           }
         ]
       }
@@ -118211,27 +118426,17 @@
         ]
       }
     },
-    "soulstone sanctuary": {
-      "name": "Soulstone Sanctuary",
+    "hare apparent": {
+      "name": "Hare Apparent",
       "owners": {
         "Angie": [
           {
-            "qty": 2,
+            "qty": 7,
             "set": "fdn",
             "setName": "Foundations",
             "isFoil": false,
-            "collectorNumber": "356",
-            "scryfallId": "98f4cc78-c25f-494c-b57e-c185d37605e8"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "133",
-            "scryfallId": "642553a7-6d0f-483d-a873-3a703786db42"
+            "collectorNumber": "15",
+            "scryfallId": "9fc6f0e9-eb5f-4bc0-b3d7-756644b66d12"
           }
         ]
       }
@@ -118262,6 +118467,36 @@
             "isFoil": false,
             "collectorNumber": "229",
             "scryfallId": "31944ea5-045d-481d-9aff-3c7ed663813a"
+          }
+        ]
+      }
+    },
+    "ketramose, the new dawn": {
+      "name": "Ketramose, the New Dawn",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "pdft",
+            "setName": "Aetherdrift Promos",
+            "isFoil": false,
+            "collectorNumber": "209p",
+            "scryfallId": "7e2bf6e8-9029-4088-b07d-da506b11c95e"
+          }
+        ]
+      }
+    },
+    "momentum breaker": {
+      "name": "Momentum Breaker",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 3,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": false,
+            "collectorNumber": "97",
+            "scryfallId": "38513b53-384f-45e7-9905-80dd2c3c4918"
           }
         ]
       }
@@ -118341,17 +118576,17 @@
         ]
       }
     },
-    "ketramose, the new dawn": {
-      "name": "Ketramose, the New Dawn",
+    "grim bauble": {
+      "name": "Grim Bauble",
       "owners": {
         "Angie": [
           {
-            "qty": 1,
-            "set": "pdft",
-            "setName": "Aetherdrift Promos",
+            "qty": 6,
+            "set": "dft",
+            "setName": "Aetherdrift",
             "isFoil": false,
-            "collectorNumber": "209p",
-            "scryfallId": "7e2bf6e8-9029-4088-b07d-da506b11c95e"
+            "collectorNumber": "88",
+            "scryfallId": "9bfdf60a-6f67-4872-8961-d63776b192c3"
           }
         ]
       }
@@ -118446,21 +118681,6 @@
         ]
       }
     },
-    "brainstorm": {
-      "name": "Brainstorm",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fca",
-            "setName": "Final Fantasy: Through the Ages",
-            "isFoil": false,
-            "collectorNumber": "28",
-            "scryfallId": "c14f8bce-d5b3-4d01-8346-8a4923ec03d9"
-          }
-        ]
-      }
-    },
     "triple triad": {
       "name": "Triple Triad",
       "owners": {
@@ -118472,21 +118692,6 @@
             "isFoil": false,
             "collectorNumber": "166",
             "scryfallId": "d9a1de36-7f47-4b28-bb56-38d7e5bed82f"
-          }
-        ]
-      }
-    },
-    "command beacon": {
-      "name": "Command Beacon",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "fca",
-            "setName": "Final Fantasy: Through the Ages",
-            "isFoil": false,
-            "collectorNumber": "64",
-            "scryfallId": "2670653e-fcaa-46e3-b3bf-cb8e8b981a9c"
           }
         ]
       }
@@ -118506,32 +118711,32 @@
         ]
       }
     },
-    "laboratory maniac": {
-      "name": "Laboratory Maniac",
+    "summon: primal garuda": {
+      "name": "Summon: Primal Garuda",
       "owners": {
         "Angie": [
           {
             "qty": 1,
-            "set": "fca",
-            "setName": "Final Fantasy: Through the Ages",
-            "isFoil": false,
-            "collectorNumber": "30",
-            "scryfallId": "44ede007-b6db-4396-8b25-9e2621cfeec4"
+            "set": "fin",
+            "setName": "Final Fantasy",
+            "isFoil": true,
+            "collectorNumber": "360",
+            "scryfallId": "f6ee6624-79be-4a76-8c12-80bf31f81ae2"
           }
         ]
       }
     },
-    "vial smasher the fierce": {
-      "name": "Vial Smasher the Fierce",
+    "the fire crystal": {
+      "name": "The Fire Crystal",
       "owners": {
         "Angie": [
           {
-            "qty": 1,
-            "set": "fca",
-            "setName": "Final Fantasy: Through the Ages",
+            "qty": 2,
+            "set": "fin",
+            "setName": "Final Fantasy",
             "isFoil": false,
-            "collectorNumber": "59",
-            "scryfallId": "958077e8-a226-4cb5-839f-35557051c953"
+            "collectorNumber": "135",
+            "scryfallId": "ea430b17-2014-4b8e-b53f-43bcfc06f7cd"
           }
         ]
       }
@@ -118551,47 +118756,32 @@
         ]
       }
     },
-    "kinnan, bonder prodigy": {
-      "name": "Kinnan, Bonder Prodigy",
+    "the seriema": {
+      "name": "The Seriema",
       "owners": {
         "Angie": [
           {
             "qty": 1,
-            "set": "fca",
-            "setName": "Final Fantasy: Through the Ages",
+            "set": "peoe",
+            "setName": "Edge of Eternities Promos",
             "isFoil": false,
-            "collectorNumber": "55",
-            "scryfallId": "e141f975-945e-4e2c-ac04-6083b5bdaf16"
+            "collectorNumber": "35p",
+            "scryfallId": "1608c26f-14f1-4d23-96da-9f0bf85f4a49"
           }
         ]
       }
     },
-    "godless shrine": {
-      "name": "Godless Shrine",
+    "terminal velocity": {
+      "name": "Terminal Velocity",
       "owners": {
         "Angie": [
           {
-            "qty": 1,
+            "qty": 2,
             "set": "eoe",
             "setName": "Edge of Eternities",
             "isFoil": false,
-            "collectorNumber": "254",
-            "scryfallId": "8c542ea4-98c3-4c2d-9066-205ab7aa697a"
-          }
-        ]
-      }
-    },
-    "breeding pool": {
-      "name": "Breeding Pool",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "251",
-            "scryfallId": "3c750d5a-f743-41ff-b5ba-02025ca0bec2"
+            "collectorNumber": "163",
+            "scryfallId": "1d18dc06-16f0-4a3b-8d52-dbf4aa2c393d"
           }
         ]
       }
@@ -118611,17 +118801,17 @@
         ]
       }
     },
-    "cosmogoyf": {
-      "name": "Cosmogoyf",
+    "ouroboroid": {
+      "name": "Ouroboroid",
       "owners": {
         "Angie": [
           {
             "qty": 1,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
+            "set": "peoe",
+            "setName": "Edge of Eternities Promos",
             "isFoil": false,
-            "collectorNumber": "215",
-            "scryfallId": "5e07d3c6-60a5-44d1-a926-6414be85bd50"
+            "collectorNumber": "201p",
+            "scryfallId": "cecdb092-7af2-4c53-be47-f6573fcb2f7d"
           }
         ]
       }
@@ -118652,6 +118842,21 @@
             "isFoil": false,
             "collectorNumber": "240",
             "scryfallId": "a451a459-18e0-4c53-a171-3e9da534ebf1"
+          }
+        ]
+      }
+    },
+    "cosmogoyf": {
+      "name": "Cosmogoyf",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "215",
+            "scryfallId": "5e07d3c6-60a5-44d1-a926-6414be85bd50"
           }
         ]
       }
@@ -118726,21 +118931,6 @@
         ]
       }
     },
-    "terminal velocity": {
-      "name": "Terminal Velocity",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "163",
-            "scryfallId": "1d18dc06-16f0-4a3b-8d52-dbf4aa2c393d"
-          }
-        ]
-      }
-    },
     "sp//dr, piloted by peni": {
       "name": "SP//dr, Piloted by Peni",
       "owners": {
@@ -118797,36 +118987,6 @@
             "isFoil": false,
             "collectorNumber": "92",
             "scryfallId": "0bd41879-fcd4-4211-9b98-47e7cdba5399"
-          }
-        ]
-      }
-    },
-    "ouroboroid": {
-      "name": "Ouroboroid",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "peoe",
-            "setName": "Edge of Eternities Promos",
-            "isFoil": false,
-            "collectorNumber": "201p",
-            "scryfallId": "cecdb092-7af2-4c53-be47-f6573fcb2f7d"
-          }
-        ]
-      }
-    },
-    "the seriema": {
-      "name": "The Seriema",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "peoe",
-            "setName": "Edge of Eternities Promos",
-            "isFoil": false,
-            "collectorNumber": "35p",
-            "scryfallId": "1608c26f-14f1-4d23-96da-9f0bf85f4a49"
           }
         ]
       }
@@ -118916,6 +119076,36 @@
         ]
       }
     },
+    "strength of will": {
+      "name": "Strength of Will",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "spm",
+            "setName": "Marvel's Spider-Man",
+            "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "68f985c7-7765-46c3-ad31-edae3abb9fbf"
+          }
+        ]
+      }
+    },
+    "the death of gwen stacy": {
+      "name": "The Death of Gwen Stacy",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "spm",
+            "setName": "Marvel's Spider-Man",
+            "isFoil": false,
+            "collectorNumber": "54",
+            "scryfallId": "690f1f31-f8c5-4336-9ec9-72ff761e3adc"
+          }
+        ]
+      }
+    },
     "spider-verse": {
       "name": "Spider-Verse",
       "owners": {
@@ -118946,21 +119136,6 @@
         ]
       }
     },
-    "strength of will": {
-      "name": "Strength of Will",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "spm",
-            "setName": "Marvel's Spider-Man",
-            "isFoil": false,
-            "collectorNumber": "118",
-            "scryfallId": "68f985c7-7765-46c3-ad31-edae3abb9fbf"
-          }
-        ]
-      }
-    },
     "biorganic carapace": {
       "name": "Biorganic Carapace",
       "owners": {
@@ -118987,181 +119162,6 @@
             "isFoil": false,
             "collectorNumber": "187",
             "scryfallId": "2581f320-8238-413d-ab04-d5535da55630"
-          }
-        ]
-      }
-    },
-    "the death of gwen stacy": {
-      "name": "The Death of Gwen Stacy",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "spm",
-            "setName": "Marvel's Spider-Man",
-            "isFoil": false,
-            "collectorNumber": "54",
-            "scryfallId": "690f1f31-f8c5-4336-9ec9-72ff761e3adc"
-          }
-        ]
-      }
-    },
-    "burst lightning": {
-      "name": "Burst Lightning",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 7,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "192",
-            "scryfallId": "aec5d380-d354-4750-931a-6c91853e2edc"
-          }
-        ]
-      }
-    },
-    "abrade": {
-      "name": "Abrade",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 4,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "188",
-            "scryfallId": "548947dc-a5ca-43b5-9531-bcef20fa4ae5"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "hou",
-            "setName": "Hour of Devastation",
-            "isFoil": false,
-            "collectorNumber": "83",
-            "scryfallId": "84319dfb-eaf7-4b98-8c4f-30f5e779591b"
-          }
-        ]
-      }
-    },
-    "dwynen's elite": {
-      "name": "Dwynen's Elite",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 4,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "218",
-            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "218",
-            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
-          }
-        ],
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "j22",
-            "setName": "Jumpstart 2022",
-            "isFoil": false,
-            "collectorNumber": "651",
-            "scryfallId": "31eee7a7-af13-4de5-9f4b-5f803335cfc5"
-          }
-        ],
-        "Lucho": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "218",
-            "scryfallId": "89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a"
-          }
-        ]
-      }
-    },
-    "hare apparent": {
-      "name": "Hare Apparent",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 7,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "15",
-            "scryfallId": "9fc6f0e9-eb5f-4bc0-b3d7-756644b66d12"
-          }
-        ]
-      }
-    },
-    "cathar commando": {
-      "name": "Cathar Commando",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 5,
-            "set": "inr",
-            "setName": "Innistrad Remastered",
-            "isFoil": false,
-            "collectorNumber": "15",
-            "scryfallId": "7cd21530-ca72-4986-a0f2-142b9f23c413"
-          }
-        ]
-      }
-    },
-    "the fire crystal": {
-      "name": "The Fire Crystal",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "135",
-            "scryfallId": "ea430b17-2014-4b8e-b53f-43bcfc06f7cd"
-          }
-        ]
-      }
-    },
-    "momentum breaker": {
-      "name": "Momentum Breaker",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 3,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "97",
-            "scryfallId": "38513b53-384f-45e7-9905-80dd2c3c4918"
-          }
-        ]
-      }
-    },
-    "summon: primal garuda": {
-      "name": "Summon: Primal Garuda",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": true,
-            "collectorNumber": "360",
-            "scryfallId": "f6ee6624-79be-4a76-8c12-80bf31f81ae2"
           }
         ]
       }
@@ -125052,6 +125052,21 @@
             "isFoil": false,
             "collectorNumber": "267",
             "scryfallId": "b66daa94-d367-4812-9f18-f35378c1febb"
+          }
+        ]
+      }
+    },
+    "formidable speaker": {
+      "name": "Formidable Speaker",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "176",
+            "scryfallId": "265522eb-4f6a-40e7-b374-3833fa63c80b"
           }
         ]
       }
@@ -132779,21 +132794,6 @@
         ]
       }
     },
-    "selfless savior": {
-      "name": "Selfless Savior",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 5,
-            "set": "m21",
-            "setName": "Core Set 2021",
-            "isFoil": false,
-            "collectorNumber": "36",
-            "scryfallId": "6911759c-7177-402c-a95a-f9f46efaf521"
-          }
-        ]
-      }
-    },
     "ooze flux": {
       "name": "Ooze Flux",
       "owners": {
@@ -132854,21 +132854,6 @@
         ]
       }
     },
-    "hateful eidolon": {
-      "name": "Hateful Eidolon",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "thb",
-            "setName": "Theros Beyond Death",
-            "isFoil": false,
-            "collectorNumber": "101",
-            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
-          }
-        ]
-      }
-    },
     "voice of resurgence": {
       "name": "Voice of Resurgence",
       "owners": {
@@ -132895,21 +132880,6 @@
             "isFoil": false,
             "collectorNumber": "176",
             "scryfallId": "23b0c6a9-a7c0-4518-8580-653712062265"
-          }
-        ]
-      }
-    },
-    "bloodchief's thirst": {
-      "name": "Bloodchief's Thirst",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 2,
-            "set": "znr",
-            "setName": "Zendikar Rising",
-            "isFoil": false,
-            "collectorNumber": "94",
-            "scryfallId": "059e8447-6b1c-4651-a734-a8fea2cbf7b2"
           }
         ]
       }
@@ -132944,31 +132914,6 @@
         ]
       }
     },
-    "lunarch veteran // luminous phantom": {
-      "name": "Lunarch Veteran // Luminous Phantom",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "mid",
-            "setName": "Innistrad: Midnight Hunt",
-            "isFoil": false,
-            "collectorNumber": "27",
-            "scryfallId": "d2704743-2e23-40b9-a367-c73d2db45afc"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 2,
-            "set": "mid",
-            "setName": "Innistrad: Midnight Hunt",
-            "isFoil": false,
-            "collectorNumber": "27",
-            "scryfallId": "d2704743-2e23-40b9-a367-c73d2db45afc"
-          }
-        ]
-      }
-    },
     "leaf-crowned visionary": {
       "name": "Leaf-Crowned Visionary",
       "owners": {
@@ -132995,21 +132940,6 @@
             "isFoil": false,
             "collectorNumber": "247",
             "scryfallId": "3570ebf2-a94c-4621-8808-b06e6e830c06"
-          }
-        ]
-      }
-    },
-    "fortified village": {
-      "name": "Fortified Village",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "scd",
-            "setName": "Starter Commander Decks",
-            "isFoil": false,
-            "collectorNumber": "301",
-            "scryfallId": "45dd62f8-b478-431f-affc-dd1a20bf9f76"
           }
         ]
       }
@@ -133099,21 +133029,6 @@
         ]
       }
     },
-    "alseid of life's bounty": {
-      "name": "Alseid of Life's Bounty",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "THB-1",
-            "scryfallId": "12d48761-027a-4f12-bcf6-8ff78523d7cc"
-          }
-        ]
-      }
-    },
     "goblin chainwhirler": {
       "name": "Goblin Chainwhirler",
       "owners": {
@@ -133125,36 +133040,6 @@
             "isFoil": false,
             "collectorNumber": "DOM-129",
             "scryfallId": "5f173ff2-3d45-4015-8660-fbec7ca1bce9"
-          }
-        ]
-      }
-    },
-    "slippery bogle": {
-      "name": "Slippery Bogle",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "EVE-160",
-            "scryfallId": "505eccd0-472e-41db-a336-0583960ac85a"
-          }
-        ]
-      }
-    },
-    "caves of koilos": {
-      "name": "Caves of Koilos",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "drc",
-            "setName": "Aetherdrift Commander",
-            "isFoil": false,
-            "collectorNumber": "148",
-            "scryfallId": "18e5a0d3-d132-40e2-85ae-a1b743dfdd33"
           }
         ]
       }
@@ -133185,6 +133070,136 @@
             "isFoil": false,
             "collectorNumber": "154",
             "scryfallId": "2b54d4a5-634f-4ae3-b592-0dc527f60d56"
+          }
+        ]
+      }
+    },
+    "selfless savior": {
+      "name": "Selfless Savior",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 5,
+            "set": "m21",
+            "setName": "Core Set 2021",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "6911759c-7177-402c-a95a-f9f46efaf521"
+          }
+        ]
+      }
+    },
+    "hateful eidolon": {
+      "name": "Hateful Eidolon",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "thb",
+            "setName": "Theros Beyond Death",
+            "isFoil": false,
+            "collectorNumber": "101",
+            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
+          }
+        ]
+      }
+    },
+    "fortified village": {
+      "name": "Fortified Village",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "scd",
+            "setName": "Starter Commander Decks",
+            "isFoil": false,
+            "collectorNumber": "301",
+            "scryfallId": "45dd62f8-b478-431f-affc-dd1a20bf9f76"
+          }
+        ]
+      }
+    },
+    "alseid of life's bounty": {
+      "name": "Alseid of Life's Bounty",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "THB-1",
+            "scryfallId": "12d48761-027a-4f12-bcf6-8ff78523d7cc"
+          }
+        ]
+      }
+    },
+    "caves of koilos": {
+      "name": "Caves of Koilos",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "drc",
+            "setName": "Aetherdrift Commander",
+            "isFoil": false,
+            "collectorNumber": "148",
+            "scryfallId": "18e5a0d3-d132-40e2-85ae-a1b743dfdd33"
+          }
+        ]
+      }
+    },
+    "bloodchief's thirst": {
+      "name": "Bloodchief's Thirst",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 2,
+            "set": "znr",
+            "setName": "Zendikar Rising",
+            "isFoil": false,
+            "collectorNumber": "94",
+            "scryfallId": "059e8447-6b1c-4651-a734-a8fea2cbf7b2"
+          }
+        ]
+      }
+    },
+    "lunarch veteran // luminous phantom": {
+      "name": "Lunarch Veteran // Luminous Phantom",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "mid",
+            "setName": "Innistrad: Midnight Hunt",
+            "isFoil": false,
+            "collectorNumber": "27",
+            "scryfallId": "d2704743-2e23-40b9-a367-c73d2db45afc"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 2,
+            "set": "mid",
+            "setName": "Innistrad: Midnight Hunt",
+            "isFoil": false,
+            "collectorNumber": "27",
+            "scryfallId": "d2704743-2e23-40b9-a367-c73d2db45afc"
+          }
+        ]
+      }
+    },
+    "slippery bogle": {
+      "name": "Slippery Bogle",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "EVE-160",
+            "scryfallId": "505eccd0-472e-41db-a336-0583960ac85a"
           }
         ]
       }

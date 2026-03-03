@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T06:54:51.697Z",
+  "lastUpdated": "2026-03-03T06:46:56.575Z",
   "owners": [
     {
       "name": "Fausto",
@@ -29,7 +29,7 @@
     {
       "name": "Licha",
       "phone": "+5493434760157",
-      "cardCount": 45
+      "cardCount": 38
     },
     {
       "name": "Lucho",
@@ -12693,16 +12693,6 @@
       "name": "Crystal Barricade",
       "owners": {
         "Fausto": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "7",
-            "scryfallId": "905d3e02-ea06-45e7-9adb-c8e7583323a2"
-          }
-        ],
-        "Licha": [
           {
             "qty": 1,
             "set": "fdn",
@@ -54823,16 +54813,6 @@
             "isFoil": false,
             "collectorNumber": "38",
             "scryfallId": "5aa91a9e-2fe2-43bc-aa9c-cfb8a71829ff"
-          }
-        ],
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "j25",
-            "setName": "Foundations Jumpstart",
-            "isFoil": false,
-            "collectorNumber": "256",
-            "scryfallId": "99c27e8e-1a9b-4175-a7fb-c8224bc08e68"
           }
         ]
       }
@@ -108137,16 +108117,6 @@
             "collectorNumber": "235",
             "scryfallId": "7832abb5-5107-4603-904e-491b221bd3e3"
           }
-        ],
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "KLD-235",
-            "scryfallId": "c75513ba-5d95-4181-ad19-742072546ac6"
-          }
         ]
       }
     },
@@ -135257,16 +135227,6 @@
             "collectorNumber": "15",
             "scryfallId": "9e7819d5-12a9-4719-91b2-8dd1ba6f3800"
           }
-        ],
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "mid",
-            "setName": "Innistrad: Midnight Hunt",
-            "isFoil": false,
-            "collectorNumber": "15",
-            "scryfallId": "9e7819d5-12a9-4719-91b2-8dd1ba6f3800"
-          }
         ]
       }
     },
@@ -138025,6 +137985,21 @@
         ]
       }
     },
+    "selfless savior": {
+      "name": "Selfless Savior",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "m21",
+            "setName": "Core Set 2021",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "6911759c-7177-402c-a95a-f9f46efaf521"
+          }
+        ]
+      }
+    },
     "ooze flux": {
       "name": "Ooze Flux",
       "owners": {
@@ -138085,6 +138060,21 @@
         ]
       }
     },
+    "hateful eidolon": {
+      "name": "Hateful Eidolon",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "thb",
+            "setName": "Theros Beyond Death",
+            "isFoil": false,
+            "collectorNumber": "101",
+            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
+          }
+        ]
+      }
+    },
     "voice of resurgence": {
       "name": "Voice of Resurgence",
       "owners": {
@@ -138115,32 +138105,42 @@
         ]
       }
     },
-    "harald, king of skemfar": {
-      "name": "Harald, King of Skemfar",
+    "bloodchief's thirst": {
+      "name": "Bloodchief's Thirst",
       "owners": {
         "Licha": [
           {
-            "qty": 1,
-            "set": "khm",
-            "setName": "Kaldheim",
+            "qty": 2,
+            "set": "znr",
+            "setName": "Zendikar Rising",
             "isFoil": false,
-            "collectorNumber": "212",
-            "scryfallId": "9eac78a2-599f-4dba-aec7-982c5ae3f75a"
+            "collectorNumber": "94",
+            "scryfallId": "059e8447-6b1c-4651-a734-a8fea2cbf7b2"
           }
         ]
       }
     },
-    "weathered runestone": {
-      "name": "Weathered Runestone",
+    "lunarch veteran // luminous phantom": {
+      "name": "Lunarch Veteran // Luminous Phantom",
       "owners": {
         "Licha": [
           {
-            "qty": 1,
-            "set": "khm",
-            "setName": "Kaldheim",
+            "qty": 3,
+            "set": "mid",
+            "setName": "Innistrad: Midnight Hunt",
             "isFoil": false,
-            "collectorNumber": "247",
-            "scryfallId": "0fc2478f-e624-46fb-85af-1254564cd4d2"
+            "collectorNumber": "27",
+            "scryfallId": "d2704743-2e23-40b9-a367-c73d2db45afc"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 2,
+            "set": "mid",
+            "setName": "Innistrad: Midnight Hunt",
+            "isFoil": false,
+            "collectorNumber": "27",
+            "scryfallId": "d2704743-2e23-40b9-a367-c73d2db45afc"
           }
         ]
       }
@@ -138160,17 +138160,17 @@
         ]
       }
     },
-    "the stone brain": {
-      "name": "The Stone Brain",
+    "fortified village": {
+      "name": "Fortified Village",
       "owners": {
         "Licha": [
           {
-            "qty": 1,
-            "set": "bro",
-            "setName": "The Brothers' War",
+            "qty": 4,
+            "set": "scd",
+            "setName": "Starter Commander Decks",
             "isFoil": false,
-            "collectorNumber": "247",
-            "scryfallId": "3570ebf2-a94c-4621-8808-b06e6e830c06"
+            "collectorNumber": "301",
+            "scryfallId": "45dd62f8-b478-431f-affc-dd1a20bf9f76"
           }
         ]
       }
@@ -138260,6 +138260,21 @@
         ]
       }
     },
+    "alseid of life's bounty": {
+      "name": "Alseid of Life's Bounty",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "THB-1",
+            "scryfallId": "12d48761-027a-4f12-bcf6-8ff78523d7cc"
+          }
+        ]
+      }
+    },
     "goblin chainwhirler": {
       "name": "Goblin Chainwhirler",
       "owners": {
@@ -138271,6 +138286,36 @@
             "isFoil": false,
             "collectorNumber": "DOM-129",
             "scryfallId": "5f173ff2-3d45-4015-8660-fbec7ca1bce9"
+          }
+        ]
+      }
+    },
+    "slippery bogle": {
+      "name": "Slippery Bogle",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "EVE-160",
+            "scryfallId": "505eccd0-472e-41db-a336-0583960ac85a"
+          }
+        ]
+      }
+    },
+    "caves of koilos": {
+      "name": "Caves of Koilos",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "drc",
+            "setName": "Aetherdrift Commander",
+            "isFoil": false,
+            "collectorNumber": "148",
+            "scryfallId": "18e5a0d3-d132-40e2-85ae-a1b743dfdd33"
           }
         ]
       }
@@ -138301,136 +138346,6 @@
             "isFoil": false,
             "collectorNumber": "154",
             "scryfallId": "2b54d4a5-634f-4ae3-b592-0dc527f60d56"
-          }
-        ]
-      }
-    },
-    "selfless savior": {
-      "name": "Selfless Savior",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 5,
-            "set": "m21",
-            "setName": "Core Set 2021",
-            "isFoil": false,
-            "collectorNumber": "36",
-            "scryfallId": "6911759c-7177-402c-a95a-f9f46efaf521"
-          }
-        ]
-      }
-    },
-    "hateful eidolon": {
-      "name": "Hateful Eidolon",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "thb",
-            "setName": "Theros Beyond Death",
-            "isFoil": false,
-            "collectorNumber": "101",
-            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
-          }
-        ]
-      }
-    },
-    "fortified village": {
-      "name": "Fortified Village",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "scd",
-            "setName": "Starter Commander Decks",
-            "isFoil": false,
-            "collectorNumber": "301",
-            "scryfallId": "45dd62f8-b478-431f-affc-dd1a20bf9f76"
-          }
-        ]
-      }
-    },
-    "alseid of life's bounty": {
-      "name": "Alseid of Life's Bounty",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "THB-1",
-            "scryfallId": "12d48761-027a-4f12-bcf6-8ff78523d7cc"
-          }
-        ]
-      }
-    },
-    "caves of koilos": {
-      "name": "Caves of Koilos",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "drc",
-            "setName": "Aetherdrift Commander",
-            "isFoil": false,
-            "collectorNumber": "148",
-            "scryfallId": "18e5a0d3-d132-40e2-85ae-a1b743dfdd33"
-          }
-        ]
-      }
-    },
-    "bloodchief's thirst": {
-      "name": "Bloodchief's Thirst",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 2,
-            "set": "znr",
-            "setName": "Zendikar Rising",
-            "isFoil": false,
-            "collectorNumber": "94",
-            "scryfallId": "059e8447-6b1c-4651-a734-a8fea2cbf7b2"
-          }
-        ]
-      }
-    },
-    "lunarch veteran // luminous phantom": {
-      "name": "Lunarch Veteran // Luminous Phantom",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "mid",
-            "setName": "Innistrad: Midnight Hunt",
-            "isFoil": false,
-            "collectorNumber": "27",
-            "scryfallId": "d2704743-2e23-40b9-a367-c73d2db45afc"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 2,
-            "set": "mid",
-            "setName": "Innistrad: Midnight Hunt",
-            "isFoil": false,
-            "collectorNumber": "27",
-            "scryfallId": "d2704743-2e23-40b9-a367-c73d2db45afc"
-          }
-        ]
-      }
-    },
-    "slippery bogle": {
-      "name": "Slippery Bogle",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "EVE-160",
-            "scryfallId": "505eccd0-472e-41db-a336-0583960ac85a"
           }
         ]
       }

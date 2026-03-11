@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T06:44:55.098Z",
+  "lastUpdated": "2026-03-11T06:48:40.079Z",
   "owners": [
     {
       "name": "Fausto",
@@ -19,7 +19,7 @@
     {
       "name": "Angie",
       "phone": "+5493436989068",
-      "cardCount": 766
+      "cardCount": 770
     },
     {
       "name": "Carmelo",
@@ -136754,6 +136754,66 @@
             "isFoil": false,
             "collectorNumber": "292",
             "scryfallId": "f7604799-1d32-4c6c-92c6-0d1b274a1115"
+          }
+        ]
+      }
+    },
+    "casey jones, vigilante": {
+      "name": "Casey Jones, Vigilante",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "88",
+            "scryfallId": "a6a3258d-2e9b-4862-b2e3-bbfae9bd4d33"
+          }
+        ]
+      }
+    },
+    "rat king, verminister": {
+      "name": "Rat King, Verminister",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "71",
+            "scryfallId": "be464d88-8933-46e8-97b0-3be05f1976a3"
+          }
+        ]
+      }
+    },
+    "technodrome": {
+      "name": "Technodrome",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "179",
+            "scryfallId": "287f5ab0-b15b-4507-8a24-585f9a9841ad"
+          }
+        ]
+      }
+    },
+    "kitsune, dragon's daughter": {
+      "name": "Kitsune, Dragon's Daughter",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "41",
+            "scryfallId": "a87a9257-4535-4286-8b59-a842ac45d05e"
           }
         ]
       }

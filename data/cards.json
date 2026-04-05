@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T06:58:31.289Z",
+  "lastUpdated": "2026-04-05T07:02:44.520Z",
   "owners": [
     {
       "name": "Fausto",
@@ -148487,6 +148487,21 @@
         ]
       }
     },
+    "meandering towershell": {
+      "name": "Meandering Towershell",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "KTK-141",
+            "scryfallId": "a637fbe8-a2c3-4477-9da2-c3b0bebc892d"
+          }
+        ]
+      }
+    },
     "urban evolution": {
       "name": "Urban Evolution",
       "owners": {
@@ -148742,6 +148757,36 @@
         ]
       }
     },
+    "ruinous path": {
+      "name": "Ruinous Path",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pbfz",
+            "setName": "Battle for Zendikar Promos",
+            "isFoil": true,
+            "collectorNumber": "123",
+            "scryfallId": "8a41a241-ee56-486a-9b4d-fb355b5f65b2"
+          }
+        ]
+      }
+    },
+    "relic seeker": {
+      "name": "Relic Seeker",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pori",
+            "setName": "Magic Origins Promos",
+            "isFoil": true,
+            "collectorNumber": "29",
+            "scryfallId": "da218c9a-e9a9-4911-9561-623c77afbb74"
+          }
+        ]
+      }
+    },
     "geralf's masterpiece": {
       "name": "Geralf's Masterpiece",
       "owners": {
@@ -148967,6 +149012,36 @@
         ]
       }
     },
+    "renegade rallier": {
+      "name": "Renegade Rallier",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "f17",
+            "setName": "Friday Night Magic 2017",
+            "isFoil": true,
+            "collectorNumber": "9",
+            "scryfallId": "8d33e2f5-c2f5-4e69-924f-c8c9ed1ae1a7"
+          }
+        ]
+      }
+    },
+    "paradox engine": {
+      "name": "Paradox Engine",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "aer",
+            "setName": "Aether Revolt",
+            "isFoil": false,
+            "collectorNumber": "169",
+            "scryfallId": "fd8ccd81-9e11-47fa-8e16-064c52c24506"
+          }
+        ]
+      }
+    },
     "mizzium mortars": {
       "name": "Mizzium Mortars",
       "owners": {
@@ -148978,6 +149053,21 @@
             "isFoil": false,
             "collectorNumber": "101",
             "scryfallId": "708557e2-c1b4-4e45-b568-17763b7a9924"
+          }
+        ]
+      }
+    },
+    "brood butcher": {
+      "name": "Brood Butcher",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "bfz",
+            "setName": "Battle for Zendikar",
+            "isFoil": false,
+            "collectorNumber": "199",
+            "scryfallId": "2f60fdd6-bc18-4c04-83d8-c204f2b35ff1"
           }
         ]
       }
@@ -149058,6 +149148,21 @@
             "isFoil": false,
             "collectorNumber": "203",
             "scryfallId": "b080ed31-db68-4e3c-8bf6-48b53d3ba622"
+          }
+        ]
+      }
+    },
+    "drowner of hope": {
+      "name": "Drowner of Hope",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 3,
+            "set": "bfz",
+            "setName": "Battle for Zendikar",
+            "isFoil": false,
+            "collectorNumber": "57",
+            "scryfallId": "0fd5b48c-6850-47d4-8106-297be6c8f708"
           }
         ]
       }
@@ -149242,6 +149347,46 @@
         ]
       }
     },
+    "earl of squirrel": {
+      "name": "Earl of Squirrel",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pust",
+            "setName": "Unstable Promos",
+            "isFoil": true,
+            "collectorNumber": "108",
+            "scryfallId": "c7188d0f-0329-4ecc-ab2e-dea7c5f39852"
+          }
+        ]
+      }
+    },
+    "oracle's vault": {
+      "name": "Oracle's Vault",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pakh",
+            "setName": "Amonkhet Promos",
+            "isFoil": true,
+            "collectorNumber": "234",
+            "scryfallId": "027e3eef-d121-4a72-9395-043f57b023c7"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "pakh",
+            "setName": "Amonkhet Promos",
+            "isFoil": true,
+            "collectorNumber": "234",
+            "scryfallId": "027e3eef-d121-4a72-9395-043f57b023c7"
+          }
+        ]
+      }
+    },
     "trueheart duelist": {
       "name": "Trueheart Duelist",
       "owners": {
@@ -149338,6 +149483,36 @@
             "isFoil": false,
             "collectorNumber": "9",
             "scryfallId": "2b7eed1e-7b28-4900-a6ac-67f167476c11"
+          }
+        ]
+      }
+    },
+    "yasova dragonclaw": {
+      "name": "Yasova Dragonclaw",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "frf",
+            "setName": "Fate Reforged",
+            "isFoil": true,
+            "collectorNumber": "148",
+            "scryfallId": "490994c6-9fef-482b-835d-a64350bfaa8d"
+          }
+        ]
+      }
+    },
+    "suspension field": {
+      "name": "Suspension Field",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "f15",
+            "setName": "Friday Night Magic 2015",
+            "isFoil": true,
+            "collectorNumber": "4",
+            "scryfallId": "dbeb9475-64d8-4c9a-98e6-c473075ee343"
           }
         ]
       }
@@ -149502,6 +149677,36 @@
         ]
       }
     },
+    "sarkhan's unsealing": {
+      "name": "Sarkhan's Unsealing",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "jmp",
+            "setName": "Jumpstart",
+            "isFoil": false,
+            "collectorNumber": "361",
+            "scryfallId": "bb9c6068-cfd8-4371-b549-e474d573e52e"
+          }
+        ]
+      }
+    },
+    "ajani vengeant": {
+      "name": "Ajani Vengeant",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pala",
+            "setName": "Shards of Alara Promos",
+            "isFoil": true,
+            "collectorNumber": "154★",
+            "scryfallId": "c6ffd45c-2353-4292-b6f6-29d8f7e031ca"
+          }
+        ]
+      }
+    },
     "death grasp": {
       "name": "Death Grasp",
       "owners": {
@@ -149622,6 +149827,21 @@
         ]
       }
     },
+    "call of the conclave": {
+      "name": "Call of the Conclave",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "f13",
+            "setName": "Friday Night Magic 2013",
+            "isFoil": true,
+            "collectorNumber": "4",
+            "scryfallId": "70b39dc4-3442-4e0c-8c39-8f0ac1de9305"
+          }
+        ]
+      }
+    },
     "bogbrew witch": {
       "name": "Bogbrew Witch",
       "owners": {
@@ -149648,6 +149868,41 @@
             "isFoil": false,
             "collectorNumber": "216",
             "scryfallId": "219ab03a-2b3b-4eef-8a42-2cbe793d2f33"
+          }
+        ]
+      }
+    },
+    "shadowborn apostle": {
+      "name": "Shadowborn Apostle",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 3,
+            "set": "m14",
+            "setName": "Magic 2014",
+            "isFoil": false,
+            "collectorNumber": "114",
+            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 4,
+            "set": "m14",
+            "setName": "Magic 2014",
+            "isFoil": false,
+            "collectorNumber": "114",
+            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "m14",
+            "setName": "Magic 2014",
+            "isFoil": false,
+            "collectorNumber": "114",
+            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
           }
         ]
       }
@@ -149897,6 +150152,46 @@
         ]
       }
     },
+    "rakshasa vizier": {
+      "name": "Rakshasa Vizier",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ktk",
+            "setName": "Khans of Tarkir",
+            "isFoil": false,
+            "collectorNumber": "193",
+            "scryfallId": "cb39e674-919d-4db6-9ac1-cfa1cca02207"
+          }
+        ]
+      }
+    },
+    "retribution of the ancients": {
+      "name": "Retribution of the Ancients",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ktk",
+            "setName": "Khans of Tarkir",
+            "isFoil": false,
+            "collectorNumber": "85",
+            "scryfallId": "0d3ee29d-b374-471d-80c3-bcad7a4226e6"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "ktk",
+            "setName": "Khans of Tarkir",
+            "isFoil": false,
+            "collectorNumber": "85",
+            "scryfallId": "0d3ee29d-b374-471d-80c3-bcad7a4226e6"
+          }
+        ]
+      }
+    },
     "scab-clan berserker": {
       "name": "Scab-Clan Berserker",
       "owners": {
@@ -150002,6 +150297,31 @@
         ]
       }
     },
+    "spatial contortion": {
+      "name": "Spatial Contortion",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 3,
+            "set": "ogw",
+            "setName": "Oath of the Gatewatch",
+            "isFoil": false,
+            "collectorNumber": "8",
+            "scryfallId": "4e2acf70-7625-4b77-83c1-0e08436da31f"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "f16",
+            "setName": "Friday Night Magic 2016",
+            "isFoil": true,
+            "collectorNumber": "7",
+            "scryfallId": "acaee41d-5f7c-481d-8591-f9dc47c784e4"
+          }
+        ]
+      }
+    },
     "world breaker": {
       "name": "World Breaker",
       "owners": {
@@ -150053,6 +150373,31 @@
             "isFoil": false,
             "collectorNumber": "204",
             "scryfallId": "f956dedc-2cf4-4039-8302-feab94b78426"
+          }
+        ]
+      }
+    },
+    "dynavolt tower": {
+      "name": "Dynavolt Tower",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "kld",
+            "setName": "Kaladesh",
+            "isFoil": false,
+            "collectorNumber": "208",
+            "scryfallId": "c45fd2ae-0f91-47ca-99bd-22ddf946df9f"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "kld",
+            "setName": "Kaladesh",
+            "isFoil": false,
+            "collectorNumber": "208",
+            "scryfallId": "c45fd2ae-0f91-47ca-99bd-22ddf946df9f"
           }
         ]
       }
@@ -150147,6 +150492,21 @@
         ]
       }
     },
+    "sphinx's decree": {
+      "name": "Sphinx's Decree",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "rix",
+            "setName": "Rivals of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "24",
+            "scryfallId": "5058a729-9739-4548-b420-deebbc0950b7"
+          }
+        ]
+      }
+    },
     "deathgorge scavenger": {
       "name": "Deathgorge Scavenger",
       "owners": {
@@ -150203,6 +150563,36 @@
             "isFoil": false,
             "collectorNumber": "239",
             "scryfallId": "8d63d4b7-5378-4ba9-9a5f-3ab385d83568"
+          }
+        ]
+      }
+    },
+    "clash of wills": {
+      "name": "Clash of Wills",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "f16",
+            "setName": "Friday Night Magic 2016",
+            "isFoil": true,
+            "collectorNumber": "2",
+            "scryfallId": "1c67ab53-9489-4658-859e-9dd8a6e0f20d"
+          }
+        ]
+      }
+    },
+    "supplant form": {
+      "name": "Supplant Form",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pfrf",
+            "setName": "Fate Reforged Promos",
+            "isFoil": true,
+            "collectorNumber": "54",
+            "scryfallId": "14ade2bb-3838-4cac-b986-21e7c5213a25"
           }
         ]
       }
@@ -150742,6 +151132,21 @@
         ]
       }
     },
+    "sanguine evangelist": {
+      "name": "Sanguine Evangelist",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": true,
+            "collectorNumber": "34",
+            "scryfallId": "269ddd84-fdc4-4c94-b183-32ecec56967c"
+          }
+        ]
+      }
+    },
     "unstable glyphbridge // sandswirl wanderglyph": {
       "name": "Unstable Glyphbridge // Sandswirl Wanderglyph",
       "owners": {
@@ -150978,411 +151383,6 @@
             "isFoil": false,
             "collectorNumber": "51",
             "scryfallId": "ba332954-ed8c-48d7-8d85-971c7b71dccf"
-          }
-        ]
-      }
-    },
-    "meandering towershell": {
-      "name": "Meandering Towershell",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "KTK-141",
-            "scryfallId": "a637fbe8-a2c3-4477-9da2-c3b0bebc892d"
-          }
-        ]
-      }
-    },
-    "paradox engine": {
-      "name": "Paradox Engine",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "aer",
-            "setName": "Aether Revolt",
-            "isFoil": false,
-            "collectorNumber": "169",
-            "scryfallId": "fd8ccd81-9e11-47fa-8e16-064c52c24506"
-          }
-        ]
-      }
-    },
-    "brood butcher": {
-      "name": "Brood Butcher",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "bfz",
-            "setName": "Battle for Zendikar",
-            "isFoil": false,
-            "collectorNumber": "199",
-            "scryfallId": "2f60fdd6-bc18-4c04-83d8-c204f2b35ff1"
-          }
-        ]
-      }
-    },
-    "sarkhan's unsealing": {
-      "name": "Sarkhan's Unsealing",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "jmp",
-            "setName": "Jumpstart",
-            "isFoil": false,
-            "collectorNumber": "361",
-            "scryfallId": "bb9c6068-cfd8-4371-b549-e474d573e52e"
-          }
-        ]
-      }
-    },
-    "rakshasa vizier": {
-      "name": "Rakshasa Vizier",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ktk",
-            "setName": "Khans of Tarkir",
-            "isFoil": false,
-            "collectorNumber": "193",
-            "scryfallId": "cb39e674-919d-4db6-9ac1-cfa1cca02207"
-          }
-        ]
-      }
-    },
-    "retribution of the ancients": {
-      "name": "Retribution of the Ancients",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ktk",
-            "setName": "Khans of Tarkir",
-            "isFoil": false,
-            "collectorNumber": "85",
-            "scryfallId": "0d3ee29d-b374-471d-80c3-bcad7a4226e6"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "ktk",
-            "setName": "Khans of Tarkir",
-            "isFoil": false,
-            "collectorNumber": "85",
-            "scryfallId": "0d3ee29d-b374-471d-80c3-bcad7a4226e6"
-          }
-        ]
-      }
-    },
-    "dynavolt tower": {
-      "name": "Dynavolt Tower",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "kld",
-            "setName": "Kaladesh",
-            "isFoil": false,
-            "collectorNumber": "208",
-            "scryfallId": "c45fd2ae-0f91-47ca-99bd-22ddf946df9f"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "kld",
-            "setName": "Kaladesh",
-            "isFoil": false,
-            "collectorNumber": "208",
-            "scryfallId": "c45fd2ae-0f91-47ca-99bd-22ddf946df9f"
-          }
-        ]
-      }
-    },
-    "sphinx's decree": {
-      "name": "Sphinx's Decree",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "rix",
-            "setName": "Rivals of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "24",
-            "scryfallId": "5058a729-9739-4548-b420-deebbc0950b7"
-          }
-        ]
-      }
-    },
-    "ruinous path": {
-      "name": "Ruinous Path",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pbfz",
-            "setName": "Battle for Zendikar Promos",
-            "isFoil": true,
-            "collectorNumber": "123",
-            "scryfallId": "8a41a241-ee56-486a-9b4d-fb355b5f65b2"
-          }
-        ]
-      }
-    },
-    "relic seeker": {
-      "name": "Relic Seeker",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pori",
-            "setName": "Magic Origins Promos",
-            "isFoil": true,
-            "collectorNumber": "29",
-            "scryfallId": "da218c9a-e9a9-4911-9561-623c77afbb74"
-          }
-        ]
-      }
-    },
-    "renegade rallier": {
-      "name": "Renegade Rallier",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "f17",
-            "setName": "Friday Night Magic 2017",
-            "isFoil": true,
-            "collectorNumber": "9",
-            "scryfallId": "8d33e2f5-c2f5-4e69-924f-c8c9ed1ae1a7"
-          }
-        ]
-      }
-    },
-    "earl of squirrel": {
-      "name": "Earl of Squirrel",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pust",
-            "setName": "Unstable Promos",
-            "isFoil": true,
-            "collectorNumber": "108",
-            "scryfallId": "c7188d0f-0329-4ecc-ab2e-dea7c5f39852"
-          }
-        ]
-      }
-    },
-    "oracle's vault": {
-      "name": "Oracle's Vault",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pakh",
-            "setName": "Amonkhet Promos",
-            "isFoil": true,
-            "collectorNumber": "234",
-            "scryfallId": "027e3eef-d121-4a72-9395-043f57b023c7"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "pakh",
-            "setName": "Amonkhet Promos",
-            "isFoil": true,
-            "collectorNumber": "234",
-            "scryfallId": "027e3eef-d121-4a72-9395-043f57b023c7"
-          }
-        ]
-      }
-    },
-    "yasova dragonclaw": {
-      "name": "Yasova Dragonclaw",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "frf",
-            "setName": "Fate Reforged",
-            "isFoil": true,
-            "collectorNumber": "148",
-            "scryfallId": "490994c6-9fef-482b-835d-a64350bfaa8d"
-          }
-        ]
-      }
-    },
-    "suspension field": {
-      "name": "Suspension Field",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "f15",
-            "setName": "Friday Night Magic 2015",
-            "isFoil": true,
-            "collectorNumber": "4",
-            "scryfallId": "dbeb9475-64d8-4c9a-98e6-c473075ee343"
-          }
-        ]
-      }
-    },
-    "ajani vengeant": {
-      "name": "Ajani Vengeant",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pala",
-            "setName": "Shards of Alara Promos",
-            "isFoil": true,
-            "collectorNumber": "154★",
-            "scryfallId": "c6ffd45c-2353-4292-b6f6-29d8f7e031ca"
-          }
-        ]
-      }
-    },
-    "call of the conclave": {
-      "name": "Call of the Conclave",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "f13",
-            "setName": "Friday Night Magic 2013",
-            "isFoil": true,
-            "collectorNumber": "4",
-            "scryfallId": "70b39dc4-3442-4e0c-8c39-8f0ac1de9305"
-          }
-        ]
-      }
-    },
-    "clash of wills": {
-      "name": "Clash of Wills",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "f16",
-            "setName": "Friday Night Magic 2016",
-            "isFoil": true,
-            "collectorNumber": "2",
-            "scryfallId": "1c67ab53-9489-4658-859e-9dd8a6e0f20d"
-          }
-        ]
-      }
-    },
-    "supplant form": {
-      "name": "Supplant Form",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pfrf",
-            "setName": "Fate Reforged Promos",
-            "isFoil": true,
-            "collectorNumber": "54",
-            "scryfallId": "14ade2bb-3838-4cac-b986-21e7c5213a25"
-          }
-        ]
-      }
-    },
-    "sanguine evangelist": {
-      "name": "Sanguine Evangelist",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": true,
-            "collectorNumber": "34",
-            "scryfallId": "269ddd84-fdc4-4c94-b183-32ecec56967c"
-          }
-        ]
-      }
-    },
-    "drowner of hope": {
-      "name": "Drowner of Hope",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 3,
-            "set": "bfz",
-            "setName": "Battle for Zendikar",
-            "isFoil": false,
-            "collectorNumber": "57",
-            "scryfallId": "0fd5b48c-6850-47d4-8106-297be6c8f708"
-          }
-        ]
-      }
-    },
-    "shadowborn apostle": {
-      "name": "Shadowborn Apostle",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 3,
-            "set": "m14",
-            "setName": "Magic 2014",
-            "isFoil": false,
-            "collectorNumber": "114",
-            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 4,
-            "set": "m14",
-            "setName": "Magic 2014",
-            "isFoil": false,
-            "collectorNumber": "114",
-            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "m14",
-            "setName": "Magic 2014",
-            "isFoil": false,
-            "collectorNumber": "114",
-            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
-          }
-        ]
-      }
-    },
-    "spatial contortion": {
-      "name": "Spatial Contortion",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 3,
-            "set": "ogw",
-            "setName": "Oath of the Gatewatch",
-            "isFoil": false,
-            "collectorNumber": "8",
-            "scryfallId": "4e2acf70-7625-4b77-83c1-0e08436da31f"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "f16",
-            "setName": "Friday Night Magic 2016",
-            "isFoil": true,
-            "collectorNumber": "7",
-            "scryfallId": "acaee41d-5f7c-481d-8591-f9dc47c784e4"
           }
         ]
       }

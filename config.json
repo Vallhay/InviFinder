@@ -49,6 +49,12 @@
       "urls": [
         "https://moxfield.com/decks/n0Qhd3aCDkCdf7y0s0YorA"
       ]
+    },
+    {
+      "owner": "Manuel Venturini (Sta Fe)",
+      "urls": [
+        "https://moxfield.com/binders/f8_VAgMAgE280877zPzepQ"
+      ]
     }
   ],
 
@@ -60,6 +66,7 @@
     "Carmelo": "PHONE_CARMELO",
     "Licha": "PHONE_LICHA",
     "Lucho": "PHONE_LUCHO",
-    "Rodrigo Deganutti":  "PHONE_RODRIGO_DEGANUTTI"
+    "Rodrigo Deganutti":  "PHONE_RODRIGO_DEGANUTTI",
+    "Manuel Venturini (Sta Fe)": "PHONE_MANUEL_VENTURINI"
   }
 }

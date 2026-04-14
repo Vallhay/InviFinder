@@ -51,6 +51,12 @@
       ]
     },
     {
+      "owner": "Guille A.",
+      "urls": [
+        "https://moxfield.com/decks/aq2LwvJuqkCDsM68FKodMw"
+      ]
+    },
+    {
       "owner": "Manuel Venturini (Sta Fe)",
       "urls": [
         "https://moxfield.com/binders/f8_VAgMAgE280877zPzepQ"
@@ -67,6 +73,7 @@
     "Licha": "PHONE_LICHA",
     "Lucho": "PHONE_LUCHO",
     "Rodrigo Deganutti":  "PHONE_RODRIGO_DEGANUTTI",
+    "Guille A.": "PHONE_GUILLE_A",
     "Manuel Venturini (Sta Fe)": "PHONE_MANUEL_VENTURINI"
   }
 }

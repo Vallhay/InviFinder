@@ -30,6 +30,7 @@ jobs:
           PHONE_LICHA: ${{secrets.PHONE_LICHA}}
           PHONE_LUCHO: ${{secrets.PHONE_LUCHO}}
           PHONE_RODRIGO_DEGANUTTI: ${{ secrets.PHONE_RODRIGO_DEGANUTTI }}
+          PHONE_MANUEL_VENTURINI: ${{ secrets.PHONE_MANUEL_VENTURINI }}
           # ── add more phones here as you add people ──
           # PHONE_FRIEND2:  ${{ secrets.PHONE_FRIEND2 }}
 

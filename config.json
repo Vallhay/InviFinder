@@ -57,6 +57,12 @@
       ]
     },
     {
+      "owner": "Franco Fatala",
+      "urls": [
+        "https://moxfield.com/collection/mKk82pVHfEKhwkNRvedjSA"
+      ]
+    },
+    {
       "owner": "Manuel Venturini (Sta Fe)",
       "urls": [
         "https://moxfield.com/binders/f8_VAgMAgE280877zPzepQ"
@@ -74,6 +80,7 @@
     "Lucho": "PHONE_LUCHO",
     "Rodrigo Deganutti":  "PHONE_RODRIGO_DEGANUTTI",
     "Guille A.": "PHONE_GUILLE_A",
+    "Franco Fatala": "PHONE_FRANCO_F",
     "Manuel Venturini (Sta Fe)": "PHONE_MANUEL_VENTURINI"
   }
 }

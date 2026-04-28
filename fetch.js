@@ -157,6 +157,57 @@ async function fetchCollection(id) {
   return allCards;
 }
 
+/**
+ * Fetch a BINDER (paginated, same API as collections).
+ * Binders use the same endpoint as collections.
+ * GET /v1/binders/search/{id}?pageNumber=N&pageSize=50&sortType=cardName&sortDirection=ascending
+ */
+async function fetchBinder(id) {
+  let allCards   = [];
+  let page       = 1;
+  let totalPages = 1;
+
+  while (page <= totalPages) {
+    const url = `${MOX_API}/v1/binders/search/${id}`
+      + `?sortType=cardName&sortDirection=ascending&pageNumber=${page}&pageSize=50`;
+
+    console.log(`  GET binder page ${page}/${totalPages}`);
+    const data = await fetchViaCF(url);
+
+    if (page === 1) totalPages = data.totalPages || 1;
+
+    if (Array.isArray(data.data)) {
+      for (const item of data.data) {
+        const card = item?.card;
+        if (!card?.name) continue;
+        
+        // For binders, foil status is on the ITEM level (same as collections)
+        // item.finish can be "foil" or "nonFoil"
+        const isFoil = item.finish === 'foil' || item.isFoil === true;
+        
+        // Extract all the printing details
+        allCards.push({
+          name: card.name.trim(),
+          qty: item.quantity ?? 1,
+          set: card.set || 'unknown',
+          setName: card.set_name || '',
+          collectorNumber: card.cn || '',
+          finishes: card.finishes || [],
+          isFoil: isFoil,
+          scryfallId: card.scryfall_id || card.scryfallId || '',
+        });
+      }
+    }
+
+    page++;
+    // be polite to Moxfield — small delay between pages
+    if (page <= totalPages) await sleep(300);
+  }
+
+  console.log(`  ✓ binder → ${allCards.length} cards`);
+  return allCards;
+}
+
 // ─── URL parser (same logic as the frontend) ────────────────────────────────
 
 function parseMoxfieldUrl(url) {
@@ -165,6 +216,9 @@ function parseMoxfieldUrl(url) {
 
   const collMatch = url.match(/\/collection\/([A-Za-z0-9_\-]+)/);
   if (collMatch) return { type: 'collection', id: collMatch[1] };
+
+  const binderMatch = url.match(/\/binders\/([A-Za-z0-9_\-]+)/);
+  if (binderMatch) return { type: 'binder', id: binderMatch[1] };
 
   return null;
 }
@@ -220,9 +274,16 @@ async function main() {
 
       let cards;
       try {
-        cards = parsed.type === 'deck'
-          ? await fetchDeck(parsed.id)
-          : await fetchCollection(parsed.id);
+        if (parsed.type === 'deck') {
+          cards = await fetchDeck(parsed.id);
+        } else if (parsed.type === 'collection') {
+          cards = await fetchCollection(parsed.id);
+        } else if (parsed.type === 'binder') {
+          cards = await fetchBinder(parsed.id);
+        } else {
+          console.error(`  ✗ Unknown type: ${parsed.type}`);
+          continue;
+        }
       } catch (e) {
         console.error(`  ✗ Failed to fetch ${url}: ${e.message}`);
         continue;

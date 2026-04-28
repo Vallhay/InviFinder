@@ -158,9 +158,9 @@ async function fetchCollection(id) {
 }
 
 /**
- * Fetch a BINDER (paginated, same API as collections).
- * Binders use the same endpoint as collections.
- * GET /v1/binders/search/{id}?pageNumber=N&pageSize=50&sortType=cardName&sortDirection=ascending
+ * Fetch a BINDER (paginated).
+ * Binders use a different endpoint than collections.
+ * GET /v3/binders/{id}/cards?pageNumber=N&pageSize=50
  */
 async function fetchBinder(id) {
   let allCards   = [];
@@ -168,8 +168,8 @@ async function fetchBinder(id) {
   let totalPages = 1;
 
   while (page <= totalPages) {
-    const url = `${MOX_API}/v1/binders/search/${id}`
-      + `?sortType=cardName&sortDirection=ascending&pageNumber=${page}&pageSize=50`;
+    const url = `${MOX_API}/v3/binders/${id}/cards`
+      + `?pageNumber=${page}&pageSize=50`;
 
     console.log(`  GET binder page ${page}/${totalPages}`);
     const data = await fetchViaCF(url);

@@ -157,57 +157,6 @@ async function fetchCollection(id) {
   return allCards;
 }
 
-/**
- * Fetch a BINDER (paginated).
- * Binders use a different endpoint than collections.
- * GET /v3/binders/{id}/cards?pageNumber=N&pageSize=50
- */
-async function fetchBinder(id) {
-  let allCards   = [];
-  let page       = 1;
-  let totalPages = 1;
-
-  while (page <= totalPages) {
-    const url = `${MOX_API}/v3/binders/${id}/cards`
-      + `?pageNumber=${page}&pageSize=50`;
-
-    console.log(`  GET binder page ${page}/${totalPages}`);
-    const data = await fetchViaCF(url);
-
-    if (page === 1) totalPages = data.totalPages || 1;
-
-    if (Array.isArray(data.data)) {
-      for (const item of data.data) {
-        const card = item?.card;
-        if (!card?.name) continue;
-        
-        // For binders, foil status is on the ITEM level (same as collections)
-        // item.finish can be "foil" or "nonFoil"
-        const isFoil = item.finish === 'foil' || item.isFoil === true;
-        
-        // Extract all the printing details
-        allCards.push({
-          name: card.name.trim(),
-          qty: item.quantity ?? 1,
-          set: card.set || 'unknown',
-          setName: card.set_name || '',
-          collectorNumber: card.cn || '',
-          finishes: card.finishes || [],
-          isFoil: isFoil,
-          scryfallId: card.scryfall_id || card.scryfallId || '',
-        });
-      }
-    }
-
-    page++;
-    // be polite to Moxfield — small delay between pages
-    if (page <= totalPages) await sleep(300);
-  }
-
-  console.log(`  ✓ binder → ${allCards.length} cards`);
-  return allCards;
-}
-
 // ─── URL parser (same logic as the frontend) ────────────────────────────────
 
 function parseMoxfieldUrl(url) {
@@ -276,10 +225,9 @@ async function main() {
       try {
         if (parsed.type === 'deck') {
           cards = await fetchDeck(parsed.id);
-        } else if (parsed.type === 'collection') {
+        } else if (parsed.type === 'collection' || parsed.type === 'binder') {
+          // Binders might use the same API as collections
           cards = await fetchCollection(parsed.id);
-        } else if (parsed.type === 'binder') {
-          cards = await fetchBinder(parsed.id);
         } else {
           console.error(`  ✗ Unknown type: ${parsed.type}`);
           continue;

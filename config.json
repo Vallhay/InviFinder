@@ -63,6 +63,12 @@
       ]
     },
     {
+      "owner": "Jona",
+      "urls": [
+        "https://moxfield.com/binders/R9dxgb0dWkSnU01DC078zg"
+      ]
+    },
+    {
       "owner": "Manuel Venturini (Sta Fe)",
       "urls": [
         "https://moxfield.com/binders/f8_VAgMAgE280877zPzepQ"
@@ -81,6 +87,7 @@
     "Rodrigo Deganutti":  "PHONE_RODRIGO_DEGANUTTI",
     "Guille A.": "PHONE_GUILLE_A",
     "Franco Fatala": "PHONE_FRANCO_F",
+    "Jona": "PHONE_JONA",
     "Manuel Venturini (Sta Fe)": "PHONE_MANUEL_VENTURINI"
   }
 }

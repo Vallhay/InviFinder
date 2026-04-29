@@ -32,6 +32,7 @@ jobs:
           PHONE_RODRIGO_DEGANUTTI: ${{ secrets.PHONE_RODRIGO_DEGANUTTI }}
           PHONE_GUILLE_A: ${{ secrets.PHONE_GUILLE_A }}
           PHONE_FRANCO_F: ${{ secrets.PHONE_FRANCO_F }}
+          PHONE_JONA: ${{ secrets.PHONE_JONA }}
           PHONE_MANUEL_VENTURINI: ${{ secrets.PHONE_MANUEL_VENTURINI }}
           # ── add more phones here as you add people ──
           # PHONE_FRIEND2:  ${{ secrets.PHONE_FRIEND2 }}

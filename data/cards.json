@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T08:12:58.846Z",
+  "lastUpdated": "2026-04-29T13:28:21.507Z",
   "owners": [
     {
       "name": "Fausto",
@@ -49,7 +49,12 @@
     {
       "name": "Franco Fatala",
       "phone": "+5493435026325",
-      "cardCount": 1130
+      "cardCount": 1131
+    },
+    {
+      "name": "Jona",
+      "phone": "+5493435184749",
+      "cardCount": 0
     },
     {
       "name": "Manuel Venturini (Sta Fe)",
@@ -44351,14 +44356,6 @@
             "scryfallId": "37827425-f304-43eb-979b-1ec5b923a2b5"
           },
           {
-            "qty": 2,
-            "set": "soi",
-            "setName": "Shadows over Innistrad",
-            "isFoil": false,
-            "collectorNumber": "292",
-            "scryfallId": "a7878436-bf83-45c6-a040-e2fad447862a"
-          },
-          {
             "qty": 1,
             "set": "eoe",
             "setName": "Edge of Eternities",
@@ -44375,12 +44372,12 @@
             "scryfallId": "c44f81ca-f72f-445c-8901-3a894a2a47f9"
           },
           {
-            "qty": 1,
-            "set": "kld",
-            "setName": "Kaladesh",
+            "qty": 2,
+            "set": "soi",
+            "setName": "Shadows over Innistrad",
             "isFoil": false,
-            "collectorNumber": "260",
-            "scryfallId": "d72d883e-d194-4154-a96c-35e601c5f797"
+            "collectorNumber": "292",
+            "scryfallId": "a7878436-bf83-45c6-a040-e2fad447862a"
           },
           {
             "qty": 1,
@@ -44389,6 +44386,14 @@
             "isFoil": false,
             "collectorNumber": "244",
             "scryfallId": "98fcd666-7724-4c55-975e-20cfa759bba7"
+          },
+          {
+            "qty": 1,
+            "set": "kld",
+            "setName": "Kaladesh",
+            "isFoil": false,
+            "collectorNumber": "260",
+            "scryfallId": "d72d883e-d194-4154-a96c-35e601c5f797"
           }
         ]
       }
@@ -49771,28 +49776,12 @@
         ],
         "Franco Fatala": [
           {
-            "qty": 3,
-            "set": "m19",
-            "setName": "Core Set 2019",
-            "isFoil": false,
-            "collectorNumber": "263",
-            "scryfallId": "1859ba05-06bc-4e80-8c0b-fd2475c6ca55"
-          },
-          {
-            "qty": 15,
-            "set": "scd",
-            "setName": "Starter Commander Decks",
-            "isFoil": false,
-            "collectorNumber": "336",
-            "scryfallId": "b18fb598-90bf-41fa-ab53-a182580296e5"
-          },
-          {
             "qty": 4,
             "set": "shm",
             "setName": "Shadowmoor",
             "isFoil": false,
-            "collectorNumber": "283",
-            "scryfallId": "b2a646c9-8347-4b62-829e-6af6b275346a"
+            "collectorNumber": "284",
+            "scryfallId": "1b104eb8-7095-4aba-a155-d8e147639692"
           },
           {
             "qty": 10,
@@ -49809,6 +49798,22 @@
             "isFoil": false,
             "collectorNumber": "268",
             "scryfallId": "a26fd28e-d053-48b3-ab4c-2dc6fd33fa64"
+          },
+          {
+            "qty": 3,
+            "set": "m19",
+            "setName": "Core Set 2019",
+            "isFoil": false,
+            "collectorNumber": "262",
+            "scryfallId": "b2715553-ba9c-4753-9a1f-d13d8e2ed24f"
+          },
+          {
+            "qty": 15,
+            "set": "scd",
+            "setName": "Starter Commander Decks",
+            "isFoil": false,
+            "collectorNumber": "333",
+            "scryfallId": "b41e0881-6ecb-4b1b-816b-d80a74a414ac"
           }
         ]
       }
@@ -53648,20 +53653,20 @@
         ],
         "Franco Fatala": [
           {
-            "qty": 1,
-            "set": "cmr",
-            "setName": "Commander Legends",
-            "isFoil": false,
-            "collectorNumber": "195",
-            "scryfallId": "7dfa0e65-1ce0-4f8e-a78b-2ade2d25e748"
-          },
-          {
             "qty": 5,
             "set": "kld",
             "setName": "Kaladesh",
             "isFoil": false,
             "collectorNumber": "127",
             "scryfallId": "6c06a39c-68bb-4e65-9a6d-9d9bc745201f"
+          },
+          {
+            "qty": 1,
+            "set": "cmr",
+            "setName": "Commander Legends",
+            "isFoil": false,
+            "collectorNumber": "195",
+            "scryfallId": "7dfa0e65-1ce0-4f8e-a78b-2ade2d25e748"
           }
         ]
       }
@@ -56069,18 +56074,18 @@
         ],
         "Franco Fatala": [
           {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": true,
-            "collectorNumber": "67",
-            "scryfallId": "35c56aff-1f0f-464a-b705-d67803e3d060"
-          },
-          {
             "qty": 4,
             "set": "ecl",
             "setName": "Lorwyn Eclipsed",
             "isFoil": false,
+            "collectorNumber": "67",
+            "scryfallId": "35c56aff-1f0f-464a-b705-d67803e3d060"
+          },
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": true,
             "collectorNumber": "67",
             "scryfallId": "35c56aff-1f0f-464a-b705-d67803e3d060"
           }
@@ -69766,6 +69771,14 @@
         "Franco Fatala": [
           {
             "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "269",
+            "scryfallId": "42799f51-0f8c-444b-974e-dae281a5c697"
+          },
+          {
+            "qty": 1,
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": false,
@@ -69779,14 +69792,6 @@
             "isFoil": false,
             "collectorNumber": "266",
             "scryfallId": "4723a303-7f20-4399-8bc6-6a27a61a3532"
-          },
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "269",
-            "scryfallId": "42799f51-0f8c-444b-974e-dae281a5c697"
           }
         ]
       }
@@ -77322,20 +77327,20 @@
         ],
         "Franco Fatala": [
           {
-            "qty": 2,
-            "set": "ktk",
-            "setName": "Khans of Tarkir",
-            "isFoil": false,
-            "collectorNumber": "247",
-            "scryfallId": "3b296781-78ac-411f-88fc-2d924ad22986"
-          },
-          {
             "qty": 3,
             "set": "frf",
             "setName": "Fate Reforged",
             "isFoil": false,
             "collectorNumber": "175",
             "scryfallId": "ab43431a-d1cf-4f89-9c07-2efd6ac8f218"
+          },
+          {
+            "qty": 2,
+            "set": "ktk",
+            "setName": "Khans of Tarkir",
+            "isFoil": false,
+            "collectorNumber": "247",
+            "scryfallId": "3b296781-78ac-411f-88fc-2d924ad22986"
           }
         ]
       }
@@ -130825,18 +130830,18 @@
         ],
         "Franco Fatala": [
           {
-            "qty": 1,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": true,
-            "collectorNumber": "210",
-            "scryfallId": "63ce03ee-279b-4955-98e3-9ce1990f8b7b"
-          },
-          {
             "qty": 4,
             "set": "woe",
             "setName": "Wilds of Eldraine",
             "isFoil": false,
+            "collectorNumber": "210",
+            "scryfallId": "63ce03ee-279b-4955-98e3-9ce1990f8b7b"
+          },
+          {
+            "qty": 1,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": true,
             "collectorNumber": "210",
             "scryfallId": "63ce03ee-279b-4955-98e3-9ce1990f8b7b"
           }
@@ -136561,8 +136566,8 @@
             "set": "dmu",
             "setName": "Dominaria United",
             "isFoil": false,
-            "collectorNumber": "310",
-            "scryfallId": "86a42355-ead5-48b9-813a-1e9be9a45747"
+            "collectorNumber": "211",
+            "scryfallId": "2cec235e-7ce0-4947-b221-a555b2c865bd"
           }
         ]
       }
@@ -153381,24 +153386,16 @@
             "set": "eoe",
             "setName": "Edge of Eternities",
             "isFoil": false,
-            "collectorNumber": "264",
-            "scryfallId": "3e724e54-a622-4c77-8183-5a397a7c14a9"
+            "collectorNumber": "272",
+            "scryfallId": "07ab266b-ad6a-422e-9277-27d9f48d2c29"
           },
           {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
             "isFoil": false,
-            "collectorNumber": "276",
-            "scryfallId": "0cf904da-496c-4d88-a62b-c736ba895078"
-          },
-          {
-            "qty": 10,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "284",
-            "scryfallId": "f0b234d8-d6bb-48ec-8a4d-d8a570a69c62"
+            "collectorNumber": "286",
+            "scryfallId": "6f23a73a-522b-40cf-a14b-ffdf47a24c01"
           },
           {
             "qty": 2,
@@ -153410,19 +153407,27 @@
           },
           {
             "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "286",
-            "scryfallId": "6f23a73a-522b-40cf-a14b-ffdf47a24c01"
-          },
-          {
-            "qty": 1,
             "set": "dft",
             "setName": "Aetherdrift",
             "isFoil": false,
             "collectorNumber": "274",
             "scryfallId": "e969e168-e74c-4608-9fa0-a5660bf7fa02"
+          },
+          {
+            "qty": 10,
+            "set": "tla",
+            "setName": "Avatar: The Last Airbender",
+            "isFoil": false,
+            "collectorNumber": "284",
+            "scryfallId": "f0b234d8-d6bb-48ec-8a4d-d8a570a69c62"
+          },
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "281",
+            "scryfallId": "35fe42f9-dd55-4ca4-af0a-59ecdff0dba8"
           }
         ]
       }
@@ -154806,8 +154811,8 @@
             "set": "dmu",
             "setName": "Dominaria United",
             "isFoil": false,
-            "collectorNumber": "222",
-            "scryfallId": "0d446cb9-519a-4889-b057-029db9400021"
+            "collectorNumber": "321",
+            "scryfallId": "74c3f2dd-8745-4e2e-b01c-6b692c6ff8af"
           }
         ]
       }
@@ -161109,8 +161114,8 @@
             "set": "dmu",
             "setName": "Dominaria United",
             "isFoil": false,
-            "collectorNumber": "324",
-            "scryfallId": "216b4613-9b2a-472b-bc9a-49ad6c9b9f03"
+            "collectorNumber": "225",
+            "scryfallId": "dd3fc36c-682b-4352-a66f-eddd2baf0bf6"
           }
         ]
       }
@@ -173430,7 +173435,7 @@
             "qty": 1,
             "set": "ecl",
             "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "185",
             "scryfallId": "a730b254-ff7c-4f89-a559-b44ad7fd6c6c"
           },
@@ -173438,7 +173443,7 @@
             "qty": 1,
             "set": "ecl",
             "setName": "Lorwyn Eclipsed",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "185",
             "scryfallId": "a730b254-ff7c-4f89-a559-b44ad7fd6c6c"
           }
@@ -175702,7 +175707,7 @@
             "qty": 1,
             "set": "eoe",
             "setName": "Edge of Eternities",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "35",
             "scryfallId": "dec91ec3-42d3-4922-96f0-dbb50a576084"
           },
@@ -175710,7 +175715,7 @@
             "qty": 1,
             "set": "eoe",
             "setName": "Edge of Eternities",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "35",
             "scryfallId": "dec91ec3-42d3-4922-96f0-dbb50a576084"
           }
@@ -189363,7 +189368,7 @@
             "qty": 1,
             "set": "sos",
             "setName": "Secrets of Strixhaven",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "70",
             "scryfallId": "56f54fee-b48d-4582-8982-ca4c7b8ef553"
           },
@@ -189371,7 +189376,7 @@
             "qty": 1,
             "set": "sos",
             "setName": "Secrets of Strixhaven",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "70",
             "scryfallId": "56f54fee-b48d-4582-8982-ca4c7b8ef553"
           }
@@ -190283,21 +190288,6 @@
         ]
       }
     },
-    "thalia, guardian of thraben": {
-      "name": "Thalia, Guardian of Thraben",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "ha2",
-            "setName": "Historic Anthology 2",
-            "isFoil": false,
-            "collectorNumber": "4",
-            "scryfallId": "8e42df9e-95f2-4c79-9274-2d16e3cd91f1"
-          }
-        ]
-      }
-    },
     "armadillo cloak": {
       "name": "Armadillo Cloak",
       "owners": {
@@ -190338,21 +190328,6 @@
         ]
       }
     },
-    "selfless savior": {
-      "name": "Selfless Savior",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "m21",
-            "setName": "Core Set 2021",
-            "isFoil": false,
-            "collectorNumber": "36",
-            "scryfallId": "6911759c-7177-402c-a95a-f9f46efaf521"
-          }
-        ]
-      }
-    },
     "ooze flux": {
       "name": "Ooze Flux",
       "owners": {
@@ -190383,31 +190358,6 @@
         ]
       }
     },
-    "fortified village": {
-      "name": "Fortified Village",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "scd",
-            "setName": "Starter Commander Decks",
-            "isFoil": false,
-            "collectorNumber": "301",
-            "scryfallId": "45dd62f8-b478-431f-affc-dd1a20bf9f76"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "mkc",
-            "setName": "Murders at Karlov Manor Commander",
-            "isFoil": false,
-            "collectorNumber": "262",
-            "scryfallId": "eb2e9534-2eda-4e41-8a87-181e5eb8c328"
-          }
-        ]
-      }
-    },
     "thalia's lieutenant": {
       "name": "Thalia's Lieutenant",
       "owners": {
@@ -190419,21 +190369,6 @@
             "isFoil": false,
             "collectorNumber": "43",
             "scryfallId": "fe162594-2332-4816-a9e1-57eb19b12651"
-          }
-        ]
-      }
-    },
-    "slippery bogle": {
-      "name": "Slippery Bogle",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "EVE-160",
-            "scryfallId": "505eccd0-472e-41db-a336-0583960ac85a"
           }
         ]
       }
@@ -190453,36 +190388,6 @@
         ]
       }
     },
-    "caves of koilos": {
-      "name": "Caves of Koilos",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 2,
-            "set": "ori",
-            "setName": "Magic Origins",
-            "isFoil": false,
-            "collectorNumber": "245",
-            "scryfallId": "ca145c1c-537a-459e-9241-0b95368aaf3a"
-          }
-        ]
-      }
-    },
-    "hateful eidolon": {
-      "name": "Hateful Eidolon",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "thb",
-            "setName": "Theros Beyond Death",
-            "isFoil": false,
-            "collectorNumber": "101",
-            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
-          }
-        ]
-      }
-    },
     "primal bellow": {
       "name": "Primal Bellow",
       "owners": {
@@ -190494,21 +190399,6 @@
             "isFoil": false,
             "collectorNumber": "176",
             "scryfallId": "23b0c6a9-a7c0-4518-8580-653712062265"
-          }
-        ]
-      }
-    },
-    "bloodchief's thirst": {
-      "name": "Bloodchief's Thirst",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 2,
-            "set": "znr",
-            "setName": "Zendikar Rising",
-            "isFoil": false,
-            "collectorNumber": "94",
-            "scryfallId": "059e8447-6b1c-4651-a734-a8fea2cbf7b2"
           }
         ]
       }
@@ -190539,21 +190429,6 @@
             "isFoil": false,
             "collectorNumber": "272",
             "scryfallId": "84a46ebf-6938-4100-8f5f-0605ad2be4fc"
-          }
-        ]
-      }
-    },
-    "ossification": {
-      "name": "Ossification",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 2,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "ONE-26",
-            "scryfallId": "249c874c-dd94-4da9-8a03-da6046f8bd48"
           }
         ]
       }
@@ -190638,21 +190513,6 @@
         ]
       }
     },
-    "silvergill mentor": {
-      "name": "Silvergill Mentor",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": true,
-            "collectorNumber": "403",
-            "scryfallId": "3841d32f-4e41-409a-b1ec-3db9390d61a1"
-          }
-        ]
-      }
-    },
     "mondo gecko": {
       "name": "Mondo Gecko",
       "owners": {
@@ -190689,6 +190549,151 @@
             "isFoil": false,
             "collectorNumber": "112",
             "scryfallId": "53f5f704-2265-42bb-bff5-fd9d85bc2bfb"
+          }
+        ]
+      }
+    },
+    "thalia, guardian of thraben": {
+      "name": "Thalia, Guardian of Thraben",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "ha2",
+            "setName": "Historic Anthology 2",
+            "isFoil": false,
+            "collectorNumber": "4",
+            "scryfallId": "8e42df9e-95f2-4c79-9274-2d16e3cd91f1"
+          }
+        ]
+      }
+    },
+    "selfless savior": {
+      "name": "Selfless Savior",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "m21",
+            "setName": "Core Set 2021",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "6911759c-7177-402c-a95a-f9f46efaf521"
+          }
+        ]
+      }
+    },
+    "slippery bogle": {
+      "name": "Slippery Bogle",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "EVE-160",
+            "scryfallId": "505eccd0-472e-41db-a336-0583960ac85a"
+          }
+        ]
+      }
+    },
+    "fortified village": {
+      "name": "Fortified Village",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "scd",
+            "setName": "Starter Commander Decks",
+            "isFoil": false,
+            "collectorNumber": "301",
+            "scryfallId": "45dd62f8-b478-431f-affc-dd1a20bf9f76"
+          }
+        ],
+        "Guille A.": [
+          {
+            "qty": 1,
+            "set": "mkc",
+            "setName": "Murders at Karlov Manor Commander",
+            "isFoil": false,
+            "collectorNumber": "262",
+            "scryfallId": "eb2e9534-2eda-4e41-8a87-181e5eb8c328"
+          }
+        ]
+      }
+    },
+    "hateful eidolon": {
+      "name": "Hateful Eidolon",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "thb",
+            "setName": "Theros Beyond Death",
+            "isFoil": false,
+            "collectorNumber": "101",
+            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
+          }
+        ]
+      }
+    },
+    "caves of koilos": {
+      "name": "Caves of Koilos",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 2,
+            "set": "ori",
+            "setName": "Magic Origins",
+            "isFoil": false,
+            "collectorNumber": "245",
+            "scryfallId": "ca145c1c-537a-459e-9241-0b95368aaf3a"
+          }
+        ]
+      }
+    },
+    "bloodchief's thirst": {
+      "name": "Bloodchief's Thirst",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 2,
+            "set": "znr",
+            "setName": "Zendikar Rising",
+            "isFoil": false,
+            "collectorNumber": "94",
+            "scryfallId": "059e8447-6b1c-4651-a734-a8fea2cbf7b2"
+          }
+        ]
+      }
+    },
+    "ossification": {
+      "name": "Ossification",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 2,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "ONE-26",
+            "scryfallId": "249c874c-dd94-4da9-8a03-da6046f8bd48"
+          }
+        ]
+      }
+    },
+    "silvergill mentor": {
+      "name": "Silvergill Mentor",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": true,
+            "collectorNumber": "403",
+            "scryfallId": "3841d32f-4e41-409a-b1ec-3db9390d61a1"
           }
         ]
       }
@@ -211107,19 +211112,19 @@
         "Franco Fatala": [
           {
             "qty": 1,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "222",
-            "scryfallId": "42d5034f-18f0-4d57-9840-6be52c286247"
-          },
-          {
-            "qty": 1,
             "set": "peoe",
             "setName": "Edge of Eternities Promos",
             "isFoil": false,
             "collectorNumber": "222p",
             "scryfallId": "ed0e1cb6-beb2-436b-a65a-fda2674d934e"
+          },
+          {
+            "qty": 1,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "222",
+            "scryfallId": "42d5034f-18f0-4d57-9840-6be52c286247"
           }
         ]
       }
@@ -211767,18 +211772,18 @@
       "owners": {
         "Franco Fatala": [
           {
-            "qty": 4,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "30",
-            "scryfallId": "c08c7bf9-a2ed-45c6-8b48-15122d9d9e37"
-          },
-          {
             "qty": 1,
             "set": "eoe",
             "setName": "Edge of Eternities",
             "isFoil": true,
+            "collectorNumber": "30",
+            "scryfallId": "c08c7bf9-a2ed-45c6-8b48-15122d9d9e37"
+          },
+          {
+            "qty": 4,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
             "collectorNumber": "30",
             "scryfallId": "c08c7bf9-a2ed-45c6-8b48-15122d9d9e37"
           }
@@ -212222,8 +212227,8 @@
             "set": "ecl",
             "setName": "Lorwyn Eclipsed",
             "isFoil": false,
-            "collectorNumber": "154",
-            "scryfallId": "aeb4612c-758b-4492-ba03-eb6741b4176e"
+            "collectorNumber": "405",
+            "scryfallId": "0a13f8e0-8b23-4553-ad76-9e52f8d4c63c"
           },
           {
             "qty": 1,
@@ -212301,18 +212306,18 @@
       "owners": {
         "Franco Fatala": [
           {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": true,
-            "collectorNumber": "193",
-            "scryfallId": "ac95b1c3-9eb2-4f80-bb32-72b36817d622"
-          },
-          {
             "qty": 2,
             "set": "ecl",
             "setName": "Lorwyn Eclipsed",
             "isFoil": false,
+            "collectorNumber": "193",
+            "scryfallId": "ac95b1c3-9eb2-4f80-bb32-72b36817d622"
+          },
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": true,
             "collectorNumber": "193",
             "scryfallId": "ac95b1c3-9eb2-4f80-bb32-72b36817d622"
           }
@@ -212762,7 +212767,7 @@
             "qty": 1,
             "set": "sos",
             "setName": "Secrets of Strixhaven",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "229",
             "scryfallId": "c90366d5-b4ba-4772-a3c5-f138bbe7f305"
           },
@@ -212770,7 +212775,7 @@
             "qty": 1,
             "set": "sos",
             "setName": "Secrets of Strixhaven",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "229",
             "scryfallId": "c90366d5-b4ba-4772-a3c5-f138bbe7f305"
           }
@@ -213329,6 +213334,21 @@
             "isFoil": false,
             "collectorNumber": "117",
             "scryfallId": "b67cdb6e-9a3b-4887-924d-318faa3c443d"
+          }
+        ]
+      }
+    },
+    "susurian voidborn": {
+      "name": "Susurian Voidborn",
+      "owners": {
+        "Franco Fatala": [
+          {
+            "qty": 1,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "beb97e7b-0ae7-4b08-9ceb-6a7f825bcd49"
           }
         ]
       }

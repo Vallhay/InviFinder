@@ -169,7 +169,7 @@ async function fetchBinder(id) {
 
   while (page <= totalPages) {
     const url = `${MOX_API}/v1/trade-binders/${id}/search`
-      + `?pageNumber=${page}&pageSize=50`;
+      + `?sortType=cardName&sortDirection=ascending&pageNumber=${page}&pageSize=50`;
 
     console.log(`  GET binder page ${page}/${totalPages}`);
     const data = await fetchViaCF(url);

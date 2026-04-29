@@ -157,6 +157,58 @@ async function fetchCollection(id) {
   return allCards;
 }
 
+/**
+ * Fetch a BINDER (paginated).
+ * Binders use the trade-binders endpoint.
+ * GET /v1/trade-binders/{id}/search?pageNumber=N&pageSize=50&sortType=cardName&sortDirection=ascending
+ */
+async function fetchBinder(id) {
+  let allCards   = [];
+  let page       = 1;
+  let totalPages = 1;
+
+  while (page <= totalPages) {
+    const url = `${MOX_API}/v1/trade-binders/${id}/search`
+      + `?pageNumber=${page}&pageSize=50`
+      + `&sortType=cardName&sortDirection=ascending`;
+
+    console.log(`  GET binder page ${page}/${totalPages}`);
+    const data = await fetchViaCF(url);
+
+    if (page === 1) totalPages = data.totalPages || 1;
+
+    if (Array.isArray(data.data)) {
+      for (const item of data.data) {
+        const card = item?.card;
+        if (!card?.name) continue;
+        
+        // For binders, foil status is on the ITEM level (same as collections)
+        // item.finish can be "foil" or "nonFoil"
+        const isFoil = item.finish === 'foil' || item.isFoil === true;
+        
+        // Extract all the printing details
+        allCards.push({
+          name: card.name.trim(),
+          qty: item.quantity ?? 1,
+          set: card.set || 'unknown',
+          setName: card.set_name || '',
+          collectorNumber: card.cn || '',
+          finishes: card.finishes || [],
+          isFoil: isFoil,
+          scryfallId: card.scryfall_id || card.scryfallId || '',
+        });
+      }
+    }
+
+    page++;
+    // be polite to Moxfield — small delay between pages
+    if (page <= totalPages) await sleep(300);
+  }
+
+  console.log(`  ✓ binder → ${allCards.length} cards`);
+  return allCards;
+}
+
 // ─── URL parser (same logic as the frontend) ────────────────────────────────
 
 function parseMoxfieldUrl(url) {

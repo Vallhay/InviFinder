@@ -169,7 +169,7 @@ async function fetchBinder(id) {
 
   while (page <= totalPages) {
     const url = `${MOX_API}/v1/trade-binders/${id}/search`
-      + `?sortType=cardName&sortDirection=ascending&pageNumber=${page}&pageSize=50`;
+      + `?pageNumber=${page}&pageSize=50`;
 
     console.log(`  GET binder page ${page}/${totalPages}`);
     const data = await fetchViaCF(url);
@@ -276,9 +276,10 @@ async function main() {
       try {
         if (parsed.type === 'deck') {
           cards = await fetchDeck(parsed.id);
-        } else if (parsed.type === 'collection' || parsed.type === 'binder') {
-          // Binders might use the same API as collections
+        } else if (parsed.type === 'collection') {
           cards = await fetchCollection(parsed.id);
+        } else if (parsed.type === 'binder') {
+          cards = await fetchBinder(parsed.id);
         } else {
           console.error(`  ✗ Unknown type: ${parsed.type}`);
           continue;

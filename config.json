@@ -69,6 +69,12 @@
       ]
     },
     {
+      "owner": "Ruso",
+      "urls": [
+        "https://moxfield.com/decks/EG7UZ4K4LUy5ps5caZmwEg"
+      ]
+    },
+    {
       "owner": "Eze Posadas (Sta Fe)",
       "urls": [
         "https://moxfield.com/decks/7i76uBxZMkCtRXJhBgO-sg"
@@ -94,6 +100,7 @@
     "Guille A.": "PHONE_GUILLE_A",
     "Franco Fatala": "PHONE_FRANCO_F",
     "Jona": "PHONE_JONA",
+    "Ruso": "PHONE_RUSO",
     "Eze Posadas (Sta Fe)": "PHONE_EZE_POSADA",
     "Manuel Venturini (Sta Fe)": "PHONE_MANUEL_VENTURINI"
   }

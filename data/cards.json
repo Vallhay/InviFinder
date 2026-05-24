@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T08:15:49.968Z",
+  "lastUpdated": "2026-05-24T08:27:06.415Z",
   "owners": [
     {
       "name": "Fausto",
@@ -64,12 +64,12 @@
     {
       "name": "Eze Posadas (Sta Fe)",
       "phone": "+5493425193367",
-      "cardCount": 232
+      "cardCount": 226
     },
     {
       "name": "Manuel Venturini (Sta Fe)",
       "phone": "+5493425119581",
-      "cardCount": 411
+      "cardCount": 407
     }
   ],
   "cards": {
@@ -47143,16 +47143,6 @@
             "scryfallId": "6f3d2dc5-7b9d-4af6-9f3b-4de90fbf63c9"
           }
         ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "grn",
-            "setName": "Guilds of Ravnica",
-            "isFoil": false,
-            "collectorNumber": "192",
-            "scryfallId": "6f3d2dc5-7b9d-4af6-9f3b-4de90fbf63c9"
-          }
-        ],
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 3,
@@ -67206,7 +67196,7 @@
         ],
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 3,
+            "qty": 2,
             "set": "shm",
             "setName": "Shadowmoor",
             "isFoil": false,
@@ -77986,16 +77976,6 @@
         "Guille A.": [
           {
             "qty": 2,
-            "set": "xln",
-            "setName": "Ixalan",
-            "isFoil": false,
-            "collectorNumber": "130",
-            "scryfallId": "0038ac6a-318f-44fb-bb64-7ae172c4aca3"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
             "set": "xln",
             "setName": "Ixalan",
             "isFoil": false,
@@ -122198,7 +122178,7 @@
         ],
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 6,
+            "qty": 5,
             "set": "shm",
             "setName": "Shadowmoor",
             "isFoil": false,
@@ -135012,7 +134992,7 @@
         ],
         "Eze Posadas (Sta Fe)": [
           {
-            "qty": 2,
+            "qty": 1,
             "set": "plst",
             "setName": "The List",
             "isFoil": false,
@@ -187074,7 +187054,7 @@
         ],
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 5,
+            "qty": 4,
             "set": "war",
             "setName": "War of the Spark",
             "isFoil": false,
@@ -241627,21 +241607,6 @@
         ]
       }
     },
-    "thraben doomsayer": {
-      "name": "Thraben Doomsayer",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "c20",
-            "setName": "Commander 2020",
-            "isFoil": false,
-            "collectorNumber": "104",
-            "scryfallId": "0e0fa5ab-c4d1-4b2d-ad62-feb651e4b11c"
-          }
-        ]
-      }
-    },
     "approach of the second sun": {
       "name": "Approach of the Second Sun",
       "owners": {
@@ -241822,21 +241787,6 @@
         ]
       }
     },
-    "insidious will": {
-      "name": "Insidious Will",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "kld",
-            "setName": "Kaladesh",
-            "isFoil": false,
-            "collectorNumber": "52",
-            "scryfallId": "8eafb2bb-58bf-4c6b-ae8f-91bcea12c7d2"
-          }
-        ]
-      }
-    },
     "dowsing dagger // lost vale": {
       "name": "Dowsing Dagger // Lost Vale",
       "owners": {
@@ -241908,21 +241858,6 @@
             "isFoil": false,
             "collectorNumber": "275",
             "scryfallId": "4b335496-05d2-40f5-a52c-10029f7fa008"
-          }
-        ]
-      }
-    },
-    "rally the ranks": {
-      "name": "Rally the Ranks",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "khm",
-            "setName": "Kaldheim",
-            "isFoil": false,
-            "collectorNumber": "20",
-            "scryfallId": "03595195-3be2-4d18-b5c0-43b2dcc1c0f5"
           }
         ]
       }
@@ -242467,36 +242402,6 @@
         ]
       }
     },
-    "heidegger, shinra executive": {
-      "name": "Heidegger, Shinra Executive",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "fic",
-            "setName": "Final Fantasy Commander",
-            "isFoil": false,
-            "collectorNumber": "21",
-            "scryfallId": "8e216baf-0e3c-4173-a852-5c5aeb3a9d79"
-          }
-        ]
-      }
-    },
-    "soldier military program": {
-      "name": "SOLDIER Military Program",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "fic",
-            "setName": "Final Fantasy Commander",
-            "isFoil": false,
-            "collectorNumber": "25",
-            "scryfallId": "dddad2c2-bd19-42bd-aad6-bbf23ccef269"
-          }
-        ]
-      }
-    },
     "vayne's treachery": {
       "name": "Vayne's Treachery",
       "owners": {
@@ -242538,21 +242443,6 @@
             "isFoil": false,
             "collectorNumber": "67",
             "scryfallId": "0f2d12fc-38a0-42e6-9caa-7c18bfcf0011"
-          }
-        ]
-      }
-    },
-    "zero point ballad": {
-      "name": "Zero Point Ballad",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "128",
-            "scryfallId": "59cf9f4d-54cd-4cda-9726-65e16100ab46"
           }
         ]
       }
@@ -242942,6 +242832,21 @@
         ]
       }
     },
+    "thraben doomsayer": {
+      "name": "Thraben Doomsayer",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "c20",
+            "setName": "Commander 2020",
+            "isFoil": false,
+            "collectorNumber": "104",
+            "scryfallId": "0e0fa5ab-c4d1-4b2d-ad62-feb651e4b11c"
+          }
+        ]
+      }
+    },
     "gladehart cavalry": {
       "name": "Gladehart Cavalry",
       "owners": {
@@ -242987,17 +242892,17 @@
         ]
       }
     },
-    "hand of vecna": {
-      "name": "Hand of Vecna",
+    "rally the ranks": {
+      "name": "Rally the Ranks",
       "owners": {
         "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
-            "set": "afr",
-            "setName": "Adventures in the Forgotten Realms",
+            "set": "khm",
+            "setName": "Kaldheim",
             "isFoil": false,
-            "collectorNumber": "246",
-            "scryfallId": "ddd0beb7-80dc-4665-bab2-747c795d97db"
+            "collectorNumber": "20",
+            "scryfallId": "03595195-3be2-4d18-b5c0-43b2dcc1c0f5"
           }
         ]
       }
@@ -243017,17 +242922,47 @@
         ]
       }
     },
-    "fell": {
-      "name": "Fell",
+    "heidegger, shinra executive": {
+      "name": "Heidegger, Shinra Executive",
       "owners": {
         "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
-            "set": "blb",
-            "setName": "Bloomburrow",
+            "set": "fic",
+            "setName": "Final Fantasy Commander",
             "isFoil": false,
-            "collectorNumber": "95",
-            "scryfallId": "c96ac326-de44-470b-a592-a4c2a052c091"
+            "collectorNumber": "21",
+            "scryfallId": "8e216baf-0e3c-4173-a852-5c5aeb3a9d79"
+          }
+        ]
+      }
+    },
+    "soldier military program": {
+      "name": "SOLDIER Military Program",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "fic",
+            "setName": "Final Fantasy Commander",
+            "isFoil": false,
+            "collectorNumber": "25",
+            "scryfallId": "dddad2c2-bd19-42bd-aad6-bbf23ccef269"
+          }
+        ]
+      }
+    },
+    "zero point ballad": {
+      "name": "Zero Point Ballad",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "128",
+            "scryfallId": "59cf9f4d-54cd-4cda-9726-65e16100ab46"
           }
         ]
       }
@@ -243428,19 +243363,19 @@
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 1,
-            "set": "7ed",
-            "setName": "Seventh Edition",
-            "isFoil": false,
-            "collectorNumber": "105",
-            "scryfallId": "3fdd9981-bb5e-450d-90c3-4405a7097939"
-          },
-          {
-            "qty": 1,
             "set": "usg",
             "setName": "Urza's Saga",
             "isFoil": false,
             "collectorNumber": "104",
             "scryfallId": "5c29399d-0a59-4dcb-9bd4-f31eea3f39f9"
+          },
+          {
+            "qty": 1,
+            "set": "7ed",
+            "setName": "Seventh Edition",
+            "isFoil": false,
+            "collectorNumber": "105",
+            "scryfallId": "3fdd9981-bb5e-450d-90c3-4405a7097939"
           }
         ]
       }
@@ -243550,21 +243485,6 @@
         ]
       }
     },
-    "sythis, harvest's hand": {
-      "name": "Sythis, Harvest's Hand",
-      "owners": {
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "mh2",
-            "setName": "Modern Horizons 2",
-            "isFoil": false,
-            "collectorNumber": "214",
-            "scryfallId": "0babfe00-9bad-48fc-b3b1-df8280242fd2"
-          }
-        ]
-      }
-    },
     "sylvan anthem": {
       "name": "Sylvan Anthem",
       "owners": {
@@ -243630,7 +243550,7 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 3,
+            "qty": 2,
             "set": "m13",
             "setName": "Magic 2013",
             "isFoil": false,
@@ -243666,14 +243586,6 @@
             "isFoil": false,
             "collectorNumber": "278",
             "scryfallId": "40b26aa3-8169-4978-9554-bd2fc8e18e3b"
-          },
-          {
-            "qty": 1,
-            "set": "mh2",
-            "setName": "Modern Horizons 2",
-            "isFoil": false,
-            "collectorNumber": "293",
-            "scryfallId": "ba03e105-a76c-4769-a35a-d780448890ec"
           }
         ]
       }
@@ -243907,21 +243819,6 @@
             "isFoil": false,
             "collectorNumber": "102",
             "scryfallId": "b2e5eb69-dcd9-4784-bf4c-20b674f4c035"
-          }
-        ]
-      }
-    },
-    "second sunrise": {
-      "name": "Second Sunrise",
-      "owners": {
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "mrd",
-            "setName": "Mirrodin",
-            "isFoil": false,
-            "collectorNumber": "20",
-            "scryfallId": "4e50ee7c-f2a2-4d49-a1cc-8233fd8dd0c5"
           }
         ]
       }
@@ -244432,8 +244329,8 @@
             "set": "mh2",
             "setName": "Modern Horizons 2",
             "isFoil": false,
-            "collectorNumber": "232",
-            "scryfallId": "025b0f0f-daf6-4071-82e7-39c015447ce4"
+            "collectorNumber": "430",
+            "scryfallId": "23ac45cf-4dc8-47b9-8ca8-e72464f745d6"
           },
           {
             "qty": 1,
@@ -246716,21 +246613,6 @@
             "isFoil": false,
             "collectorNumber": "152",
             "scryfallId": "a4d76d03-4fcf-42f8-8c2e-ad6b03d58677"
-          }
-        ]
-      }
-    },
-    "angel's grace": {
-      "name": "Angel's Grace",
-      "owners": {
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "soa",
-            "setName": "Secrets of Strixhaven Mystical Archive",
-            "isFoil": false,
-            "collectorNumber": "2",
-            "scryfallId": "de0f22af-fb85-4178-8a35-ec3ff031f4df"
           }
         ]
       }

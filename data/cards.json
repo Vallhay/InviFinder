@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T08:42:38.731Z",
+  "lastUpdated": "2026-06-01T11:27:16.769Z",
   "owners": [
     {
       "name": "Fausto",
@@ -34,7 +34,7 @@
     {
       "name": "Lucho",
       "phone": "+5493434514582",
-      "cardCount": 960
+      "cardCount": 958
     },
     {
       "name": "Rodrigo Deganutti",
@@ -64,7 +64,7 @@
     {
       "name": "Eze Posadas (Sta Fe)",
       "phone": "+5493425193367",
-      "cardCount": 664
+      "cardCount": 623
     },
     {
       "name": "Manuel Venturini (Sta Fe)",
@@ -12111,16 +12111,6 @@
           }
         ],
         "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "41",
-            "scryfallId": "06f9f257-c7ef-44b7-8b2b-f038fba900af"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
             "set": "sos",
@@ -29810,19 +29800,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "uma",
-            "setName": "Ultimate Masters",
-            "isFoil": false,
-            "collectorNumber": "18",
-            "scryfallId": "8d95d57f-daaf-49d2-b26f-2058c065f0fe"
-          },
-          {
-            "qty": 1,
             "set": "clu",
             "setName": "Ravnica: Clue Edition",
             "isFoil": false,
             "collectorNumber": "63",
             "scryfallId": "138f0e49-71d5-4582-92be-797e753f0f42"
+          },
+          {
+            "qty": 1,
+            "set": "uma",
+            "setName": "Ultimate Masters",
+            "isFoil": false,
+            "collectorNumber": "18",
+            "scryfallId": "8d95d57f-daaf-49d2-b26f-2058c065f0fe"
           }
         ]
       }
@@ -32134,19 +32124,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "cmr",
-            "setName": "Commander Legends",
-            "isFoil": false,
-            "collectorNumber": "427",
-            "scryfallId": "159e0372-de5e-4830-b690-f5154ed1036c"
-          },
-          {
-            "qty": 1,
             "set": "plst",
             "setName": "The List",
             "isFoil": false,
             "collectorNumber": "C17-151",
             "scryfallId": "4a8c8b67-a07b-4316-acc1-b3597b0e774b"
+          },
+          {
+            "qty": 1,
+            "set": "cmr",
+            "setName": "Commander Legends",
+            "isFoil": false,
+            "collectorNumber": "427",
+            "scryfallId": "159e0372-de5e-4830-b690-f5154ed1036c"
           }
         ]
       }
@@ -35166,16 +35156,6 @@
           }
         ],
         "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "eld",
-            "setName": "Throne of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "193",
-            "scryfallId": "0461867b-ec35-4d37-a398-5247e06c4afe"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
             "set": "eld",
@@ -40308,20 +40288,20 @@
         ],
         "Lucho": [
           {
-            "qty": 1,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "136",
-            "scryfallId": "30077b49-b825-4dbb-a0c7-f3992f647df0"
-          },
-          {
             "qty": 4,
             "set": "m19",
             "setName": "Core Set 2019",
             "isFoil": false,
             "collectorNumber": "152",
             "scryfallId": "084b7337-c06f-4cbf-8fc0-0b20c221f1dc"
+          },
+          {
+            "qty": 1,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": false,
+            "collectorNumber": "136",
+            "scryfallId": "30077b49-b825-4dbb-a0c7-f3992f647df0"
           }
         ],
         "Jona": [
@@ -46715,19 +46695,19 @@
         "Jona": [
           {
             "qty": 1,
-            "set": "scd",
-            "setName": "Starter Commander Decks",
-            "isFoil": false,
-            "collectorNumber": "58",
-            "scryfallId": "cfc1c914-fa52-4492-8dee-0c35bebc3766"
-          },
-          {
-            "qty": 1,
             "set": "m12",
             "setName": "Magic 2012",
             "isFoil": false,
             "collectorNumber": "69",
             "scryfallId": "7f21cd05-2fdb-4c37-90a4-220a3eda23ef"
+          },
+          {
+            "qty": 1,
+            "set": "scd",
+            "setName": "Starter Commander Decks",
+            "isFoil": false,
+            "collectorNumber": "58",
+            "scryfallId": "cfc1c914-fa52-4492-8dee-0c35bebc3766"
           }
         ]
       }
@@ -53112,20 +53092,20 @@
         ],
         "Lucho": [
           {
-            "qty": 1,
-            "set": "aer",
-            "setName": "Aether Revolt",
-            "isFoil": false,
-            "collectorNumber": "93",
-            "scryfallId": "2d5f9755-b137-439c-9b54-1ad71ec1f9ec"
-          },
-          {
             "qty": 2,
             "set": "paer",
             "setName": "Aether Revolt Promos",
             "isFoil": true,
             "collectorNumber": "93",
             "scryfallId": "54b8a03a-de93-43ed-b90d-7d168a21801a"
+          },
+          {
+            "qty": 1,
+            "set": "aer",
+            "setName": "Aether Revolt",
+            "isFoil": false,
+            "collectorNumber": "93",
+            "scryfallId": "2d5f9755-b137-439c-9b54-1ad71ec1f9ec"
           }
         ]
       }
@@ -76062,16 +76042,6 @@
             "collectorNumber": "200",
             "scryfallId": "0bef3905-24f8-419b-aeca-396adfc6d0dc"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "200",
-            "scryfallId": "0bef3905-24f8-419b-aeca-396adfc6d0dc"
-          }
         ]
       }
     },
@@ -81969,7 +81939,7 @@
         ],
         "Eze Posadas (Sta Fe)": [
           {
-            "qty": 2,
+            "qty": 1,
             "set": "tla",
             "setName": "Avatar: The Last Airbender",
             "isFoil": false,
@@ -97485,16 +97455,6 @@
             "collectorNumber": "12",
             "scryfallId": "31619741-1899-4503-bc1c-176a3248df86"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "fic",
-            "setName": "Final Fantasy Commander",
-            "isFoil": false,
-            "collectorNumber": "235",
-            "scryfallId": "81096eba-ad0a-4fa8-8d56-5a1ea9a9155b"
-          }
         ]
       }
     },
@@ -104941,20 +104901,20 @@
         ],
         "Lucho": [
           {
-            "qty": 3,
-            "set": "hou",
-            "setName": "Hour of Devastation",
-            "isFoil": false,
-            "collectorNumber": "11",
-            "scryfallId": "03f005de-7971-4f22-ad1f-5d0667f68113"
-          },
-          {
             "qty": 1,
             "set": "plst",
             "setName": "The List",
             "isFoil": false,
             "collectorNumber": "HOU-11",
             "scryfallId": "ae24cd84-23b0-4e45-835f-1752e8d1c719"
+          },
+          {
+            "qty": 3,
+            "set": "hou",
+            "setName": "Hour of Devastation",
+            "isFoil": false,
+            "collectorNumber": "11",
+            "scryfallId": "03f005de-7971-4f22-ad1f-5d0667f68113"
           }
         ]
       }
@@ -110893,16 +110853,6 @@
           }
         ],
         "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "j25",
-            "setName": "Foundations Jumpstart",
-            "isFoil": false,
-            "collectorNumber": "440",
-            "scryfallId": "271ac37f-305c-4918-8761-1779caa19f36"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
             "set": "j25",
@@ -117221,16 +117171,6 @@
             "collectorNumber": "223",
             "scryfallId": "6a7784de-a10d-4ce6-98a5-aaf3e85773b6"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "223",
-            "scryfallId": "6a7784de-a10d-4ce6-98a5-aaf3e85773b6"
-          }
         ]
       }
     },
@@ -118749,20 +118689,20 @@
         ],
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 3,
-            "set": "scg",
-            "setName": "Scourge",
-            "isFoil": false,
-            "collectorNumber": "97",
-            "scryfallId": "66864a4b-8924-40ef-a337-15b12413a158"
-          },
-          {
             "qty": 1,
             "set": "dom",
             "setName": "Dominaria",
             "isFoil": false,
             "collectorNumber": "130",
             "scryfallId": "5bac033c-dc4e-40a0-b103-4892e4b50249"
+          },
+          {
+            "qty": 3,
+            "set": "scg",
+            "setName": "Scourge",
+            "isFoil": false,
+            "collectorNumber": "97",
+            "scryfallId": "66864a4b-8924-40ef-a337-15b12413a158"
           }
         ]
       }
@@ -121399,7 +121339,7 @@
         ],
         "Eze Posadas (Sta Fe)": [
           {
-            "qty": 2,
+            "qty": 1,
             "set": "eoe",
             "setName": "Edge of Eternities",
             "isFoil": false,
@@ -154167,14 +154107,6 @@
             "isFoil": false,
             "collectorNumber": "212",
             "scryfallId": "ffb5786b-6825-4ebf-a1e1-80011340adbb"
-          },
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "245",
-            "scryfallId": "fe3e7dd2-b66d-4218-9fde-f84bec26b7bf"
           }
         ]
       }
@@ -159871,20 +159803,20 @@
         ],
         "Lucho": [
           {
-            "qty": 3,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "69",
-            "scryfallId": "4dc3b49e-3674-494c-bdea-4374cefd10f4"
-          },
-          {
             "qty": 1,
             "set": "dmu",
             "setName": "Dominaria United",
             "isFoil": false,
             "collectorNumber": "64",
             "scryfallId": "9d933bf1-14f0-4150-a0d2-6b845b9624cf"
+          },
+          {
+            "qty": 3,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "69",
+            "scryfallId": "4dc3b49e-3674-494c-bdea-4374cefd10f4"
           }
         ]
       }
@@ -162955,16 +162887,6 @@
             "isFoil": false,
             "collectorNumber": "159",
             "scryfallId": "a3d2c692-7566-468e-9c86-47a9f768fde2"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "233",
-            "scryfallId": "6cc4c21d-9bdc-4490-9203-17f51db0ddd1"
           }
         ]
       }
@@ -193248,16 +193170,6 @@
             "collectorNumber": "15",
             "scryfallId": "7cd21530-ca72-4986-a0f2-142b9f23c413"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "inr",
-            "setName": "Innistrad Remastered",
-            "isFoil": false,
-            "collectorNumber": "15",
-            "scryfallId": "7cd21530-ca72-4986-a0f2-142b9f23c413"
-          }
         ]
       }
     },
@@ -193664,18 +193576,18 @@
         ],
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 3,
-            "set": "shm",
-            "setName": "Shadowmoor",
-            "isFoil": false,
-            "collectorNumber": "66",
-            "scryfallId": "ead8befa-27dd-4ec4-b317-1c231407e0ac"
-          },
-          {
             "qty": 1,
             "set": "shm",
             "setName": "Shadowmoor",
             "isFoil": true,
+            "collectorNumber": "66",
+            "scryfallId": "ead8befa-27dd-4ec4-b317-1c231407e0ac"
+          },
+          {
+            "qty": 3,
+            "set": "shm",
+            "setName": "Shadowmoor",
+            "isFoil": false,
             "collectorNumber": "66",
             "scryfallId": "ead8befa-27dd-4ec4-b317-1c231407e0ac"
           }
@@ -194771,16 +194683,6 @@
           }
         ],
         "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "neo",
-            "setName": "Kamigawa: Neon Dynasty",
-            "isFoil": false,
-            "collectorNumber": "23",
-            "scryfallId": "cbbfd21e-96f1-4e5b-8546-73bb5a887b98"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
             "set": "neo",
@@ -198284,16 +198186,6 @@
             "collectorNumber": "26",
             "scryfallId": "6822144f-f0eb-4e10-a217-52cad36d2973"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "26",
-            "scryfallId": "6822144f-f0eb-4e10-a217-52cad36d2973"
-          }
         ]
       }
     },
@@ -198968,16 +198860,6 @@
         "Franco Fatala": [
           {
             "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "204",
-            "scryfallId": "bf708169-a307-494b-b8d8-baae53b2e2f2"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
             "set": "ecl",
             "setName": "Lorwyn Eclipsed",
             "isFoil": false,
@@ -200842,16 +200724,6 @@
             "collectorNumber": "1",
             "scryfallId": "8d8432a7-1c8a-4cfb-947c-ecf9791063eb"
           }
-        ],
-        "Lucho": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "1",
-            "scryfallId": "8d8432a7-1c8a-4cfb-947c-ecf9791063eb"
-          }
         ]
       }
     },
@@ -202178,6 +202050,31 @@
         ]
       }
     },
+    "greenbelt rampager": {
+      "name": "Greenbelt Rampager",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "aer",
+            "setName": "Aether Revolt",
+            "isFoil": false,
+            "collectorNumber": "107",
+            "scryfallId": "f3f06124-bcc4-48c0-a7a6-a461c7485ecd"
+          }
+        ],
+        "Guille A.": [
+          {
+            "qty": 1,
+            "set": "aer",
+            "setName": "Aether Revolt",
+            "isFoil": false,
+            "collectorNumber": "107",
+            "scryfallId": "f3f06124-bcc4-48c0-a7a6-a461c7485ecd"
+          }
+        ]
+      }
+    },
     "midnight entourage": {
       "name": "Midnight Entourage",
       "owners": {
@@ -203311,6 +203208,31 @@
         ]
       }
     },
+    "desecrated tomb": {
+      "name": "Desecrated Tomb",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "pm19",
+            "setName": "Core Set 2019 Promos",
+            "isFoil": true,
+            "collectorNumber": "230",
+            "scryfallId": "398b09a0-fb51-4278-9fe7-74215d2e5708"
+          }
+        ],
+        "Guille A.": [
+          {
+            "qty": 1,
+            "set": "pm19",
+            "setName": "Core Set 2019 Promos",
+            "isFoil": true,
+            "collectorNumber": "230",
+            "scryfallId": "398b09a0-fb51-4278-9fe7-74215d2e5708"
+          }
+        ]
+      }
+    },
     "dire fleet poisoner": {
       "name": "Dire Fleet Poisoner",
       "owners": {
@@ -203781,6 +203703,21 @@
         ]
       }
     },
+    "tromokratis": {
+      "name": "Tromokratis",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "pbng",
+            "setName": "Born of the Gods Promos",
+            "isFoil": true,
+            "collectorNumber": "55★",
+            "scryfallId": "c93e60f6-259c-4569-87cb-cc27deaf7d8d"
+          }
+        ]
+      }
+    },
     "meletis charlatan": {
       "name": "Meletis Charlatan",
       "owners": {
@@ -203901,6 +203838,21 @@
         ]
       }
     },
+    "simian spirit guide": {
+      "name": "Simian Spirit Guide",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "plc",
+            "setName": "Planar Chaos",
+            "isFoil": false,
+            "collectorNumber": "122",
+            "scryfallId": "5d7f701c-dcdc-4067-8d00-b4b7aadee9ba"
+          }
+        ]
+      }
+    },
     "order of the stars": {
       "name": "Order of the Stars",
       "owners": {
@@ -203997,6 +203949,36 @@
             "isFoil": false,
             "collectorNumber": "137",
             "scryfallId": "009d2fb8-6144-46d9-9085-26232c174109"
+          }
+        ]
+      }
+    },
+    "akroma, vision of ixidor": {
+      "name": "Akroma, Vision of Ixidor",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "cmr",
+            "setName": "Commander Legends",
+            "isFoil": false,
+            "collectorNumber": "2",
+            "scryfallId": "c0bdd07d-9fb9-4ee4-80db-494ee0cba58d"
+          }
+        ]
+      }
+    },
+    "kolvori, god of kinship // the ringhart crest": {
+      "name": "Kolvori, God of Kinship // The Ringhart Crest",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "khm",
+            "setName": "Kaldheim",
+            "isFoil": true,
+            "collectorNumber": "181",
+            "scryfallId": "b76bed98-30b1-4572-b36c-684ada06826c"
           }
         ]
       }
@@ -204311,6 +204293,21 @@
         ]
       }
     },
+    "the meathook massacre": {
+      "name": "The Meathook Massacre",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "dbl",
+            "setName": "Innistrad: Double Feature",
+            "isFoil": true,
+            "collectorNumber": "112",
+            "scryfallId": "dce4819c-7f2f-4bed-b02d-d2b7a6c2ad9a"
+          }
+        ]
+      }
+    },
     "wash away": {
       "name": "Wash Away",
       "owners": {
@@ -204386,6 +204383,21 @@
         ]
       }
     },
+    "anhelo, the painter": {
+      "name": "Anhelo, the Painter",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "ncc",
+            "setName": "New Capenna Commander",
+            "isFoil": false,
+            "collectorNumber": "186",
+            "scryfallId": "0543510b-c28b-4b3c-b1c7-ae6f944556f5"
+          }
+        ]
+      }
+    },
     "devilish valet": {
       "name": "Devilish Valet",
       "owners": {
@@ -204412,6 +204424,21 @@
             "isFoil": false,
             "collectorNumber": "304",
             "scryfallId": "c55b348b-c147-4d02-b26c-d610f515bce0"
+          }
+        ]
+      }
+    },
+    "gala greeters": {
+      "name": "Gala Greeters",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "snc",
+            "setName": "Streets of New Capenna",
+            "isFoil": true,
+            "collectorNumber": "460",
+            "scryfallId": "61760019-a7c7-4c11-871b-d72186b1d220"
           }
         ]
       }
@@ -204887,6 +204914,21 @@
             "isFoil": false,
             "collectorNumber": "185",
             "scryfallId": "bf2fa3fd-f6d9-4c23-9025-9b8b72da32dc"
+          }
+        ]
+      }
+    },
+    "inferno titan": {
+      "name": "Inferno Titan",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "ltc",
+            "setName": "Tales of Middle-earth Commander",
+            "isFoil": false,
+            "collectorNumber": "223",
+            "scryfallId": "db61b57c-b870-41af-87b7-037ec52fe063"
           }
         ]
       }
@@ -205502,6 +205544,21 @@
             "isFoil": false,
             "collectorNumber": "36",
             "scryfallId": "4cc35b82-a233-4460-968e-d90980fb2074"
+          }
+        ]
+      }
+    },
+    "ensnared by the mara": {
+      "name": "Ensnared by the Mara",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "who",
+            "setName": "Doctor Who",
+            "isFoil": false,
+            "collectorNumber": "84",
+            "scryfallId": "11454c82-3f1d-4456-8857-0dcb01d34298"
           }
         ]
       }
@@ -206431,16 +206488,6 @@
             "collectorNumber": "130",
             "scryfallId": "69beec98-c89c-4673-953c-8b3ef3d81560"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "130",
-            "scryfallId": "69beec98-c89c-4673-953c-8b3ef3d81560"
-          }
         ]
       }
     },
@@ -206594,6 +206641,21 @@
         ]
       }
     },
+    "adventurer's airship": {
+      "name": "Adventurer's Airship",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "fin",
+            "setName": "Final Fantasy",
+            "isFoil": true,
+            "collectorNumber": "252",
+            "scryfallId": "0a1d6dcd-bd41-4f57-a35b-6613811fe4d4"
+          }
+        ]
+      }
+    },
     "chocobo kick": {
       "name": "Chocobo Kick",
       "owners": {
@@ -206695,6 +206757,21 @@
             "isFoil": false,
             "collectorNumber": "208",
             "scryfallId": "cf034777-3da7-4d5c-9213-5e9d235c315a"
+          }
+        ]
+      }
+    },
+    "scuzzback scrounger": {
+      "name": "Scuzzback Scrounger",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "153",
+            "scryfallId": "0ea4a895-19c0-47af-ad9c-5db88ea9ae05"
           }
         ]
       }
@@ -206989,6 +207066,51 @@
         ]
       }
     },
+    "fractal mascot": {
+      "name": "Fractal Mascot",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "189",
+            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
+          }
+        ],
+        "Lucho": [
+          {
+            "qty": 1,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "189",
+            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
+          }
+        ],
+        "Franco Fatala": [
+          {
+            "qty": 1,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "189",
+            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
+          }
+        ],
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "189",
+            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
+          }
+        ]
+      }
+    },
     "rancorous archaic": {
       "name": "Rancorous Archaic",
       "owners": {
@@ -207256,16 +207378,6 @@
             "collectorNumber": "139",
             "scryfallId": "b44ec684-d558-45eb-bcd6-8119428634c2"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "139",
-            "scryfallId": "b44ec684-d558-45eb-bcd6-8119428634c2"
-          }
         ]
       }
     },
@@ -207294,7 +207406,7 @@
         ],
         "Eze Posadas (Sta Fe)": [
           {
-            "qty": 2,
+            "qty": 1,
             "set": "sos",
             "setName": "Secrets of Strixhaven",
             "isFoil": false,
@@ -207945,266 +208057,6 @@
             "isFoil": false,
             "collectorNumber": "136",
             "scryfallId": "2b7cb1a3-761e-470e-a164-6e29dd9448cd"
-          }
-        ]
-      }
-    },
-    "desecrated tomb": {
-      "name": "Desecrated Tomb",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "pm19",
-            "setName": "Core Set 2019 Promos",
-            "isFoil": true,
-            "collectorNumber": "230",
-            "scryfallId": "398b09a0-fb51-4278-9fe7-74215d2e5708"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "pm19",
-            "setName": "Core Set 2019 Promos",
-            "isFoil": true,
-            "collectorNumber": "230",
-            "scryfallId": "398b09a0-fb51-4278-9fe7-74215d2e5708"
-          }
-        ]
-      }
-    },
-    "tromokratis": {
-      "name": "Tromokratis",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "pbng",
-            "setName": "Born of the Gods Promos",
-            "isFoil": true,
-            "collectorNumber": "55★",
-            "scryfallId": "c93e60f6-259c-4569-87cb-cc27deaf7d8d"
-          }
-        ]
-      }
-    },
-    "kolvori, god of kinship // the ringhart crest": {
-      "name": "Kolvori, God of Kinship // The Ringhart Crest",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "khm",
-            "setName": "Kaldheim",
-            "isFoil": true,
-            "collectorNumber": "181",
-            "scryfallId": "b76bed98-30b1-4572-b36c-684ada06826c"
-          }
-        ]
-      }
-    },
-    "the meathook massacre": {
-      "name": "The Meathook Massacre",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "dbl",
-            "setName": "Innistrad: Double Feature",
-            "isFoil": true,
-            "collectorNumber": "112",
-            "scryfallId": "dce4819c-7f2f-4bed-b02d-d2b7a6c2ad9a"
-          }
-        ]
-      }
-    },
-    "gala greeters": {
-      "name": "Gala Greeters",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "snc",
-            "setName": "Streets of New Capenna",
-            "isFoil": true,
-            "collectorNumber": "460",
-            "scryfallId": "61760019-a7c7-4c11-871b-d72186b1d220"
-          }
-        ]
-      }
-    },
-    "adventurer's airship": {
-      "name": "Adventurer's Airship",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": true,
-            "collectorNumber": "252",
-            "scryfallId": "0a1d6dcd-bd41-4f57-a35b-6613811fe4d4"
-          }
-        ]
-      }
-    },
-    "greenbelt rampager": {
-      "name": "Greenbelt Rampager",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "aer",
-            "setName": "Aether Revolt",
-            "isFoil": false,
-            "collectorNumber": "107",
-            "scryfallId": "f3f06124-bcc4-48c0-a7a6-a461c7485ecd"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "aer",
-            "setName": "Aether Revolt",
-            "isFoil": false,
-            "collectorNumber": "107",
-            "scryfallId": "f3f06124-bcc4-48c0-a7a6-a461c7485ecd"
-          }
-        ]
-      }
-    },
-    "simian spirit guide": {
-      "name": "Simian Spirit Guide",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "plc",
-            "setName": "Planar Chaos",
-            "isFoil": false,
-            "collectorNumber": "122",
-            "scryfallId": "5d7f701c-dcdc-4067-8d00-b4b7aadee9ba"
-          }
-        ]
-      }
-    },
-    "akroma, vision of ixidor": {
-      "name": "Akroma, Vision of Ixidor",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "cmr",
-            "setName": "Commander Legends",
-            "isFoil": false,
-            "collectorNumber": "2",
-            "scryfallId": "c0bdd07d-9fb9-4ee4-80db-494ee0cba58d"
-          }
-        ]
-      }
-    },
-    "inferno titan": {
-      "name": "Inferno Titan",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "ltc",
-            "setName": "Tales of Middle-earth Commander",
-            "isFoil": false,
-            "collectorNumber": "223",
-            "scryfallId": "db61b57c-b870-41af-87b7-037ec52fe063"
-          }
-        ]
-      }
-    },
-    "ensnared by the mara": {
-      "name": "Ensnared by the Mara",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "who",
-            "setName": "Doctor Who",
-            "isFoil": false,
-            "collectorNumber": "84",
-            "scryfallId": "11454c82-3f1d-4456-8857-0dcb01d34298"
-          }
-        ]
-      }
-    },
-    "scuzzback scrounger": {
-      "name": "Scuzzback Scrounger",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "153",
-            "scryfallId": "0ea4a895-19c0-47af-ad9c-5db88ea9ae05"
-          }
-        ]
-      }
-    },
-    "fractal mascot": {
-      "name": "Fractal Mascot",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "189",
-            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
-          }
-        ],
-        "Lucho": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "189",
-            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
-          }
-        ],
-        "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "189",
-            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "189",
-            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
-          }
-        ]
-      }
-    },
-    "anhelo, the painter": {
-      "name": "Anhelo, the Painter",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "ncc",
-            "setName": "New Capenna Commander",
-            "isFoil": false,
-            "collectorNumber": "186",
-            "scryfallId": "0543510b-c28b-4b3c-b1c7-ae6f944556f5"
           }
         ]
       }
@@ -210765,19 +210617,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "c13",
-            "setName": "Commander 2013",
-            "isFoil": false,
-            "collectorNumber": "10",
-            "scryfallId": "2a57191e-58a8-4ba9-8b5d-5a4e5a08b404"
-          },
-          {
-            "qty": 1,
             "set": "afc",
             "setName": "Forgotten Realms Commander",
             "isFoil": false,
             "collectorNumber": "66",
             "scryfallId": "0f57fc0c-cab1-4eb0-a58a-0c7a762f1572"
+          },
+          {
+            "qty": 1,
+            "set": "c13",
+            "setName": "Commander 2013",
+            "isFoil": false,
+            "collectorNumber": "10",
+            "scryfallId": "2a57191e-58a8-4ba9-8b5d-5a4e5a08b404"
           }
         ]
       }
@@ -211046,21 +210898,6 @@
             "isFoil": false,
             "collectorNumber": "18",
             "scryfallId": "ec122c9f-5513-4ba7-ae04-3c2060121d73"
-          }
-        ]
-      }
-    },
-    "flayer of loyalties": {
-      "name": "Flayer of Loyalties",
-      "owners": {
-        "Lucho": [
-          {
-            "qty": 1,
-            "set": "cmm",
-            "setName": "Commander Masters",
-            "isFoil": false,
-            "collectorNumber": "715",
-            "scryfallId": "33f3ee0c-1e73-42b6-841d-0a878a80002a"
           }
         ]
       }
@@ -214726,20 +214563,20 @@
       "owners": {
         "Lucho": [
           {
-            "qty": 1,
-            "set": "soa",
-            "setName": "Secrets of Strixhaven Mystical Archive",
-            "isFoil": false,
-            "collectorNumber": "58",
-            "scryfallId": "3aeb1fe1-3ff3-466c-9eda-b8747702734c"
-          },
-          {
             "qty": 3,
             "set": "tla",
             "setName": "Avatar: The Last Airbender",
             "isFoil": false,
             "collectorNumber": "196",
             "scryfallId": "e7847ba5-e85e-417f-96c0-aef2e6f83994"
+          },
+          {
+            "qty": 1,
+            "set": "soa",
+            "setName": "Secrets of Strixhaven Mystical Archive",
+            "isFoil": false,
+            "collectorNumber": "58",
+            "scryfallId": "3aeb1fe1-3ff3-466c-9eda-b8747702734c"
           }
         ]
       }
@@ -215250,19 +215087,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "j22",
-            "setName": "Jumpstart 2022",
-            "isFoil": false,
-            "collectorNumber": "350",
-            "scryfallId": "b4858a8d-a31a-471f-a740-6c6774ec7dac"
-          },
-          {
-            "qty": 1,
             "set": "iko",
             "setName": "Ikoria: Lair of Behemoths",
             "isFoil": false,
             "collectorNumber": "68",
             "scryfallId": "a12680db-957f-48c1-9062-2edd9115ba26"
+          },
+          {
+            "qty": 1,
+            "set": "j22",
+            "setName": "Jumpstart 2022",
+            "isFoil": false,
+            "collectorNumber": "350",
+            "scryfallId": "b4858a8d-a31a-471f-a740-6c6774ec7dac"
           }
         ]
       }
@@ -219470,7 +219307,7 @@
         ],
         "Eze Posadas (Sta Fe)": [
           {
-            "qty": 2,
+            "qty": 1,
             "set": "dsk",
             "setName": "Duskmourn: House of Horror",
             "isFoil": false,
@@ -219544,16 +219381,6 @@
             "set": "fdn",
             "setName": "Foundations",
             "isFoil": true,
-            "collectorNumber": "105",
-            "scryfallId": "96948ae3-b15d-4d6d-aa73-9f52084cd903"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
             "collectorNumber": "105",
             "scryfallId": "96948ae3-b15d-4d6d-aa73-9f52084cd903"
           }
@@ -220016,16 +219843,6 @@
             "isFoil": false,
             "collectorNumber": "124",
             "scryfallId": "3416309a-5824-48f5-876e-00e0f180acf9"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "wot",
-            "setName": "Wilds of Eldraine: Enchanting Tales",
-            "isFoil": false,
-            "collectorNumber": "37",
-            "scryfallId": "6854dc06-4845-4201-958b-2fdad3f7b64a"
           }
         ]
       }
@@ -221739,16 +221556,6 @@
           }
         ],
         "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "40k",
-            "setName": "Warhammer 40,000 Commander",
-            "isFoil": false,
-            "collectorNumber": "149",
-            "scryfallId": "a71d6605-4a8a-473b-9f8d-0ba2f70a34e0"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
             "set": "40k",
@@ -225950,16 +225757,6 @@
             "collectorNumber": "173",
             "scryfallId": "6d73a4a8-5d52-4c12-a96a-45cd202bcc62"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "173",
-            "scryfallId": "6d73a4a8-5d52-4c12-a96a-45cd202bcc62"
-          }
         ]
       }
     },
@@ -227162,16 +226959,6 @@
             "collectorNumber": "9",
             "scryfallId": "027dc444-e544-4693-8653-3dcdda530162"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "9",
-            "scryfallId": "027dc444-e544-4693-8653-3dcdda530162"
-          }
         ]
       }
     },
@@ -227539,16 +227326,6 @@
         "Franco Fatala": [
           {
             "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "13",
-            "scryfallId": "f8931132-391f-4f16-b480-0a245ab2ec21"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
             "set": "eoe",
             "setName": "Edge of Eternities",
             "isFoil": false,
@@ -229275,7 +229052,7 @@
         ],
         "Eze Posadas (Sta Fe)": [
           {
-            "qty": 2,
+            "qty": 1,
             "set": "eoe",
             "setName": "Edge of Eternities",
             "isFoil": false,
@@ -229475,16 +229252,6 @@
             "collectorNumber": "61",
             "scryfallId": "51da4a4b-ea12-4169-a7cf-eb4427f13e84"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "61",
-            "scryfallId": "51da4a4b-ea12-4169-a7cf-eb4427f13e84"
-          }
         ]
       }
     },
@@ -229492,16 +229259,6 @@
       "name": "Hissing Quagmire",
       "owners": {
         "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "eos",
-            "setName": "Edge of Eternities: Stellar Sights",
-            "isFoil": false,
-            "collectorNumber": "19",
-            "scryfallId": "d9bb686f-d66d-4de3-9497-a7d23d5c87b7"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
             "set": "eos",
@@ -229542,16 +229299,6 @@
       "name": "Honor",
       "owners": {
         "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "21",
-            "scryfallId": "d0b4e925-1d59-41a1-bc06-9982695d778f"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
             "set": "eoe",
@@ -231026,16 +230773,6 @@
             "collectorNumber": "272",
             "scryfallId": "cc078fc6-4470-473f-9e24-d2c470e09141"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "272",
-            "scryfallId": "cc078fc6-4470-473f-9e24-d2c470e09141"
-          }
         ]
       }
     },
@@ -231993,16 +231730,6 @@
             "collectorNumber": "472",
             "scryfallId": "838e2693-2dd4-4aec-bde9-369a069a3fef"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "109",
-            "scryfallId": "acb65189-60e4-42e0-9fb1-da6b716b91d7"
-          }
         ]
       }
     },
@@ -232173,16 +231900,6 @@
             "collectorNumber": "217",
             "scryfallId": "318486e0-f255-40f5-8150-dc272eec9d7d"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "217",
-            "scryfallId": "318486e0-f255-40f5-8150-dc272eec9d7d"
-          }
         ]
       }
     },
@@ -232324,7 +232041,7 @@
         ],
         "Eze Posadas (Sta Fe)": [
           {
-            "qty": 3,
+            "qty": 2,
             "set": "eoe",
             "setName": "Edge of Eternities",
             "isFoil": false,
@@ -232831,16 +232548,6 @@
             "collectorNumber": "223",
             "scryfallId": "173157aa-712d-44f2-89ba-dd2511a07f26"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "223",
-            "scryfallId": "173157aa-712d-44f2-89ba-dd2511a07f26"
-          }
         ]
       }
     },
@@ -232848,16 +232555,6 @@
       "name": "Sanguine Syphoner",
       "owners": {
         "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "68",
-            "scryfallId": "b1daf5bb-c8e9-4e79-a532-ca92a9a885cd"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
             "set": "fdn",
@@ -233309,16 +233006,6 @@
       "name": "Sigarda, Heron's Grace",
       "owners": {
         "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "mic",
-            "setName": "Midnight Hunt Commander",
-            "isFoil": false,
-            "collectorNumber": "155",
-            "scryfallId": "a1de7031-f589-4af5-9c63-06fb7ec7a6b5"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
             "set": "mic",
@@ -234001,16 +233688,6 @@
             "collectorNumber": "33",
             "scryfallId": "c0b85569-2cb3-4b64-b0fe-418195c4dab0"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "33",
-            "scryfallId": "c0b85569-2cb3-4b64-b0fe-418195c4dab0"
-          }
         ]
       }
     },
@@ -234652,16 +234329,6 @@
             "collectorNumber": "118",
             "scryfallId": "beb97e7b-0ae7-4b08-9ceb-6a7f825bcd49"
           }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "118",
-            "scryfallId": "beb97e7b-0ae7-4b08-9ceb-6a7f825bcd49"
-          }
         ]
       }
     },
@@ -234730,7 +234397,7 @@
         ],
         "Eze Posadas (Sta Fe)": [
           {
-            "qty": 2,
+            "qty": 1,
             "set": "fdn",
             "setName": "Foundations",
             "isFoil": false,
@@ -234897,16 +234564,6 @@
       "name": "The Legend of Kuruk // Avatar Kuruk",
       "owners": {
         "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "61",
-            "scryfallId": "5e9a53d3-7f2f-4a9c-9516-0713da740478"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
             "set": "tla",
@@ -235575,16 +235232,6 @@
       "name": "Vengeful Bloodwitch",
       "owners": {
         "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "76",
-            "scryfallId": "bd0c12dd-f138-45c0-9614-d83a1d8e8399"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
             "set": "fdn",
@@ -245692,21 +245339,6 @@
         ]
       }
     },
-    "coretapper": {
-      "name": "Coretapper",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "eoc",
-            "setName": "Edge of Eternities Commander",
-            "isFoil": false,
-            "collectorNumber": "132",
-            "scryfallId": "00d9dd37-aad3-46bd-ac9b-140974c8dcaa"
-          }
-        ]
-      }
-    },
     "gearsmith guardian": {
       "name": "Gearsmith Guardian",
       "owners": {
@@ -245748,6 +245380,21 @@
             "isFoil": false,
             "collectorNumber": "46",
             "scryfallId": "bfa4e927-1d6f-4a64-9801-7d168a5ef3f6"
+          }
+        ]
+      }
+    },
+    "coretapper": {
+      "name": "Coretapper",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "eoc",
+            "setName": "Edge of Eternities Commander",
+            "isFoil": false,
+            "collectorNumber": "132",
+            "scryfallId": "00d9dd37-aad3-46bd-ac9b-140974c8dcaa"
           }
         ]
       }
@@ -246309,8 +245956,8 @@
             "set": "mh2",
             "setName": "Modern Horizons 2",
             "isFoil": false,
-            "collectorNumber": "176",
-            "scryfallId": "a119edc2-9e0f-43d1-a13d-25827f86e3e3"
+            "collectorNumber": "357",
+            "scryfallId": "6afd2ecd-c2e5-49f2-bf35-dcec2addcebb"
           }
         ]
       }
@@ -246718,18 +246365,18 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 4,
-            "set": "shm",
-            "setName": "Shadowmoor",
-            "isFoil": false,
-            "collectorNumber": "76",
-            "scryfallId": "f62d999c-c81e-4bea-aefd-0d12251dcdd1"
-          },
-          {
             "qty": 1,
             "set": "shm",
             "setName": "Shadowmoor",
             "isFoil": true,
+            "collectorNumber": "76",
+            "scryfallId": "f62d999c-c81e-4bea-aefd-0d12251dcdd1"
+          },
+          {
+            "qty": 4,
+            "set": "shm",
+            "setName": "Shadowmoor",
+            "isFoil": false,
             "collectorNumber": "76",
             "scryfallId": "f62d999c-c81e-4bea-aefd-0d12251dcdd1"
           }
@@ -246877,20 +246524,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 1,
-            "set": "m10",
-            "setName": "Magic 2010",
-            "isFoil": false,
-            "collectorNumber": "200",
-            "scryfallId": "8a530d1e-2aff-4684-8f21-743a73f285ff"
-          },
-          {
             "qty": 2,
             "set": "m11",
             "setName": "Magic 2011",
             "isFoil": false,
             "collectorNumber": "194",
             "scryfallId": "f63d54c1-1b20-48c4-871d-0bb15e608996"
+          },
+          {
+            "qty": 1,
+            "set": "m10",
+            "setName": "Magic 2010",
+            "isFoil": false,
+            "collectorNumber": "200",
+            "scryfallId": "8a530d1e-2aff-4684-8f21-743a73f285ff"
           }
         ]
       }
@@ -247155,20 +246802,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 4,
-            "set": "mh2",
-            "setName": "Modern Horizons 2",
-            "isFoil": false,
-            "collectorNumber": "430",
-            "scryfallId": "23ac45cf-4dc8-47b9-8ca8-e72464f745d6"
-          },
-          {
             "qty": 1,
             "set": "mh2",
             "setName": "Modern Horizons 2",
             "isFoil": true,
             "collectorNumber": "232",
             "scryfallId": "025b0f0f-daf6-4071-82e7-39c015447ce4"
+          },
+          {
+            "qty": 4,
+            "set": "mh2",
+            "setName": "Modern Horizons 2",
+            "isFoil": false,
+            "collectorNumber": "430",
+            "scryfallId": "23ac45cf-4dc8-47b9-8ca8-e72464f745d6"
           }
         ]
       }
@@ -247508,20 +247155,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 1,
-            "set": "ath",
-            "setName": "Anthologies",
-            "isFoil": false,
-            "collectorNumber": "44",
-            "scryfallId": "86804429-ae19-497c-a256-7906b0a06cc2"
-          },
-          {
             "qty": 5,
             "set": "tmp",
             "setName": "Tempest",
             "isFoil": false,
             "collectorNumber": "190",
             "scryfallId": "ca2ecfd4-c874-4468-8601-87aa110d5a00"
+          },
+          {
+            "qty": 1,
+            "set": "ath",
+            "setName": "Anthologies",
+            "isFoil": false,
+            "collectorNumber": "44",
+            "scryfallId": "86804429-ae19-497c-a256-7906b0a06cc2"
           }
         ]
       }
@@ -247636,20 +247283,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 3,
-            "set": "shm",
-            "setName": "Shadowmoor",
-            "isFoil": false,
-            "collectorNumber": "211",
-            "scryfallId": "50283122-b8c4-4fb3-8eba-6252b72222f4"
-          },
-          {
             "qty": 1,
             "set": "2xm",
             "setName": "Double Masters",
             "isFoil": false,
             "collectorNumber": "208",
             "scryfallId": "faf9070e-14be-4ce5-a19a-6addc79359c1"
+          },
+          {
+            "qty": 3,
+            "set": "shm",
+            "setName": "Shadowmoor",
+            "isFoil": false,
+            "collectorNumber": "211",
+            "scryfallId": "50283122-b8c4-4fb3-8eba-6252b72222f4"
           }
         ]
       }
@@ -248919,20 +248566,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 1,
-            "set": "usg",
-            "setName": "Urza's Saga",
-            "isFoil": false,
-            "collectorNumber": "127",
-            "scryfallId": "3f0e9d0d-e1a3-4e0a-bf39-e9aaf4d36d67"
-          },
-          {
             "qty": 4,
             "set": "mmq",
             "setName": "Mercadian Masques",
             "isFoil": false,
             "collectorNumber": "129",
             "scryfallId": "a6aacc3e-fe37-4a08-83e6-7ee8c0c0af74"
+          },
+          {
+            "qty": 1,
+            "set": "usg",
+            "setName": "Urza's Saga",
+            "isFoil": false,
+            "collectorNumber": "127",
+            "scryfallId": "3f0e9d0d-e1a3-4e0a-bf39-e9aaf4d36d67"
           }
         ]
       }

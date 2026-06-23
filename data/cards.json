@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T11:48:29.986Z",
+  "lastUpdated": "2026-06-23T09:34:02.315Z",
   "owners": [
     {
       "name": "Fausto",
@@ -29,7 +29,7 @@
     {
       "name": "Licha",
       "phone": "+5493434760157",
-      "cardCount": 51
+      "cardCount": 50
     },
     {
       "name": "Lucho",
@@ -17216,19 +17216,19 @@
         "Jona": [
           {
             "qty": 1,
-            "set": "war",
-            "setName": "War of the Spark",
-            "isFoil": false,
-            "collectorNumber": "123",
-            "scryfallId": "b00211dd-6dd7-40d9-80f3-f909f6d112db"
-          },
-          {
-            "qty": 1,
             "set": "rvr",
             "setName": "Ravnica Remastered",
             "isFoil": false,
             "collectorNumber": "106",
             "scryfallId": "3abaf8fe-5fab-442c-b219-45137f9ae112"
+          },
+          {
+            "qty": 1,
+            "set": "war",
+            "setName": "War of the Spark",
+            "isFoil": false,
+            "collectorNumber": "123",
+            "scryfallId": "b00211dd-6dd7-40d9-80f3-f909f6d112db"
           }
         ]
       }
@@ -46780,19 +46780,19 @@
         "Jona": [
           {
             "qty": 1,
-            "set": "scd",
-            "setName": "Starter Commander Decks",
-            "isFoil": false,
-            "collectorNumber": "58",
-            "scryfallId": "cfc1c914-fa52-4492-8dee-0c35bebc3766"
-          },
-          {
-            "qty": 1,
             "set": "m12",
             "setName": "Magic 2012",
             "isFoil": false,
             "collectorNumber": "69",
             "scryfallId": "7f21cd05-2fdb-4c37-90a4-220a3eda23ef"
+          },
+          {
+            "qty": 1,
+            "set": "scd",
+            "setName": "Starter Commander Decks",
+            "isFoil": false,
+            "collectorNumber": "58",
+            "scryfallId": "cfc1c914-fa52-4492-8dee-0c35bebc3766"
           }
         ]
       }
@@ -59718,7 +59718,7 @@
         ],
         "Licha": [
           {
-            "qty": 3,
+            "qty": 4,
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": false,
@@ -115913,19 +115913,19 @@
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 1,
-            "set": "wth",
-            "setName": "Weatherlight",
-            "isFoil": false,
-            "collectorNumber": "129",
-            "scryfallId": "ee83d511-57e0-40fb-a4db-62f6c2c39888"
-          },
-          {
-            "qty": 1,
             "set": "ema",
             "setName": "Eternal Masters",
             "isFoil": false,
             "collectorNumber": "168",
             "scryfallId": "9a872293-d164-426d-aa3e-eeeaa02fd38b"
+          },
+          {
+            "qty": 1,
+            "set": "wth",
+            "setName": "Weatherlight",
+            "isFoil": false,
+            "collectorNumber": "129",
+            "scryfallId": "ee83d511-57e0-40fb-a4db-62f6c2c39888"
           }
         ]
       }
@@ -146592,16 +146592,6 @@
             "isFoil": true,
             "collectorNumber": "268",
             "scryfallId": "22de1edc-ec67-4694-ab88-2a679c8a450f"
-          }
-        ],
-        "Licha": [
-          {
-            "qty": 6,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "296",
-            "scryfallId": "ee86ac2f-f398-4422-8721-8ac859fbf5bc"
           }
         ],
         "Lucho": [
@@ -193334,18 +193324,18 @@
         ],
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 3,
-            "set": "shm",
-            "setName": "Shadowmoor",
-            "isFoil": false,
-            "collectorNumber": "66",
-            "scryfallId": "ead8befa-27dd-4ec4-b317-1c231407e0ac"
-          },
-          {
             "qty": 1,
             "set": "shm",
             "setName": "Shadowmoor",
             "isFoil": true,
+            "collectorNumber": "66",
+            "scryfallId": "ead8befa-27dd-4ec4-b317-1c231407e0ac"
+          },
+          {
+            "qty": 3,
+            "set": "shm",
+            "setName": "Shadowmoor",
+            "isFoil": false,
             "collectorNumber": "66",
             "scryfallId": "ead8befa-27dd-4ec4-b317-1c231407e0ac"
           }
@@ -207650,51 +207640,6 @@
         ]
       }
     },
-    "selfless savior": {
-      "name": "Selfless Savior",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "m21",
-            "setName": "Core Set 2021",
-            "isFoil": false,
-            "collectorNumber": "36",
-            "scryfallId": "6911759c-7177-402c-a95a-f9f46efaf521"
-          }
-        ]
-      }
-    },
-    "knight-errant of eos": {
-      "name": "Knight-Errant of Eos",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "mom",
-            "setName": "March of the Machine",
-            "isFoil": false,
-            "collectorNumber": "346",
-            "scryfallId": "0e10463a-d63c-43c3-97af-1d7ca672d782"
-          }
-        ]
-      }
-    },
-    "slippery bogle": {
-      "name": "Slippery Bogle",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "EVE-160",
-            "scryfallId": "505eccd0-472e-41db-a336-0583960ac85a"
-          }
-        ]
-      }
-    },
     "ooze flux": {
       "name": "Ooze Flux",
       "owners": {
@@ -207706,21 +207651,6 @@
             "isFoil": false,
             "collectorNumber": "128",
             "scryfallId": "e9554369-7961-4cea-9da0-a1235805a26a"
-          }
-        ]
-      }
-    },
-    "thalia's lieutenant": {
-      "name": "Thalia's Lieutenant",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "soi",
-            "setName": "Shadows over Innistrad",
-            "isFoil": false,
-            "collectorNumber": "43",
-            "scryfallId": "fe162594-2332-4816-a9e1-57eb19b12651"
           }
         ]
       }
@@ -207740,6 +207670,21 @@
         ]
       }
     },
+    "thalia's lieutenant": {
+      "name": "Thalia's Lieutenant",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "soi",
+            "setName": "Shadows over Innistrad",
+            "isFoil": false,
+            "collectorNumber": "43",
+            "scryfallId": "fe162594-2332-4816-a9e1-57eb19b12651"
+          }
+        ]
+      }
+    },
     "primal bellow": {
       "name": "Primal Bellow",
       "owners": {
@@ -207751,6 +207696,21 @@
             "isFoil": false,
             "collectorNumber": "176",
             "scryfallId": "23b0c6a9-a7c0-4518-8580-653712062265"
+          }
+        ]
+      }
+    },
+    "darkbore pathway // slitherbore pathway": {
+      "name": "Darkbore Pathway // Slitherbore Pathway",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "KHM-254",
+            "scryfallId": "885528e5-42a2-4ae3-accd-02bfd7173b7a"
           }
         ]
       }
@@ -207781,21 +207741,6 @@
             "isFoil": false,
             "collectorNumber": "51",
             "scryfallId": "f5a932af-f5bb-452d-803a-b75bd3552b35"
-          }
-        ]
-      }
-    },
-    "darkbore pathway // slitherbore pathway": {
-      "name": "Darkbore Pathway // Slitherbore Pathway",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "KHM-254",
-            "scryfallId": "885528e5-42a2-4ae3-accd-02bfd7173b7a"
           }
         ]
       }
@@ -207890,6 +207835,66 @@
         ]
       }
     },
+    "hateful eidolon": {
+      "name": "Hateful Eidolon",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "thb",
+            "setName": "Theros Beyond Death",
+            "isFoil": false,
+            "collectorNumber": "101",
+            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
+          }
+        ]
+      }
+    },
+    "selfless savior": {
+      "name": "Selfless Savior",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "m21",
+            "setName": "Core Set 2021",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "6911759c-7177-402c-a95a-f9f46efaf521"
+          }
+        ]
+      }
+    },
+    "slippery bogle": {
+      "name": "Slippery Bogle",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "EVE-160",
+            "scryfallId": "505eccd0-472e-41db-a336-0583960ac85a"
+          }
+        ]
+      }
+    },
+    "knight-errant of eos": {
+      "name": "Knight-Errant of Eos",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "mom",
+            "setName": "March of the Machine",
+            "isFoil": false,
+            "collectorNumber": "346",
+            "scryfallId": "0e10463a-d63c-43c3-97af-1d7ca672d782"
+          }
+        ]
+      }
+    },
     "bloodchief's thirst": {
       "name": "Bloodchief's Thirst",
       "owners": {
@@ -207916,21 +207921,6 @@
             "isFoil": false,
             "collectorNumber": "ONE-26",
             "scryfallId": "249c874c-dd94-4da9-8a03-da6046f8bd48"
-          }
-        ]
-      }
-    },
-    "hateful eidolon": {
-      "name": "Hateful Eidolon",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "thb",
-            "setName": "Theros Beyond Death",
-            "isFoil": false,
-            "collectorNumber": "101",
-            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
           }
         ]
       }
@@ -245695,19 +245685,19 @@
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 1,
-            "set": "usg",
-            "setName": "Urza's Saga",
-            "isFoil": false,
-            "collectorNumber": "104",
-            "scryfallId": "5c29399d-0a59-4dcb-9bd4-f31eea3f39f9"
-          },
-          {
-            "qty": 1,
             "set": "7ed",
             "setName": "Seventh Edition",
             "isFoil": false,
             "collectorNumber": "105",
             "scryfallId": "3fdd9981-bb5e-450d-90c3-4405a7097939"
+          },
+          {
+            "qty": 1,
+            "set": "usg",
+            "setName": "Urza's Saga",
+            "isFoil": false,
+            "collectorNumber": "104",
+            "scryfallId": "5c29399d-0a59-4dcb-9bd4-f31eea3f39f9"
           }
         ]
       }
@@ -245841,8 +245831,8 @@
             "set": "mh2",
             "setName": "Modern Horizons 2",
             "isFoil": false,
-            "collectorNumber": "176",
-            "scryfallId": "a119edc2-9e0f-43d1-a13d-25827f86e3e3"
+            "collectorNumber": "357",
+            "scryfallId": "6afd2ecd-c2e5-49f2-bf35-dcec2addcebb"
           }
         ]
       }
@@ -246153,19 +246143,19 @@
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 1,
-            "set": "wth",
-            "setName": "Weatherlight",
-            "isFoil": false,
-            "collectorNumber": "25",
-            "scryfallId": "2794cca9-3df0-4864-8a98-4de71a2bcf17"
-          },
-          {
-            "qty": 1,
             "set": "6ed",
             "setName": "Classic Sixth Edition",
             "isFoil": false,
             "collectorNumber": "42",
             "scryfallId": "c6751671-9ef9-45f2-8e27-8c896936929a"
+          },
+          {
+            "qty": 1,
+            "set": "wth",
+            "setName": "Weatherlight",
+            "isFoil": false,
+            "collectorNumber": "25",
+            "scryfallId": "2794cca9-3df0-4864-8a98-4de71a2bcf17"
           }
         ]
       }
@@ -246702,20 +246692,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 4,
-            "set": "mh2",
-            "setName": "Modern Horizons 2",
-            "isFoil": false,
-            "collectorNumber": "430",
-            "scryfallId": "23ac45cf-4dc8-47b9-8ca8-e72464f745d6"
-          },
-          {
             "qty": 1,
             "set": "mh2",
             "setName": "Modern Horizons 2",
             "isFoil": true,
             "collectorNumber": "232",
             "scryfallId": "025b0f0f-daf6-4071-82e7-39c015447ce4"
+          },
+          {
+            "qty": 4,
+            "set": "mh2",
+            "setName": "Modern Horizons 2",
+            "isFoil": false,
+            "collectorNumber": "430",
+            "scryfallId": "23ac45cf-4dc8-47b9-8ca8-e72464f745d6"
           }
         ]
       }
@@ -247055,20 +247045,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 1,
-            "set": "ath",
-            "setName": "Anthologies",
-            "isFoil": false,
-            "collectorNumber": "44",
-            "scryfallId": "86804429-ae19-497c-a256-7906b0a06cc2"
-          },
-          {
             "qty": 5,
             "set": "tmp",
             "setName": "Tempest",
             "isFoil": false,
             "collectorNumber": "190",
             "scryfallId": "ca2ecfd4-c874-4468-8601-87aa110d5a00"
+          },
+          {
+            "qty": 1,
+            "set": "ath",
+            "setName": "Anthologies",
+            "isFoil": false,
+            "collectorNumber": "44",
+            "scryfallId": "86804429-ae19-497c-a256-7906b0a06cc2"
           }
         ]
       }
@@ -247821,20 +247811,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 3,
-            "set": "scg",
-            "setName": "Scourge",
-            "isFoil": false,
-            "collectorNumber": "97",
-            "scryfallId": "66864a4b-8924-40ef-a337-15b12413a158"
-          },
-          {
             "qty": 1,
             "set": "dom",
             "setName": "Dominaria",
             "isFoil": false,
             "collectorNumber": "130",
             "scryfallId": "5bac033c-dc4e-40a0-b103-4892e4b50249"
+          },
+          {
+            "qty": 3,
+            "set": "scg",
+            "setName": "Scourge",
+            "isFoil": false,
+            "collectorNumber": "97",
+            "scryfallId": "66864a4b-8924-40ef-a337-15b12413a158"
           }
         ]
       }

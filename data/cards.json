@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T08:03:17.398Z",
+  "lastUpdated": "2026-07-16T08:09:37.702Z",
   "owners": [
     {
       "name": "Fausto",
@@ -19,7 +19,7 @@
     {
       "name": "Angie",
       "phone": "+5493436989068",
-      "cardCount": 732
+      "cardCount": 704
     },
     {
       "name": "Carmelo",
@@ -39,7 +39,7 @@
     {
       "name": "Rodrigo Deganutti",
       "phone": "+5493434723142",
-      "cardCount": 274
+      "cardCount": 370
     },
     {
       "name": "Guille A.",
@@ -6648,6 +6648,16 @@
       "name": "Blazing Crescendo",
       "owners": {
         "Fausto": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "125",
+            "scryfallId": "8447c3d6-8c65-4d3c-81c4-609801602d06"
+          }
+        ],
+        "Rodrigo Deganutti": [
           {
             "qty": 1,
             "set": "msh",
@@ -16523,19 +16533,19 @@
         "Jona": [
           {
             "qty": 1,
-            "set": "rvr",
-            "setName": "Ravnica Remastered",
-            "isFoil": false,
-            "collectorNumber": "106",
-            "scryfallId": "3abaf8fe-5fab-442c-b219-45137f9ae112"
-          },
-          {
-            "qty": 1,
             "set": "war",
             "setName": "War of the Spark",
             "isFoil": false,
             "collectorNumber": "123",
             "scryfallId": "b00211dd-6dd7-40d9-80f3-f909f6d112db"
+          },
+          {
+            "qty": 1,
+            "set": "rvr",
+            "setName": "Ravnica Remastered",
+            "isFoil": false,
+            "collectorNumber": "106",
+            "scryfallId": "3abaf8fe-5fab-442c-b219-45137f9ae112"
           }
         ]
       }
@@ -38981,6 +38991,16 @@
             "isFoil": false,
             "collectorNumber": "152",
             "scryfallId": "084b7337-c06f-4cbf-8fc0-0b20c221f1dc"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "142",
+            "scryfallId": "88b13bc0-da54-4c3b-917c-7c8345a329f5"
           }
         ],
         "Jona": [
@@ -128556,6 +128576,16 @@
             "scryfallId": "7368f861-3288-4645-90a7-ca35d6da3721"
           }
         ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "22",
+            "scryfallId": "73475d29-2673-4614-86d3-404232426aa8"
+          }
+        ],
         "Eze Posadas (Sta Fe)": [
           {
             "qty": 1,
@@ -143370,19 +143400,19 @@
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 2,
-            "set": "a25",
-            "setName": "Masters 25",
-            "isFoil": false,
-            "collectorNumber": "186",
-            "scryfallId": "8a4d8527-af29-408d-a3a3-6781db0cf439"
-          },
-          {
-            "qty": 2,
             "set": "ulg",
             "setName": "Urza's Legacy",
             "isFoil": false,
             "collectorNumber": "110",
             "scryfallId": "59e256c2-38df-4012-9308-ce17dd889e5f"
+          },
+          {
+            "qty": 2,
+            "set": "a25",
+            "setName": "Masters 25",
+            "isFoil": false,
+            "collectorNumber": "186",
+            "scryfallId": "8a4d8527-af29-408d-a3a3-6781db0cf439"
           }
         ]
       }
@@ -161085,12 +161115,12 @@
         ],
         "Angie": [
           {
-            "qty": 2,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": true,
-            "collectorNumber": "258",
-            "scryfallId": "41040541-b129-4cf4-9411-09b1d9d32c19"
+            "qty": 1,
+            "set": "brr",
+            "setName": "The Brothers' War Retro Artifacts",
+            "isFoil": false,
+            "collectorNumber": "58",
+            "scryfallId": "96c69011-35bd-49f0-bae5-4a8367d32237"
           }
         ],
         "Ruso": [
@@ -161782,6 +161812,16 @@
             "isFoil": false,
             "collectorNumber": "34",
             "scryfallId": "76a31968-ba6d-4c01-838f-4cb8c64e73fb"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "348",
+            "scryfallId": "d7ebfe43-1772-4557-bad5-e170e8270d21"
           }
         ]
       }
@@ -178991,6 +179031,546 @@
         ]
       }
     },
+    "oltec cloud guard": {
+      "name": "Oltec Cloud Guard",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "28",
+            "scryfallId": "02d68a38-2e0b-401b-b67d-a55e2af5b18d"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": true,
+            "collectorNumber": "28",
+            "scryfallId": "02d68a38-2e0b-401b-b67d-a55e2af5b18d"
+          }
+        ]
+      }
+    },
+    "didact echo": {
+      "name": "Didact Echo",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "53",
+            "scryfallId": "3c068b2e-17cc-4fb8-bd79-b775a4713d74"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "53",
+            "scryfallId": "3c068b2e-17cc-4fb8-bd79-b775a4713d74"
+          }
+        ]
+      }
+    },
+    "song of stupefaction": {
+      "name": "Song of Stupefaction",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "77",
+            "scryfallId": "ab8f7a75-df5e-43b3-8c33-328ad0dc3c40"
+          }
+        ]
+      }
+    },
+    "mischievous pup": {
+      "name": "Mischievous Pup",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "25",
+            "scryfallId": "7c219861-f808-456f-b551-37512764062d"
+          }
+        ],
+        "Guille A.": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "144",
+            "scryfallId": "7214d984-6400-44d7-bde6-57d96b606e78"
+          }
+        ]
+      }
+    },
+    "compass gnome": {
+      "name": "Compass Gnome",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "250",
+            "scryfallId": "10e1030e-2b95-4807-9111-e495a2fc8813"
+          }
+        ]
+      }
+    },
+    "colossadactyl": {
+      "name": "Colossadactyl",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "180",
+            "scryfallId": "8702e776-be2c-48a9-9bc5-bb8ea514333b"
+          }
+        ]
+      }
+    },
+    "merfolk cave-diver": {
+      "name": "Merfolk Cave-Diver",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "65",
+            "scryfallId": "6e0fe81c-b8ef-49ff-8743-f03d0220cb9e"
+          }
+        ]
+      }
+    },
+    "triumphant chomp": {
+      "name": "Triumphant Chomp",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "170",
+            "scryfallId": "06b28139-efa7-4818-a012-cf8150692b43"
+          }
+        ]
+      }
+    },
+    "quicksand whirlpool": {
+      "name": "Quicksand Whirlpool",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "31",
+            "scryfallId": "a74ddccb-ebbd-4fad-a9b6-6b9e9bafae31"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 3,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "31",
+            "scryfallId": "a74ddccb-ebbd-4fad-a9b6-6b9e9bafae31"
+          }
+        ]
+      }
+    },
+    "thousand moons crackshot": {
+      "name": "Thousand Moons Crackshot",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "37",
+            "scryfallId": "741a7439-965d-49f2-b43e-053f29196e6b"
+          }
+        ]
+      }
+    },
+    "tinker's tote": {
+      "name": "Tinker's Tote",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "40",
+            "scryfallId": "8321857e-7977-46dd-8357-d732312e5261"
+          }
+        ]
+      }
+    },
+    "tithing blade // consuming sepulcher": {
+      "name": "Tithing Blade // Consuming Sepulcher",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "128",
+            "scryfallId": "dbaa9a2d-e9fd-4746-a26c-f99ae731f024"
+          }
+        ],
+        "Ruso": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "128",
+            "scryfallId": "dbaa9a2d-e9fd-4746-a26c-f99ae731f024"
+          }
+        ]
+      }
+    },
+    "another chance": {
+      "name": "Another Chance",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "90",
+            "scryfallId": "20d9eb9f-2fcc-49f0-99c1-bad748239466"
+          }
+        ]
+      }
+    },
+    "brazen blademaster": {
+      "name": "Brazen Blademaster",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "136",
+            "scryfallId": "8e9e0c66-f64a-428c-be13-a52691833df1"
+          }
+        ]
+      }
+    },
+    "walk with the ancestors": {
+      "name": "Walk with the Ancestors",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "218",
+            "scryfallId": "71a6f85b-5ef8-4526-9c86-7cb71508b4c0"
+          }
+        ]
+      }
+    },
+    "river herald guide": {
+      "name": "River Herald Guide",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "209",
+            "scryfallId": "9ea7e323-f329-4928-b25a-c0b44c5ac058"
+          }
+        ]
+      }
+    },
+    "staggering size": {
+      "name": "Staggering Size",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "214",
+            "scryfallId": "e34c4946-6c21-4ae1-9595-35933d38da52"
+          }
+        ]
+      }
+    },
+    "unlucky drop": {
+      "name": "Unlucky Drop",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "82",
+            "scryfallId": "76ebb2df-8891-434e-9cd0-f25b848cb754"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "82",
+            "scryfallId": "76ebb2df-8891-434e-9cd0-f25b848cb754"
+          }
+        ]
+      }
+    },
+    "screaming phantom": {
+      "name": "Screaming Phantom",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "bc2f3efb-1526-48c0-842a-374af63ea467"
+          }
+        ]
+      }
+    },
+    "extract a confession": {
+      "name": "Extract a Confession",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "84",
+            "scryfallId": "256c8b6e-4031-458b-8eb9-bbfe58405a0c"
+          }
+        ]
+      }
+    },
+    "bite down on crime": {
+      "name": "Bite Down on Crime",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "154",
+            "scryfallId": "29bbfe93-8225-444c-835b-33ffa006ef66"
+          }
+        ]
+      }
+    },
+    "public thoroughfare": {
+      "name": "Public Thoroughfare",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "265",
+            "scryfallId": "1f8b915f-3e82-4b05-b963-01ebff7a8f7b"
+          }
+        ]
+      }
+    },
+    "ripchain razorkin": {
+      "name": "Ripchain Razorkin",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "dsk",
+            "setName": "Duskmourn: House of Horror",
+            "isFoil": false,
+            "collectorNumber": "154",
+            "scryfallId": "effad662-3309-434c-addc-4394db1f359c"
+          }
+        ]
+      }
+    },
+    "wanderwine farewell": {
+      "name": "Wanderwine Farewell",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "83",
+            "scryfallId": "473123a0-1366-406b-9b9e-154c0e9c224f"
+          }
+        ],
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "83",
+            "scryfallId": "473123a0-1366-406b-9b9e-154c0e9c224f"
+          }
+        ]
+      }
+    },
+    "shore lurker": {
+      "name": "Shore Lurker",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "34",
+            "scryfallId": "bb353c27-e311-4677-9277-cab6820562ce"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "34",
+            "scryfallId": "681bea91-1ad3-4f91-aebf-f9fa6ae11911"
+          }
+        ],
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "34",
+            "scryfallId": "bb353c27-e311-4677-9277-cab6820562ce"
+          }
+        ]
+      }
+    },
+    "meanders guide": {
+      "name": "Meanders Guide",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "25",
+            "scryfallId": "8c41a0ad-138e-4eef-8f7f-35017e3b086f"
+          }
+        ],
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "25",
+            "scryfallId": "8c41a0ad-138e-4eef-8f7f-35017e3b086f"
+          }
+        ]
+      }
+    },
+    "spiral into solitude": {
+      "name": "Spiral into Solitude",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "e7a12664-a930-4159-8311-19862488fb05"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "b680d47b-23dc-48ef-81f1-5839be72788d"
+          }
+        ],
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "e7a12664-a930-4159-8311-19862488fb05"
+          }
+        ]
+      }
+    },
+    "moon-vigil adherents": {
+      "name": "Moon-Vigil Adherents",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "184",
+            "scryfallId": "60621c37-62e1-4261-ae76-3946b4a0cfa3"
+          }
+        ]
+      }
+    },
     "goatnap": {
       "name": "Goatnap",
       "owners": {
@@ -179431,31 +180011,6 @@
         ]
       }
     },
-    "oltec cloud guard": {
-      "name": "Oltec Cloud Guard",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "28",
-            "scryfallId": "02d68a38-2e0b-401b-b67d-a55e2af5b18d"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": true,
-            "collectorNumber": "28",
-            "scryfallId": "02d68a38-2e0b-401b-b67d-a55e2af5b18d"
-          }
-        ]
-      }
-    },
     "idol of the deep king // sovereign's macuahuitl": {
       "name": "Idol of the Deep King // Sovereign's Macuahuitl",
       "owners": {
@@ -179471,46 +180026,6 @@
         ]
       }
     },
-    "didact echo": {
-      "name": "Didact Echo",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "53",
-            "scryfallId": "3c068b2e-17cc-4fb8-bd79-b775a4713d74"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "53",
-            "scryfallId": "3c068b2e-17cc-4fb8-bd79-b775a4713d74"
-          }
-        ]
-      }
-    },
-    "song of stupefaction": {
-      "name": "Song of Stupefaction",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "77",
-            "scryfallId": "ab8f7a75-df5e-43b3-8c33-328ad0dc3c40"
-          }
-        ]
-      }
-    },
     "sinuous benthisaur": {
       "name": "Sinuous Benthisaur",
       "owners": {
@@ -179522,31 +180037,6 @@
             "isFoil": false,
             "collectorNumber": "76",
             "scryfallId": "7a58639c-001f-4cb1-89fd-0a0967b86977"
-          }
-        ]
-      }
-    },
-    "mischievous pup": {
-      "name": "Mischievous Pup",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "25",
-            "scryfallId": "7c219861-f808-456f-b551-37512764062d"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "144",
-            "scryfallId": "7214d984-6400-44d7-bde6-57d96b606e78"
           }
         ]
       }
@@ -179636,21 +180126,6 @@
         ]
       }
     },
-    "compass gnome": {
-      "name": "Compass Gnome",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "250",
-            "scryfallId": "10e1030e-2b95-4807-9111-e495a2fc8813"
-          }
-        ]
-      }
-    },
     "twists and turns // mycoid maze": {
       "name": "Twists and Turns // Mycoid Maze",
       "owners": {
@@ -179662,21 +180137,6 @@
             "isFoil": false,
             "collectorNumber": "217",
             "scryfallId": "3cdf691e-96a5-45c7-9b94-6f04af81c8e4"
-          }
-        ]
-      }
-    },
-    "colossadactyl": {
-      "name": "Colossadactyl",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "180",
-            "scryfallId": "8702e776-be2c-48a9-9bc5-bb8ea514333b"
           }
         ]
       }
@@ -179731,46 +180191,6 @@
         ]
       }
     },
-    "belligerent yearling": {
-      "name": "Belligerent Yearling",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 4,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "133",
-            "scryfallId": "0b2debca-8535-4cf6-a461-c268faaacaae"
-          }
-        ]
-      }
-    },
-    "ixalli's lorekeeper": {
-      "name": "Ixalli's Lorekeeper",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 3,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "194",
-            "scryfallId": "4bc94ded-458d-4458-9c0b-136d825b885d"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "194",
-            "scryfallId": "4bc94ded-458d-4458-9c0b-136d825b885d"
-          }
-        ]
-      }
-    },
     "glowcap lantern": {
       "name": "Glowcap Lantern",
       "owners": {
@@ -179782,21 +180202,6 @@
             "isFoil": false,
             "collectorNumber": "187",
             "scryfallId": "bafde87c-743d-4307-93e0-fbd30f5d92f6"
-          }
-        ]
-      }
-    },
-    "merfolk cave-diver": {
-      "name": "Merfolk Cave-Diver",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "65",
-            "scryfallId": "6e0fe81c-b8ef-49ff-8743-f03d0220cb9e"
           }
         ]
       }
@@ -179882,21 +180287,6 @@
             "isFoil": false,
             "collectorNumber": "30",
             "scryfallId": "bbc5f28f-6361-455f-ac82-260a70e59316"
-          }
-        ]
-      }
-    },
-    "triumphant chomp": {
-      "name": "Triumphant Chomp",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "170",
-            "scryfallId": "06b28139-efa7-4818-a012-cf8150692b43"
           }
         ]
       }
@@ -180161,46 +180551,6 @@
         ]
       }
     },
-    "quicksand whirlpool": {
-      "name": "Quicksand Whirlpool",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "31",
-            "scryfallId": "a74ddccb-ebbd-4fad-a9b6-6b9e9bafae31"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 3,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "31",
-            "scryfallId": "a74ddccb-ebbd-4fad-a9b6-6b9e9bafae31"
-          }
-        ]
-      }
-    },
-    "thousand moons crackshot": {
-      "name": "Thousand Moons Crackshot",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "37",
-            "scryfallId": "741a7439-965d-49f2-b43e-053f29196e6b"
-          }
-        ]
-      }
-    },
     "thousand moons infantry": {
       "name": "Thousand Moons Infantry",
       "owners": {
@@ -180212,21 +180562,6 @@
             "isFoil": false,
             "collectorNumber": "38",
             "scryfallId": "c1974a8c-3328-4ff5-9a00-cb79ebb8ccf6"
-          }
-        ]
-      }
-    },
-    "tinker's tote": {
-      "name": "Tinker's Tote",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "40",
-            "scryfallId": "8321857e-7977-46dd-8357-d732312e5261"
           }
         ]
       }
@@ -180287,61 +180622,6 @@
             "isFoil": false,
             "collectorNumber": "109",
             "scryfallId": "692fe4e8-13b4-4bec-938e-a8073a7fbd71"
-          }
-        ]
-      }
-    },
-    "tithing blade // consuming sepulcher": {
-      "name": "Tithing Blade // Consuming Sepulcher",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "128",
-            "scryfallId": "dbaa9a2d-e9fd-4746-a26c-f99ae731f024"
-          }
-        ],
-        "Ruso": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "128",
-            "scryfallId": "dbaa9a2d-e9fd-4746-a26c-f99ae731f024"
-          }
-        ]
-      }
-    },
-    "another chance": {
-      "name": "Another Chance",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "90",
-            "scryfallId": "20d9eb9f-2fcc-49f0-99c1-bad748239466"
-          }
-        ]
-      }
-    },
-    "brazen blademaster": {
-      "name": "Brazen Blademaster",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "136",
-            "scryfallId": "8e9e0c66-f64a-428c-be13-a52691833df1"
           }
         ]
       }
@@ -180472,31 +180752,6 @@
             "isFoil": false,
             "collectorNumber": "108",
             "scryfallId": "81b8b9c9-725d-476d-a3cf-55e3dc3e433d"
-          }
-        ]
-      }
-    },
-    "hotfoot gnome": {
-      "name": "Hotfoot Gnome",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 3,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "154",
-            "scryfallId": "87468b6b-6f78-42e4-ab0d-6730aeecdc3f"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "154",
-            "scryfallId": "87468b6b-6f78-42e4-ab0d-6730aeecdc3f"
           }
         ]
       }
@@ -180641,21 +180896,6 @@
         ]
       }
     },
-    "walk with the ancestors": {
-      "name": "Walk with the Ancestors",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "218",
-            "scryfallId": "71a6f85b-5ef8-4526-9c86-7cb71508b4c0"
-          }
-        ]
-      }
-    },
     "malamet battle glyph": {
       "name": "Malamet Battle Glyph",
       "owners": {
@@ -180667,36 +180907,6 @@
             "isFoil": false,
             "collectorNumber": "198",
             "scryfallId": "2259f959-ca97-4df9-8d50-0532090fb967"
-          }
-        ]
-      }
-    },
-    "river herald guide": {
-      "name": "River Herald Guide",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "209",
-            "scryfallId": "9ea7e323-f329-4928-b25a-c0b44c5ac058"
-          }
-        ]
-      }
-    },
-    "staggering size": {
-      "name": "Staggering Size",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "214",
-            "scryfallId": "e34c4946-6c21-4ae1-9595-35933d38da52"
           }
         ]
       }
@@ -180796,31 +181006,6 @@
         ]
       }
     },
-    "unlucky drop": {
-      "name": "Unlucky Drop",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "82",
-            "scryfallId": "76ebb2df-8891-434e-9cd0-f25b848cb754"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "82",
-            "scryfallId": "76ebb2df-8891-434e-9cd0-f25b848cb754"
-          }
-        ]
-      }
-    },
     "mineshaft spider": {
       "name": "Mineshaft Spider",
       "owners": {
@@ -180846,21 +181031,6 @@
         ]
       }
     },
-    "screaming phantom": {
-      "name": "Screaming Phantom",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "118",
-            "scryfallId": "bc2f3efb-1526-48c0-842a-374af63ea467"
-          }
-        ]
-      }
-    },
     "topiary panther": {
       "name": "Topiary Panther",
       "owners": {
@@ -180872,21 +181042,6 @@
             "isFoil": false,
             "collectorNumber": "179",
             "scryfallId": "03d0365e-6dee-4236-a997-6761e3cde90d"
-          }
-        ]
-      }
-    },
-    "extract a confession": {
-      "name": "Extract a Confession",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "84",
-            "scryfallId": "256c8b6e-4031-458b-8eb9-bbfe58405a0c"
           }
         ]
       }
@@ -180906,21 +181061,6 @@
         ]
       }
     },
-    "bite down on crime": {
-      "name": "Bite Down on Crime",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "154",
-            "scryfallId": "29bbfe93-8225-444c-835b-33ffa006ef66"
-          }
-        ]
-      }
-    },
     "crimestopper sprite": {
       "name": "Crimestopper Sprite",
       "owners": {
@@ -180932,21 +181072,6 @@
             "isFoil": false,
             "collectorNumber": "49",
             "scryfallId": "dc4ac597-38f0-48b5-ac2d-dfb0b169f834"
-          }
-        ]
-      }
-    },
-    "public thoroughfare": {
-      "name": "Public Thoroughfare",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "265",
-            "scryfallId": "1f8b915f-3e82-4b05-b963-01ebff7a8f7b"
           }
         ]
       }
@@ -181492,21 +181617,6 @@
             "isFoil": false,
             "collectorNumber": "175",
             "scryfallId": "327772f3-5a87-47af-9308-c1119ad2711d"
-          }
-        ]
-      }
-    },
-    "ripchain razorkin": {
-      "name": "Ripchain Razorkin",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "dsk",
-            "setName": "Duskmourn: House of Horror",
-            "isFoil": false,
-            "collectorNumber": "154",
-            "scryfallId": "effad662-3309-434c-addc-4394db1f359c"
           }
         ]
       }
@@ -182091,31 +182201,6 @@
         ]
       }
     },
-    "wanderwine farewell": {
-      "name": "Wanderwine Farewell",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "83",
-            "scryfallId": "473123a0-1366-406b-9b9e-154c0e9c224f"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "83",
-            "scryfallId": "473123a0-1366-406b-9b9e-154c0e9c224f"
-          }
-        ]
-      }
-    },
     "appeal to eirdu": {
       "name": "Appeal to Eirdu",
       "owners": {
@@ -182137,66 +182222,6 @@
             "isFoil": false,
             "collectorNumber": "5",
             "scryfallId": "68ce9752-21f9-48e9-bf48-7f76f1cecbc5"
-          }
-        ]
-      }
-    },
-    "wanderbrine preacher": {
-      "name": "Wanderbrine Preacher",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "41",
-            "scryfallId": "3fc3f5f2-5a83-4358-8f23-42f26f345140"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "41",
-            "scryfallId": "3fc3f5f2-5a83-4358-8f23-42f26f345140"
-          }
-        ]
-      }
-    },
-    "shore lurker": {
-      "name": "Shore Lurker",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "34",
-            "scryfallId": "bb353c27-e311-4677-9277-cab6820562ce"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "34",
-            "scryfallId": "681bea91-1ad3-4f91-aebf-f9fa6ae11911"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "34",
-            "scryfallId": "bb353c27-e311-4677-9277-cab6820562ce"
           }
         ]
       }
@@ -182361,31 +182386,6 @@
         ]
       }
     },
-    "gravelgill scoundrel": {
-      "name": "Gravelgill Scoundrel",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 4,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "53",
-            "scryfallId": "320bc30c-7a8a-411a-9f36-9c69126e131b"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "53",
-            "scryfallId": "320bc30c-7a8a-411a-9f36-9c69126e131b"
-          }
-        ]
-      }
-    },
     "pestered wellguard": {
       "name": "Pestered Wellguard",
       "owners": {
@@ -182407,31 +182407,6 @@
             "isFoil": false,
             "collectorNumber": "63",
             "scryfallId": "3e06c99e-ecb2-42e9-ac58-2542de8d54a5"
-          }
-        ]
-      }
-    },
-    "meanders guide": {
-      "name": "Meanders Guide",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "25",
-            "scryfallId": "8c41a0ad-138e-4eef-8f7f-35017e3b086f"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "25",
-            "scryfallId": "8c41a0ad-138e-4eef-8f7f-35017e3b086f"
           }
         ]
       }
@@ -182517,41 +182492,6 @@
             "isFoil": false,
             "collectorNumber": "135",
             "scryfallId": "104baa2c-75c5-44fc-a3b9-b19efcf3d7c2"
-          }
-        ]
-      }
-    },
-    "spiral into solitude": {
-      "name": "Spiral into Solitude",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "36",
-            "scryfallId": "e7a12664-a930-4159-8311-19862488fb05"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "36",
-            "scryfallId": "b680d47b-23dc-48ef-81f1-5839be72788d"
-          }
-        ],
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "36",
-            "scryfallId": "e7a12664-a930-4159-8311-19862488fb05"
           }
         ]
       }
@@ -182661,21 +182601,6 @@
         ]
       }
     },
-    "encumbered reejerey": {
-      "name": "Encumbered Reejerey",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "14",
-            "scryfallId": "15ff6797-f59c-4333-98ea-5711150fd5b8"
-          }
-        ]
-      }
-    },
     "mischievous sneakling": {
       "name": "Mischievous Sneakling",
       "owners": {
@@ -182772,21 +182697,6 @@
             "isFoil": false,
             "collectorNumber": "94",
             "scryfallId": "4beca2e7-9c6d-493b-b15f-69e483a8dfff"
-          }
-        ]
-      }
-    },
-    "moon-vigil adherents": {
-      "name": "Moon-Vigil Adherents",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "184",
-            "scryfallId": "60621c37-62e1-4261-ae76-3946b4a0cfa3"
           }
         ]
       }
@@ -182917,6 +182827,136 @@
             "isFoil": false,
             "collectorNumber": "96",
             "scryfallId": "8aae3bd6-a935-44a5-aa4d-a525b00cbf50"
+          }
+        ]
+      }
+    },
+    "belligerent yearling": {
+      "name": "Belligerent Yearling",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 4,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "133",
+            "scryfallId": "0b2debca-8535-4cf6-a461-c268faaacaae"
+          }
+        ]
+      }
+    },
+    "gravelgill scoundrel": {
+      "name": "Gravelgill Scoundrel",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 4,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "53",
+            "scryfallId": "320bc30c-7a8a-411a-9f36-9c69126e131b"
+          }
+        ],
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "53",
+            "scryfallId": "320bc30c-7a8a-411a-9f36-9c69126e131b"
+          }
+        ]
+      }
+    },
+    "ixalli's lorekeeper": {
+      "name": "Ixalli's Lorekeeper",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 3,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "194",
+            "scryfallId": "4bc94ded-458d-4458-9c0b-136d825b885d"
+          }
+        ],
+        "Guille A.": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "194",
+            "scryfallId": "4bc94ded-458d-4458-9c0b-136d825b885d"
+          }
+        ]
+      }
+    },
+    "hotfoot gnome": {
+      "name": "Hotfoot Gnome",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 3,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "154",
+            "scryfallId": "87468b6b-6f78-42e4-ab0d-6730aeecdc3f"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "154",
+            "scryfallId": "87468b6b-6f78-42e4-ab0d-6730aeecdc3f"
+          }
+        ]
+      }
+    },
+    "wanderbrine preacher": {
+      "name": "Wanderbrine Preacher",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 3,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "41",
+            "scryfallId": "3fc3f5f2-5a83-4358-8f23-42f26f345140"
+          }
+        ],
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "41",
+            "scryfallId": "3fc3f5f2-5a83-4358-8f23-42f26f345140"
+          }
+        ]
+      }
+    },
+    "encumbered reejerey": {
+      "name": "Encumbered Reejerey",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 3,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "14",
+            "scryfallId": "15ff6797-f59c-4333-98ea-5711150fd5b8"
           }
         ]
       }
@@ -184363,21 +184403,6 @@
         ]
       }
     },
-    "super-skrull": {
-      "name": "Super-Skrull",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "msh",
-            "setName": "Marvel Super Heroes",
-            "isFoil": true,
-            "collectorNumber": "409",
-            "scryfallId": "625d95ac-41c5-4b42-b479-52446bb39465"
-          }
-        ]
-      }
-    },
     "teysa karlov": {
       "name": "Teysa Karlov",
       "owners": {
@@ -184534,21 +184559,6 @@
             "isFoil": false,
             "collectorNumber": "215p",
             "scryfallId": "c3beaa74-3538-4ccf-9087-cbef37ce1cfc"
-          }
-        ]
-      }
-    },
-    "taborax, hope's demise": {
-      "name": "Taborax, Hope's Demise",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "znr",
-            "setName": "Zendikar Rising",
-            "isFoil": false,
-            "collectorNumber": "129",
-            "scryfallId": "331bf97d-f447-4c68-bfc7-2bb593106d66"
           }
         ]
       }
@@ -187263,6 +187273,21 @@
         ]
       }
     },
+    "mabel, heir to cragflame": {
+      "name": "Mabel, Heir to Cragflame",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "224",
+            "scryfallId": "be6627fd-729d-44f2-b6bf-5299f49d1e3d"
+          }
+        ]
+      }
+    },
     "duelist of the mind": {
       "name": "Duelist of the Mind",
       "owners": {
@@ -187304,36 +187329,6 @@
             "isFoil": false,
             "collectorNumber": "65",
             "scryfallId": "18d24d9a-a49e-4ce8-9158-03fe4cea39e2"
-          }
-        ]
-      }
-    },
-    "bruse tarl, roving rancher": {
-      "name": "Bruse Tarl, Roving Rancher",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "otj",
-            "setName": "Outlaws of Thunder Junction",
-            "isFoil": false,
-            "collectorNumber": "198",
-            "scryfallId": "286c55c2-dcc1-4e87-a83f-9981d28ab62d"
-          }
-        ]
-      }
-    },
-    "riku of many paths": {
-      "name": "Riku of Many Paths",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "otj",
-            "setName": "Outlaws of Thunder Junction",
-            "isFoil": false,
-            "collectorNumber": "227",
-            "scryfallId": "21b63544-4c31-4f38-9907-0407719a60b1"
           }
         ]
       }
@@ -187593,6 +187588,31 @@
         ]
       }
     },
+    "zoraline, cosmos caller": {
+      "name": "Zoraline, Cosmos Caller",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "242",
+            "scryfallId": "b7f99fd5-5298-4b27-923d-9d31203c931a"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "blb",
+            "setName": "Bloomburrow",
+            "isFoil": false,
+            "collectorNumber": "242",
+            "scryfallId": "b7f99fd5-5298-4b27-923d-9d31203c931a"
+          }
+        ]
+      }
+    },
     "byway barterer": {
       "name": "Byway Barterer",
       "owners": {
@@ -187619,36 +187639,6 @@
             "isFoil": false,
             "collectorNumber": "34",
             "scryfallId": "2aea38e6-ec58-4091-b27c-2761bdd12b13"
-          }
-        ]
-      }
-    },
-    "wick, the whorled mind": {
-      "name": "Wick, the Whorled Mind",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "120",
-            "scryfallId": "29089810-d7fb-4abe-b729-bfabed6aed2b"
-          }
-        ]
-      }
-    },
-    "helga, skittish seer": {
-      "name": "Helga, Skittish Seer",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "217",
-            "scryfallId": "40339715-22d0-4f99-822b-a00d9824f27a"
           }
         ]
       }
@@ -187798,21 +187788,6 @@
         ]
       }
     },
-    "victor, valgavoth's seneschal": {
-      "name": "Victor, Valgavoth's Seneschal",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "dsk",
-            "setName": "Duskmourn: House of Horror",
-            "isFoil": false,
-            "collectorNumber": "238",
-            "scryfallId": "51392ece-c9f5-46b0-9dce-0a1a0343a536"
-          }
-        ]
-      }
-    },
     "central elevator // promising stairs": {
       "name": "Central Elevator // Promising Stairs",
       "owners": {
@@ -187869,6 +187844,21 @@
             "isFoil": false,
             "collectorNumber": "227",
             "scryfallId": "ac794b2f-b5ea-449d-bb0b-4f0e6cc145ef"
+          }
+        ]
+      }
+    },
+    "nashi, searcher in the dark": {
+      "name": "Nashi, Searcher in the Dark",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "dsk",
+            "setName": "Duskmourn: House of Horror",
+            "isFoil": false,
+            "collectorNumber": "223",
+            "scryfallId": "0fbf9e1e-43f2-499e-844d-22fc10dbad06"
           }
         ]
       }
@@ -188208,36 +188198,6 @@
         ]
       }
     },
-    "kolodin, triumph caster": {
-      "name": "Kolodin, Triumph Caster",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "210",
-            "scryfallId": "36bcd476-a236-4434-b191-5c8b6fa7be7b"
-          }
-        ]
-      }
-    },
-    "loot, the pathfinder": {
-      "name": "Loot, the Pathfinder",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "212",
-            "scryfallId": "33c59c04-4c0b-4a60-826e-3a7757d0b2a2"
-          }
-        ]
-      }
-    },
     "oildeep gearhulk": {
       "name": "Oildeep Gearhulk",
       "owners": {
@@ -188369,21 +188329,6 @@
             "isFoil": false,
             "collectorNumber": "203",
             "scryfallId": "f523e96d-9df1-4854-accb-9876aef787e5"
-          }
-        ]
-      }
-    },
-    "samut, the driving force": {
-      "name": "Samut, the Driving Force",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "222",
-            "scryfallId": "8efd8222-5c37-46d8-a2ec-1d7aae25320b"
           }
         ]
       }
@@ -188588,36 +188533,6 @@
         ]
       }
     },
-    "clive, ifrit's dominant // ifrit, warden of inferno": {
-      "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "133",
-            "scryfallId": "9a069e96-2786-493d-aca8-f70611435dbe"
-          }
-        ]
-      }
-    },
-    "zodiark, umbral god": {
-      "name": "Zodiark, Umbral God",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "128",
-            "scryfallId": "9ba292d5-5139-42ea-950d-0a638445277f"
-          }
-        ]
-      }
-    },
     "kain, traitorous dragoon": {
       "name": "Kain, Traitorous Dragoon",
       "owners": {
@@ -188688,17 +188603,17 @@
         ]
       }
     },
-    "mizzix's mastery": {
-      "name": "Mizzix's Mastery",
+    "matoya, archon elder": {
+      "name": "Matoya, Archon Elder",
       "owners": {
         "Angie": [
           {
             "qty": 1,
-            "set": "fca",
-            "setName": "Final Fantasy: Through the Ages",
+            "set": "fin",
+            "setName": "Final Fantasy",
             "isFoil": false,
-            "collectorNumber": "41",
-            "scryfallId": "8a139398-4d42-4715-8a5a-c446bf665a2e"
+            "collectorNumber": "62",
+            "scryfallId": "1dd61cf6-2fb5-4cff-ab00-7677ac85774c"
           }
         ]
       }
@@ -188763,6 +188678,21 @@
         ]
       }
     },
+    "the lunar whale": {
+      "name": "The Lunar Whale",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "fin",
+            "setName": "Final Fantasy",
+            "isFoil": false,
+            "collectorNumber": "60",
+            "scryfallId": "ae875471-346c-4a76-b26f-b7205dad5b80"
+          }
+        ]
+      }
+    },
     "ultima": {
       "name": "Ultima",
       "owners": {
@@ -188804,21 +188734,6 @@
             "isFoil": false,
             "collectorNumber": "26",
             "scryfallId": "6822144f-f0eb-4e10-a217-52cad36d2973"
-          }
-        ]
-      }
-    },
-    "seifer almasy": {
-      "name": "Seifer Almasy",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "156",
-            "scryfallId": "9c776984-99ea-4181-ac95-78c41ba9d54f"
           }
         ]
       }
@@ -188998,21 +188913,6 @@
         ]
       }
     },
-    "carnage, crimson chaos": {
-      "name": "Carnage, Crimson Chaos",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "pw25",
-            "setName": "Wizards Play Network 2025",
-            "isFoil": false,
-            "collectorNumber": "13",
-            "scryfallId": "1efc11ba-8fe9-45cc-9de5-bd5a577f0a87"
-          }
-        ]
-      }
-    },
     "starwinder": {
       "name": "Starwinder",
       "owners": {
@@ -189024,46 +188924,6 @@
             "isFoil": false,
             "collectorNumber": "79p",
             "scryfallId": "39f11c19-29e3-442c-873c-0b391f5a5a05"
-          }
-        ]
-      }
-    },
-    "yue, the moon spirit": {
-      "name": "Yue, the Moon Spirit",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "83",
-            "scryfallId": "ecdac50f-c639-43fc-a03e-d488fac96ae2"
-          }
-        ]
-      }
-    },
-    "sandman, shifting scoundrel": {
-      "name": "Sandman, Shifting Scoundrel",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "spm",
-            "setName": "Marvel's Spider-Man",
-            "isFoil": false,
-            "collectorNumber": "112",
-            "scryfallId": "609ac18c-ec58-4fa7-bbee-3912a69d0ec6"
-          }
-        ],
-        "Lucho": [
-          {
-            "qty": 1,
-            "set": "spm",
-            "setName": "Marvel's Spider-Man",
-            "isFoil": false,
-            "collectorNumber": "112",
-            "scryfallId": "609ac18c-ec58-4fa7-bbee-3912a69d0ec6"
           }
         ]
       }
@@ -189184,21 +189044,6 @@
             "isFoil": false,
             "collectorNumber": "21",
             "scryfallId": "eea57be1-032d-40ec-8091-92f89670e4a1"
-          }
-        ]
-      }
-    },
-    "formidable speaker": {
-      "name": "Formidable Speaker",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "176",
-            "scryfallId": "265522eb-4f6a-40e7-b374-3833fa63c80b"
           }
         ]
       }
@@ -189353,21 +189198,6 @@
         ]
       }
     },
-    "baron helmut zemo": {
-      "name": "Baron Helmut Zemo",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "msh",
-            "setName": "Marvel Super Heroes",
-            "isFoil": false,
-            "collectorNumber": "87",
-            "scryfallId": "c2aadc25-7755-4bc8-a8af-b01d27eec364"
-          }
-        ]
-      }
-    },
     "world war hulk": {
       "name": "World War Hulk",
       "owners": {
@@ -189484,6 +189314,21 @@
             "isFoil": false,
             "collectorNumber": "199",
             "scryfallId": "2094f9b6-ce84-47d9-8819-81db14ba483f"
+          }
+        ]
+      }
+    },
+    "rhys, the evermore": {
+      "name": "Rhys, the Evermore",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "32",
+            "scryfallId": "a7072412-4aa2-40ef-a267-bd717551a42b"
           }
         ]
       }
@@ -189868,36 +189713,6 @@
         ]
       }
     },
-    "groundchuck & dirtbag": {
-      "name": "Groundchuck & Dirtbag",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "tmt",
-            "setName": "Teenage Mutant Ninja Turtles",
-            "isFoil": false,
-            "collectorNumber": "115",
-            "scryfallId": "1563592e-0f21-4488-a3ec-ca766386e423"
-          }
-        ]
-      }
-    },
-    "casey jones, vigilante": {
-      "name": "Casey Jones, Vigilante",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "tmt",
-            "setName": "Teenage Mutant Ninja Turtles",
-            "isFoil": false,
-            "collectorNumber": "88",
-            "scryfallId": "a6a3258d-2e9b-4862-b2e3-bbfae9bd4d33"
-          }
-        ]
-      }
-    },
     "transdimensional bovine": {
       "name": "Transdimensional Bovine",
       "owners": {
@@ -189909,6 +189724,21 @@
             "isFoil": false,
             "collectorNumber": "134",
             "scryfallId": "de124563-205c-4f40-8c13-4ae203599912"
+          }
+        ]
+      }
+    },
+    "kitsune, dragon's daughter": {
+      "name": "Kitsune, Dragon's Daughter",
+      "owners": {
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "41",
+            "scryfallId": "a87a9257-4535-4286-8b59-a842ac45d05e"
           }
         ]
       }
@@ -189984,21 +189814,6 @@
             "isFoil": false,
             "collectorNumber": "153",
             "scryfallId": "0ea4a895-19c0-47af-ad9c-5db88ea9ae05"
-          }
-        ]
-      }
-    },
-    "mathemagics": {
-      "name": "Mathemagics",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "58",
-            "scryfallId": "cd3cc172-5609-4bc8-9d84-50680fed6df9"
           }
         ]
       }
@@ -190168,31 +189983,6 @@
         ]
       }
     },
-    "planar engineering": {
-      "name": "Planar Engineering",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "158",
-            "scryfallId": "c83b96a3-ddfd-4d11-8a85-5bf62087cbb9"
-          }
-        ],
-        "Lucho": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "158",
-            "scryfallId": "c83b96a3-ddfd-4d11-8a85-5bf62087cbb9"
-          }
-        ]
-      }
-    },
     "geometer's arthropod": {
       "name": "Geometer's Arthropod",
       "owners": {
@@ -190284,21 +190074,6 @@
             "isFoil": false,
             "collectorNumber": "123",
             "scryfallId": "4d611278-9948-4345-b4dd-aa6eaf21b233"
-          }
-        ]
-      }
-    },
-    "bitter triumph": {
-      "name": "Bitter Triumph",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "soa",
-            "setName": "Secrets of Strixhaven Mystical Archive",
-            "isFoil": false,
-            "collectorNumber": "26",
-            "scryfallId": "db465858-0593-4850-8f1d-400fe230a18d"
           }
         ]
       }
@@ -190470,6 +190245,16 @@
             "collectorNumber": "332",
             "scryfallId": "0d01bc37-ebf4-4f08-9beb-fef8787f8e7a"
           }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "332",
+            "scryfallId": "0d01bc37-ebf4-4f08-9beb-fef8787f8e7a"
+          }
         ]
       }
     },
@@ -190484,66 +190269,6 @@
             "isFoil": false,
             "collectorNumber": "338",
             "scryfallId": "2fde89b2-5ad8-4b07-8a48-2b33d373be30"
-          }
-        ]
-      }
-    },
-    "the astonishing ant-man": {
-      "name": "The Astonishing Ant-Man",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "msh",
-            "setName": "Marvel Super Heroes",
-            "isFoil": false,
-            "collectorNumber": "204",
-            "scryfallId": "5d98073e-2828-4365-a8d6-f631aac0cca9"
-          }
-        ]
-      }
-    },
-    "red hulk": {
-      "name": "Red Hulk",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "msh",
-            "setName": "Marvel Super Heroes",
-            "isFoil": false,
-            "collectorNumber": "329",
-            "scryfallId": "7e623818-838b-4c02-a23a-498cf18d70d6"
-          }
-        ]
-      }
-    },
-    "the mighty thor, jane foster": {
-      "name": "The Mighty Thor, Jane Foster",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "msh",
-            "setName": "Marvel Super Heroes",
-            "isFoil": false,
-            "collectorNumber": "222",
-            "scryfallId": "082cc8cc-bbea-4ca7-a0e8-da1f865d6626"
-          }
-        ]
-      }
-    },
-    "taskmaster, mercenary mimic": {
-      "name": "Taskmaster, Mercenary Mimic",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "msh",
-            "setName": "Marvel Super Heroes",
-            "isFoil": false,
-            "collectorNumber": "232",
-            "scryfallId": "0d4265fd-cbfa-4e57-89fd-a1d757acfe81"
           }
         ]
       }
@@ -191043,21 +190768,6 @@
         ]
       }
     },
-    "mabel, heir to cragflame": {
-      "name": "Mabel, Heir to Cragflame",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "224",
-            "scryfallId": "be6627fd-729d-44f2-b6bf-5299f49d1e3d"
-          }
-        ]
-      }
-    },
     "step between worlds": {
       "name": "Step Between Worlds",
       "owners": {
@@ -191163,31 +190873,6 @@
         ]
       }
     },
-    "zoraline, cosmos caller": {
-      "name": "Zoraline, Cosmos Caller",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "242",
-            "scryfallId": "b7f99fd5-5298-4b27-923d-9d31203c931a"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "blb",
-            "setName": "Bloomburrow",
-            "isFoil": false,
-            "collectorNumber": "242",
-            "scryfallId": "b7f99fd5-5298-4b27-923d-9d31203c931a"
-          }
-        ]
-      }
-    },
     "darkstar augur": {
       "name": "Darkstar Augur",
       "owners": {
@@ -191248,21 +190933,6 @@
         ]
       }
     },
-    "nashi, searcher in the dark": {
-      "name": "Nashi, Searcher in the Dark",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "dsk",
-            "setName": "Duskmourn: House of Horror",
-            "isFoil": false,
-            "collectorNumber": "223",
-            "scryfallId": "0fbf9e1e-43f2-499e-844d-22fc10dbad06"
-          }
-        ]
-      }
-    },
     "lunar insight": {
       "name": "Lunar Insight",
       "owners": {
@@ -191319,36 +190989,6 @@
             "isFoil": false,
             "collectorNumber": "58",
             "scryfallId": "1f163763-4802-4a96-a5bc-f3c381db7b5c"
-          }
-        ]
-      }
-    },
-    "matoya, archon elder": {
-      "name": "Matoya, Archon Elder",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "62",
-            "scryfallId": "1dd61cf6-2fb5-4cff-ab00-7677ac85774c"
-          }
-        ]
-      }
-    },
-    "the lunar whale": {
-      "name": "The Lunar Whale",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": false,
-            "collectorNumber": "60",
-            "scryfallId": "ae875471-346c-4a76-b26f-b7205dad5b80"
           }
         ]
       }
@@ -191418,21 +191058,6 @@
         ]
       }
     },
-    "rhys, the evermore": {
-      "name": "Rhys, the Evermore",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "32",
-            "scryfallId": "a7072412-4aa2-40ef-a267-bd717551a42b"
-          }
-        ]
-      }
-    },
     "leonardo's technique": {
       "name": "Leonardo's Technique",
       "owners": {
@@ -191444,21 +191069,6 @@
             "isFoil": false,
             "collectorNumber": "18",
             "scryfallId": "405e4057-e26c-4882-89a9-706868548c37"
-          }
-        ]
-      }
-    },
-    "kitsune, dragon's daughter": {
-      "name": "Kitsune, Dragon's Daughter",
-      "owners": {
-        "Angie": [
-          {
-            "qty": 2,
-            "set": "tmt",
-            "setName": "Teenage Mutant Ninja Turtles",
-            "isFoil": false,
-            "collectorNumber": "41",
-            "scryfallId": "a87a9257-4535-4286-8b59-a842ac45d05e"
           }
         ]
       }
@@ -196774,20 +196384,20 @@
         ],
         "Jona": [
           {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "159",
-            "scryfallId": "f6792f63-b651-497d-8aa5-cddf4cedeca8"
-          },
-          {
             "qty": 5,
             "set": "woe",
             "setName": "Wilds of Eldraine",
             "isFoil": false,
             "collectorNumber": "62",
             "scryfallId": "e595014d-4ff4-4561-b7f2-a9bd56300b01"
+          },
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "159",
+            "scryfallId": "f6792f63-b651-497d-8aa5-cddf4cedeca8"
           }
         ],
         "Eze Posadas (Sta Fe)": [
@@ -199401,6 +199011,16 @@
       "name": "Bot Bashing Time",
       "owners": {
         "Lucho": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "85",
+            "scryfallId": "08b3af61-d516-45ca-aede-2f50ba23cb07"
+          }
+        ],
+        "Rodrigo Deganutti": [
           {
             "qty": 1,
             "set": "tmt",
@@ -203405,6 +203025,21 @@
         ]
       }
     },
+    "planar engineering": {
+      "name": "Planar Engineering",
+      "owners": {
+        "Lucho": [
+          {
+            "qty": 1,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "158",
+            "scryfallId": "c83b96a3-ddfd-4d11-8a85-5bf62087cbb9"
+          }
+        ]
+      }
+    },
     "plumb the forbidden": {
       "name": "Plumb the Forbidden",
       "owners": {
@@ -203932,6 +203567,16 @@
             "collectorNumber": "52",
             "scryfallId": "52e99505-17dc-4051-99f6-e23559fc6c95"
           }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "52",
+            "scryfallId": "52e99505-17dc-4051-99f6-e23559fc6c95"
+          }
         ]
       }
     },
@@ -204236,6 +203881,21 @@
             "isFoil": false,
             "collectorNumber": "10",
             "scryfallId": "73887514-7644-4b2b-8c67-4b7e64150478"
+          }
+        ]
+      }
+    },
+    "sandman, shifting scoundrel": {
+      "name": "Sandman, Shifting Scoundrel",
+      "owners": {
+        "Lucho": [
+          {
+            "qty": 1,
+            "set": "spm",
+            "setName": "Marvel's Spider-Man",
+            "isFoil": false,
+            "collectorNumber": "112",
+            "scryfallId": "609ac18c-ec58-4fa7-bbee-3912a69d0ec6"
           }
         ]
       }
@@ -205741,6 +205401,16 @@
             "collectorNumber": "84",
             "scryfallId": "70faf7d8-008a-454a-a21b-702aa661b8f9"
           }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "84",
+            "scryfallId": "70faf7d8-008a-454a-a21b-702aa661b8f9"
+          }
         ]
       }
     },
@@ -206570,21 +206240,6 @@
             "isFoil": false,
             "collectorNumber": "62",
             "scryfallId": "22e343b5-37d6-44f6-be24-66313f18c246"
-          }
-        ]
-      }
-    },
-    "supreme verdict": {
-      "name": "Supreme Verdict",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "rtr",
-            "setName": "Return to Ravnica",
-            "isFoil": false,
-            "collectorNumber": "201",
-            "scryfallId": "4e9648f9-7a67-4717-bca1-861d1f7fed43"
           }
         ]
       }
@@ -207604,21 +207259,6 @@
         ]
       }
     },
-    "preacher of the schism": {
-      "name": "Preacher of the Schism",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "113",
-            "scryfallId": "89345f55-2b32-4356-945a-d56dded39909"
-          }
-        ]
-      }
-    },
     "oteclan landmark // oteclan levitator": {
       "name": "Oteclan Landmark // Oteclan Levitator",
       "owners": {
@@ -207630,21 +207270,6 @@
             "isFoil": false,
             "collectorNumber": "29",
             "scryfallId": "099a1d1c-72ba-468e-9385-8f93e1fce001"
-          }
-        ]
-      }
-    },
-    "fanatical offering": {
-      "name": "Fanatical Offering",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "105",
-            "scryfallId": "d896dd52-b134-4b55-ab91-ccb05ecc50f4"
           }
         ]
       }
@@ -207785,21 +207410,6 @@
             "isFoil": false,
             "collectorNumber": "147",
             "scryfallId": "f260bd08-68b6-44f4-ace9-e298cb13d82e"
-          }
-        ]
-      }
-    },
-    "disruptor flute": {
-      "name": "Disruptor Flute",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "mh3",
-            "setName": "Modern Horizons 3",
-            "isFoil": false,
-            "collectorNumber": "209",
-            "scryfallId": "5cad8671-4761-4014-a8a3-af45627e6e79"
           }
         ]
       }
@@ -208729,6 +208339,81 @@
         ]
       }
     },
+    "attuma, atlantean warlord": {
+      "name": "Attuma, Atlantean Warlord",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "47",
+            "scryfallId": "c3d5add1-0d0e-414b-a964-8da326472d35"
+          }
+        ]
+      }
+    },
+    "raphael, the nightwatcher": {
+      "name": "Raphael, the Nightwatcher",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "103",
+            "scryfallId": "6af50b50-3776-4383-b493-7c5dd732c965"
+          }
+        ]
+      }
+    },
+    "don & raph, hard science": {
+      "name": "Don & Raph, Hard Science",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "144",
+            "scryfallId": "4f38126c-26a9-4447-801f-4f19e84c4aa5"
+          }
+        ]
+      }
+    },
+    "casey jones, vigilante": {
+      "name": "Casey Jones, Vigilante",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "88",
+            "scryfallId": "a6a3258d-2e9b-4862-b2e3-bbfae9bd4d33"
+          }
+        ]
+      }
+    },
+    "karai, future of the foot": {
+      "name": "Karai, Future of the Foot",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "151",
+            "scryfallId": "0dded2d4-1640-4431-809e-403b51b27db6"
+          }
+        ]
+      }
+    },
     "silverclad ferocidons": {
       "name": "Silverclad Ferocidons",
       "owners": {
@@ -208744,8 +208429,248 @@
         ]
       }
     },
-    "the unbeatable squirrel girl": {
-      "name": "The Unbeatable Squirrel Girl",
+    "manhole missile": {
+      "name": "Manhole Missile",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "94",
+            "scryfallId": "243e392b-48b0-4e90-ae22-9a696f45e878"
+          }
+        ]
+      }
+    },
+    "guac & marshmallow pizza": {
+      "name": "Guac & Marshmallow Pizza",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "116",
+            "scryfallId": "a5405de0-16c9-4e5a-8ceb-00508e212f12"
+          }
+        ]
+      }
+    },
+    "michelangelo, game master": {
+      "name": "Michelangelo, Game Master",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "2e914c3d-2eed-48bf-af9a-a8998fd5111d"
+          }
+        ]
+      }
+    },
+    "grounded for life": {
+      "name": "Grounded for Life",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "7",
+            "scryfallId": "72388199-85fa-4eba-9a9c-c2904e6da9ed"
+          }
+        ]
+      }
+    },
+    "foot ninjas": {
+      "name": "Foot Ninjas",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "147",
+            "scryfallId": "abb1ab9c-b067-4b75-8e5b-a893b7948df1"
+          }
+        ]
+      }
+    },
+    "mechanized ninja cavalry": {
+      "name": "Mechanized Ninja Cavalry",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "156",
+            "scryfallId": "2cb65388-dc6c-4e2a-93ac-49ea484849e9"
+          }
+        ]
+      }
+    },
+    "general traag, heart of stone": {
+      "name": "General Traag, Heart of Stone",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "90",
+            "scryfallId": "e02e971f-6008-4c82-acd2-2aed13009ccb"
+          }
+        ]
+      }
+    },
+    "mind transfer protocol": {
+      "name": "Mind Transfer Protocol",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "45",
+            "scryfallId": "2ddfcc4d-dd5f-42f1-8f33-a8e8b5354534"
+          }
+        ]
+      }
+    },
+    "ragamuffin raptor": {
+      "name": "Ragamuffin Raptor",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "130",
+            "scryfallId": "2edc1d40-3154-4ec0-88c7-faf35fd5e560"
+          }
+        ]
+      }
+    },
+    "oroku saki, shredder rising": {
+      "name": "Oroku Saki, Shredder Rising",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "68",
+            "scryfallId": "e65ff1f4-a061-4c31-a78e-92af6e7bc56f"
+          }
+        ]
+      }
+    },
+    "metalhead": {
+      "name": "Metalhead",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "44",
+            "scryfallId": "3c2d8b09-8694-45ab-be01-f8dc17378cf0"
+          }
+        ]
+      }
+    },
+    "ice cream kitty": {
+      "name": "Ice Cream Kitty",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "150",
+            "scryfallId": "66081fd3-2457-4602-96c4-3075ddfec1c2"
+          }
+        ]
+      }
+    },
+    "purple dragon punks": {
+      "name": "Purple Dragon Punks",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "100",
+            "scryfallId": "bbe1d7e5-68e2-4458-aa3f-5e97fa8e7cae"
+          }
+        ]
+      }
+    },
+    "saved by the shell": {
+      "name": "Saved by the Shell",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "132",
+            "scryfallId": "f6314c7f-41dc-4bbd-99db-3a8a1d2977b2"
+          }
+        ]
+      }
+    },
+    "turtle blimp": {
+      "name": "Turtle Blimp",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "180",
+            "scryfallId": "6e118fc5-b0ae-4592-8292-d611856ae203"
+          }
+        ]
+      }
+    },
+    "rocksteady, crash courser": {
+      "name": "Rocksteady, Crash Courser",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tmt",
+            "setName": "Teenage Mutant Ninja Turtles",
+            "isFoil": false,
+            "collectorNumber": "131",
+            "scryfallId": "ebbb5756-80fa-406f-8daa-be1f5a6c3c80"
+          }
+        ]
+      }
+    },
+    "kang, temporal tyrant": {
+      "name": "Kang, Temporal Tyrant",
       "owners": {
         "Rodrigo Deganutti": [
           {
@@ -208753,8 +208678,98 @@
             "set": "msh",
             "setName": "Marvel Super Heroes",
             "isFoil": false,
-            "collectorNumber": "193",
-            "scryfallId": "d8b94ebb-0b3a-4e68-8c0c-3a61ac32f3ef"
+            "collectorNumber": "217",
+            "scryfallId": "fb96ee86-5139-472a-9c4b-8a8a4280fc7e"
+          }
+        ]
+      }
+    },
+    "black widow, double agent": {
+      "name": "Black Widow, Double Agent",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "208",
+            "scryfallId": "aa8dbbb9-36a5-48e0-9e30-aeed0fb5d522"
+          }
+        ]
+      }
+    },
+    "human torch, johnny storm": {
+      "name": "Human Torch, Johnny Storm",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "136",
+            "scryfallId": "8f8659f6-a793-4edc-8401-d9126840c1c2"
+          }
+        ]
+      }
+    },
+    "the thing, ben grimm": {
+      "name": "The Thing, Ben Grimm",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "190",
+            "scryfallId": "3f1933a8-046f-471a-afcf-cfb08ca0d239"
+          }
+        ]
+      }
+    },
+    "black panther, vanguard": {
+      "name": "Black Panther, Vanguard",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "207",
+            "scryfallId": "9e308f77-206b-4c9d-bfba-f4c476ea574a"
+          }
+        ]
+      }
+    },
+    "hellcat, undying vigilante": {
+      "name": "Hellcat, Undying Vigilante",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "170",
+            "scryfallId": "d7922c5f-d6ee-4b62-a537-3be5aa280e10"
+          }
+        ]
+      }
+    },
+    "photon blast barrage": {
+      "name": "Photon Blast Barrage",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "147",
+            "scryfallId": "f85a77d2-e11e-44bc-a1e7-d783cd49d714"
           }
         ]
       }
@@ -208774,6 +208789,66 @@
         ]
       }
     },
+    "doc samson, super psychiatrist": {
+      "name": "Doc Samson, Super Psychiatrist",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "164",
+            "scryfallId": "19dc5fcc-d05d-41a0-84c5-2dec996f3e4f"
+          }
+        ]
+      }
+    },
+    "baxter building": {
+      "name": "Baxter Building",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "261",
+            "scryfallId": "1abc652f-8e9d-4df7-bc4e-d8b515a40fec"
+          }
+        ]
+      }
+    },
+    "hercules, prince of power": {
+      "name": "Hercules, Prince of Power",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "171",
+            "scryfallId": "d610d9fe-f8ae-473f-9325-e2f28f7e8a69"
+          }
+        ]
+      }
+    },
+    "white widow, free agent": {
+      "name": "White Widow, Free Agent",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "42",
+            "scryfallId": "57da765f-7d87-42ac-9eb0-a49c296fbbf8"
+          }
+        ]
+      }
+    },
     "winter soldier, icy assassin": {
       "name": "Winter Soldier, Icy Assassin",
       "owners": {
@@ -208789,8 +208864,8 @@
         ]
       }
     },
-    "hawkeye, master marksman": {
-      "name": "Hawkeye, Master Marksman",
+    "falcon, winged wonder": {
+      "name": "Falcon, Winged Wonder",
       "owners": {
         "Rodrigo Deganutti": [
           {
@@ -208798,8 +208873,128 @@
             "set": "msh",
             "setName": "Marvel Super Heroes",
             "isFoil": false,
-            "collectorNumber": "130",
-            "scryfallId": "9991b684-0ae0-4aa4-8f22-a9c473f5d69c"
+            "collectorNumber": "52",
+            "scryfallId": "8dc209ed-0d4c-4d0c-90e8-04cadc3d4c3d"
+          }
+        ]
+      }
+    },
+    "agent 13, sharon carter": {
+      "name": "Agent 13, Sharon Carter",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "1",
+            "scryfallId": "107cb521-9806-47dc-92d8-b43112b63caa"
+          }
+        ]
+      }
+    },
+    "evil's thrall": {
+      "name": "Evil's Thrall",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "128",
+            "scryfallId": "310e30cd-b8c3-40ea-9d61-57c5c5fc2a0b"
+          }
+        ]
+      }
+    },
+    "roxxon brutes": {
+      "name": "Roxxon Brutes",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "113",
+            "scryfallId": "66550490-74e1-4bf1-8741-1266dfab3a03"
+          }
+        ]
+      }
+    },
+    "robot domination": {
+      "name": "Robot Domination",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "111",
+            "scryfallId": "b26bb968-6612-43fe-9147-a3d4786cbc20"
+          }
+        ]
+      }
+    },
+    "jessica jones, private eye": {
+      "name": "Jessica Jones, Private Eye",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "139",
+            "scryfallId": "b48278fd-1d95-4ad6-9a51-f1c5a2ab9f4b"
+          }
+        ]
+      }
+    },
+    "titania, rugged rumbler": {
+      "name": "Titania, Rugged Rumbler",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "235",
+            "scryfallId": "c281e0ee-155b-4022-b921-ebc391535aad"
+          }
+        ]
+      }
+    },
+    "falcon's wing harness": {
+      "name": "Falcon's Wing Harness",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "53",
+            "scryfallId": "20e93f86-9e20-4e08-9bf7-ae6ebebf6876"
+          }
+        ]
+      }
+    },
+    "quake, agent of s.h.i.e.l.d.": {
+      "name": "Quake, Agent of S.H.I.E.L.D.",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "32",
+            "scryfallId": "92dad216-ef8e-4af2-a3c6-1d215721c478"
           }
         ]
       }
@@ -208819,6 +209014,231 @@
         ]
       }
     },
+    "okoye, dora milaje leader": {
+      "name": "Okoye, Dora Milaje Leader",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "27",
+            "scryfallId": "2c89acf5-20f0-4441-b96f-2c5cacd685fb"
+          }
+        ]
+      }
+    },
+    "moonstone, harsh mistress": {
+      "name": "Moonstone, Harsh Mistress",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "107",
+            "scryfallId": "1a1b2bd0-e17d-4b34-a8ee-7c913a6bc945"
+          }
+        ]
+      }
+    },
+    "white tiger, ava ayala": {
+      "name": "White Tiger, Ava Ayala",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "196",
+            "scryfallId": "c1589e2e-32a8-48b8-93eb-a9af344e7084"
+          }
+        ]
+      }
+    },
+    "agents of s.h.i.e.l.d.": {
+      "name": "Agents of S.H.I.E.L.D.",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "5",
+            "scryfallId": "d9b5e156-0764-44e0-b0c7-de2561ea9e04"
+          }
+        ]
+      }
+    },
+    "s.h.i.e.l.d. spy kit": {
+      "name": "S.H.I.E.L.D. Spy Kit",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "4938e23f-b5da-493b-9904-af61a3733ba0"
+          }
+        ]
+      }
+    },
+    "helicarrier strike": {
+      "name": "Helicarrier Strike",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "15",
+            "scryfallId": "6e518842-ce44-4af2-8f38-89869828294a"
+          }
+        ]
+      }
+    },
+    "borough backup": {
+      "name": "Borough Backup",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "7",
+            "scryfallId": "bb753ac8-67e1-44b0-b404-37f04c2b7438"
+          }
+        ]
+      }
+    },
+    "ultron drone": {
+      "name": "Ultron Drone",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "253",
+            "scryfallId": "149a0a3b-c470-414c-a7de-d773b8b4cc82"
+          }
+        ]
+      }
+    },
+    "ghost, spectral saboteur": {
+      "name": "Ghost, Spectral Saboteur",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "214",
+            "scryfallId": "c22bb4d5-6b6f-4c43-b005-48ae4042739d"
+          }
+        ]
+      }
+    },
+    "crowd of true believers": {
+      "name": "Crowd of True Believers",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "14",
+            "scryfallId": "4b2fffb8-d538-4772-8fbc-9bec3b9c4d9c"
+          }
+        ]
+      }
+    },
+    "h.e.r.b.i.e. scout unit": {
+      "name": "H.E.R.B.I.E. Scout Unit",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "247",
+            "scryfallId": "3496d0d4-3fab-4ea4-8986-afe5a7155ec6"
+          }
+        ]
+      }
+    },
+    "panther pounce": {
+      "name": "Panther Pounce",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "29",
+            "scryfallId": "4122ae40-800d-4b6b-93c9-aa503c33f1a9"
+          }
+        ]
+      }
+    },
+    "undercover skrull": {
+      "name": "Undercover Skrull",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "194",
+            "scryfallId": "90b9a3c0-3fd6-403e-9d6c-201342fea0ad"
+          }
+        ]
+      }
+    },
+    "depower": {
+      "name": "Depower",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "50",
+            "scryfallId": "36e9a6e9-1f9d-4860-97ee-f01e66f8eb4d"
+          }
+        ]
+      }
+    },
+    "surveillance room": {
+      "name": "Surveillance Room",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "274",
+            "scryfallId": "8fb51fbb-ab7f-4484-a3c9-dc50cb6f2756"
+          }
+        ]
+      }
+    },
     "heroic feast": {
       "name": "Heroic Feast",
       "owners": {
@@ -208830,6 +209250,576 @@
             "isFoil": false,
             "collectorNumber": "172",
             "scryfallId": "32d05c3d-cf03-492e-a956-2e77c36e36c4"
+          }
+        ]
+      }
+    },
+    "super suit": {
+      "name": "Super Suit",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "78",
+            "scryfallId": "e87f3a26-c2e5-47c7-b19d-bc01cb794805"
+          }
+        ]
+      }
+    },
+    "i am iron man": {
+      "name": "I Am Iron Man",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "58",
+            "scryfallId": "9c401abb-5978-41c0-962b-0432f9433929"
+          }
+        ]
+      }
+    },
+    "raft security officer": {
+      "name": "Raft Security Officer",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "33",
+            "scryfallId": "f9b9f9d6-b50c-4b29-80be-284ba773c70b"
+          }
+        ]
+      }
+    },
+    "serpent specialist": {
+      "name": "Serpent Specialist",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "186",
+            "scryfallId": "72727c2a-08a9-47bc-a5eb-cda52e21684b"
+          }
+        ]
+      }
+    },
+    "red room recruit": {
+      "name": "Red Room Recruit",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "110",
+            "scryfallId": "f52a5ba3-a618-4f52-9d33-ba85345eb627"
+          }
+        ]
+      }
+    },
+    "vibranium energy daggers": {
+      "name": "Vibranium Energy Daggers",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "254",
+            "scryfallId": "4fe5952d-f50f-443a-b960-657fc4bc1965"
+          }
+        ]
+      }
+    },
+    "stark industries executive": {
+      "name": "Stark Industries Executive",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "153",
+            "scryfallId": "709ffd07-706c-471f-b74d-4637afa11686"
+          }
+        ]
+      }
+    },
+    "frozen in ice": {
+      "name": "Frozen in Ice",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "54",
+            "scryfallId": "a990260b-39b7-4799-930a-bf9ac208d9ed"
+          }
+        ]
+      }
+    },
+    "vision of love": {
+      "name": "Vision of Love",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "158",
+            "scryfallId": "5604cee1-a2ea-48ed-88f4-6878bd053fc8"
+          }
+        ]
+      }
+    },
+    "trickster's stratagem": {
+      "name": "Trickster's Stratagem",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "81",
+            "scryfallId": "620376d0-dc0c-405f-8121-eb36d9b4f4c2"
+          }
+        ]
+      }
+    },
+    "ant-man's army": {
+      "name": "Ant-Man's Army",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "161",
+            "scryfallId": "61a89566-06c1-404f-8217-e5276e2dc5a2"
+          }
+        ]
+      }
+    },
+    "asgardian citadel": {
+      "name": "Asgardian Citadel",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "258",
+            "scryfallId": "d5f88c3d-b17b-46aa-a573-449350f95d46"
+          }
+        ]
+      }
+    },
+    "giant-sized flying ant": {
+      "name": "Giant-Sized Flying Ant",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "56",
+            "scryfallId": "da529bb3-725b-41aa-ac34-b4117ff5d95b"
+          }
+        ]
+      }
+    },
+    "pym technologies": {
+      "name": "Pym Technologies",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "271",
+            "scryfallId": "1de583ce-e805-45f1-907f-198bc82fd3b5"
+          }
+        ]
+      }
+    },
+    "super strength": {
+      "name": "Super Strength",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "189",
+            "scryfallId": "1d24d200-63d4-44cf-8d3a-6c6ece5e16ff"
+          }
+        ]
+      }
+    },
+    "pet avengers": {
+      "name": "Pet Avengers",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "178",
+            "scryfallId": "108a0b92-2134-4776-a2f7-da92050f1b21"
+          }
+        ]
+      }
+    },
+    "machinesmith automaton": {
+      "name": "Machinesmith Automaton",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "144",
+            "scryfallId": "802e663e-9529-46da-8af4-eb9ca07971b1"
+          }
+        ]
+      }
+    },
+    "hydra infiltration": {
+      "name": "HYDRA Infiltration",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "100",
+            "scryfallId": "c2e446e1-e384-4d5f-8099-544f78c08510"
+          }
+        ]
+      }
+    },
+    "knight of wundagore": {
+      "name": "Knight of Wundagore",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "175",
+            "scryfallId": "f3003766-9383-44e0-8b51-35ccbed137ed"
+          }
+        ]
+      }
+    },
+    "fisk tower": {
+      "name": "Fisk Tower",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "265",
+            "scryfallId": "7690e624-93c1-46f4-8f33-e28d881787d3"
+          }
+        ]
+      }
+    },
+    "brave brawler": {
+      "name": "Brave Brawler",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "8",
+            "scryfallId": "2242b5c3-42ef-4be0-a61f-65c93e56fcab"
+          }
+        ]
+      }
+    },
+    "atlantean cavalry": {
+      "name": "Atlantean Cavalry",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "45",
+            "scryfallId": "1319bf54-8705-4cc4-8d08-40f05fd09837"
+          }
+        ]
+      }
+    },
+    "bold biochemist": {
+      "name": "Bold Biochemist",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "48",
+            "scryfallId": "10644127-3da0-484e-9afc-de26d9c34390"
+          }
+        ]
+      }
+    },
+    "agents of hydra": {
+      "name": "Agents of HYDRA",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "85",
+            "scryfallId": "857fef2e-df1f-4ec6-a262-f6fa52389cf9"
+          }
+        ]
+      }
+    },
+    "kree commandos": {
+      "name": "Kree Commandos",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "19",
+            "scryfallId": "401f9ccf-f30c-4777-9a5b-4c340e724fff"
+          }
+        ]
+      }
+    },
+    "kree sentinel": {
+      "name": "Kree Sentinel",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "141",
+            "scryfallId": "ba5e441d-d036-4080-9571-6cf76df7b452"
+          }
+        ]
+      }
+    },
+    "wakandan drone flock": {
+      "name": "Wakandan Drone Flock",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "40",
+            "scryfallId": "4b12dc1f-2218-4c71-aafa-ea6a26eeb0aa"
+          }
+        ]
+      }
+    },
+    "wonder man, hollywood hero": {
+      "name": "Wonder Man, Hollywood Hero",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "160",
+            "scryfallId": "1ee52395-9523-4da1-9108-8ab79229fc7a"
+          }
+        ]
+      }
+    },
+    "widow's bite": {
+      "name": "Widow's Bite",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "122",
+            "scryfallId": "dbee18af-9ade-4251-81a1-f6e7ffbf480f"
+          }
+        ]
+      }
+    },
+    "powerful broker": {
+      "name": "Powerful Broker",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "179",
+            "scryfallId": "801f0417-b663-4e28-9a61-9570061654d7"
+          }
+        ]
+      }
+    },
+    "ninja of the hand": {
+      "name": "Ninja of the Hand",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "108",
+            "scryfallId": "6b8116d8-2cc6-449b-a8b4-8a5166553497"
+          }
+        ]
+      }
+    },
+    "rapid rescue": {
+      "name": "Rapid Rescue",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "181",
+            "scryfallId": "d739e636-681e-4423-84e3-91efd02b2c94"
+          }
+        ]
+      }
+    },
+    "bullseye, death dealer": {
+      "name": "Bullseye, Death Dealer",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "209",
+            "scryfallId": "fd1f0b5f-5e0e-4da1-ab54-a62db5af3591"
+          }
+        ]
+      }
+    },
+    "decoy ploy": {
+      "name": "Decoy Ploy",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "94",
+            "scryfallId": "d8719b74-48ef-4f68-b59a-949edd644ddc"
+          }
+        ]
+      }
+    },
+    "repulsor blast": {
+      "name": "Repulsor Blast",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "150",
+            "scryfallId": "837265b0-fc15-4d96-9d6b-fd1c78534262"
+          }
+        ]
+      }
+    },
+    "crimson operative": {
+      "name": "Crimson Operative",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "126",
+            "scryfallId": "c4bc077c-f220-47a5-aaf4-5324ca23d0c5"
+          }
+        ]
+      }
+    },
+    "savage land dinosaur": {
+      "name": "Savage Land Dinosaur",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "185",
+            "scryfallId": "562bd376-3fba-4de0-b9fc-183004b03732"
+          }
+        ]
+      }
+    },
+    "subterranean cavern": {
+      "name": "Subterranean Cavern",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "273",
+            "scryfallId": "038bf500-e23a-4d38-9312-db1909e20353"
           }
         ]
       }
@@ -226008,21 +226998,6 @@
         ]
       }
     },
-    "nameless inversion": {
-      "name": "Nameless Inversion",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "113",
-            "scryfallId": "7a4944ac-839e-4aa1-8200-78cff36bb2ed"
-          }
-        ]
-      }
-    },
     "witness protection": {
       "name": "Witness Protection",
       "owners": {
@@ -226128,21 +227103,6 @@
         ]
       }
     },
-    "hardened escort": {
-      "name": "Hardened Escort",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "dsk",
-            "setName": "Duskmourn: House of Horror",
-            "isFoil": false,
-            "collectorNumber": "16",
-            "scryfallId": "12054e10-46d6-4581-a7e5-ff277cb0e229"
-          }
-        ]
-      }
-    },
     "arcane epiphany": {
       "name": "Arcane Epiphany",
       "owners": {
@@ -226233,21 +227193,6 @@
         ]
       }
     },
-    "infestation sage": {
-      "name": "Infestation Sage",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "64",
-            "scryfallId": "d40c73de-7a5f-46f2-a70b-449bc8ecfe24"
-          }
-        ]
-      }
-    },
     "infernal vessel": {
       "name": "Infernal Vessel",
       "owners": {
@@ -226319,21 +227264,6 @@
             "isFoil": false,
             "collectorNumber": "89",
             "scryfallId": "78ce6c40-3452-4aa0-a45b-dbfd70f8d220"
-          }
-        ]
-      }
-    },
-    "soul-shackled zombie": {
-      "name": "Soul-Shackled Zombie",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "70",
-            "scryfallId": "deea5690-6eb2-4353-b917-cbbf840e4e71"
           }
         ]
       }
@@ -226469,36 +227399,6 @@
             "isFoil": false,
             "collectorNumber": "140",
             "scryfallId": "7364b4dc-8cce-498d-a62e-eabc612b062a"
-          }
-        ]
-      }
-    },
-    "gastal raider": {
-      "name": "Gastal Raider",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "86",
-            "scryfallId": "6e4877b5-4ce5-466a-810f-6501f2a0f217"
-          }
-        ]
-      }
-    },
-    "collision course": {
-      "name": "Collision Course",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "10",
-            "scryfallId": "6b60da34-b622-42de-a249-79545bcbf30d"
           }
         ]
       }
@@ -226818,21 +227718,6 @@
         ]
       }
     },
-    "starfighter pilot": {
-      "name": "Starfighter Pilot",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "38",
-            "scryfallId": "1e571246-aadc-4d1f-a284-9a529e150fe0"
-          }
-        ]
-      }
-    },
     "kav landseeker": {
       "name": "Kav Landseeker",
       "owners": {
@@ -226848,21 +227733,6 @@
         ]
       }
     },
-    "insatiable skittermaw": {
-      "name": "Insatiable Skittermaw",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 4,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "108",
-            "scryfallId": "e9d30cca-ea33-418f-bba3-5103f1dbd751"
-          }
-        ]
-      }
-    },
     "chrome companion": {
       "name": "Chrome Companion",
       "owners": {
@@ -226874,36 +227744,6 @@
             "isFoil": false,
             "collectorNumber": "236",
             "scryfallId": "8ef269a0-1cb9-4901-81e6-43db3ae3756c"
-          }
-        ]
-      }
-    },
-    "starbreach whale": {
-      "name": "Starbreach Whale",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 6,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "77",
-            "scryfallId": "8a1a0476-7145-4493-97e5-4fc05c85e476"
-          }
-        ]
-      }
-    },
-    "red tiger mechan": {
-      "name": "Red Tiger Mechan",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 4,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "154",
-            "scryfallId": "b7b2fa48-cd2d-42ea-afd8-8cbd7a1bcdab"
           }
         ]
       }
@@ -226934,36 +227774,6 @@
             "isFoil": false,
             "collectorNumber": "242p",
             "scryfallId": "7e5e2faa-3511-4821-9eeb-5d54b4e7e7b6"
-          }
-        ]
-      }
-    },
-    "wurmwall sweeper": {
-      "name": "Wurmwall Sweeper",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "249",
-            "scryfallId": "9ace282a-5901-4d36-ad21-17eb88bc5138"
-          }
-        ]
-      }
-    },
-    "virulent silencer": {
-      "name": "Virulent Silencer",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "248",
-            "scryfallId": "4120fcfc-3547-4774-a15d-b9cccac04e76"
           }
         ]
       }
@@ -227009,36 +227819,6 @@
             "isFoil": false,
             "collectorNumber": "161",
             "scryfallId": "2a34c71b-8d3c-435b-9cf8-4902f997d10d"
-          }
-        ]
-      }
-    },
-    "starport security": {
-      "name": "Starport Security",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 5,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "39",
-            "scryfallId": "238cb1db-6c41-4fe1-bc34-340048dfde18"
-          }
-        ]
-      }
-    },
-    "hemosymbic mite": {
-      "name": "Hemosymbic Mite",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "190",
-            "scryfallId": "c14137a4-2d44-444c-ad50-e2edf9380571"
           }
         ]
       }
@@ -227223,21 +228003,6 @@
         ]
       }
     },
-    "rayblade trooper": {
-      "name": "Rayblade Trooper",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "30",
-            "scryfallId": "c08c7bf9-a2ed-45c6-8b48-15122d9d9e37"
-          }
-        ]
-      }
-    },
     "xu-ifit, osteoharmonist": {
       "name": "Xu-Ifit, Osteoharmonist",
       "owners": {
@@ -227373,36 +228138,6 @@
         ]
       }
     },
-    "glacier godmaw": {
-      "name": "Glacier Godmaw",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "188",
-            "scryfallId": "d3291c51-e963-4970-813d-9a06a47aa71e"
-          }
-        ]
-      }
-    },
-    "faller's faithful": {
-      "name": "Faller's Faithful",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "100",
-            "scryfallId": "cbb1b46f-72e0-4c2f-8012-74529bd29a0d"
-          }
-        ]
-      }
-    },
     "meltstrider's resolve": {
       "name": "Meltstrider's Resolve",
       "owners": {
@@ -227429,21 +228164,6 @@
             "isFoil": false,
             "collectorNumber": "50",
             "scryfallId": "6723b891-6013-4ec6-b439-2233d270dc48"
-          }
-        ]
-      }
-    },
-    "blade of the swarm": {
-      "name": "Blade of the Swarm",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "90",
-            "scryfallId": "b157330a-2652-4ed9-b8fa-8e72b4eda15c"
           }
         ]
       }
@@ -227489,36 +228209,6 @@
             "isFoil": false,
             "collectorNumber": "10",
             "scryfallId": "5a041722-9483-469f-9c17-7f0253b0db50"
-          }
-        ]
-      }
-    },
-    "depressurize": {
-      "name": "Depressurize",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 4,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "95",
-            "scryfallId": "25520d5a-1a83-42cc-8ace-8b1156019d64"
-          }
-        ]
-      }
-    },
-    "dark endurance": {
-      "name": "Dark Endurance",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 4,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "93",
-            "scryfallId": "fac87b49-a0cd-42d5-b30a-efc6d5526fc3"
           }
         ]
       }
@@ -227579,81 +228269,6 @@
             "isFoil": false,
             "collectorNumber": "59",
             "scryfallId": "2db4ed41-0426-4d7f-bb43-e43392bed83b"
-          }
-        ]
-      }
-    },
-    "lost in space": {
-      "name": "Lost in Space",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "62",
-            "scryfallId": "6d9d7979-97af-4c85-86f5-1b3704f74e8b"
-          }
-        ]
-      }
-    },
-    "knight luminary": {
-      "name": "Knight Luminary",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "23",
-            "scryfallId": "34334971-c1b7-4506-a6dd-77f66b3ae4e7"
-          }
-        ]
-      }
-    },
-    "germinating wurm": {
-      "name": "Germinating Wurm",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 4,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "187",
-            "scryfallId": "fcde173a-6314-4904-bddd-68b2ab1e4867"
-          }
-        ]
-      }
-    },
-    "frontline war-rager": {
-      "name": "Frontline War-Rager",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 4,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "134",
-            "scryfallId": "fa232943-818b-4944-be60-2d80c806bf62"
-          }
-        ]
-      }
-    },
-    "nanoform sentinel": {
-      "name": "Nanoform Sentinel",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "71",
-            "scryfallId": "3eeae8c3-7939-4c79-92f0-fbdb9c1b71d3"
           }
         ]
       }
@@ -227748,36 +228363,6 @@
         ]
       }
     },
-    "comet crawler": {
-      "name": "Comet Crawler",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "92",
-            "scryfallId": "becca990-ab2e-4aa4-be7d-293ec727cb08"
-          }
-        ]
-      }
-    },
-    "monoist sentry": {
-      "name": "Monoist Sentry",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "111",
-            "scryfallId": "acc503e2-5c3a-4200-beb0-7d193d6c869e"
-          }
-        ]
-      }
-    },
     "exosuit savior": {
       "name": "Exosuit Savior",
       "owners": {
@@ -227789,21 +228374,6 @@
             "isFoil": false,
             "collectorNumber": "16",
             "scryfallId": "826c0455-a6ce-43ad-bd5c-0a5df169da90"
-          }
-        ]
-      }
-    },
-    "swarm culler": {
-      "name": "Swarm Culler",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "119",
-            "scryfallId": "2a8f583c-88b6-4797-b93e-3086845fc326"
           }
         ]
       }
@@ -227823,21 +228393,6 @@
         ]
       }
     },
-    "perigee beckoner": {
-      "name": "Perigee Beckoner",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "112",
-            "scryfallId": "f3666a08-d449-496f-969a-bf21d4afbd77"
-          }
-        ]
-      }
-    },
     "skystinger": {
       "name": "Skystinger",
       "owners": {
@@ -227853,36 +228408,6 @@
         ]
       }
     },
-    "sinister cryologist": {
-      "name": "Sinister Cryologist",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "75",
-            "scryfallId": "e8fbe740-05ec-4ced-bb9d-3084c8c2b631"
-          }
-        ]
-      }
-    },
-    "selfcraft mechan": {
-      "name": "Selfcraft Mechan",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "74",
-            "scryfallId": "5b2de056-5c27-44d6-871d-909411bd52dd"
-          }
-        ]
-      }
-    },
     "squire's lightblade": {
       "name": "Squire's Lightblade",
       "owners": {
@@ -227894,21 +228419,6 @@
             "isFoil": false,
             "collectorNumber": "36",
             "scryfallId": "2a0accba-85d4-4aa4-a70c-80fcce48c261"
-          }
-        ]
-      }
-    },
-    "susurian dirgecraft": {
-      "name": "Susurian Dirgecraft",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "117",
-            "scryfallId": "b67cdb6e-9a3b-4887-924d-318faa3c443d"
           }
         ]
       }
@@ -228153,21 +228663,6 @@
         ]
       }
     },
-    "glider kids": {
-      "name": "Glider Kids",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "21",
-            "scryfallId": "0613afb5-4cee-4132-8adf-404767ed8d07"
-          }
-        ]
-      }
-    },
     "pillar launch": {
       "name": "Pillar Launch",
       "owners": {
@@ -228179,21 +228674,6 @@
             "isFoil": false,
             "collectorNumber": "189",
             "scryfallId": "f177e9cc-0c41-417d-9215-5ff23a1a0657"
-          }
-        ]
-      }
-    },
-    "first-time flyer": {
-      "name": "First-Time Flyer",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "49",
-            "scryfallId": "ea22d29d-3a62-4ae2-91d5-21a678be9b48"
           }
         ]
       }
@@ -228239,36 +228719,6 @@
             "isFoil": false,
             "collectorNumber": "237",
             "scryfallId": "d1af91a5-8681-4a05-910d-96f7a819bfaa"
-          }
-        ]
-      }
-    },
-    "rabaroo troop": {
-      "name": "Rabaroo Troop",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "32",
-            "scryfallId": "62a983b4-ac73-4949-9317-05a75a8ce164"
-          }
-        ]
-      }
-    },
-    "razor rings": {
-      "name": "Razor Rings",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "33",
-            "scryfallId": "b05cfee5-ee59-4df6-a5f6-d9ef0fa7f98a"
           }
         ]
       }
@@ -228678,21 +229128,6 @@
         ]
       }
     },
-    "kyoshi warriors": {
-      "name": "Kyoshi Warriors",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "26",
-            "scryfallId": "211045e1-85c7-4088-b830-a2afa0fe520b"
-          }
-        ]
-      }
-    },
     "swampsnare trap": {
       "name": "Swampsnare Trap",
       "owners": {
@@ -228734,21 +229169,6 @@
             "isFoil": false,
             "collectorNumber": "90",
             "scryfallId": "30a30bfb-f0f3-425b-b37d-20079ee27046"
-          }
-        ]
-      }
-    },
-    "foggy swamp vinebender": {
-      "name": "Foggy Swamp Vinebender",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "180",
-            "scryfallId": "78a75317-94f7-47a4-b4da-5a027fa73248"
           }
         ]
       }
@@ -228798,36 +229218,6 @@
         ]
       }
     },
-    "unexpected assistance": {
-      "name": "Unexpected Assistance",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "80",
-            "scryfallId": "7b540a5f-7f1b-421a-864f-5af469556fc6"
-          }
-        ]
-      }
-    },
-    "selfless safewright": {
-      "name": "Selfless Safewright",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "193",
-            "scryfallId": "ac95b1c3-9eb2-4f80-bb32-72b36817d622"
-          }
-        ]
-      }
-    },
     "flock impostor": {
       "name": "Flock Impostor",
       "owners": {
@@ -228858,21 +229248,6 @@
         ]
       }
     },
-    "moonglove extractor": {
-      "name": "Moonglove Extractor",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "109",
-            "scryfallId": "8383e0ab-81b4-4a6b-b87b-dd9180dca1c2"
-          }
-        ]
-      }
-    },
     "thoughtweft lieutenant": {
       "name": "Thoughtweft Lieutenant",
       "owners": {
@@ -228884,36 +229259,6 @@
             "isFoil": false,
             "collectorNumber": "246",
             "scryfallId": "2c54ec67-9317-455e-a045-fa4ed9cb676f"
-          }
-        ]
-      }
-    },
-    "crossroads watcher": {
-      "name": "Crossroads Watcher",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "173",
-            "scryfallId": "6d62fcbb-f1a0-46ce-a4af-2a33bcc3ac8e"
-          }
-        ]
-      }
-    },
-    "rooftop percher": {
-      "name": "Rooftop Percher",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "2",
-            "scryfallId": "2d89595c-1542-41fe-8d23-997522922698"
           }
         ]
       }
@@ -228933,21 +229278,6 @@
         ]
       }
     },
-    "gallant fowlknight": {
-      "name": "Gallant Fowlknight",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "17",
-            "scryfallId": "fb6096ba-8083-4207-9a3f-c1e4ff095204"
-          }
-        ]
-      }
-    },
     "wanderwine distracter": {
       "name": "Wanderwine Distracter",
       "owners": {
@@ -228959,111 +229289,6 @@
             "isFoil": false,
             "collectorNumber": "82",
             "scryfallId": "cbf593a7-d4ae-4771-926a-3c1b2c8c901a"
-          }
-        ]
-      }
-    },
-    "heirloom auntie": {
-      "name": "Heirloom Auntie",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "107",
-            "scryfallId": "cac251b2-d2cc-45b6-9ca8-678e0eab56ea"
-          }
-        ]
-      }
-    },
-    "boneclub berserker": {
-      "name": "Boneclub Berserker",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "126",
-            "scryfallId": "b3dbbe30-3d6e-46f8-92c1-caee995cba1a"
-          }
-        ]
-      }
-    },
-    "warren torchmaster": {
-      "name": "Warren Torchmaster",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "163",
-            "scryfallId": "8f067a14-6667-4acf-b33d-e1149188a84d"
-          }
-        ]
-      }
-    },
-    "assert perfection": {
-      "name": "Assert Perfection",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "164",
-            "scryfallId": "6995b308-5582-4ca1-ab10-a536d5ca0a6d"
-          }
-        ]
-      }
-    },
-    "wary farmer": {
-      "name": "Wary Farmer",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "251",
-            "scryfallId": "22d20c0d-176d-49c9-aa0b-2c5778548cc5"
-          }
-        ]
-      }
-    },
-    "chaos spewer": {
-      "name": "Chaos Spewer",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "210",
-            "scryfallId": "b5918fa5-1d13-447b-8838-633b6b61e791"
-          }
-        ]
-      }
-    },
-    "gristle glutton": {
-      "name": "Gristle Glutton",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "144",
-            "scryfallId": "a4164af6-356e-4de2-8377-dbe70434a996"
           }
         ]
       }
@@ -229083,21 +229308,6 @@
         ]
       }
     },
-    "noggle robber": {
-      "name": "Noggle Robber",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "237",
-            "scryfallId": "0082ca96-10f3-4823-be16-117556b2afc3"
-          }
-        ]
-      }
-    },
     "bristlebane outrider": {
       "name": "Bristlebane Outrider",
       "owners": {
@@ -229109,21 +229319,6 @@
             "isFoil": false,
             "collectorNumber": "169",
             "scryfallId": "38b17a3c-4457-47e3-986e-ff0b94c41b1a"
-          }
-        ]
-      }
-    },
-    "bark of doran": {
-      "name": "Bark of Doran",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "6",
-            "scryfallId": "98210276-1b85-4db5-8ab4-ecb08f5d2ee2"
           }
         ]
       }
@@ -229143,36 +229338,6 @@
         ]
       }
     },
-    "squawkroaster": {
-      "name": "Squawkroaster",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "160",
-            "scryfallId": "4112f960-70af-4e2d-bcd4-9e9cf7aac4fb"
-          }
-        ]
-      }
-    },
-    "kulrath zealot": {
-      "name": "Kulrath Zealot",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "148",
-            "scryfallId": "3502685d-4e57-4c5c-94c6-ae69048cdfbf"
-          }
-        ]
-      }
-    },
     "stratosoarer": {
       "name": "Stratosoarer",
       "owners": {
@@ -229184,51 +229349,6 @@
             "isFoil": false,
             "collectorNumber": "72",
             "scryfallId": "4f607889-6f3f-4511-8920-88a39f3b28ca"
-          }
-        ]
-      }
-    },
-    "reaping willow": {
-      "name": "Reaping Willow",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "240",
-            "scryfallId": "97c33cc2-3573-410a-908b-c0392fff524b"
-          }
-        ]
-      }
-    },
-    "eclipsed kithkin": {
-      "name": "Eclipsed Kithkin",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "220",
-            "scryfallId": "29e1cfa4-0ad8-4228-9f7e-cbab114d1d5f"
-          }
-        ]
-      }
-    },
-    "nightmare sower": {
-      "name": "Nightmare Sower",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "114",
-            "scryfallId": "35dfa0f9-faf3-4a85-b02d-0c5830783511"
           }
         ]
       }
@@ -229248,66 +229368,6 @@
         ]
       }
     },
-    "glamermite": {
-      "name": "Glamermite",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "50",
-            "scryfallId": "b8b7c23a-0034-453c-ab44-f6ec0f31d1eb"
-          }
-        ]
-      }
-    },
-    "thirst for identity": {
-      "name": "Thirst for Identity",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "79",
-            "scryfallId": "c3949f8c-d1c5-45c2-80ed-a57f4f9af86e"
-          }
-        ]
-      }
-    },
-    "lys alana dignitary": {
-      "name": "Lys Alana Dignitary",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "180",
-            "scryfallId": "94e8d6a9-7aa3-4e93-8e4d-e50da7ff09d2"
-          }
-        ]
-      }
-    },
-    "creakwood safewright": {
-      "name": "Creakwood Safewright",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "96",
-            "scryfallId": "3bcc24cf-776a-4182-bf77-a611ad90b28f"
-          }
-        ]
-      }
-    },
     "illusion spinners": {
       "name": "Illusion Spinners",
       "owners": {
@@ -229319,21 +229379,6 @@
             "isFoil": false,
             "collectorNumber": "55",
             "scryfallId": "eb4229a9-8df4-4adc-9d3e-acd2221fa3e9"
-          }
-        ]
-      }
-    },
-    "boggart prankster": {
-      "name": "Boggart Prankster",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 4,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "93",
-            "scryfallId": "eb228ea6-9235-4093-aea7-708e743b1b44"
           }
         ]
       }
@@ -229368,36 +229413,6 @@
         ]
       }
     },
-    "timid shieldbearer": {
-      "name": "Timid Shieldbearer",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 5,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "39",
-            "scryfallId": "1c672d38-a1a6-4912-a9a6-b11e7bf0cc67"
-          }
-        ]
-      }
-    },
-    "archaic's agony": {
-      "name": "Archaic's Agony",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "107",
-            "scryfallId": "8d99f8b2-5c1c-4059-bf68-c6b2e9e5b275"
-          }
-        ]
-      }
-    },
     "stress dream": {
       "name": "Stress Dream",
       "owners": {
@@ -229424,21 +229439,6 @@
             "isFoil": false,
             "collectorNumber": "60",
             "scryfallId": "71cb4a6b-b500-4b28-bcdb-ec4188242f39"
-          }
-        ]
-      }
-    },
-    "spectacular skywhale": {
-      "name": "Spectacular Skywhale",
-      "owners": {
-        "Eze Posadas (Sta Fe)": [
-          {
-            "qty": 2,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "229",
-            "scryfallId": "c90366d5-b4ba-4772-a3c5-f138bbe7f305"
           }
         ]
       }
@@ -229533,6 +229533,951 @@
         ]
       }
     },
+    "insatiable skittermaw": {
+      "name": "Insatiable Skittermaw",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 4,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "108",
+            "scryfallId": "e9d30cca-ea33-418f-bba3-5103f1dbd751"
+          }
+        ]
+      }
+    },
+    "red tiger mechan": {
+      "name": "Red Tiger Mechan",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 4,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "154",
+            "scryfallId": "b7b2fa48-cd2d-42ea-afd8-8cbd7a1bcdab"
+          }
+        ]
+      }
+    },
+    "depressurize": {
+      "name": "Depressurize",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 4,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "95",
+            "scryfallId": "25520d5a-1a83-42cc-8ace-8b1156019d64"
+          }
+        ]
+      }
+    },
+    "dark endurance": {
+      "name": "Dark Endurance",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 4,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "93",
+            "scryfallId": "fac87b49-a0cd-42d5-b30a-efc6d5526fc3"
+          }
+        ]
+      }
+    },
+    "germinating wurm": {
+      "name": "Germinating Wurm",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 4,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "187",
+            "scryfallId": "fcde173a-6314-4904-bddd-68b2ab1e4867"
+          }
+        ]
+      }
+    },
+    "frontline war-rager": {
+      "name": "Frontline War-Rager",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 4,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "134",
+            "scryfallId": "fa232943-818b-4944-be60-2d80c806bf62"
+          }
+        ]
+      }
+    },
+    "boggart prankster": {
+      "name": "Boggart Prankster",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 4,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "93",
+            "scryfallId": "eb228ea6-9235-4093-aea7-708e743b1b44"
+          }
+        ]
+      }
+    },
+    "nameless inversion": {
+      "name": "Nameless Inversion",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "113",
+            "scryfallId": "7a4944ac-839e-4aa1-8200-78cff36bb2ed"
+          }
+        ]
+      }
+    },
+    "infestation sage": {
+      "name": "Infestation Sage",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "64",
+            "scryfallId": "d40c73de-7a5f-46f2-a70b-449bc8ecfe24"
+          }
+        ]
+      }
+    },
+    "wurmwall sweeper": {
+      "name": "Wurmwall Sweeper",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "249",
+            "scryfallId": "9ace282a-5901-4d36-ad21-17eb88bc5138"
+          }
+        ]
+      }
+    },
+    "lost in space": {
+      "name": "Lost in Space",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "62",
+            "scryfallId": "6d9d7979-97af-4c85-86f5-1b3704f74e8b"
+          }
+        ]
+      }
+    },
+    "nanoform sentinel": {
+      "name": "Nanoform Sentinel",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "71",
+            "scryfallId": "3eeae8c3-7939-4c79-92f0-fbdb9c1b71d3"
+          }
+        ]
+      }
+    },
+    "monoist sentry": {
+      "name": "Monoist Sentry",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "111",
+            "scryfallId": "acc503e2-5c3a-4200-beb0-7d193d6c869e"
+          }
+        ]
+      }
+    },
+    "swarm culler": {
+      "name": "Swarm Culler",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "119",
+            "scryfallId": "2a8f583c-88b6-4797-b93e-3086845fc326"
+          }
+        ]
+      }
+    },
+    "perigee beckoner": {
+      "name": "Perigee Beckoner",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "112",
+            "scryfallId": "f3666a08-d449-496f-969a-bf21d4afbd77"
+          }
+        ]
+      }
+    },
+    "selfless safewright": {
+      "name": "Selfless Safewright",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "193",
+            "scryfallId": "ac95b1c3-9eb2-4f80-bb32-72b36817d622"
+          }
+        ]
+      }
+    },
+    "heirloom auntie": {
+      "name": "Heirloom Auntie",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "107",
+            "scryfallId": "cac251b2-d2cc-45b6-9ca8-678e0eab56ea"
+          }
+        ]
+      }
+    },
+    "warren torchmaster": {
+      "name": "Warren Torchmaster",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "163",
+            "scryfallId": "8f067a14-6667-4acf-b33d-e1149188a84d"
+          }
+        ]
+      }
+    },
+    "chaos spewer": {
+      "name": "Chaos Spewer",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "210",
+            "scryfallId": "b5918fa5-1d13-447b-8838-633b6b61e791"
+          }
+        ]
+      }
+    },
+    "kulrath zealot": {
+      "name": "Kulrath Zealot",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "148",
+            "scryfallId": "3502685d-4e57-4c5c-94c6-ae69048cdfbf"
+          }
+        ]
+      }
+    },
+    "glamermite": {
+      "name": "Glamermite",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "50",
+            "scryfallId": "b8b7c23a-0034-453c-ab44-f6ec0f31d1eb"
+          }
+        ]
+      }
+    },
+    "creakwood safewright": {
+      "name": "Creakwood Safewright",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "96",
+            "scryfallId": "3bcc24cf-776a-4182-bf77-a611ad90b28f"
+          }
+        ]
+      }
+    },
+    "hardened escort": {
+      "name": "Hardened Escort",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "dsk",
+            "setName": "Duskmourn: House of Horror",
+            "isFoil": false,
+            "collectorNumber": "16",
+            "scryfallId": "12054e10-46d6-4581-a7e5-ff277cb0e229"
+          }
+        ]
+      }
+    },
+    "soul-shackled zombie": {
+      "name": "Soul-Shackled Zombie",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "70",
+            "scryfallId": "deea5690-6eb2-4353-b917-cbbf840e4e71"
+          }
+        ]
+      }
+    },
+    "gastal raider": {
+      "name": "Gastal Raider",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": false,
+            "collectorNumber": "86",
+            "scryfallId": "6e4877b5-4ce5-466a-810f-6501f2a0f217"
+          }
+        ]
+      }
+    },
+    "collision course": {
+      "name": "Collision Course",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": false,
+            "collectorNumber": "10",
+            "scryfallId": "6b60da34-b622-42de-a249-79545bcbf30d"
+          }
+        ]
+      }
+    },
+    "starfighter pilot": {
+      "name": "Starfighter Pilot",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "38",
+            "scryfallId": "1e571246-aadc-4d1f-a284-9a529e150fe0"
+          }
+        ]
+      }
+    },
+    "virulent silencer": {
+      "name": "Virulent Silencer",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "248",
+            "scryfallId": "4120fcfc-3547-4774-a15d-b9cccac04e76"
+          }
+        ]
+      }
+    },
+    "hemosymbic mite": {
+      "name": "Hemosymbic Mite",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "190",
+            "scryfallId": "c14137a4-2d44-444c-ad50-e2edf9380571"
+          }
+        ]
+      }
+    },
+    "rayblade trooper": {
+      "name": "Rayblade Trooper",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "30",
+            "scryfallId": "c08c7bf9-a2ed-45c6-8b48-15122d9d9e37"
+          }
+        ]
+      }
+    },
+    "glacier godmaw": {
+      "name": "Glacier Godmaw",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "188",
+            "scryfallId": "d3291c51-e963-4970-813d-9a06a47aa71e"
+          }
+        ]
+      }
+    },
+    "faller's faithful": {
+      "name": "Faller's Faithful",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "100",
+            "scryfallId": "cbb1b46f-72e0-4c2f-8012-74529bd29a0d"
+          }
+        ]
+      }
+    },
+    "blade of the swarm": {
+      "name": "Blade of the Swarm",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "90",
+            "scryfallId": "b157330a-2652-4ed9-b8fa-8e72b4eda15c"
+          }
+        ]
+      }
+    },
+    "knight luminary": {
+      "name": "Knight Luminary",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "23",
+            "scryfallId": "34334971-c1b7-4506-a6dd-77f66b3ae4e7"
+          }
+        ]
+      }
+    },
+    "comet crawler": {
+      "name": "Comet Crawler",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "92",
+            "scryfallId": "becca990-ab2e-4aa4-be7d-293ec727cb08"
+          }
+        ]
+      }
+    },
+    "sinister cryologist": {
+      "name": "Sinister Cryologist",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "75",
+            "scryfallId": "e8fbe740-05ec-4ced-bb9d-3084c8c2b631"
+          }
+        ]
+      }
+    },
+    "selfcraft mechan": {
+      "name": "Selfcraft Mechan",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "74",
+            "scryfallId": "5b2de056-5c27-44d6-871d-909411bd52dd"
+          }
+        ]
+      }
+    },
+    "susurian dirgecraft": {
+      "name": "Susurian Dirgecraft",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "117",
+            "scryfallId": "b67cdb6e-9a3b-4887-924d-318faa3c443d"
+          }
+        ]
+      }
+    },
+    "glider kids": {
+      "name": "Glider Kids",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "tla",
+            "setName": "Avatar: The Last Airbender",
+            "isFoil": false,
+            "collectorNumber": "21",
+            "scryfallId": "0613afb5-4cee-4132-8adf-404767ed8d07"
+          }
+        ]
+      }
+    },
+    "first-time flyer": {
+      "name": "First-Time Flyer",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "tla",
+            "setName": "Avatar: The Last Airbender",
+            "isFoil": false,
+            "collectorNumber": "49",
+            "scryfallId": "ea22d29d-3a62-4ae2-91d5-21a678be9b48"
+          }
+        ]
+      }
+    },
+    "rabaroo troop": {
+      "name": "Rabaroo Troop",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "tla",
+            "setName": "Avatar: The Last Airbender",
+            "isFoil": false,
+            "collectorNumber": "32",
+            "scryfallId": "62a983b4-ac73-4949-9317-05a75a8ce164"
+          }
+        ]
+      }
+    },
+    "razor rings": {
+      "name": "Razor Rings",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "tla",
+            "setName": "Avatar: The Last Airbender",
+            "isFoil": false,
+            "collectorNumber": "33",
+            "scryfallId": "b05cfee5-ee59-4df6-a5f6-d9ef0fa7f98a"
+          }
+        ]
+      }
+    },
+    "kyoshi warriors": {
+      "name": "Kyoshi Warriors",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "tla",
+            "setName": "Avatar: The Last Airbender",
+            "isFoil": false,
+            "collectorNumber": "26",
+            "scryfallId": "211045e1-85c7-4088-b830-a2afa0fe520b"
+          }
+        ]
+      }
+    },
+    "foggy swamp vinebender": {
+      "name": "Foggy Swamp Vinebender",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "tla",
+            "setName": "Avatar: The Last Airbender",
+            "isFoil": false,
+            "collectorNumber": "180",
+            "scryfallId": "78a75317-94f7-47a4-b4da-5a027fa73248"
+          }
+        ]
+      }
+    },
+    "unexpected assistance": {
+      "name": "Unexpected Assistance",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "80",
+            "scryfallId": "7b540a5f-7f1b-421a-864f-5af469556fc6"
+          }
+        ]
+      }
+    },
+    "moonglove extractor": {
+      "name": "Moonglove Extractor",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "109",
+            "scryfallId": "8383e0ab-81b4-4a6b-b87b-dd9180dca1c2"
+          }
+        ]
+      }
+    },
+    "crossroads watcher": {
+      "name": "Crossroads Watcher",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "173",
+            "scryfallId": "6d62fcbb-f1a0-46ce-a4af-2a33bcc3ac8e"
+          }
+        ]
+      }
+    },
+    "rooftop percher": {
+      "name": "Rooftop Percher",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "2",
+            "scryfallId": "2d89595c-1542-41fe-8d23-997522922698"
+          }
+        ]
+      }
+    },
+    "gallant fowlknight": {
+      "name": "Gallant Fowlknight",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "17",
+            "scryfallId": "fb6096ba-8083-4207-9a3f-c1e4ff095204"
+          }
+        ]
+      }
+    },
+    "boneclub berserker": {
+      "name": "Boneclub Berserker",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "126",
+            "scryfallId": "b3dbbe30-3d6e-46f8-92c1-caee995cba1a"
+          }
+        ]
+      }
+    },
+    "assert perfection": {
+      "name": "Assert Perfection",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "164",
+            "scryfallId": "6995b308-5582-4ca1-ab10-a536d5ca0a6d"
+          }
+        ]
+      }
+    },
+    "wary farmer": {
+      "name": "Wary Farmer",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "251",
+            "scryfallId": "22d20c0d-176d-49c9-aa0b-2c5778548cc5"
+          }
+        ]
+      }
+    },
+    "gristle glutton": {
+      "name": "Gristle Glutton",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "144",
+            "scryfallId": "a4164af6-356e-4de2-8377-dbe70434a996"
+          }
+        ]
+      }
+    },
+    "noggle robber": {
+      "name": "Noggle Robber",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "237",
+            "scryfallId": "0082ca96-10f3-4823-be16-117556b2afc3"
+          }
+        ]
+      }
+    },
+    "bark of doran": {
+      "name": "Bark of Doran",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "6",
+            "scryfallId": "98210276-1b85-4db5-8ab4-ecb08f5d2ee2"
+          }
+        ]
+      }
+    },
+    "squawkroaster": {
+      "name": "Squawkroaster",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "160",
+            "scryfallId": "4112f960-70af-4e2d-bcd4-9e9cf7aac4fb"
+          }
+        ]
+      }
+    },
+    "reaping willow": {
+      "name": "Reaping Willow",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "240",
+            "scryfallId": "97c33cc2-3573-410a-908b-c0392fff524b"
+          }
+        ]
+      }
+    },
+    "eclipsed kithkin": {
+      "name": "Eclipsed Kithkin",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "220",
+            "scryfallId": "29e1cfa4-0ad8-4228-9f7e-cbab114d1d5f"
+          }
+        ]
+      }
+    },
+    "nightmare sower": {
+      "name": "Nightmare Sower",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "114",
+            "scryfallId": "35dfa0f9-faf3-4a85-b02d-0c5830783511"
+          }
+        ]
+      }
+    },
+    "thirst for identity": {
+      "name": "Thirst for Identity",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "79",
+            "scryfallId": "c3949f8c-d1c5-45c2-80ed-a57f4f9af86e"
+          }
+        ]
+      }
+    },
+    "lys alana dignitary": {
+      "name": "Lys Alana Dignitary",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "180",
+            "scryfallId": "94e8d6a9-7aa3-4e93-8e4d-e50da7ff09d2"
+          }
+        ]
+      }
+    },
+    "archaic's agony": {
+      "name": "Archaic's Agony",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "107",
+            "scryfallId": "8d99f8b2-5c1c-4059-bf68-c6b2e9e5b275"
+          }
+        ]
+      }
+    },
+    "spectacular skywhale": {
+      "name": "Spectacular Skywhale",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 2,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "229",
+            "scryfallId": "c90366d5-b4ba-4772-a3c5-f138bbe7f305"
+          }
+        ]
+      }
+    },
     "stone docent": {
       "name": "Stone Docent",
       "owners": {
@@ -229544,6 +230489,51 @@
             "isFoil": false,
             "collectorNumber": "36",
             "scryfallId": "c2abfffb-bf36-44af-9a27-6e109e4d77dd"
+          }
+        ]
+      }
+    },
+    "starbreach whale": {
+      "name": "Starbreach Whale",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 6,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "77",
+            "scryfallId": "8a1a0476-7145-4493-97e5-4fc05c85e476"
+          }
+        ]
+      }
+    },
+    "starport security": {
+      "name": "Starport Security",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 5,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "39",
+            "scryfallId": "238cb1db-6c41-4fe1-bc34-340048dfde18"
+          }
+        ]
+      }
+    },
+    "timid shieldbearer": {
+      "name": "Timid Shieldbearer",
+      "owners": {
+        "Eze Posadas (Sta Fe)": [
+          {
+            "qty": 5,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "39",
+            "scryfallId": "1c672d38-a1a6-4912-a9a6-b11e7bf0cc67"
           }
         ]
       }
@@ -229733,18 +230723,18 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 2,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "33",
-            "scryfallId": "ec3de5f4-bb55-4ab9-995f-f3e0dc22c1bb"
-          },
-          {
             "qty": 1,
             "set": "tdm",
             "setName": "Tarkir: Dragonstorm",
             "isFoil": true,
+            "collectorNumber": "33",
+            "scryfallId": "ec3de5f4-bb55-4ab9-995f-f3e0dc22c1bb"
+          },
+          {
+            "qty": 2,
+            "set": "tdm",
+            "setName": "Tarkir: Dragonstorm",
+            "isFoil": false,
             "collectorNumber": "33",
             "scryfallId": "ec3de5f4-bb55-4ab9-995f-f3e0dc22c1bb"
           }
@@ -229981,20 +230971,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 2,
-            "set": "10e",
-            "setName": "Tenth Edition",
-            "isFoil": false,
-            "collectorNumber": "118",
-            "scryfallId": "3c878780-f666-44ab-a60e-c9985f628fc3"
-          },
-          {
             "qty": 1,
             "set": "ody",
             "setName": "Odyssey",
             "isFoil": false,
             "collectorNumber": "108",
             "scryfallId": "d4c3d626-880c-422a-ac09-a79a52847477"
+          },
+          {
+            "qty": 2,
+            "set": "10e",
+            "setName": "Tenth Edition",
+            "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "3c878780-f666-44ab-a60e-c9985f628fc3"
           }
         ]
       }
@@ -230500,19 +231490,19 @@
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 1,
-            "set": "6ed",
-            "setName": "Classic Sixth Edition",
-            "isFoil": false,
-            "collectorNumber": "42",
-            "scryfallId": "c6751671-9ef9-45f2-8e27-8c896936929a"
-          },
-          {
-            "qty": 1,
             "set": "wth",
             "setName": "Weatherlight",
             "isFoil": false,
             "collectorNumber": "25",
             "scryfallId": "2794cca9-3df0-4864-8a98-4de71a2bcf17"
+          },
+          {
+            "qty": 1,
+            "set": "6ed",
+            "setName": "Classic Sixth Edition",
+            "isFoil": false,
+            "collectorNumber": "42",
+            "scryfallId": "c6751671-9ef9-45f2-8e27-8c896936929a"
           }
         ]
       }
@@ -231500,20 +232490,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 3,
-            "set": "shm",
-            "setName": "Shadowmoor",
-            "isFoil": false,
-            "collectorNumber": "211",
-            "scryfallId": "50283122-b8c4-4fb3-8eba-6252b72222f4"
-          },
-          {
             "qty": 1,
             "set": "2xm",
             "setName": "Double Masters",
             "isFoil": false,
             "collectorNumber": "208",
             "scryfallId": "faf9070e-14be-4ce5-a19a-6addc79359c1"
+          },
+          {
+            "qty": 3,
+            "set": "shm",
+            "setName": "Shadowmoor",
+            "isFoil": false,
+            "collectorNumber": "211",
+            "scryfallId": "50283122-b8c4-4fb3-8eba-6252b72222f4"
           }
         ]
       }
@@ -232866,22 +233856,6 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 1,
-            "set": "usg",
-            "setName": "Urza's Saga",
-            "isFoil": false,
-            "collectorNumber": "127",
-            "scryfallId": "3f0e9d0d-e1a3-4e0a-bf39-e9aaf4d36d67"
-          },
-          {
-            "qty": 1,
-            "set": "tmp",
-            "setName": "Tempest",
-            "isFoil": false,
-            "collectorNumber": "118",
-            "scryfallId": "bf4708e8-2149-4990-987c-2ea55fc6c508"
-          },
-          {
             "qty": 4,
             "set": "mmq",
             "setName": "Mercadian Masques",
@@ -232896,6 +233870,22 @@
             "isFoil": false,
             "collectorNumber": "116",
             "scryfallId": "1b5fc7ce-0618-4145-b8aa-bc871e4afa99"
+          },
+          {
+            "qty": 1,
+            "set": "usg",
+            "setName": "Urza's Saga",
+            "isFoil": false,
+            "collectorNumber": "127",
+            "scryfallId": "3f0e9d0d-e1a3-4e0a-bf39-e9aaf4d36d67"
+          },
+          {
+            "qty": 1,
+            "set": "tmp",
+            "setName": "Tempest",
+            "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "bf4708e8-2149-4990-987c-2ea55fc6c508"
           }
         ]
       }

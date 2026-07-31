@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T08:21:01.904Z",
+  "lastUpdated": "2026-07-31T08:46:44.953Z",
   "owners": [
     {
       "name": "Fausto",
@@ -39,7 +39,7 @@
     {
       "name": "Rodrigo Deganutti",
       "phone": "+5493434723142",
-      "cardCount": 656
+      "cardCount": 655
     },
     {
       "name": "Guille A.",
@@ -340,20 +340,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 4,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "124",
-            "scryfallId": "20234668-53ce-4cc8-892f-30ee3ecfc34c"
-          },
-          {
             "qty": 3,
             "set": "m19",
             "setName": "Core Set 2019",
             "isFoil": false,
             "collectorNumber": "127",
             "scryfallId": "9160dde8-cd77-4967-a5f3-a676376c58f7"
+          },
+          {
+            "qty": 4,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "124",
+            "scryfallId": "20234668-53ce-4cc8-892f-30ee3ecfc34c"
           },
           {
             "qty": 1,
@@ -2084,19 +2084,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "cmr",
-            "setName": "Commander Legends",
-            "isFoil": false,
-            "collectorNumber": "5",
-            "scryfallId": "ff8461c3-6e80-403a-b3eb-01882c841d7a"
-          },
-          {
-            "qty": 1,
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": false,
             "collectorNumber": "3",
             "scryfallId": "2ba18114-af6c-48cd-82c9-eb6541d566bf"
+          },
+          {
+            "qty": 1,
+            "set": "cmr",
+            "setName": "Commander Legends",
+            "isFoil": false,
+            "collectorNumber": "5",
+            "scryfallId": "ff8461c3-6e80-403a-b3eb-01882c841d7a"
           }
         ]
       }
@@ -2845,20 +2845,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 4,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "45",
-            "scryfallId": "2080556a-6c76-4819-9eb2-c4dd4c9dbd67"
-          },
-          {
             "qty": 2,
             "set": "m19",
             "setName": "Core Set 2019",
             "isFoil": false,
             "collectorNumber": "44",
             "scryfallId": "a07b1d89-1e6a-4e95-be89-1f03182fc470"
+          },
+          {
+            "qty": 4,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "45",
+            "scryfallId": "2080556a-6c76-4819-9eb2-c4dd4c9dbd67"
           },
           {
             "qty": 1,
@@ -4580,8 +4580,8 @@
             "set": "rna",
             "setName": "Ravnica Allegiance",
             "isFoil": false,
-            "collectorNumber": "243",
-            "scryfallId": "93cf5412-c711-41b4-ab3b-7788a0a22228"
+            "collectorNumber": "244",
+            "scryfallId": "e52013ba-9b17-497b-a844-1e7eb5607019"
           }
         ],
         "Nacho": [
@@ -6531,20 +6531,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "rna",
-            "setName": "Ravnica Allegiance",
-            "isFoil": false,
-            "collectorNumber": "64",
-            "scryfallId": "f738545d-5483-45ec-bb31-d62b0fae9ea7"
-          },
-          {
             "qty": 3,
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": false,
             "collectorNumber": "86",
             "scryfallId": "af78f76e-30cd-4939-9577-5a4bd1f93e63"
+          },
+          {
+            "qty": 1,
+            "set": "rna",
+            "setName": "Ravnica Allegiance",
+            "isFoil": false,
+            "collectorNumber": "64",
+            "scryfallId": "f738545d-5483-45ec-bb31-d62b0fae9ea7"
           }
         ],
         "Nacho": [
@@ -7051,8 +7051,8 @@
             "set": "vow",
             "setName": "Innistrad: Crimson Vow",
             "isFoil": false,
-            "collectorNumber": "96",
-            "scryfallId": "8b12c378-1103-4a50-88fa-cf5a2deef463"
+            "collectorNumber": "288",
+            "scryfallId": "9df22639-7e98-43a1-801e-cbf882558c53"
           }
         ],
         "Nacho": [
@@ -7405,14 +7405,6 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": true,
-            "collectorNumber": "243",
-            "scryfallId": "31514c67-4c55-4f28-9872-08e4d9bc6505"
-          },
-          {
-            "qty": 1,
             "set": "neo",
             "setName": "Kamigawa: Neon Dynasty",
             "isFoil": false,
@@ -7432,6 +7424,14 @@
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": false,
+            "collectorNumber": "243",
+            "scryfallId": "31514c67-4c55-4f28-9872-08e4d9bc6505"
+          },
+          {
+            "qty": 1,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": true,
             "collectorNumber": "243",
             "scryfallId": "31514c67-4c55-4f28-9872-08e4d9bc6505"
           }
@@ -8090,20 +8090,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 4,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "48",
-            "scryfallId": "df5dd873-af44-45eb-9b82-a3622cc58b35"
-          },
-          {
             "qty": 1,
             "set": "dka",
             "setName": "Dark Ascension",
             "isFoil": false,
             "collectorNumber": "29",
             "scryfallId": "c4a75cef-9551-45e2-b1ff-80662c76ec20"
+          },
+          {
+            "qty": 4,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "48",
+            "scryfallId": "df5dd873-af44-45eb-9b82-a3622cc58b35"
           }
         ],
         "Nacho": [
@@ -8427,19 +8427,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "ima",
-            "setName": "Iconic Masters",
-            "isFoil": false,
-            "collectorNumber": "233",
-            "scryfallId": "4c7a4cfa-e306-4024-8ece-8bf2c1d0cce8"
-          },
-          {
-            "qty": 1,
             "set": "rav",
             "setName": "Ravnica: City of Guilds",
             "isFoil": false,
             "collectorNumber": "275",
             "scryfallId": "7dfe3f03-078f-44fb-89cd-efa3ebfaf637"
+          },
+          {
+            "qty": 1,
+            "set": "ima",
+            "setName": "Iconic Masters",
+            "isFoil": false,
+            "collectorNumber": "233",
+            "scryfallId": "4c7a4cfa-e306-4024-8ece-8bf2c1d0cce8"
           }
         ],
         "Nacho": [
@@ -8491,20 +8491,20 @@
       "owners": {
         "Fausto": [
           {
+            "qty": 4,
+            "set": "grn",
+            "setName": "Guilds of Ravnica",
+            "isFoil": false,
+            "collectorNumber": "244",
+            "scryfallId": "95f52d32-c04b-4711-9edc-8fd1d3547a44"
+          },
+          {
             "qty": 1,
             "set": "c13",
             "setName": "Commander 2013",
             "isFoil": false,
             "collectorNumber": "280",
             "scryfallId": "cd5bfeb1-22d5-434c-b379-6914aa007bdd"
-          },
-          {
-            "qty": 4,
-            "set": "grn",
-            "setName": "Guilds of Ravnica",
-            "isFoil": false,
-            "collectorNumber": "243",
-            "scryfallId": "c52ceefc-90d0-49d1-ae54-9a4eab819849"
           }
         ],
         "Nacho": [
@@ -9993,14 +9993,6 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "m11",
-            "setName": "Magic 2011",
-            "isFoil": false,
-            "collectorNumber": "48",
-            "scryfallId": "6a6932af-c7e7-49e9-963e-97e680a53da5"
-          },
-          {
-            "qty": 1,
             "set": "zen",
             "setName": "Zendikar",
             "isFoil": false,
@@ -10009,11 +10001,11 @@
           },
           {
             "qty": 1,
-            "set": "akh",
-            "setName": "Amonkhet",
+            "set": "m11",
+            "setName": "Magic 2011",
             "isFoil": false,
-            "collectorNumber": "44",
-            "scryfallId": "7258e651-868a-4f63-9454-6c6c95d25387"
+            "collectorNumber": "48",
+            "scryfallId": "6a6932af-c7e7-49e9-963e-97e680a53da5"
           },
           {
             "qty": 1,
@@ -10022,6 +10014,14 @@
             "isFoil": false,
             "collectorNumber": "48",
             "scryfallId": "9cff3fae-e072-4068-a1de-27de3d89c532"
+          },
+          {
+            "qty": 1,
+            "set": "akh",
+            "setName": "Amonkhet",
+            "isFoil": false,
+            "collectorNumber": "44",
+            "scryfallId": "7258e651-868a-4f63-9454-6c6c95d25387"
           },
           {
             "qty": 1,
@@ -10940,20 +10940,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 4,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "168",
-            "scryfallId": "e8b67ee8-3189-4426-8b1a-b540267768fd"
-          },
-          {
             "qty": 2,
             "set": "m19",
             "setName": "Core Set 2019",
             "isFoil": false,
             "collectorNumber": "171",
             "scryfallId": "bae6eb55-4bf9-4418-b667-a9a761f91ef9"
+          },
+          {
+            "qty": 4,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "168",
+            "scryfallId": "e8b67ee8-3189-4426-8b1a-b540267768fd"
           }
         ],
         "Nacho": [
@@ -11918,7 +11918,7 @@
             "qty": 1,
             "set": "ecl",
             "setName": "Lorwyn Eclipsed",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "131",
             "scryfallId": "6fb6faa4-236c-4cae-9140-0981c44d2392"
           },
@@ -11926,7 +11926,7 @@
             "qty": 1,
             "set": "ecl",
             "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "131",
             "scryfallId": "6fb6faa4-236c-4cae-9140-0981c44d2392"
           }
@@ -12827,14 +12827,6 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "rix",
-            "setName": "Rivals of Ixalan",
-            "isFoil": true,
-            "collectorNumber": "125",
-            "scryfallId": "d28056c7-c58d-4986-a45c-c9e55aed23a1"
-          },
-          {
-            "qty": 1,
             "set": "xln",
             "setName": "Ixalan",
             "isFoil": false,
@@ -12846,6 +12838,14 @@
             "set": "rix",
             "setName": "Rivals of Ixalan",
             "isFoil": false,
+            "collectorNumber": "125",
+            "scryfallId": "d28056c7-c58d-4986-a45c-c9e55aed23a1"
+          },
+          {
+            "qty": 1,
+            "set": "rix",
+            "setName": "Rivals of Ixalan",
+            "isFoil": true,
             "collectorNumber": "125",
             "scryfallId": "d28056c7-c58d-4986-a45c-c9e55aed23a1"
           }
@@ -15741,19 +15741,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "isd",
-            "setName": "Innistrad",
-            "isFoil": false,
-            "collectorNumber": "96",
-            "scryfallId": "7933987e-7b8c-4d5a-804a-708d6bb6d231"
-          },
-          {
-            "qty": 1,
             "set": "grn",
             "setName": "Guilds of Ravnica",
             "isFoil": false,
             "collectorNumber": "67",
             "scryfallId": "a1a81554-50d4-4fe0-bf0d-5304f215d19e"
+          },
+          {
+            "qty": 1,
+            "set": "isd",
+            "setName": "Innistrad",
+            "isFoil": false,
+            "collectorNumber": "96",
+            "scryfallId": "7933987e-7b8c-4d5a-804a-708d6bb6d231"
           }
         ],
         "Nacho": [
@@ -16472,11 +16472,11 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "war",
-            "setName": "War of the Spark",
+            "set": "m14",
+            "setName": "Magic 2014",
             "isFoil": false,
-            "collectorNumber": "123",
-            "scryfallId": "b00211dd-6dd7-40d9-80f3-f909f6d112db"
+            "collectorNumber": "136",
+            "scryfallId": "7827a7f9-132e-40aa-b881-423440a273bd"
           },
           {
             "qty": 3,
@@ -16488,19 +16488,19 @@
           },
           {
             "qty": 1,
+            "set": "war",
+            "setName": "War of the Spark",
+            "isFoil": false,
+            "collectorNumber": "123",
+            "scryfallId": "b00211dd-6dd7-40d9-80f3-f909f6d112db"
+          },
+          {
+            "qty": 1,
             "set": "xln",
             "setName": "Ixalan",
             "isFoil": false,
             "collectorNumber": "139",
             "scryfallId": "d48aa427-b2d5-4562-bd69-e98913d53fb1"
-          },
-          {
-            "qty": 1,
-            "set": "m14",
-            "setName": "Magic 2014",
-            "isFoil": false,
-            "collectorNumber": "136",
-            "scryfallId": "7827a7f9-132e-40aa-b881-423440a273bd"
           }
         ],
         "Nacho": [
@@ -17344,8 +17344,8 @@
             "set": "afr",
             "setName": "Adventures in the Forgotten Realms",
             "isFoil": false,
-            "collectorNumber": "325",
-            "scryfallId": "7669e373-0173-43db-8b86-abc319c9e8fc"
+            "collectorNumber": "179",
+            "scryfallId": "4ab4769d-31ba-40d3-9375-494b93f01183"
           }
         ],
         "Nacho": [
@@ -17537,19 +17537,19 @@
         "Fausto": [
           {
             "qty": 2,
-            "set": "grn",
-            "setName": "Guilds of Ravnica",
-            "isFoil": false,
-            "collectorNumber": "37",
-            "scryfallId": "0193dfa3-8409-44be-b4be-6c3cad42d4a4"
-          },
-          {
-            "qty": 2,
             "set": "tsr",
             "setName": "Time Spiral Remastered",
             "isFoil": false,
             "collectorNumber": "307",
             "scryfallId": "f83fbd7f-1757-4dcf-9972-0c8f71843f03"
+          },
+          {
+            "qty": 2,
+            "set": "grn",
+            "setName": "Guilds of Ravnica",
+            "isFoil": false,
+            "collectorNumber": "37",
+            "scryfallId": "0193dfa3-8409-44be-b4be-6c3cad42d4a4"
           }
         ],
         "Nacho": [
@@ -17636,19 +17636,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "mir",
-            "setName": "Mirage",
-            "isFoil": false,
-            "collectorNumber": "10",
-            "scryfallId": "71e27cbc-d986-437a-9195-6f5e065a49a2"
-          },
-          {
-            "qty": 1,
             "set": "tsb",
             "setName": "Time Spiral Timeshifted",
             "isFoil": false,
             "collectorNumber": "6",
             "scryfallId": "b7be41f0-7391-49dd-b63c-2e8db9430f07"
+          },
+          {
+            "qty": 1,
+            "set": "mir",
+            "setName": "Mirage",
+            "isFoil": false,
+            "collectorNumber": "10",
+            "scryfallId": "71e27cbc-d986-437a-9195-6f5e065a49a2"
           },
           {
             "qty": 2,
@@ -18077,19 +18077,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "m19",
-            "setName": "Core Set 2019",
-            "isFoil": false,
-            "collectorNumber": "51",
-            "scryfallId": "cb3b35b8-f321-46d8-a441-6b9a6efa9021"
-          },
-          {
-            "qty": 1,
             "set": "bng",
             "setName": "Born of the Gods",
             "isFoil": false,
             "collectorNumber": "36",
             "scryfallId": "65b9964e-cfe0-4400-b903-3f590889f88d"
+          },
+          {
+            "qty": 1,
+            "set": "m19",
+            "setName": "Core Set 2019",
+            "isFoil": false,
+            "collectorNumber": "51",
+            "scryfallId": "cb3b35b8-f321-46d8-a441-6b9a6efa9021"
           }
         ],
         "Nacho": [
@@ -18592,7 +18592,7 @@
             "qty": 1,
             "set": "vow",
             "setName": "Innistrad: Crimson Vow",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "235",
             "scryfallId": "8c927707-abb5-4a9d-ac53-25df182d6e9b"
           },
@@ -18600,7 +18600,7 @@
             "qty": 1,
             "set": "vow",
             "setName": "Innistrad: Crimson Vow",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "235",
             "scryfallId": "8c927707-abb5-4a9d-ac53-25df182d6e9b"
           }
@@ -19556,20 +19556,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "57",
-            "scryfallId": "d3c81fda-c23d-437c-85f0-62d7b492ea32"
-          },
-          {
             "qty": 3,
             "set": "dka",
             "setName": "Dark Ascension",
             "isFoil": false,
             "collectorNumber": "36",
             "scryfallId": "b715da2e-c816-4c14-8522-811c97c66fed"
+          },
+          {
+            "qty": 1,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "57",
+            "scryfallId": "d3c81fda-c23d-437c-85f0-62d7b492ea32"
           }
         ]
       }
@@ -20966,7 +20966,7 @@
             "qty": 1,
             "set": "sos",
             "setName": "Secrets of Strixhaven",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "14",
             "scryfallId": "d2ef31b4-24fa-4443-9f05-c8e99c3522e5"
           },
@@ -20974,7 +20974,7 @@
             "qty": 1,
             "set": "sos",
             "setName": "Secrets of Strixhaven",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "14",
             "scryfallId": "d2ef31b4-24fa-4443-9f05-c8e99c3522e5"
           }
@@ -21165,8 +21165,8 @@
             "set": "mom",
             "setName": "March of the Machine",
             "isFoil": false,
-            "collectorNumber": "224",
-            "scryfallId": "54aa2d03-7713-44d4-8fca-45c6f77b174b"
+            "collectorNumber": "306",
+            "scryfallId": "a4d8b20a-9288-4470-90d2-5b72fb4a9e68"
           }
         ]
       }
@@ -21417,19 +21417,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "47",
-            "scryfallId": "32840097-0531-4c43-b6a8-e76c17420b04"
-          },
-          {
-            "qty": 1,
             "set": "m10",
             "setName": "Magic 2010",
             "isFoil": false,
             "collectorNumber": "51",
             "scryfallId": "c231101e-6620-46fc-a0ad-a53291d12dc2"
+          },
+          {
+            "qty": 1,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "47",
+            "scryfallId": "32840097-0531-4c43-b6a8-e76c17420b04"
           }
         ]
       }
@@ -24784,20 +24784,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "otp",
-            "setName": "Breaking News",
-            "isFoil": false,
-            "collectorNumber": "24",
-            "scryfallId": "1cddae19-eb96-475c-9800-17ac57df4c0a"
-          },
-          {
             "qty": 2,
             "set": "eld",
             "setName": "Throne of Eldraine",
             "isFoil": false,
             "collectorNumber": "126",
             "scryfallId": "cb28fe03-8269-41de-b766-42c3421aeaef"
+          },
+          {
+            "qty": 1,
+            "set": "otp",
+            "setName": "Breaking News",
+            "isFoil": false,
+            "collectorNumber": "24",
+            "scryfallId": "1cddae19-eb96-475c-9800-17ac57df4c0a"
           },
           {
             "qty": 2,
@@ -26221,18 +26221,18 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "grn",
-            "setName": "Guilds of Ravnica",
-            "isFoil": true,
-            "collectorNumber": "172",
-            "scryfallId": "2bd957a1-a354-48e9-80ad-66e49aa845fc"
-          },
-          {
             "qty": 2,
             "set": "grn",
             "setName": "Guilds of Ravnica",
             "isFoil": false,
+            "collectorNumber": "172",
+            "scryfallId": "2bd957a1-a354-48e9-80ad-66e49aa845fc"
+          },
+          {
+            "qty": 1,
+            "set": "grn",
+            "setName": "Guilds of Ravnica",
+            "isFoil": true,
             "collectorNumber": "172",
             "scryfallId": "2bd957a1-a354-48e9-80ad-66e49aa845fc"
           }
@@ -26939,19 +26939,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "a25",
-            "setName": "Masters 25",
-            "isFoil": false,
-            "collectorNumber": "172",
-            "scryfallId": "6b712e6e-eb48-4a71-b95d-ce343966b236"
-          },
-          {
-            "qty": 1,
             "set": "war",
             "setName": "War of the Spark",
             "isFoil": false,
             "collectorNumber": "162",
             "scryfallId": "06ec9e8b-4bd8-4caf-a559-6514b7ab4ca4"
+          },
+          {
+            "qty": 1,
+            "set": "a25",
+            "setName": "Masters 25",
+            "isFoil": false,
+            "collectorNumber": "172",
+            "scryfallId": "6b712e6e-eb48-4a71-b95d-ce343966b236"
           }
         ],
         "Nacho": [
@@ -27167,19 +27167,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "m13",
-            "setName": "Magic 2013",
-            "isFoil": false,
-            "collectorNumber": "94",
-            "scryfallId": "4097d5dc-46d3-4054-818f-a4ad8d7effe2"
-          },
-          {
-            "qty": 1,
             "set": "zen",
             "setName": "Zendikar",
             "isFoil": false,
             "collectorNumber": "90",
             "scryfallId": "c27221df-ec7a-4c51-b3a8-34b65b236b49"
+          },
+          {
+            "qty": 1,
+            "set": "m13",
+            "setName": "Magic 2013",
+            "isFoil": false,
+            "collectorNumber": "94",
+            "scryfallId": "4097d5dc-46d3-4054-818f-a4ad8d7effe2"
           }
         ],
         "Nacho": [
@@ -27415,12 +27415,12 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 3,
-            "set": "m20",
-            "setName": "Core Set 2020",
+            "qty": 1,
+            "set": "akh",
+            "setName": "Amonkhet",
             "isFoil": false,
-            "collectorNumber": "173",
-            "scryfallId": "d6b4e2b7-2687-4ad1-99e4-0f8411b5f50d"
+            "collectorNumber": "167",
+            "scryfallId": "c4a2b15f-c289-4270-830c-50577325b97a"
           },
           {
             "qty": 1,
@@ -27431,12 +27431,12 @@
             "scryfallId": "c0338075-5e84-4a37-957a-9cf23ac261ab"
           },
           {
-            "qty": 1,
-            "set": "akh",
-            "setName": "Amonkhet",
+            "qty": 3,
+            "set": "m20",
+            "setName": "Core Set 2020",
             "isFoil": false,
-            "collectorNumber": "167",
-            "scryfallId": "c4a2b15f-c289-4270-830c-50577325b97a"
+            "collectorNumber": "173",
+            "scryfallId": "d6b4e2b7-2687-4ad1-99e4-0f8411b5f50d"
           }
         ],
         "Nacho": [
@@ -27474,20 +27474,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 2,
-            "set": "hou",
-            "setName": "Hour of Devastation",
-            "isFoil": false,
-            "collectorNumber": "117",
-            "scryfallId": "3b779620-6bac-445e-a6fe-6d770c0a9c70"
-          },
-          {
             "qty": 1,
             "set": "thb",
             "setName": "Theros Beyond Death",
             "isFoil": false,
             "collectorNumber": "171",
             "scryfallId": "75f5e144-4dd6-441f-b3e2-433aa82bdf7b"
+          },
+          {
+            "qty": 2,
+            "set": "hou",
+            "setName": "Hour of Devastation",
+            "isFoil": false,
+            "collectorNumber": "117",
+            "scryfallId": "3b779620-6bac-445e-a6fe-6d770c0a9c70"
           }
         ],
         "Nacho": [
@@ -29331,19 +29331,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "m19",
-            "setName": "Core Set 2019",
-            "isFoil": false,
-            "collectorNumber": "98",
-            "scryfallId": "3c6d2a84-5e47-4f7a-83f7-ee4e670980c7"
-          },
-          {
-            "qty": 1,
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": true,
             "collectorNumber": "103",
             "scryfallId": "0fb714a0-e61b-4ccf-8de6-3a6bf87c8315"
+          },
+          {
+            "qty": 1,
+            "set": "m19",
+            "setName": "Core Set 2019",
+            "isFoil": false,
+            "collectorNumber": "98",
+            "scryfallId": "3c6d2a84-5e47-4f7a-83f7-ee4e670980c7"
           },
           {
             "qty": 1,
@@ -29746,20 +29746,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 3,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "174",
-            "scryfallId": "e9a1a70d-c146-453e-84c4-71cae4e0afaa"
-          },
-          {
             "qty": 1,
             "set": "m19",
             "setName": "Core Set 2019",
             "isFoil": false,
             "collectorNumber": "187",
             "scryfallId": "2eebdd18-6930-42e0-b589-fe15820db6e1"
+          },
+          {
+            "qty": 3,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "174",
+            "scryfallId": "e9a1a70d-c146-453e-84c4-71cae4e0afaa"
           }
         ],
         "Nacho": [
@@ -30620,20 +30620,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 2,
-            "set": "rna",
-            "setName": "Ravnica Allegiance",
-            "isFoil": false,
-            "collectorNumber": "10",
-            "scryfallId": "5ba5f096-c6ea-4db6-966b-617e3454813f"
-          },
-          {
             "qty": 1,
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": false,
             "collectorNumber": "305",
             "scryfallId": "f766418a-eb1d-4536-ae51-7f3e8969bb78"
+          },
+          {
+            "qty": 2,
+            "set": "rna",
+            "setName": "Ravnica Allegiance",
+            "isFoil": false,
+            "collectorNumber": "10",
+            "scryfallId": "5ba5f096-c6ea-4db6-966b-617e3454813f"
           }
         ]
       }
@@ -30812,19 +30812,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "m11",
-            "setName": "Magic 2011",
-            "isFoil": false,
-            "collectorNumber": "56",
-            "scryfallId": "aa10b43f-eb63-4999-92a0-56826031b686"
-          },
-          {
-            "qty": 1,
             "set": "m13",
             "setName": "Magic 2013",
             "isFoil": false,
             "collectorNumber": "53",
             "scryfallId": "af0f7357-08b0-403e-8913-8965662a905e"
+          },
+          {
+            "qty": 1,
+            "set": "m11",
+            "setName": "Magic 2011",
+            "isFoil": false,
+            "collectorNumber": "56",
+            "scryfallId": "aa10b43f-eb63-4999-92a0-56826031b686"
           }
         ],
         "Nacho": [
@@ -31041,19 +31041,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "C17-151",
-            "scryfallId": "4a8c8b67-a07b-4316-acc1-b3597b0e774b"
-          },
-          {
-            "qty": 1,
             "set": "cmr",
             "setName": "Commander Legends",
             "isFoil": false,
             "collectorNumber": "427",
             "scryfallId": "159e0372-de5e-4830-b690-f5154ed1036c"
+          },
+          {
+            "qty": 1,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "C17-151",
+            "scryfallId": "4a8c8b67-a07b-4316-acc1-b3597b0e774b"
           }
         ],
         "Alex": [
@@ -32385,19 +32385,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "kld",
-            "setName": "Kaladesh",
-            "isFoil": true,
-            "collectorNumber": "118",
-            "scryfallId": "0e925954-faa3-4d16-8442-e34af1f85fb6"
-          },
-          {
-            "qty": 1,
             "set": "xln",
             "setName": "Ixalan",
             "isFoil": false,
             "collectorNumber": "148",
             "scryfallId": "519c5660-4daf-4404-b808-66d1c840ab70"
+          },
+          {
+            "qty": 1,
+            "set": "kld",
+            "setName": "Kaladesh",
+            "isFoil": true,
+            "collectorNumber": "118",
+            "scryfallId": "0e925954-faa3-4d16-8442-e34af1f85fb6"
           }
         ]
       }
@@ -33845,20 +33845,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "kld",
-            "setName": "Kaladesh",
-            "isFoil": false,
-            "collectorNumber": "19",
-            "scryfallId": "d02bbb43-62ce-4310-a911-6b83798551e2"
-          },
-          {
             "qty": 3,
             "set": "akh",
             "setName": "Amonkhet",
             "isFoil": false,
             "collectorNumber": "18",
             "scryfallId": "1361dc08-ea7a-4cdd-a2ac-7743639c51a5"
+          },
+          {
+            "qty": 1,
+            "set": "kld",
+            "setName": "Kaladesh",
+            "isFoil": false,
+            "collectorNumber": "19",
+            "scryfallId": "d02bbb43-62ce-4310-a911-6b83798551e2"
           }
         ],
         "Nacho": [
@@ -34250,19 +34250,19 @@
         "Fausto": [
           {
             "qty": 2,
-            "set": "vis",
-            "setName": "Visions",
-            "isFoil": false,
-            "collectorNumber": "9",
-            "scryfallId": "0350470b-feea-4e15-bdf0-850b71dbeea6"
-          },
-          {
-            "qty": 2,
             "set": "m11",
             "setName": "Magic 2011",
             "isFoil": false,
             "collectorNumber": "18",
             "scryfallId": "c12ec710-23f4-4ce6-90e1-272981a20c3d"
+          },
+          {
+            "qty": 2,
+            "set": "vis",
+            "setName": "Visions",
+            "isFoil": false,
+            "collectorNumber": "9",
+            "scryfallId": "0350470b-feea-4e15-bdf0-850b71dbeea6"
           }
         ],
         "Ruso": [
@@ -34618,20 +34618,20 @@
       "owners": {
         "Fausto": [
           {
+            "qty": 1,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": true,
+            "collectorNumber": "24",
+            "scryfallId": "43479f67-57b2-4a99-8928-10fc9dde33b9"
+          },
+          {
             "qty": 2,
             "set": "m19",
             "setName": "Core Set 2019",
             "isFoil": false,
             "collectorNumber": "15",
             "scryfallId": "812cf63f-aa3d-405b-92e1-7ffa31352481"
-          },
-          {
-            "qty": 3,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "24",
-            "scryfallId": "43479f67-57b2-4a99-8928-10fc9dde33b9"
           },
           {
             "qty": 1,
@@ -34642,10 +34642,10 @@
             "scryfallId": "eca67eb3-44e7-4315-9808-870057915a84"
           },
           {
-            "qty": 1,
+            "qty": 3,
             "set": "m20",
             "setName": "Core Set 2020",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "24",
             "scryfallId": "43479f67-57b2-4a99-8928-10fc9dde33b9"
           }
@@ -34815,19 +34815,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "isd",
-            "setName": "Innistrad",
-            "isFoil": false,
-            "collectorNumber": "19",
-            "scryfallId": "0dd21f5e-d284-4072-87b9-7f0e6140fe60"
-          },
-          {
-            "qty": 1,
             "set": "c19",
             "setName": "Commander 2019",
             "isFoil": false,
             "collectorNumber": "67",
             "scryfallId": "b08f5d19-55ec-4cb9-b836-4d432cd9da33"
+          },
+          {
+            "qty": 1,
+            "set": "isd",
+            "setName": "Innistrad",
+            "isFoil": false,
+            "collectorNumber": "19",
+            "scryfallId": "0dd21f5e-d284-4072-87b9-7f0e6140fe60"
           }
         ],
         "Nacho": [
@@ -36016,7 +36016,7 @@
             "qty": 1,
             "set": "tsr",
             "setName": "Time Spiral Remastered",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "21",
             "scryfallId": "ce06e910-e130-4975-92db-1399ff3d44b7"
           },
@@ -36024,7 +36024,7 @@
             "qty": 1,
             "set": "tsr",
             "setName": "Time Spiral Remastered",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "21",
             "scryfallId": "ce06e910-e130-4975-92db-1399ff3d44b7"
           }
@@ -36061,20 +36061,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "248",
-            "scryfallId": "9b6b7a1d-943b-43f8-a70b-1a3a205476cf"
-          },
-          {
             "qty": 2,
             "set": "c19",
             "setName": "Commander 2019",
             "isFoil": false,
             "collectorNumber": "254",
             "scryfallId": "7fc11a2d-7592-46ca-9e9c-fa14c21dc38c"
+          },
+          {
+            "qty": 1,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "248",
+            "scryfallId": "9b6b7a1d-943b-43f8-a70b-1a3a205476cf"
           }
         ],
         "Rodrigo Deganutti": [
@@ -36881,6 +36881,14 @@
       "owners": {
         "Fausto": [
           {
+            "qty": 1,
+            "set": "neo",
+            "setName": "Kamigawa: Neon Dynasty",
+            "isFoil": false,
+            "collectorNumber": "151",
+            "scryfallId": "58c8bdce-73a3-4266-b3d6-61dbf4534ea3"
+          },
+          {
             "qty": 2,
             "set": "dtk",
             "setName": "Dragons of Tarkir",
@@ -36895,14 +36903,6 @@
             "isFoil": false,
             "collectorNumber": "101",
             "scryfallId": "cffb2c38-76b0-4d5f-a4d1-e2494f4be192"
-          },
-          {
-            "qty": 1,
-            "set": "neo",
-            "setName": "Kamigawa: Neon Dynasty",
-            "isFoil": false,
-            "collectorNumber": "151",
-            "scryfallId": "58c8bdce-73a3-4266-b3d6-61dbf4534ea3"
           }
         ],
         "Nacho": [
@@ -37929,20 +37929,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "86",
-            "scryfallId": "da5f3729-6ec7-4482-90cb-83b973edeae4"
-          },
-          {
             "qty": 2,
             "set": "bbd",
             "setName": "Battlebond",
             "isFoil": false,
             "collectorNumber": "147",
             "scryfallId": "2305f05b-8ca6-4256-9d66-fe84063bda9f"
+          },
+          {
+            "qty": 1,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "86",
+            "scryfallId": "da5f3729-6ec7-4482-90cb-83b973edeae4"
           },
           {
             "qty": 1,
@@ -38155,7 +38155,7 @@
             "qty": 1,
             "set": "war",
             "setName": "War of the Spark",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "96",
             "scryfallId": "594bbe43-a8aa-42aa-bc49-cb4f3bc05cad"
           },
@@ -38163,7 +38163,7 @@
             "qty": 1,
             "set": "war",
             "setName": "War of the Spark",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "96",
             "scryfallId": "594bbe43-a8aa-42aa-bc49-cb4f3bc05cad"
           }
@@ -38848,19 +38848,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "tsr",
-            "setName": "Time Spiral Remastered",
-            "isFoil": false,
-            "collectorNumber": "174",
-            "scryfallId": "ca33c171-ab9e-4908-8f97-82cd83b173c0"
-          },
-          {
-            "qty": 1,
             "set": "tsp",
             "setName": "Time Spiral",
             "isFoil": false,
             "collectorNumber": "168",
             "scryfallId": "1b748290-04b0-48a9-81aa-ab43182cf339"
+          },
+          {
+            "qty": 1,
+            "set": "tsr",
+            "setName": "Time Spiral Remastered",
+            "isFoil": false,
+            "collectorNumber": "174",
+            "scryfallId": "ca33c171-ab9e-4908-8f97-82cd83b173c0"
           }
         ],
         "Nacho": [
@@ -39029,19 +39029,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "xln",
-            "setName": "Ixalan",
-            "isFoil": false,
-            "collectorNumber": "149",
-            "scryfallId": "f0f55dee-7e39-4183-8e74-844d9c299bf5"
-          },
-          {
-            "qty": 1,
             "set": "ths",
             "setName": "Theros",
             "isFoil": false,
             "collectorNumber": "127",
             "scryfallId": "bbb03f2e-2b92-4aa1-afae-301ed5d151d3"
+          },
+          {
+            "qty": 1,
+            "set": "xln",
+            "setName": "Ixalan",
+            "isFoil": false,
+            "collectorNumber": "149",
+            "scryfallId": "f0f55dee-7e39-4183-8e74-844d9c299bf5"
           }
         ],
         "Nacho": [
@@ -39090,20 +39090,20 @@
         ],
         "Lucho": [
           {
-            "qty": 1,
-            "set": "dft",
-            "setName": "Aetherdrift",
-            "isFoil": false,
-            "collectorNumber": "136",
-            "scryfallId": "30077b49-b825-4dbb-a0c7-f3992f647df0"
-          },
-          {
             "qty": 4,
             "set": "m19",
             "setName": "Core Set 2019",
             "isFoil": false,
             "collectorNumber": "152",
             "scryfallId": "084b7337-c06f-4cbf-8fc0-0b20c221f1dc"
+          },
+          {
+            "qty": 1,
+            "set": "dft",
+            "setName": "Aetherdrift",
+            "isFoil": false,
+            "collectorNumber": "136",
+            "scryfallId": "30077b49-b825-4dbb-a0c7-f3992f647df0"
           }
         ],
         "Jona": [
@@ -39413,18 +39413,18 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": true,
-            "collectorNumber": "199",
-            "scryfallId": "a0bcb638-c3c8-4973-9537-5c471f43f34f"
-          },
-          {
             "qty": 3,
             "set": "sos",
             "setName": "Secrets of Strixhaven",
             "isFoil": false,
+            "collectorNumber": "199",
+            "scryfallId": "a0bcb638-c3c8-4973-9537-5c471f43f34f"
+          },
+          {
+            "qty": 1,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": true,
             "collectorNumber": "199",
             "scryfallId": "a0bcb638-c3c8-4973-9537-5c471f43f34f"
           }
@@ -39947,19 +39947,19 @@
         "Fausto": [
           {
             "qty": 2,
-            "set": "m19",
-            "setName": "Core Set 2019",
-            "isFoil": false,
-            "collectorNumber": "25",
-            "scryfallId": "9db10390-725e-40f5-885b-a433e7b46f52"
-          },
-          {
-            "qty": 2,
             "set": "grn",
             "setName": "Guilds of Ravnica",
             "isFoil": false,
             "collectorNumber": "21",
             "scryfallId": "5d471de4-a7b2-4e13-9492-3fa94f5867ac"
+          },
+          {
+            "qty": 2,
+            "set": "m19",
+            "setName": "Core Set 2019",
+            "isFoil": false,
+            "collectorNumber": "25",
+            "scryfallId": "9db10390-725e-40f5-885b-a433e7b46f52"
           }
         ],
         "Nacho": [
@@ -40503,19 +40503,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "soi",
-            "setName": "Shadows over Innistrad",
-            "isFoil": false,
-            "collectorNumber": "258",
-            "scryfallId": "f7a708d5-f757-4fcf-a167-5b5920c6adeb"
-          },
-          {
-            "qty": 1,
             "set": "mkm",
             "setName": "Murders at Karlov Manor",
             "isFoil": false,
             "collectorNumber": "255",
             "scryfallId": "c606a71f-8fb0-486b-955f-727ebf436946"
+          },
+          {
+            "qty": 1,
+            "set": "soi",
+            "setName": "Shadows over Innistrad",
+            "isFoil": false,
+            "collectorNumber": "258",
+            "scryfallId": "f7a708d5-f757-4fcf-a167-5b5920c6adeb"
           }
         ]
       }
@@ -40541,19 +40541,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "ogw",
-            "setName": "Oath of the Gatewatch",
-            "isFoil": false,
-            "collectorNumber": "26",
-            "scryfallId": "30cace63-91ca-493c-b67f-740fbbf06370"
-          },
-          {
-            "qty": 1,
             "set": "m19",
             "setName": "Core Set 2019",
             "isFoil": false,
             "collectorNumber": "26",
             "scryfallId": "4a0857fa-f2cc-4c01-9fe5-8f74d08d1b29"
+          },
+          {
+            "qty": 1,
+            "set": "ogw",
+            "setName": "Oath of the Gatewatch",
+            "isFoil": false,
+            "collectorNumber": "26",
+            "scryfallId": "30cace63-91ca-493c-b67f-740fbbf06370"
           }
         ],
         "Nacho": [
@@ -40808,20 +40808,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 4,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "181",
-            "scryfallId": "1ee9bca2-1195-4bd0-aa5c-16b3726a8ff2"
-          },
-          {
             "qty": 1,
             "set": "rna",
             "setName": "Ravnica Allegiance",
             "isFoil": false,
             "collectorNumber": "132",
             "scryfallId": "9a684871-ff6e-4474-82da-30757c324c73"
+          },
+          {
+            "qty": 4,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "181",
+            "scryfallId": "1ee9bca2-1195-4bd0-aa5c-16b3726a8ff2"
           }
         ],
         "Nacho": [
@@ -40882,6 +40882,14 @@
       "owners": {
         "Fausto": [
           {
+            "qty": 1,
+            "set": "m11",
+            "setName": "Magic 2011",
+            "isFoil": false,
+            "collectorNumber": "62",
+            "scryfallId": "a7c7757d-8036-4b33-a1cb-07795d392588"
+          },
+          {
             "qty": 2,
             "set": "ima",
             "setName": "Iconic Masters",
@@ -40896,14 +40904,6 @@
             "isFoil": false,
             "collectorNumber": "63",
             "scryfallId": "6b123efa-8631-4a07-970d-ff4f980a0522"
-          },
-          {
-            "qty": 1,
-            "set": "m11",
-            "setName": "Magic 2011",
-            "isFoil": false,
-            "collectorNumber": "62",
-            "scryfallId": "a7c7757d-8036-4b33-a1cb-07795d392588"
           }
         ],
         "Nacho": [
@@ -40949,20 +40949,20 @@
             "scryfallId": "9dfba61f-9a6d-43e3-ad28-f74f737ef186"
           },
           {
-            "qty": 2,
-            "set": "hou",
-            "setName": "Hour of Devastation",
-            "isFoil": false,
-            "collectorNumber": "164",
-            "scryfallId": "d4b420ed-75b8-4779-aaa2-e245e84202d1"
-          },
-          {
             "qty": 1,
             "set": "m19",
             "setName": "Core Set 2019",
             "isFoil": false,
             "collectorNumber": "239",
             "scryfallId": "9dfba61f-9a6d-43e3-ad28-f74f737ef186"
+          },
+          {
+            "qty": 2,
+            "set": "hou",
+            "setName": "Hour of Devastation",
+            "isFoil": false,
+            "collectorNumber": "164",
+            "scryfallId": "d4b420ed-75b8-4779-aaa2-e245e84202d1"
           }
         ],
         "Nacho": [
@@ -41015,20 +41015,20 @@
             "scryfallId": "882f8dcf-b361-4dc9-8329-e7d1f807acd6"
           },
           {
-            "qty": 3,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "149",
-            "scryfallId": "29a51b9b-881f-4f02-b49e-68fcca234161"
-          },
-          {
             "qty": 1,
             "set": "con",
             "setName": "Conflux",
             "isFoil": false,
             "collectorNumber": "68",
             "scryfallId": "abd98218-8318-40e7-8f36-68acce5d23a1"
+          },
+          {
+            "qty": 3,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "149",
+            "scryfallId": "29a51b9b-881f-4f02-b49e-68fcca234161"
           }
         ],
         "Nacho": [
@@ -42615,14 +42615,6 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "ori",
-            "setName": "Magic Origins",
-            "isFoil": false,
-            "collectorNumber": "188",
-            "scryfallId": "c3b53cc0-ef96-40da-b9b8-d93fdae40cb8"
-          },
-          {
-            "qty": 1,
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": false,
@@ -42636,6 +42628,14 @@
             "isFoil": false,
             "collectorNumber": "137",
             "scryfallId": "cf6d9ef7-0b16-4095-9c70-f6776e4cd3cb"
+          },
+          {
+            "qty": 1,
+            "set": "ori",
+            "setName": "Magic Origins",
+            "isFoil": false,
+            "collectorNumber": "188",
+            "scryfallId": "c3b53cc0-ef96-40da-b9b8-d93fdae40cb8"
           }
         ],
         "Nacho": [
@@ -42688,14 +42688,6 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 2,
-            "set": "m11",
-            "setName": "Magic 2011",
-            "isFoil": false,
-            "collectorNumber": "22",
-            "scryfallId": "bf8e0f93-a450-4188-a735-d601a59ab108"
-          },
-          {
             "qty": 1,
             "set": "m19",
             "setName": "Core Set 2019",
@@ -42710,6 +42702,14 @@
             "isFoil": false,
             "collectorNumber": "20",
             "scryfallId": "13692658-051b-44ea-bc23-aa33ce6385d3"
+          },
+          {
+            "qty": 2,
+            "set": "m11",
+            "setName": "Magic 2011",
+            "isFoil": false,
+            "collectorNumber": "22",
+            "scryfallId": "bf8e0f93-a450-4188-a735-d601a59ab108"
           }
         ],
         "Nacho": [
@@ -42901,6 +42901,22 @@
       "owners": {
         "Fausto": [
           {
+            "qty": 2,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "108",
+            "scryfallId": "b9de3feb-5f92-43eb-b5cf-00d2b511fe68"
+          },
+          {
+            "qty": 1,
+            "set": "m11",
+            "setName": "Magic 2011",
+            "isFoil": false,
+            "collectorNumber": "105",
+            "scryfallId": "5e117056-030a-4ec6-a669-dbe6c7ccb840"
+          },
+          {
             "qty": 1,
             "set": "m20",
             "setName": "Core Set 2020",
@@ -42915,22 +42931,6 @@
             "isFoil": false,
             "collectorNumber": "93",
             "scryfallId": "3317ff1a-9104-44e6-acb9-5ee09648138f"
-          },
-          {
-            "qty": 1,
-            "set": "m11",
-            "setName": "Magic 2011",
-            "isFoil": false,
-            "collectorNumber": "105",
-            "scryfallId": "5e117056-030a-4ec6-a669-dbe6c7ccb840"
-          },
-          {
-            "qty": 2,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "108",
-            "scryfallId": "b9de3feb-5f92-43eb-b5cf-00d2b511fe68"
           }
         ],
         "Nacho": [
@@ -44088,14 +44088,6 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 5,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "109",
-            "scryfallId": "6a2b22bc-e81b-4f27-a52b-9f3edad25439"
-          },
-          {
             "qty": 1,
             "set": "m19",
             "setName": "Core Set 2019",
@@ -44110,6 +44102,14 @@
             "isFoil": false,
             "collectorNumber": "88",
             "scryfallId": "1c13ac76-7cd9-456f-9b89-92bfa07c64c5"
+          },
+          {
+            "qty": 5,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "109",
+            "scryfallId": "6a2b22bc-e81b-4f27-a52b-9f3edad25439"
           }
         ],
         "Nacho": [
@@ -44265,19 +44265,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "mma",
-            "setName": "Modern Masters",
-            "isFoil": false,
-            "collectorNumber": "210",
-            "scryfallId": "b8972a7c-ff64-4158-8277-2bd90e8db48d"
-          },
-          {
-            "qty": 1,
             "set": "c14",
             "setName": "Commander 2014",
             "isFoil": false,
             "collectorNumber": "255",
             "scryfallId": "e39c880d-f9b1-4572-b676-c1dd2d981b7c"
+          },
+          {
+            "qty": 1,
+            "set": "mma",
+            "setName": "Modern Masters",
+            "isFoil": false,
+            "collectorNumber": "210",
+            "scryfallId": "b8972a7c-ff64-4158-8277-2bd90e8db48d"
           }
         ]
       }
@@ -44353,19 +44353,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "eld",
-            "setName": "Throne of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "58",
-            "scryfallId": "fbe04cb8-a8b9-4241-baae-b398a2509a3a"
-          },
-          {
-            "qty": 1,
             "set": "pr23",
             "setName": "Regional Championship Qualifiers 2023",
             "isFoil": false,
             "collectorNumber": "1",
             "scryfallId": "b6175fea-1de4-4d82-b86c-3c3140a3c286"
+          },
+          {
+            "qty": 1,
+            "set": "eld",
+            "setName": "Throne of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "58",
+            "scryfallId": "fbe04cb8-a8b9-4241-baae-b398a2509a3a"
           }
         ],
         "Nacho": [
@@ -44605,18 +44605,18 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "aer",
-            "setName": "Aether Revolt",
-            "isFoil": true,
-            "collectorNumber": "118",
-            "scryfallId": "ff693e03-4cc6-4903-8fc4-388d23c2f92f"
-          },
-          {
             "qty": 2,
             "set": "aer",
             "setName": "Aether Revolt",
             "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "ff693e03-4cc6-4903-8fc4-388d23c2f92f"
+          },
+          {
+            "qty": 1,
+            "set": "aer",
+            "setName": "Aether Revolt",
+            "isFoil": true,
             "collectorNumber": "118",
             "scryfallId": "ff693e03-4cc6-4903-8fc4-388d23c2f92f"
           }
@@ -44638,20 +44638,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "m19",
-            "setName": "Core Set 2019",
-            "isFoil": false,
-            "collectorNumber": "190",
-            "scryfallId": "390c40ba-2464-44ae-8d67-93c72ab3c425"
-          },
-          {
             "qty": 4,
             "set": "roe",
             "setName": "Rise of the Eldrazi",
             "isFoil": false,
             "collectorNumber": "199",
             "scryfallId": "c02618f5-ae78-47a9-855a-65a3408fcba4"
+          },
+          {
+            "qty": 1,
+            "set": "m19",
+            "setName": "Core Set 2019",
+            "isFoil": false,
+            "collectorNumber": "190",
+            "scryfallId": "390c40ba-2464-44ae-8d67-93c72ab3c425"
           }
         ],
         "Nacho": [
@@ -44850,19 +44850,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "c13",
-            "setName": "Commander 2013",
-            "isFoil": false,
-            "collectorNumber": "200",
-            "scryfallId": "fb9ee249-1fd8-4ebb-b706-83a64787cbd1"
-          },
-          {
-            "qty": 1,
             "set": "c19",
             "setName": "Commander 2019",
             "isFoil": false,
             "collectorNumber": "195",
             "scryfallId": "0345854e-860f-4ee0-8a97-591bb41a0212"
+          },
+          {
+            "qty": 1,
+            "set": "c13",
+            "setName": "Commander 2013",
+            "isFoil": false,
+            "collectorNumber": "200",
+            "scryfallId": "fb9ee249-1fd8-4ebb-b706-83a64787cbd1"
           }
         ],
         "Nacho": [
@@ -44960,14 +44960,6 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 2,
-            "set": "rix",
-            "setName": "Rivals of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "44",
-            "scryfallId": "31534f45-43e6-4103-bf58-ad8fa688e4b0"
-          },
-          {
             "qty": 1,
             "set": "m10",
             "setName": "Magic 2010",
@@ -44982,6 +44974,14 @@
             "isFoil": false,
             "collectorNumber": "65",
             "scryfallId": "60380ed0-fed1-4d68-9763-56a9ff8ac5e6"
+          },
+          {
+            "qty": 2,
+            "set": "rix",
+            "setName": "Rivals of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "44",
+            "scryfallId": "31534f45-43e6-4103-bf58-ad8fa688e4b0"
           }
         ],
         "Nacho": [
@@ -45352,19 +45352,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "fut",
-            "setName": "Future Sight",
-            "isFoil": false,
-            "collectorNumber": "172",
-            "scryfallId": "18bde721-8fa0-4f69-9909-b4864929e676"
-          },
-          {
-            "qty": 1,
             "set": "c13",
             "setName": "Commander 2013",
             "isFoil": false,
             "collectorNumber": "309",
             "scryfallId": "2ea41704-04e2-4cba-95c6-7cf827ad45af"
+          },
+          {
+            "qty": 1,
+            "set": "fut",
+            "setName": "Future Sight",
+            "isFoil": false,
+            "collectorNumber": "172",
+            "scryfallId": "18bde721-8fa0-4f69-9909-b4864929e676"
           }
         ]
       }
@@ -47334,20 +47334,20 @@
       "owners": {
         "Fausto": [
           {
+            "qty": 4,
+            "set": "rna",
+            "setName": "Ravnica Allegiance",
+            "isFoil": false,
+            "collectorNumber": "253",
+            "scryfallId": "f7046b5e-622f-4ae8-9ddd-709ccd61000e"
+          },
+          {
             "qty": 2,
             "set": "dgm",
             "setName": "Dragon's Maze",
             "isFoil": false,
             "collectorNumber": "153",
             "scryfallId": "8f4e2006-5bff-4e91-862b-aa76521a99c3"
-          },
-          {
-            "qty": 4,
-            "set": "rna",
-            "setName": "Ravnica Allegiance",
-            "isFoil": false,
-            "collectorNumber": "252",
-            "scryfallId": "cba5fb67-e161-4e89-be3e-c8021122ff19"
           }
         ],
         "Nacho": [
@@ -47708,20 +47708,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "m11",
-            "setName": "Magic 2011",
-            "isFoil": false,
-            "collectorNumber": "23",
-            "scryfallId": "1b0efc23-9284-4aa4-a0ed-1f1dfdce4cbb"
-          },
-          {
             "qty": 2,
             "set": "10e",
             "setName": "Tenth Edition",
             "isFoil": false,
             "collectorNumber": "31",
             "scryfallId": "686352f6-d8e7-4d31-83bd-3d087c103e75"
+          },
+          {
+            "qty": 1,
+            "set": "m11",
+            "setName": "Magic 2011",
+            "isFoil": false,
+            "collectorNumber": "23",
+            "scryfallId": "1b0efc23-9284-4aa4-a0ed-1f1dfdce4cbb"
           },
           {
             "qty": 3,
@@ -48321,11 +48321,11 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "dbl",
-            "setName": "Innistrad: Double Feature",
+            "set": "mid",
+            "setName": "Innistrad: Midnight Hunt",
             "isFoil": false,
             "collectorNumber": "69",
-            "scryfallId": "06d63512-eab5-4968-846b-1cd94d677108"
+            "scryfallId": "de2b0c63-c929-42ec-aada-dddb2a26550c"
           },
           {
             "qty": 1,
@@ -48337,11 +48337,11 @@
           },
           {
             "qty": 1,
-            "set": "mid",
-            "setName": "Innistrad: Midnight Hunt",
+            "set": "dbl",
+            "setName": "Innistrad: Double Feature",
             "isFoil": false,
             "collectorNumber": "69",
-            "scryfallId": "de2b0c63-c929-42ec-aada-dddb2a26550c"
+            "scryfallId": "06d63512-eab5-4968-846b-1cd94d677108"
           }
         ]
       }
@@ -49240,8 +49240,8 @@
             "set": "afr",
             "setName": "Adventures in the Forgotten Realms",
             "isFoil": false,
-            "collectorNumber": "309",
-            "scryfallId": "5c2074a9-8b6f-4904-bb8c-ae705d31f2f1"
+            "collectorNumber": "66",
+            "scryfallId": "c65631b9-ca62-4851-9eca-9c760fb1a177"
           }
         ]
       }
@@ -49339,12 +49339,12 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 3,
-            "set": "afr",
-            "setName": "Adventures in the Forgotten Realms",
+            "qty": 2,
+            "set": "thb",
+            "setName": "Theros Beyond Death",
             "isFoil": false,
-            "collectorNumber": "199",
-            "scryfallId": "4be85ceb-be98-43ce-9565-a72990797437"
+            "collectorNumber": "194",
+            "scryfallId": "a8b2f186-4e04-49cb-a206-257cfb7e9361"
           },
           {
             "qty": 1,
@@ -49355,12 +49355,12 @@
             "scryfallId": "54a0afaa-f99f-4c7a-9fa1-c6a46dfb2a29"
           },
           {
-            "qty": 2,
-            "set": "thb",
-            "setName": "Theros Beyond Death",
+            "qty": 3,
+            "set": "afr",
+            "setName": "Adventures in the Forgotten Realms",
             "isFoil": false,
-            "collectorNumber": "194",
-            "scryfallId": "a8b2f186-4e04-49cb-a206-257cfb7e9361"
+            "collectorNumber": "199",
+            "scryfallId": "4be85ceb-be98-43ce-9565-a72990797437"
           },
           {
             "qty": 4,
@@ -50079,14 +50079,6 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "m13",
-            "setName": "Magic 2013",
-            "isFoil": false,
-            "collectorNumber": "181",
-            "scryfallId": "e074cc1d-8f94-4155-974e-574c1dd82e1f"
-          },
-          {
-            "qty": 1,
             "set": "uma",
             "setName": "Ultimate Masters",
             "isFoil": false,
@@ -50100,6 +50092,14 @@
             "isFoil": false,
             "collectorNumber": "120",
             "scryfallId": "166f0a2d-d660-4ea2-8b2f-143dc1fc0a8e"
+          },
+          {
+            "qty": 1,
+            "set": "m13",
+            "setName": "Magic 2013",
+            "isFoil": false,
+            "collectorNumber": "181",
+            "scryfallId": "e074cc1d-8f94-4155-974e-574c1dd82e1f"
           }
         ],
         "Nacho": [
@@ -50809,20 +50809,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "uma",
-            "setName": "Ultimate Masters",
-            "isFoil": false,
-            "collectorNumber": "179",
-            "scryfallId": "88143d08-081f-4463-aef8-aedd47f86898"
-          },
-          {
             "qty": 2,
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": false,
             "collectorNumber": "189",
             "scryfallId": "99851c1b-8878-4c1e-906b-f6b70e53d714"
+          },
+          {
+            "qty": 1,
+            "set": "uma",
+            "setName": "Ultimate Masters",
+            "isFoil": false,
+            "collectorNumber": "179",
+            "scryfallId": "88143d08-081f-4463-aef8-aedd47f86898"
           }
         ],
         "Nacho": [
@@ -51286,20 +51286,20 @@
         ],
         "Lucho": [
           {
-            "qty": 2,
-            "set": "paer",
-            "setName": "Aether Revolt Promos",
-            "isFoil": true,
-            "collectorNumber": "93",
-            "scryfallId": "54b8a03a-de93-43ed-b90d-7d168a21801a"
-          },
-          {
             "qty": 1,
             "set": "aer",
             "setName": "Aether Revolt",
             "isFoil": false,
             "collectorNumber": "93",
             "scryfallId": "2d5f9755-b137-439c-9b54-1ad71ec1f9ec"
+          },
+          {
+            "qty": 2,
+            "set": "paer",
+            "setName": "Aether Revolt Promos",
+            "isFoil": true,
+            "collectorNumber": "93",
+            "scryfallId": "54b8a03a-de93-43ed-b90d-7d168a21801a"
           }
         ]
       }
@@ -51399,20 +51399,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 4,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "190",
-            "scryfallId": "f0d8ff93-6f62-4695-85ad-d70a0b928e92"
-          },
-          {
             "qty": 3,
             "set": "m19",
             "setName": "Core Set 2019",
             "isFoil": false,
             "collectorNumber": "195",
             "scryfallId": "bbe53385-d63f-4d07-94ed-3ea5a48c79c8"
+          },
+          {
+            "qty": 4,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "190",
+            "scryfallId": "f0d8ff93-6f62-4695-85ad-d70a0b928e92"
           }
         ],
         "Nacho": [
@@ -52489,20 +52489,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "ori",
-            "setName": "Magic Origins",
-            "isFoil": false,
-            "collectorNumber": "115",
-            "scryfallId": "db3d5e9d-07e8-43e1-aaf0-1f9e4ed2834a"
-          },
-          {
             "qty": 3,
             "set": "eld",
             "setName": "Throne of Eldraine",
             "isFoil": false,
             "collectorNumber": "103",
             "scryfallId": "ce7ff657-aa44-4336-895a-87518159cef6"
+          },
+          {
+            "qty": 1,
+            "set": "ori",
+            "setName": "Magic Origins",
+            "isFoil": false,
+            "collectorNumber": "115",
+            "scryfallId": "db3d5e9d-07e8-43e1-aaf0-1f9e4ed2834a"
           }
         ],
         "Nacho": [
@@ -52949,20 +52949,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 4,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "155",
-            "scryfallId": "fe580883-cdb1-4783-9feb-1e3bea83d209"
-          },
-          {
             "qty": 2,
             "set": "soi",
             "setName": "Shadows over Innistrad",
             "isFoil": false,
             "collectorNumber": "176",
             "scryfallId": "a2e23215-ced7-4c44-8595-dd9df3d8227b"
+          },
+          {
+            "qty": 4,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "155",
+            "scryfallId": "fe580883-cdb1-4783-9feb-1e3bea83d209"
           }
         ]
       }
@@ -54252,19 +54252,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "thb",
-            "setName": "Theros Beyond Death",
-            "isFoil": false,
-            "collectorNumber": "34",
-            "scryfallId": "9dbb9f86-f487-44b1-815f-30d87868b531"
-          },
-          {
-            "qty": 1,
             "set": "som",
             "setName": "Scars of Mirrodin",
             "isFoil": false,
             "collectorNumber": "18",
             "scryfallId": "18ae62f9-361c-4849-b0af-2b08fc0421c8"
+          },
+          {
+            "qty": 1,
+            "set": "thb",
+            "setName": "Theros Beyond Death",
+            "isFoil": false,
+            "collectorNumber": "34",
+            "scryfallId": "9dbb9f86-f487-44b1-815f-30d87868b531"
           }
         ]
       }
@@ -55386,7 +55386,7 @@
             "qty": 1,
             "set": "mkm",
             "setName": "Murders at Karlov Manor",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "102",
             "scryfallId": "023b0142-663a-47e7-a9f1-0b565a172b60"
           },
@@ -55394,7 +55394,7 @@
             "qty": 1,
             "set": "mkm",
             "setName": "Murders at Karlov Manor",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "102",
             "scryfallId": "023b0142-663a-47e7-a9f1-0b565a172b60"
           }
@@ -55574,7 +55574,7 @@
             "qty": 1,
             "set": "rna",
             "setName": "Ravnica Allegiance",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "202",
             "scryfallId": "78cc4e02-949f-4879-9f32-7c33490d0b45"
           },
@@ -55582,7 +55582,7 @@
             "qty": 1,
             "set": "rna",
             "setName": "Ravnica Allegiance",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "202",
             "scryfallId": "78cc4e02-949f-4879-9f32-7c33490d0b45"
           }
@@ -56059,19 +56059,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "m11",
-            "setName": "Magic 2011",
-            "isFoil": false,
-            "collectorNumber": "26",
-            "scryfallId": "d453aab0-5e11-4fac-af69-e7950c486d30"
-          },
-          {
-            "qty": 1,
             "set": "m10",
             "setName": "Magic 2010",
             "isFoil": false,
             "collectorNumber": "28",
             "scryfallId": "4d8528ef-5e7d-46da-a454-395cd38c213f"
+          },
+          {
+            "qty": 1,
+            "set": "m11",
+            "setName": "Magic 2011",
+            "isFoil": false,
+            "collectorNumber": "26",
+            "scryfallId": "d453aab0-5e11-4fac-af69-e7950c486d30"
           }
         ],
         "Nacho": [
@@ -56142,7 +56142,7 @@
             "qty": 1,
             "set": "eld",
             "setName": "Throne of Eldraine",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "63",
             "scryfallId": "274e3aa4-4b46-4daa-a7a8-400a20c59435"
           },
@@ -56150,7 +56150,7 @@
             "qty": 1,
             "set": "eld",
             "setName": "Throne of Eldraine",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "63",
             "scryfallId": "274e3aa4-4b46-4daa-a7a8-400a20c59435"
           }
@@ -56576,12 +56576,12 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "soi",
-            "setName": "Shadows over Innistrad",
+            "qty": 3,
+            "set": "m20",
+            "setName": "Core Set 2020",
             "isFoil": false,
-            "collectorNumber": "133",
-            "scryfallId": "26b69045-2b22-4fba-868a-b91c93eb960a"
+            "collectorNumber": "112",
+            "scryfallId": "ef6efdaf-bf1a-4776-8e4b-2970aa2ccd5a"
           },
           {
             "qty": 1,
@@ -56592,12 +56592,12 @@
             "scryfallId": "ef6efdaf-bf1a-4776-8e4b-2970aa2ccd5a"
           },
           {
-            "qty": 3,
-            "set": "m20",
-            "setName": "Core Set 2020",
+            "qty": 1,
+            "set": "soi",
+            "setName": "Shadows over Innistrad",
             "isFoil": false,
-            "collectorNumber": "112",
-            "scryfallId": "ef6efdaf-bf1a-4776-8e4b-2970aa2ccd5a"
+            "collectorNumber": "133",
+            "scryfallId": "26b69045-2b22-4fba-868a-b91c93eb960a"
           }
         ]
       }
@@ -57417,19 +57417,19 @@
         "Fausto": [
           {
             "qty": 2,
-            "set": "ktk",
-            "setName": "Khans of Tarkir",
-            "isFoil": false,
-            "collectorNumber": "242",
-            "scryfallId": "0824a960-dd89-45c5-90f0-3ec9eb47d9ce"
-          },
-          {
-            "qty": 2,
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": false,
             "collectorNumber": "251",
             "scryfallId": "3b9edd33-a64e-4526-a89f-edd31ac4b175"
+          },
+          {
+            "qty": 2,
+            "set": "ktk",
+            "setName": "Khans of Tarkir",
+            "isFoil": false,
+            "collectorNumber": "242",
+            "scryfallId": "0824a960-dd89-45c5-90f0-3ec9eb47d9ce"
           }
         ],
         "Nacho": [
@@ -58933,19 +58933,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "m13",
-            "setName": "Magic 2013",
-            "isFoil": false,
-            "collectorNumber": "33",
-            "scryfallId": "aef0e34f-5065-46af-bea3-d748ca25707c"
-          },
-          {
-            "qty": 1,
             "set": "tsr",
             "setName": "Time Spiral Remastered",
             "isFoil": false,
             "collectorNumber": "41",
             "scryfallId": "8e5627de-fda7-4e39-a6ec-1e895bc353ed"
+          },
+          {
+            "qty": 1,
+            "set": "m13",
+            "setName": "Magic 2013",
+            "isFoil": false,
+            "collectorNumber": "33",
+            "scryfallId": "aef0e34f-5065-46af-bea3-d748ca25707c"
           }
         ]
       }
@@ -60001,22 +60001,6 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "144",
-            "scryfallId": "298747bb-eb40-4b58-bb22-4ac2bc1d795c"
-          },
-          {
-            "qty": 1,
-            "set": "m19",
-            "setName": "Core Set 2019",
-            "isFoil": false,
-            "collectorNumber": "156",
-            "scryfallId": "bf5a0e1e-5239-41f3-a63f-d9303b1b01fc"
-          },
-          {
             "qty": 3,
             "set": "m20",
             "setName": "Core Set 2020",
@@ -60031,6 +60015,22 @@
             "isFoil": false,
             "collectorNumber": "98",
             "scryfallId": "00365412-41db-427c-9109-8f69c17c326d"
+          },
+          {
+            "qty": 1,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "144",
+            "scryfallId": "298747bb-eb40-4b58-bb22-4ac2bc1d795c"
+          },
+          {
+            "qty": 1,
+            "set": "m19",
+            "setName": "Core Set 2019",
+            "isFoil": false,
+            "collectorNumber": "156",
+            "scryfallId": "bf5a0e1e-5239-41f3-a63f-d9303b1b01fc"
           }
         ],
         "Nacho": [
@@ -61939,20 +61939,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 2,
-            "set": "w17",
-            "setName": "Welcome Deck 2017",
-            "isFoil": false,
-            "collectorNumber": "11",
-            "scryfallId": "4177c849-f366-4435-9060-d8785f235388"
-          },
-          {
             "qty": 4,
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": false,
             "collectorNumber": "75",
             "scryfallId": "2babef35-27ab-45aa-88cd-f21dccae5125"
+          },
+          {
+            "qty": 2,
+            "set": "w17",
+            "setName": "Welcome Deck 2017",
+            "isFoil": false,
+            "collectorNumber": "11",
+            "scryfallId": "4177c849-f366-4435-9060-d8785f235388"
           }
         ],
         "Nacho": [
@@ -62649,20 +62649,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "m10",
-            "setName": "Magic 2010",
-            "isFoil": false,
-            "collectorNumber": "33",
-            "scryfallId": "67aafbcc-113e-4816-95d2-a192f32ea9ea"
-          },
-          {
             "qty": 2,
             "set": "m11",
             "setName": "Magic 2011",
             "isFoil": false,
             "collectorNumber": "32",
             "scryfallId": "41d6d379-b991-48da-a6b3-a4a38931057c"
+          },
+          {
+            "qty": 1,
+            "set": "m10",
+            "setName": "Magic 2010",
+            "isFoil": false,
+            "collectorNumber": "33",
+            "scryfallId": "67aafbcc-113e-4816-95d2-a192f32ea9ea"
           }
         ]
       }
@@ -63189,19 +63189,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "fut",
-            "setName": "Future Sight",
-            "isFoil": false,
-            "collectorNumber": "109",
-            "scryfallId": "91431126-05b3-4c2e-aff7-41c2866265f6"
-          },
-          {
-            "qty": 1,
             "set": "uma",
             "setName": "Ultimate Masters",
             "isFoil": false,
             "collectorNumber": "149",
             "scryfallId": "91e67cab-496b-4b07-a045-b332d378ae74"
+          },
+          {
+            "qty": 1,
+            "set": "fut",
+            "setName": "Future Sight",
+            "isFoil": false,
+            "collectorNumber": "109",
+            "scryfallId": "91431126-05b3-4c2e-aff7-41c2866265f6"
           }
         ]
       }
@@ -65864,19 +65864,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "w17",
-            "setName": "Welcome Deck 2017",
-            "isFoil": false,
-            "collectorNumber": "5",
-            "scryfallId": "c2e03297-3124-4f83-98ef-772fa213a422"
-          },
-          {
-            "qty": 1,
             "set": "m11",
             "setName": "Magic 2011",
             "isFoil": false,
             "collectorNumber": "34",
             "scryfallId": "c0dac80a-96ae-489a-8600-97d767ab78f8"
+          },
+          {
+            "qty": 1,
+            "set": "w17",
+            "setName": "Welcome Deck 2017",
+            "isFoil": false,
+            "collectorNumber": "5",
+            "scryfallId": "c2e03297-3124-4f83-98ef-772fa213a422"
           }
         ],
         "Nacho": [
@@ -66457,19 +66457,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "znr",
-            "setName": "Zendikar Rising",
-            "isFoil": false,
-            "collectorNumber": "128",
-            "scryfallId": "0d3f531a-ce45-4cba-be24-6db749e38abd"
-          },
-          {
-            "qty": 1,
             "set": "kld",
             "setName": "Kaladesh",
             "isFoil": false,
             "collectorNumber": "100",
             "scryfallId": "61a8cb98-7ee7-4f90-bfba-0a406a5e6d6b"
+          },
+          {
+            "qty": 1,
+            "set": "znr",
+            "setName": "Zendikar Rising",
+            "isFoil": false,
+            "collectorNumber": "128",
+            "scryfallId": "0d3f531a-ce45-4cba-be24-6db749e38abd"
           }
         ]
       }
@@ -67776,19 +67776,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "clb",
-            "setName": "Commander Legends: Battle for Baldur's Gate",
-            "isFoil": false,
-            "collectorNumber": "772",
-            "scryfallId": "187502d9-c751-4967-adff-09d7a300d935"
-          },
-          {
-            "qty": 1,
             "set": "cm2",
             "setName": "Commander Anthology Volume II",
             "isFoil": false,
             "collectorNumber": "80",
             "scryfallId": "b57f954e-cd73-453f-890c-750c0e5b292a"
+          },
+          {
+            "qty": 1,
+            "set": "clb",
+            "setName": "Commander Legends: Battle for Baldur's Gate",
+            "isFoil": false,
+            "collectorNumber": "772",
+            "scryfallId": "187502d9-c751-4967-adff-09d7a300d935"
           }
         ],
         "Ruso": [
@@ -70164,19 +70164,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "mm2",
-            "setName": "Modern Masters 2015",
-            "isFoil": false,
-            "collectorNumber": "166",
-            "scryfallId": "5c88e954-7041-4063-8625-fa98d9be9394"
-          },
-          {
-            "qty": 1,
             "set": "dis",
             "setName": "Dissension",
             "isFoil": false,
             "collectorNumber": "98",
             "scryfallId": "8ce041c2-5a63-4007-a0fa-f0a6f4b39c16"
+          },
+          {
+            "qty": 1,
+            "set": "mm2",
+            "setName": "Modern Masters 2015",
+            "isFoil": false,
+            "collectorNumber": "166",
+            "scryfallId": "5c88e954-7041-4063-8625-fa98d9be9394"
           }
         ],
         "Nacho": [
@@ -70261,19 +70261,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "one",
-            "setName": "Phyrexia: All Will Be One",
-            "isFoil": true,
-            "collectorNumber": "72",
-            "scryfallId": "67f0a63e-0866-423e-b917-fc7c71063021"
-          },
-          {
-            "qty": 1,
             "set": "som",
             "setName": "Scars of Mirrodin",
             "isFoil": false,
             "collectorNumber": "47",
             "scryfallId": "dc2dd336-e457-49a1-88ae-c35f0c846e99"
+          },
+          {
+            "qty": 1,
+            "set": "one",
+            "setName": "Phyrexia: All Will Be One",
+            "isFoil": true,
+            "collectorNumber": "72",
+            "scryfallId": "67f0a63e-0866-423e-b917-fc7c71063021"
           },
           {
             "qty": 1,
@@ -70585,19 +70585,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "war",
-            "setName": "War of the Spark",
-            "isFoil": false,
-            "collectorNumber": "146",
-            "scryfallId": "7f9a24dc-8bc3-4528-8780-57fb108fdfbf"
-          },
-          {
-            "qty": 1,
             "set": "pwar",
             "setName": "War of the Spark Promos",
             "isFoil": true,
             "collectorNumber": "146s",
             "scryfallId": "abe4c794-9601-4338-b13b-3ca360fbf292"
+          },
+          {
+            "qty": 1,
+            "set": "war",
+            "setName": "War of the Spark",
+            "isFoil": false,
+            "collectorNumber": "146",
+            "scryfallId": "7f9a24dc-8bc3-4528-8780-57fb108fdfbf"
           }
         ]
       }
@@ -71601,14 +71601,6 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "frf",
-            "setName": "Fate Reforged",
-            "isFoil": false,
-            "collectorNumber": "174",
-            "scryfallId": "685ef7b5-ffad-4342-9a3a-f01a6d67d5e2"
-          },
-          {
             "qty": 4,
             "set": "m20",
             "setName": "Core Set 2020",
@@ -71623,6 +71615,14 @@
             "isFoil": false,
             "collectorNumber": "280",
             "scryfallId": "68f822b7-efc5-42c8-93ea-7dd17b4c3e7a"
+          },
+          {
+            "qty": 1,
+            "set": "frf",
+            "setName": "Fate Reforged",
+            "isFoil": false,
+            "collectorNumber": "174",
+            "scryfallId": "685ef7b5-ffad-4342-9a3a-f01a6d67d5e2"
           }
         ],
         "Nacho": [
@@ -71861,19 +71861,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "rix",
-            "setName": "Rivals of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "184",
-            "scryfallId": "393e2aa2-110e-4824-a9c9-5a76cb2bec23"
-          },
-          {
-            "qty": 1,
             "set": "thb",
             "setName": "Theros Beyond Death",
             "isFoil": false,
             "collectorNumber": "240",
             "scryfallId": "590926db-279c-494a-b92d-680b8abf9699"
+          },
+          {
+            "qty": 1,
+            "set": "rix",
+            "setName": "Rivals of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "184",
+            "scryfallId": "393e2aa2-110e-4824-a9c9-5a76cb2bec23"
           }
         ],
         "Nacho": [
@@ -72112,19 +72112,19 @@
         "Fausto": [
           {
             "qty": 2,
-            "set": "m13",
-            "setName": "Magic 2013",
-            "isFoil": false,
-            "collectorNumber": "74",
-            "scryfallId": "8c796ef9-4061-4f82-9ee9-3bc446804ee9"
-          },
-          {
-            "qty": 2,
             "set": "w17",
             "setName": "Welcome Deck 2017",
             "isFoil": false,
             "collectorNumber": "14",
             "scryfallId": "f7860cf3-c3ea-4055-8c95-6d1c8d50e69d"
+          },
+          {
+            "qty": 2,
+            "set": "m13",
+            "setName": "Magic 2013",
+            "isFoil": false,
+            "collectorNumber": "74",
+            "scryfallId": "8c796ef9-4061-4f82-9ee9-3bc446804ee9"
           }
         ]
       }
@@ -72908,19 +72908,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "163",
-            "scryfallId": "837557f2-6151-489c-a997-00862173cd15"
-          },
-          {
-            "qty": 1,
             "set": "soi",
             "setName": "Shadows over Innistrad",
             "isFoil": false,
             "collectorNumber": "188",
             "scryfallId": "40440487-5ff2-43da-aa06-c649bf972ef1"
+          },
+          {
+            "qty": 1,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "163",
+            "scryfallId": "837557f2-6151-489c-a997-00862173cd15"
           },
           {
             "qty": 1,
@@ -73487,19 +73487,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "thb",
-            "setName": "Theros Beyond Death",
-            "isFoil": false,
-            "collectorNumber": "249",
-            "scryfallId": "492181e4-5825-45d4-b8a1-37f29c32a845"
-          },
-          {
-            "qty": 1,
             "set": "xln",
             "setName": "Ixalan",
             "isFoil": false,
             "collectorNumber": "259",
             "scryfallId": "517315dc-591f-4af4-a319-542ad9a2e4b8"
+          },
+          {
+            "qty": 1,
+            "set": "thb",
+            "setName": "Theros Beyond Death",
+            "isFoil": false,
+            "collectorNumber": "249",
+            "scryfallId": "492181e4-5825-45d4-b8a1-37f29c32a845"
           }
         ],
         "Nacho": [
@@ -73722,14 +73722,6 @@
         "Fausto": [
           {
             "qty": 4,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "78",
-            "scryfallId": "7a960516-3864-4a7a-8117-d25dec0dd665"
-          },
-          {
-            "qty": 4,
             "set": "m12",
             "setName": "Magic 2012",
             "isFoil": false,
@@ -73741,6 +73733,14 @@
             "set": "m20",
             "setName": "Core Set 2020",
             "isFoil": true,
+            "collectorNumber": "78",
+            "scryfallId": "7a960516-3864-4a7a-8117-d25dec0dd665"
+          },
+          {
+            "qty": 4,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
             "collectorNumber": "78",
             "scryfallId": "7a960516-3864-4a7a-8117-d25dec0dd665"
           },
@@ -74124,20 +74124,20 @@
       "owners": {
         "Fausto": [
           {
-            "qty": 1,
-            "set": "xln",
-            "setName": "Ixalan",
-            "isFoil": false,
-            "collectorNumber": "127",
-            "scryfallId": "e599ed0b-4b3b-4341-b6ac-7fdfdc6799a3"
-          },
-          {
             "qty": 2,
             "set": "znr",
             "setName": "Zendikar Rising",
             "isFoil": false,
             "collectorNumber": "131",
             "scryfallId": "c15852d4-2c79-4841-bb65-6661d88fdfab"
+          },
+          {
+            "qty": 1,
+            "set": "xln",
+            "setName": "Ixalan",
+            "isFoil": false,
+            "collectorNumber": "127",
+            "scryfallId": "e599ed0b-4b3b-4341-b6ac-7fdfdc6799a3"
           }
         ],
         "Nacho": [
@@ -74239,19 +74239,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "m13",
-            "setName": "Magic 2013",
-            "isFoil": false,
-            "collectorNumber": "196",
-            "scryfallId": "70fc4a5f-1c59-4139-a506-72baebb1168f"
-          },
-          {
-            "qty": 1,
             "set": "zen",
             "setName": "Zendikar",
             "isFoil": false,
             "collectorNumber": "192",
             "scryfallId": "bc5daf96-ceae-4c9a-95cd-f6d706e9b1fa"
+          },
+          {
+            "qty": 1,
+            "set": "m13",
+            "setName": "Magic 2013",
+            "isFoil": false,
+            "collectorNumber": "196",
+            "scryfallId": "70fc4a5f-1c59-4139-a506-72baebb1168f"
           }
         ],
         "Nacho": [
@@ -74889,19 +74889,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "mm2",
-            "setName": "Modern Masters 2015",
-            "isFoil": false,
-            "collectorNumber": "168",
-            "scryfallId": "6203e3d4-8998-41d6-9f7e-b68af0f1f8b5"
-          },
-          {
-            "qty": 1,
             "set": "zen",
             "setName": "Zendikar",
             "isFoil": false,
             "collectorNumber": "193",
             "scryfallId": "e8bd8b10-de86-4bb6-b49f-6ccb5297c81c"
+          },
+          {
+            "qty": 1,
+            "set": "mm2",
+            "setName": "Modern Masters 2015",
+            "isFoil": false,
+            "collectorNumber": "168",
+            "scryfallId": "6203e3d4-8998-41d6-9f7e-b68af0f1f8b5"
           }
         ]
       }
@@ -75060,19 +75060,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "c15",
-            "setName": "Commander 2015",
-            "isFoil": false,
-            "collectorNumber": "316",
-            "scryfallId": "ed2564b4-0fa2-49cc-b571-0a997fc73c56"
-          },
-          {
-            "qty": 1,
             "set": "c13",
             "setName": "Commander 2013",
             "isFoil": false,
             "collectorNumber": "333",
             "scryfallId": "d7ad5834-6ba3-4bdf-b394-33edc922dfda"
+          },
+          {
+            "qty": 1,
+            "set": "c15",
+            "setName": "Commander 2015",
+            "isFoil": false,
+            "collectorNumber": "316",
+            "scryfallId": "ed2564b4-0fa2-49cc-b571-0a997fc73c56"
           }
         ],
         "Ruso": [
@@ -75123,19 +75123,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "lrw",
-            "setName": "Lorwyn",
-            "isFoil": false,
-            "collectorNumber": "279",
-            "scryfallId": "a535790b-d416-4807-bca0-acf6b192101c"
-          },
-          {
-            "qty": 1,
             "set": "c15",
             "setName": "Commander 2015",
             "isFoil": false,
             "collectorNumber": "320",
             "scryfallId": "976fa482-b854-4f60-92f8-6e18064e852e"
+          },
+          {
+            "qty": 1,
+            "set": "lrw",
+            "setName": "Lorwyn",
+            "isFoil": false,
+            "collectorNumber": "279",
+            "scryfallId": "a535790b-d416-4807-bca0-acf6b192101c"
           }
         ],
         "Ruso": [
@@ -77339,19 +77339,19 @@
         "Fausto": [
           {
             "qty": 1,
-            "set": "dgm",
-            "setName": "Dragon's Maze",
-            "isFoil": false,
-            "collectorNumber": "20",
-            "scryfallId": "86ea454f-b640-4a89-937f-bae05556292a"
-          },
-          {
-            "qty": 1,
             "set": "kld",
             "setName": "Kaladesh",
             "isFoil": false,
             "collectorNumber": "70",
             "scryfallId": "5e227a63-abea-494e-9d66-6ff0a3da14ca"
+          },
+          {
+            "qty": 1,
+            "set": "dgm",
+            "setName": "Dragon's Maze",
+            "isFoil": false,
+            "collectorNumber": "20",
+            "scryfallId": "86ea454f-b640-4a89-937f-bae05556292a"
           }
         ],
         "Nacho": [
@@ -192240,20 +192240,20 @@
         ],
         "Lucho": [
           {
-            "qty": 2,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "170",
-            "scryfallId": "f58cfb23-4d99-4133-bf4b-d7e7c7d17cea"
-          },
-          {
             "qty": 1,
             "set": "soa",
             "setName": "Secrets of Strixhaven Mystical Archive",
             "isFoil": false,
             "collectorNumber": "55",
             "scryfallId": "a11f1013-d747-4cf2-bbf5-0bd68a949ddf"
+          },
+          {
+            "qty": 2,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "170",
+            "scryfallId": "f58cfb23-4d99-4133-bf4b-d7e7c7d17cea"
           }
         ],
         "Alex": [
@@ -193118,6 +193118,31 @@
         ]
       }
     },
+    "greenbelt rampager": {
+      "name": "Greenbelt Rampager",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "aer",
+            "setName": "Aether Revolt",
+            "isFoil": false,
+            "collectorNumber": "107",
+            "scryfallId": "f3f06124-bcc4-48c0-a7a6-a461c7485ecd"
+          }
+        ],
+        "Guille A.": [
+          {
+            "qty": 1,
+            "set": "aer",
+            "setName": "Aether Revolt",
+            "isFoil": false,
+            "collectorNumber": "107",
+            "scryfallId": "f3f06124-bcc4-48c0-a7a6-a461c7485ecd"
+          }
+        ]
+      }
+    },
     "midnight entourage": {
       "name": "Midnight Entourage",
       "owners": {
@@ -193498,20 +193523,20 @@
         ],
         "Lucho": [
           {
-            "qty": 3,
-            "set": "cmm",
-            "setName": "Commander Masters",
-            "isFoil": false,
-            "collectorNumber": "816",
-            "scryfallId": "6d7ea506-262b-415f-86f2-d70ddfd15a8d"
-          },
-          {
             "qty": 1,
             "set": "c20",
             "setName": "Commander 2020",
             "isFoil": false,
             "collectorNumber": "79",
             "scryfallId": "1bf09533-3849-4756-8ccf-143196cc17d9"
+          },
+          {
+            "qty": 3,
+            "set": "cmm",
+            "setName": "Commander Masters",
+            "isFoil": false,
+            "collectorNumber": "816",
+            "scryfallId": "6d7ea506-262b-415f-86f2-d70ddfd15a8d"
           }
         ],
         "Guille A.": [
@@ -194261,6 +194286,31 @@
         ]
       }
     },
+    "desecrated tomb": {
+      "name": "Desecrated Tomb",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "pm19",
+            "setName": "Core Set 2019 Promos",
+            "isFoil": true,
+            "collectorNumber": "230",
+            "scryfallId": "398b09a0-fb51-4278-9fe7-74215d2e5708"
+          }
+        ],
+        "Guille A.": [
+          {
+            "qty": 1,
+            "set": "pm19",
+            "setName": "Core Set 2019 Promos",
+            "isFoil": true,
+            "collectorNumber": "230",
+            "scryfallId": "398b09a0-fb51-4278-9fe7-74215d2e5708"
+          }
+        ]
+      }
+    },
     "dire fleet poisoner": {
       "name": "Dire Fleet Poisoner",
       "owners": {
@@ -194746,6 +194796,21 @@
         ]
       }
     },
+    "tromokratis": {
+      "name": "Tromokratis",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "pbng",
+            "setName": "Born of the Gods Promos",
+            "isFoil": true,
+            "collectorNumber": "55★",
+            "scryfallId": "c93e60f6-259c-4569-87cb-cc27deaf7d8d"
+          }
+        ]
+      }
+    },
     "meletis charlatan": {
       "name": "Meletis Charlatan",
       "owners": {
@@ -194862,6 +194927,21 @@
             "isFoil": false,
             "collectorNumber": "18",
             "scryfallId": "c5ceb21d-6b51-4634-a2cf-13ef8f559287"
+          }
+        ]
+      }
+    },
+    "simian spirit guide": {
+      "name": "Simian Spirit Guide",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "plc",
+            "setName": "Planar Chaos",
+            "isFoil": false,
+            "collectorNumber": "122",
+            "scryfallId": "5d7f701c-dcdc-4067-8d00-b4b7aadee9ba"
           }
         ]
       }
@@ -195012,6 +195092,36 @@
             "isFoil": false,
             "collectorNumber": "137",
             "scryfallId": "009d2fb8-6144-46d9-9085-26232c174109"
+          }
+        ]
+      }
+    },
+    "akroma, vision of ixidor": {
+      "name": "Akroma, Vision of Ixidor",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "cmr",
+            "setName": "Commander Legends",
+            "isFoil": false,
+            "collectorNumber": "2",
+            "scryfallId": "c0bdd07d-9fb9-4ee4-80db-494ee0cba58d"
+          }
+        ]
+      }
+    },
+    "kolvori, god of kinship // the ringhart crest": {
+      "name": "Kolvori, God of Kinship // The Ringhart Crest",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "khm",
+            "setName": "Kaldheim",
+            "isFoil": true,
+            "collectorNumber": "181",
+            "scryfallId": "b76bed98-30b1-4572-b36c-684ada06826c"
           }
         ]
       }
@@ -195326,6 +195436,21 @@
         ]
       }
     },
+    "the meathook massacre": {
+      "name": "The Meathook Massacre",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "dbl",
+            "setName": "Innistrad: Double Feature",
+            "isFoil": true,
+            "collectorNumber": "112",
+            "scryfallId": "dce4819c-7f2f-4bed-b02d-d2b7a6c2ad9a"
+          }
+        ]
+      }
+    },
     "wash away": {
       "name": "Wash Away",
       "owners": {
@@ -195401,6 +195526,21 @@
         ]
       }
     },
+    "anhelo, the painter": {
+      "name": "Anhelo, the Painter",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "ncc",
+            "setName": "New Capenna Commander",
+            "isFoil": false,
+            "collectorNumber": "186",
+            "scryfallId": "0543510b-c28b-4b3c-b1c7-ae6f944556f5"
+          }
+        ]
+      }
+    },
     "devilish valet": {
       "name": "Devilish Valet",
       "owners": {
@@ -195427,6 +195567,21 @@
             "isFoil": false,
             "collectorNumber": "304",
             "scryfallId": "c55b348b-c147-4d02-b26c-d610f515bce0"
+          }
+        ]
+      }
+    },
+    "gala greeters": {
+      "name": "Gala Greeters",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "snc",
+            "setName": "Streets of New Capenna",
+            "isFoil": true,
+            "collectorNumber": "460",
+            "scryfallId": "61760019-a7c7-4c11-871b-d72186b1d220"
           }
         ]
       }
@@ -195917,6 +196072,21 @@
             "isFoil": false,
             "collectorNumber": "185",
             "scryfallId": "bf2fa3fd-f6d9-4c23-9025-9b8b72da32dc"
+          }
+        ]
+      }
+    },
+    "inferno titan": {
+      "name": "Inferno Titan",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "ltc",
+            "setName": "Tales of Middle-earth Commander",
+            "isFoil": false,
+            "collectorNumber": "223",
+            "scryfallId": "db61b57c-b870-41af-87b7-037ec52fe063"
           }
         ]
       }
@@ -196482,6 +196652,21 @@
             "isFoil": false,
             "collectorNumber": "36",
             "scryfallId": "4cc35b82-a233-4460-968e-d90980fb2074"
+          }
+        ]
+      }
+    },
+    "ensnared by the mara": {
+      "name": "Ensnared by the Mara",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "who",
+            "setName": "Doctor Who",
+            "isFoil": false,
+            "collectorNumber": "84",
+            "scryfallId": "11454c82-3f1d-4456-8857-0dcb01d34298"
           }
         ]
       }
@@ -197512,6 +197697,21 @@
         ]
       }
     },
+    "adventurer's airship": {
+      "name": "Adventurer's Airship",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "fin",
+            "setName": "Final Fantasy",
+            "isFoil": true,
+            "collectorNumber": "252",
+            "scryfallId": "0a1d6dcd-bd41-4f57-a35b-6613811fe4d4"
+          }
+        ]
+      }
+    },
     "chocobo kick": {
       "name": "Chocobo Kick",
       "owners": {
@@ -197843,6 +198043,31 @@
             "isFoil": false,
             "collectorNumber": "112",
             "scryfallId": "8f3a1675-0cc7-4dfd-a12e-4740a2cf81e8"
+          }
+        ]
+      }
+    },
+    "fractal mascot": {
+      "name": "Fractal Mascot",
+      "owners": {
+        "Carmelo": [
+          {
+            "qty": 2,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "189",
+            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
+          }
+        ],
+        "Lucho": [
+          {
+            "qty": 1,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "189",
+            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
           }
         ]
       }
@@ -198573,231 +198798,6 @@
             "isFoil": false,
             "collectorNumber": "136",
             "scryfallId": "2b7cb1a3-761e-470e-a164-6e29dd9448cd"
-          }
-        ]
-      }
-    },
-    "desecrated tomb": {
-      "name": "Desecrated Tomb",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "pm19",
-            "setName": "Core Set 2019 Promos",
-            "isFoil": true,
-            "collectorNumber": "230",
-            "scryfallId": "398b09a0-fb51-4278-9fe7-74215d2e5708"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "pm19",
-            "setName": "Core Set 2019 Promos",
-            "isFoil": true,
-            "collectorNumber": "230",
-            "scryfallId": "398b09a0-fb51-4278-9fe7-74215d2e5708"
-          }
-        ]
-      }
-    },
-    "tromokratis": {
-      "name": "Tromokratis",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "pbng",
-            "setName": "Born of the Gods Promos",
-            "isFoil": true,
-            "collectorNumber": "55★",
-            "scryfallId": "c93e60f6-259c-4569-87cb-cc27deaf7d8d"
-          }
-        ]
-      }
-    },
-    "kolvori, god of kinship // the ringhart crest": {
-      "name": "Kolvori, God of Kinship // The Ringhart Crest",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "khm",
-            "setName": "Kaldheim",
-            "isFoil": true,
-            "collectorNumber": "181",
-            "scryfallId": "b76bed98-30b1-4572-b36c-684ada06826c"
-          }
-        ]
-      }
-    },
-    "the meathook massacre": {
-      "name": "The Meathook Massacre",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "dbl",
-            "setName": "Innistrad: Double Feature",
-            "isFoil": true,
-            "collectorNumber": "112",
-            "scryfallId": "dce4819c-7f2f-4bed-b02d-d2b7a6c2ad9a"
-          }
-        ]
-      }
-    },
-    "gala greeters": {
-      "name": "Gala Greeters",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "snc",
-            "setName": "Streets of New Capenna",
-            "isFoil": true,
-            "collectorNumber": "460",
-            "scryfallId": "61760019-a7c7-4c11-871b-d72186b1d220"
-          }
-        ]
-      }
-    },
-    "adventurer's airship": {
-      "name": "Adventurer's Airship",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "fin",
-            "setName": "Final Fantasy",
-            "isFoil": true,
-            "collectorNumber": "252",
-            "scryfallId": "0a1d6dcd-bd41-4f57-a35b-6613811fe4d4"
-          }
-        ]
-      }
-    },
-    "greenbelt rampager": {
-      "name": "Greenbelt Rampager",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "aer",
-            "setName": "Aether Revolt",
-            "isFoil": false,
-            "collectorNumber": "107",
-            "scryfallId": "f3f06124-bcc4-48c0-a7a6-a461c7485ecd"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "aer",
-            "setName": "Aether Revolt",
-            "isFoil": false,
-            "collectorNumber": "107",
-            "scryfallId": "f3f06124-bcc4-48c0-a7a6-a461c7485ecd"
-          }
-        ]
-      }
-    },
-    "simian spirit guide": {
-      "name": "Simian Spirit Guide",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "plc",
-            "setName": "Planar Chaos",
-            "isFoil": false,
-            "collectorNumber": "122",
-            "scryfallId": "5d7f701c-dcdc-4067-8d00-b4b7aadee9ba"
-          }
-        ]
-      }
-    },
-    "akroma, vision of ixidor": {
-      "name": "Akroma, Vision of Ixidor",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "cmr",
-            "setName": "Commander Legends",
-            "isFoil": false,
-            "collectorNumber": "2",
-            "scryfallId": "c0bdd07d-9fb9-4ee4-80db-494ee0cba58d"
-          }
-        ]
-      }
-    },
-    "inferno titan": {
-      "name": "Inferno Titan",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "ltc",
-            "setName": "Tales of Middle-earth Commander",
-            "isFoil": false,
-            "collectorNumber": "223",
-            "scryfallId": "db61b57c-b870-41af-87b7-037ec52fe063"
-          }
-        ]
-      }
-    },
-    "ensnared by the mara": {
-      "name": "Ensnared by the Mara",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "who",
-            "setName": "Doctor Who",
-            "isFoil": false,
-            "collectorNumber": "84",
-            "scryfallId": "11454c82-3f1d-4456-8857-0dcb01d34298"
-          }
-        ]
-      }
-    },
-    "fractal mascot": {
-      "name": "Fractal Mascot",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 2,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "189",
-            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
-          }
-        ],
-        "Lucho": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "189",
-            "scryfallId": "cf5b19e3-eed1-4b36-9756-660ffb3baa08"
-          }
-        ]
-      }
-    },
-    "anhelo, the painter": {
-      "name": "Anhelo, the Painter",
-      "owners": {
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "ncc",
-            "setName": "New Capenna Commander",
-            "isFoil": false,
-            "collectorNumber": "186",
-            "scryfallId": "0543510b-c28b-4b3c-b1c7-ae6f944556f5"
           }
         ]
       }
@@ -201409,16 +201409,6 @@
             "collectorNumber": "15p",
             "scryfallId": "a77c3277-a985-46b4-8036-2780a4ce16f6"
           }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "psos",
-            "setName": "Secrets of Strixhaven Promos",
-            "isFoil": false,
-            "collectorNumber": "15p",
-            "scryfallId": "a77c3277-a985-46b4-8036-2780a4ce16f6"
-          }
         ]
       }
     },
@@ -201443,19 +201433,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "c13",
-            "setName": "Commander 2013",
-            "isFoil": false,
-            "collectorNumber": "10",
-            "scryfallId": "2a57191e-58a8-4ba9-8b5d-5a4e5a08b404"
-          },
-          {
-            "qty": 1,
             "set": "afc",
             "setName": "Forgotten Realms Commander",
             "isFoil": false,
             "collectorNumber": "66",
             "scryfallId": "0f57fc0c-cab1-4eb0-a58a-0c7a762f1572"
+          },
+          {
+            "qty": 1,
+            "set": "c13",
+            "setName": "Commander 2013",
+            "isFoil": false,
+            "collectorNumber": "10",
+            "scryfallId": "2a57191e-58a8-4ba9-8b5d-5a4e5a08b404"
           }
         ]
       }
@@ -205383,20 +205373,20 @@
       "owners": {
         "Lucho": [
           {
-            "qty": 3,
-            "set": "tla",
-            "setName": "Avatar: The Last Airbender",
-            "isFoil": false,
-            "collectorNumber": "196",
-            "scryfallId": "e7847ba5-e85e-417f-96c0-aef2e6f83994"
-          },
-          {
             "qty": 1,
             "set": "soa",
             "setName": "Secrets of Strixhaven Mystical Archive",
             "isFoil": false,
             "collectorNumber": "58",
             "scryfallId": "3aeb1fe1-3ff3-466c-9eda-b8747702734c"
+          },
+          {
+            "qty": 3,
+            "set": "tla",
+            "setName": "Avatar: The Last Airbender",
+            "isFoil": false,
+            "collectorNumber": "196",
+            "scryfallId": "e7847ba5-e85e-417f-96c0-aef2e6f83994"
           }
         ]
       }
@@ -207399,6 +207389,136 @@
         ]
       }
     },
+    "idyllic tutor": {
+      "name": "Idyllic Tutor",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "thb",
+            "setName": "Theros Beyond Death",
+            "isFoil": false,
+            "collectorNumber": "24",
+            "scryfallId": "f06edd53-f3ac-44b0-a087-5670ba8f0fa5"
+          }
+        ],
+        "Manuel Venturini (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "mor",
+            "setName": "Morningtide",
+            "isFoil": false,
+            "collectorNumber": "12",
+            "scryfallId": "0a5e7a59-7322-46eb-9903-00131234b310"
+          }
+        ]
+      }
+    },
+    "phyrexian arena": {
+      "name": "Phyrexian Arena",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "one",
+            "setName": "Phyrexia: All Will Be One",
+            "isFoil": false,
+            "collectorNumber": "104",
+            "scryfallId": "54f69d43-de01-46a8-b102-b47e23e0e947"
+          }
+        ]
+      }
+    },
+    "uncomfortable chill": {
+      "name": "Uncomfortable Chill",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "m19",
+            "setName": "Core Set 2019",
+            "isFoil": false,
+            "collectorNumber": "82",
+            "scryfallId": "8f12d70b-fff7-4d0c-982e-2fea70018a78"
+          }
+        ]
+      }
+    },
+    "loxodon line breaker": {
+      "name": "Loxodon Line Breaker",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "m19",
+            "setName": "Core Set 2019",
+            "isFoil": false,
+            "collectorNumber": "24",
+            "scryfallId": "928d4250-c379-4134-a263-7811c80a8760"
+          }
+        ]
+      }
+    },
+    "kaalia, zenith seeker": {
+      "name": "Kaalia, Zenith Seeker",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "pm20",
+            "setName": "Core Set 2020 Promos",
+            "isFoil": false,
+            "collectorNumber": "210p",
+            "scryfallId": "70c679a2-bddf-48ad-ad02-fd747d1df536"
+          }
+        ]
+      }
+    },
+    "riddlemaster sphinx": {
+      "name": "Riddlemaster Sphinx",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "m19",
+            "setName": "Core Set 2019",
+            "isFoil": false,
+            "collectorNumber": "287",
+            "scryfallId": "037f6792-ab41-4bcd-a0a3-a4af4a801eb7"
+          }
+        ]
+      }
+    },
+    "arcane lighthouse": {
+      "name": "Arcane Lighthouse",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "c14",
+            "setName": "Commander 2014",
+            "isFoil": false,
+            "collectorNumber": "59",
+            "scryfallId": "977e3112-b141-44c0-9e8d-d7a0b93092b9"
+          }
+        ]
+      }
+    },
+    "gisela, blade of goldnight": {
+      "name": "Gisela, Blade of Goldnight",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "c15",
+            "setName": "Commander 2015",
+            "isFoil": false,
+            "collectorNumber": "219",
+            "scryfallId": "a43eab14-4e5e-4788-8bbe-2a780d1dc566"
+          }
+        ]
+      }
+    },
     "ruby medallion": {
       "name": "Ruby Medallion",
       "owners": {
@@ -207424,6 +207544,81 @@
         ]
       }
     },
+    "sower of discord": {
+      "name": "Sower of Discord",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "cmm",
+            "setName": "Commander Masters",
+            "isFoil": false,
+            "collectorNumber": "187",
+            "scryfallId": "f532301e-9005-4770-9e04-868f69f6becf"
+          }
+        ]
+      }
+    },
+    "fyndhorn elves": {
+      "name": "Fyndhorn Elves",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "cmr",
+            "setName": "Commander Legends",
+            "isFoil": false,
+            "collectorNumber": "228",
+            "scryfallId": "450744cf-7eba-491b-97b0-ca80c6368bbb"
+          }
+        ]
+      }
+    },
+    "training grounds": {
+      "name": "Training Grounds",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "mat",
+            "setName": "March of the Machine: The Aftermath",
+            "isFoil": false,
+            "collectorNumber": "9",
+            "scryfallId": "991c27ed-f53c-48c6-8c12-282f44b8d441"
+          }
+        ]
+      }
+    },
+    "hellkite charger": {
+      "name": "Hellkite Charger",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "zen",
+            "setName": "Zendikar",
+            "isFoil": false,
+            "collectorNumber": "131",
+            "scryfallId": "e70c645d-d170-4a91-a6bb-0175ec900e93"
+          }
+        ]
+      }
+    },
+    "frost titan": {
+      "name": "Frost Titan",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "m11",
+            "setName": "Magic 2011",
+            "isFoil": false,
+            "collectorNumber": "55",
+            "scryfallId": "065addc8-c235-43cc-a54f-b582826e5df1"
+          }
+        ]
+      }
+    },
     "aurelia, the warleader": {
       "name": "Aurelia, the Warleader",
       "owners": {
@@ -207435,6 +207630,51 @@
             "isFoil": false,
             "collectorNumber": "143",
             "scryfallId": "4ec18e35-05e4-4bfc-b32b-c3e71c95a71d"
+          }
+        ]
+      }
+    },
+    "lord of the void": {
+      "name": "Lord of the Void",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "rvr",
+            "setName": "Ravnica Remastered",
+            "isFoil": false,
+            "collectorNumber": "424",
+            "scryfallId": "e8f57607-7823-4b28-88a0-4b6330001552"
+          }
+        ]
+      }
+    },
+    "sanguine bond": {
+      "name": "Sanguine Bond",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "ima",
+            "setName": "Iconic Masters",
+            "isFoil": false,
+            "collectorNumber": "107",
+            "scryfallId": "dc236d85-dfe5-4bc8-b116-8306b0922abf"
+          }
+        ]
+      }
+    },
+    "willbreaker": {
+      "name": "Willbreaker",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "ori",
+            "setName": "Magic Origins",
+            "isFoil": false,
+            "collectorNumber": "84",
+            "scryfallId": "2465eafc-453c-4e4f-b369-0951b8a4b7bf"
           }
         ]
       }
@@ -207469,17 +207709,32 @@
         ]
       }
     },
-    "frost titan": {
-      "name": "Frost Titan",
+    "balefire dragon": {
+      "name": "Balefire Dragon",
       "owners": {
         "Rodrigo Deganutti": [
           {
             "qty": 1,
-            "set": "m11",
-            "setName": "Magic 2011",
+            "set": "isd",
+            "setName": "Innistrad",
             "isFoil": false,
-            "collectorNumber": "55",
-            "scryfallId": "065addc8-c235-43cc-a54f-b582826e5df1"
+            "collectorNumber": "129",
+            "scryfallId": "b0dce4ac-f472-4f3b-b01a-eff0902a578f"
+          }
+        ]
+      }
+    },
+    "the locust god": {
+      "name": "The Locust God",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "moc",
+            "setName": "March of the Machine Commander",
+            "isFoil": false,
+            "collectorNumber": "335",
+            "scryfallId": "7e599847-8ab0-4fd6-b2c0-cb44a7669aa5"
           }
         ]
       }
@@ -207499,42 +207754,17 @@
         ]
       }
     },
-    "kaalia, zenith seeker": {
-      "name": "Kaalia, Zenith Seeker",
+    "sylvan caryatid": {
+      "name": "Sylvan Caryatid",
       "owners": {
         "Rodrigo Deganutti": [
           {
             "qty": 1,
-            "set": "pm20",
-            "setName": "Core Set 2020 Promos",
+            "set": "ths",
+            "setName": "Theros",
             "isFoil": false,
-            "collectorNumber": "210p",
-            "scryfallId": "70c679a2-bddf-48ad-ad02-fd747d1df536"
-          }
-        ]
-      }
-    },
-    "idyllic tutor": {
-      "name": "Idyllic Tutor",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "thb",
-            "setName": "Theros Beyond Death",
-            "isFoil": false,
-            "collectorNumber": "24",
-            "scryfallId": "f06edd53-f3ac-44b0-a087-5670ba8f0fa5"
-          }
-        ],
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "mor",
-            "setName": "Morningtide",
-            "isFoil": false,
-            "collectorNumber": "12",
-            "scryfallId": "0a5e7a59-7322-46eb-9903-00131234b310"
+            "collectorNumber": "180",
+            "scryfallId": "d40b65c1-b24d-492d-81b9-d8474ebdc08c"
           }
         ]
       }
@@ -207575,6 +207805,51 @@
             "isFoil": false,
             "collectorNumber": "246",
             "scryfallId": "fe50be3b-7d22-49c1-a2f1-b2c5786090be"
+          }
+        ]
+      }
+    },
+    "terror of mount velus": {
+      "name": "Terror of Mount Velus",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "afc",
+            "setName": "Forgotten Realms Commander",
+            "isFoil": false,
+            "collectorNumber": "145",
+            "scryfallId": "7bed9dbb-6a1d-411f-9139-3dc20258020a"
+          }
+        ]
+      }
+    },
+    "tamiyo, the moon sage": {
+      "name": "Tamiyo, the Moon Sage",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "avr",
+            "setName": "Avacyn Restored",
+            "isFoil": false,
+            "collectorNumber": "79",
+            "scryfallId": "b9398926-13b9-47b8-b66b-1ab9d06bb704"
+          }
+        ]
+      }
+    },
+    "master of cruelties": {
+      "name": "Master of Cruelties",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "dgm",
+            "setName": "Dragon's Maze",
+            "isFoil": false,
+            "collectorNumber": "82",
+            "scryfallId": "7b4d8ab5-252c-4727-817d-6f18cbaedd91"
           }
         ]
       }
@@ -207649,32 +207924,17 @@
         ]
       }
     },
-    "tamiyo, the moon sage": {
-      "name": "Tamiyo, the Moon Sage",
+    "bloodgift demon": {
+      "name": "Bloodgift Demon",
       "owners": {
         "Rodrigo Deganutti": [
           {
             "qty": 1,
-            "set": "avr",
-            "setName": "Avacyn Restored",
+            "set": "isd",
+            "setName": "Innistrad",
             "isFoil": false,
-            "collectorNumber": "79",
-            "scryfallId": "b9398926-13b9-47b8-b66b-1ab9d06bb704"
-          }
-        ]
-      }
-    },
-    "arcane lighthouse": {
-      "name": "Arcane Lighthouse",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "c14",
-            "setName": "Commander 2014",
-            "isFoil": false,
-            "collectorNumber": "59",
-            "scryfallId": "977e3112-b141-44c0-9e8d-d7a0b93092b9"
+            "collectorNumber": "89",
+            "scryfallId": "f271addb-e267-4397-b181-f1eaeabbfe71"
           }
         ]
       }
@@ -207690,21 +207950,6 @@
             "isFoil": false,
             "collectorNumber": "159",
             "scryfallId": "0831a574-33c5-4ab2-b7f6-17db2829df51"
-          }
-        ]
-      }
-    },
-    "willbreaker": {
-      "name": "Willbreaker",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "ori",
-            "setName": "Magic Origins",
-            "isFoil": false,
-            "collectorNumber": "84",
-            "scryfallId": "2465eafc-453c-4e4f-b369-0951b8a4b7bf"
           }
         ]
       }
@@ -207739,21 +207984,6 @@
         ]
       }
     },
-    "loxodon line breaker": {
-      "name": "Loxodon Line Breaker",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "m19",
-            "setName": "Core Set 2019",
-            "isFoil": false,
-            "collectorNumber": "24",
-            "scryfallId": "928d4250-c379-4134-a263-7811c80a8760"
-          }
-        ]
-      }
-    },
     "mist-cloaked herald": {
       "name": "Mist-Cloaked Herald",
       "owners": {
@@ -207765,21 +207995,6 @@
             "isFoil": false,
             "collectorNumber": "310",
             "scryfallId": "574f73a7-9ff7-4ce3-9f56-002af968d35a"
-          }
-        ]
-      }
-    },
-    "riddlemaster sphinx": {
-      "name": "Riddlemaster Sphinx",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "m19",
-            "setName": "Core Set 2019",
-            "isFoil": false,
-            "collectorNumber": "287",
-            "scryfallId": "037f6792-ab41-4bcd-a0a3-a4af4a801eb7"
           }
         ]
       }
@@ -207799,107 +208014,17 @@
         ]
       }
     },
-    "uncomfortable chill": {
-      "name": "Uncomfortable Chill",
+    "blood tribute": {
+      "name": "Blood Tribute",
       "owners": {
         "Rodrigo Deganutti": [
           {
             "qty": 1,
-            "set": "m19",
-            "setName": "Core Set 2019",
+            "set": "zen",
+            "setName": "Zendikar",
             "isFoil": false,
-            "collectorNumber": "82",
-            "scryfallId": "8f12d70b-fff7-4d0c-982e-2fea70018a78"
-          }
-        ]
-      }
-    },
-    "sanguine bond": {
-      "name": "Sanguine Bond",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "ima",
-            "setName": "Iconic Masters",
-            "isFoil": false,
-            "collectorNumber": "107",
-            "scryfallId": "dc236d85-dfe5-4bc8-b116-8306b0922abf"
-          }
-        ]
-      }
-    },
-    "gisela, blade of goldnight": {
-      "name": "Gisela, Blade of Goldnight",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "c15",
-            "setName": "Commander 2015",
-            "isFoil": false,
-            "collectorNumber": "219",
-            "scryfallId": "a43eab14-4e5e-4788-8bbe-2a780d1dc566"
-          }
-        ]
-      }
-    },
-    "sylvan caryatid": {
-      "name": "Sylvan Caryatid",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "ths",
-            "setName": "Theros",
-            "isFoil": false,
-            "collectorNumber": "180",
-            "scryfallId": "d40b65c1-b24d-492d-81b9-d8474ebdc08c"
-          }
-        ]
-      }
-    },
-    "master of cruelties": {
-      "name": "Master of Cruelties",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "dgm",
-            "setName": "Dragon's Maze",
-            "isFoil": false,
-            "collectorNumber": "82",
-            "scryfallId": "7b4d8ab5-252c-4727-817d-6f18cbaedd91"
-          }
-        ]
-      }
-    },
-    "balefire dragon": {
-      "name": "Balefire Dragon",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "isd",
-            "setName": "Innistrad",
-            "isFoil": false,
-            "collectorNumber": "129",
-            "scryfallId": "b0dce4ac-f472-4f3b-b01a-eff0902a578f"
-          }
-        ]
-      }
-    },
-    "bloodgift demon": {
-      "name": "Bloodgift Demon",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "isd",
-            "setName": "Innistrad",
-            "isFoil": false,
-            "collectorNumber": "89",
-            "scryfallId": "f271addb-e267-4397-b181-f1eaeabbfe71"
+            "collectorNumber": "81",
+            "scryfallId": "c76487d3-1d52-4c31-917e-eb929907218d"
           }
         ]
       }
@@ -207919,32 +208044,17 @@
         ]
       }
     },
-    "blood tribute": {
-      "name": "Blood Tribute",
+    "patron wizard": {
+      "name": "Patron Wizard",
       "owners": {
         "Rodrigo Deganutti": [
           {
             "qty": 1,
-            "set": "zen",
-            "setName": "Zendikar",
+            "set": "plst",
+            "setName": "The List",
             "isFoil": false,
-            "collectorNumber": "81",
-            "scryfallId": "c76487d3-1d52-4c31-917e-eb929907218d"
-          }
-        ]
-      }
-    },
-    "hellkite charger": {
-      "name": "Hellkite Charger",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "zen",
-            "setName": "Zendikar",
-            "isFoil": false,
-            "collectorNumber": "131",
-            "scryfallId": "e70c645d-d170-4a91-a6bb-0175ec900e93"
+            "collectorNumber": "ODY-89",
+            "scryfallId": "8d7dca82-d981-41b4-ac14-a85e6a6b8433"
           }
         ]
       }
@@ -207994,36 +208104,6 @@
         ]
       }
     },
-    "patron wizard": {
-      "name": "Patron Wizard",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "ODY-89",
-            "scryfallId": "8d7dca82-d981-41b4-ac14-a85e6a6b8433"
-          }
-        ]
-      }
-    },
-    "fyndhorn elves": {
-      "name": "Fyndhorn Elves",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "cmr",
-            "setName": "Commander Legends",
-            "isFoil": false,
-            "collectorNumber": "228",
-            "scryfallId": "450744cf-7eba-491b-97b0-ca80c6368bbb"
-          }
-        ]
-      }
-    },
     "dauthi voidwalker": {
       "name": "Dauthi Voidwalker",
       "owners": {
@@ -208064,17 +208144,17 @@
         ]
       }
     },
-    "terror of mount velus": {
-      "name": "Terror of Mount Velus",
+    "sundown pass": {
+      "name": "Sundown Pass",
       "owners": {
         "Rodrigo Deganutti": [
           {
             "qty": 1,
-            "set": "afc",
-            "setName": "Forgotten Realms Commander",
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
             "isFoil": false,
-            "collectorNumber": "145",
-            "scryfallId": "7bed9dbb-6a1d-411f-9139-3dc20258020a"
+            "collectorNumber": "264",
+            "scryfallId": "b34000e9-ff20-4fb4-9d0b-03a172a92457"
           }
         ]
       }
@@ -208214,21 +208294,6 @@
         ]
       }
     },
-    "phyrexian arena": {
-      "name": "Phyrexian Arena",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "one",
-            "setName": "Phyrexia: All Will Be One",
-            "isFoil": false,
-            "collectorNumber": "104",
-            "scryfallId": "54f69d43-de01-46a8-b102-b47e23e0e947"
-          }
-        ]
-      }
-    },
     "joyful stormsculptor": {
       "name": "Joyful Stormsculptor",
       "owners": {
@@ -208300,51 +208365,6 @@
             "isFoil": false,
             "collectorNumber": "44",
             "scryfallId": "824331ff-3055-4628-8486-7d0dd088eec8"
-          }
-        ]
-      }
-    },
-    "the locust god": {
-      "name": "The Locust God",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "moc",
-            "setName": "March of the Machine Commander",
-            "isFoil": false,
-            "collectorNumber": "335",
-            "scryfallId": "7e599847-8ab0-4fd6-b2c0-cb44a7669aa5"
-          }
-        ]
-      }
-    },
-    "training grounds": {
-      "name": "Training Grounds",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "mat",
-            "setName": "March of the Machine: The Aftermath",
-            "isFoil": false,
-            "collectorNumber": "9",
-            "scryfallId": "991c27ed-f53c-48c6-8c12-282f44b8d441"
-          }
-        ]
-      }
-    },
-    "sower of discord": {
-      "name": "Sower of Discord",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "cmm",
-            "setName": "Commander Masters",
-            "isFoil": false,
-            "collectorNumber": "187",
-            "scryfallId": "f532301e-9005-4770-9e04-868f69f6becf"
           }
         ]
       }
@@ -208880,21 +208900,6 @@
             "isFoil": false,
             "collectorNumber": "310",
             "scryfallId": "28ee8b5b-ab55-4a26-9491-a0dc20cf54c8"
-          }
-        ]
-      }
-    },
-    "lord of the void": {
-      "name": "Lord of the Void",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "rvr",
-            "setName": "Ravnica Remastered",
-            "isFoil": false,
-            "collectorNumber": "424",
-            "scryfallId": "e8f57607-7823-4b28-88a0-4b6330001552"
           }
         ]
       }
@@ -209944,6 +209949,31 @@
         ]
       }
     },
+    "static snare": {
+      "name": "Static Snare",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tdm",
+            "setName": "Tarkir: Dragonstorm",
+            "isFoil": false,
+            "collectorNumber": "26",
+            "scryfallId": "1ce50932-03a6-48bc-8aee-bc8defd896cf"
+          }
+        ],
+        "Ruso": [
+          {
+            "qty": 1,
+            "set": "tdm",
+            "setName": "Tarkir: Dragonstorm",
+            "isFoil": false,
+            "collectorNumber": "26",
+            "scryfallId": "1ce50932-03a6-48bc-8aee-bc8defd896cf"
+          }
+        ]
+      }
+    },
     "ureni's rebuff": {
       "name": "Ureni's Rebuff",
       "owners": {
@@ -210115,6 +210145,31 @@
             "isFoil": false,
             "collectorNumber": "202",
             "scryfallId": "d3736f17-f80b-4b2c-b919-2c963bc14682"
+          }
+        ]
+      }
+    },
+    "channeled dragonfire": {
+      "name": "Channeled Dragonfire",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tdm",
+            "setName": "Tarkir: Dragonstorm",
+            "isFoil": false,
+            "collectorNumber": "102",
+            "scryfallId": "24204881-690c-4043-8771-20cb93385072"
+          }
+        ],
+        "Ruso": [
+          {
+            "qty": 1,
+            "set": "tdm",
+            "setName": "Tarkir: Dragonstorm",
+            "isFoil": false,
+            "collectorNumber": "102",
+            "scryfallId": "24204881-690c-4043-8771-20cb93385072"
           }
         ]
       }
@@ -210559,31 +210614,6 @@
         ]
       }
     },
-    "venerated stormsinger": {
-      "name": "Venerated Stormsinger",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "97",
-            "scryfallId": "a4a4e985-facd-47e6-b680-3023c82c2957"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "97",
-            "scryfallId": "a4a4e985-facd-47e6-b680-3023c82c2957"
-          }
-        ]
-      }
-    },
     "sagu wildling // roost seek": {
       "name": "Sagu Wildling // Roost Seek",
       "owners": {
@@ -210605,6 +210635,31 @@
             "isFoil": false,
             "collectorNumber": "157",
             "scryfallId": "d8b43b00-f4d1-436c-bf3f-6d414cd4ce38"
+          }
+        ]
+      }
+    },
+    "venerated stormsinger": {
+      "name": "Venerated Stormsinger",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tdm",
+            "setName": "Tarkir: Dragonstorm",
+            "isFoil": false,
+            "collectorNumber": "97",
+            "scryfallId": "a4a4e985-facd-47e6-b680-3023c82c2957"
+          }
+        ],
+        "Guille A.": [
+          {
+            "qty": 1,
+            "set": "tdm",
+            "setName": "Tarkir: Dragonstorm",
+            "isFoil": false,
+            "collectorNumber": "97",
+            "scryfallId": "a4a4e985-facd-47e6-b680-3023c82c2957"
           }
         ]
       }
@@ -210740,31 +210795,6 @@
             "isFoil": false,
             "collectorNumber": "44",
             "scryfallId": "e91c4509-918e-44ba-aa13-1991199fee9f"
-          }
-        ]
-      }
-    },
-    "static snare": {
-      "name": "Static Snare",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "26",
-            "scryfallId": "1ce50932-03a6-48bc-8aee-bc8defd896cf"
-          }
-        ],
-        "Ruso": [
-          {
-            "qty": 1,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "26",
-            "scryfallId": "1ce50932-03a6-48bc-8aee-bc8defd896cf"
           }
         ]
       }
@@ -210915,6 +210945,31 @@
             "isFoil": false,
             "collectorNumber": "144",
             "scryfallId": "a88c7713-b3a9-4685-b1d3-623d35b62365"
+          }
+        ]
+      }
+    },
+    "feral deathgorger // dusk sight": {
+      "name": "Feral Deathgorger // Dusk Sight",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "tdm",
+            "setName": "Tarkir: Dragonstorm",
+            "isFoil": false,
+            "collectorNumber": "298",
+            "scryfallId": "58c446e6-8ffb-45ed-aca2-95161ac88d5c"
+          }
+        ],
+        "Ruso": [
+          {
+            "qty": 2,
+            "set": "tdm",
+            "setName": "Tarkir: Dragonstorm",
+            "isFoil": false,
+            "collectorNumber": "80",
+            "scryfallId": "a147b94f-dfcf-44ce-8a73-b2fe6c4efc0e"
           }
         ]
       }
@@ -211140,31 +211195,6 @@
             "isFoil": false,
             "collectorNumber": "62",
             "scryfallId": "fc48180a-ccac-469f-938d-c050821d0160"
-          }
-        ]
-      }
-    },
-    "channeled dragonfire": {
-      "name": "Channeled Dragonfire",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "102",
-            "scryfallId": "24204881-690c-4043-8771-20cb93385072"
-          }
-        ],
-        "Ruso": [
-          {
-            "qty": 1,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "102",
-            "scryfallId": "24204881-690c-4043-8771-20cb93385072"
           }
         ]
       }
@@ -211415,31 +211445,6 @@
             "isFoil": false,
             "collectorNumber": "82",
             "scryfallId": "e53adf93-2db5-4087-a2dc-c8f53401d700"
-          }
-        ]
-      }
-    },
-    "feral deathgorger // dusk sight": {
-      "name": "Feral Deathgorger // Dusk Sight",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "298",
-            "scryfallId": "58c446e6-8ffb-45ed-aca2-95161ac88d5c"
-          }
-        ],
-        "Ruso": [
-          {
-            "qty": 2,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "80",
-            "scryfallId": "a147b94f-dfcf-44ce-8a73-b2fe6c4efc0e"
           }
         ]
       }
@@ -211889,6 +211894,31 @@
         ]
       }
     },
+    "sunset saboteur": {
+      "name": "Sunset Saboteur",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "116",
+            "scryfallId": "396bca07-82ba-49b7-b79e-7784b3a06d48"
+          }
+        ],
+        "Guille A.": [
+          {
+            "qty": 1,
+            "set": "eoe",
+            "setName": "Edge of Eternities",
+            "isFoil": false,
+            "collectorNumber": "116",
+            "scryfallId": "396bca07-82ba-49b7-b79e-7784b3a06d48"
+          }
+        ]
+      }
+    },
     "tragic trajectory": {
       "name": "Tragic Trajectory",
       "owners": {
@@ -211970,31 +212000,6 @@
             "isFoil": false,
             "collectorNumber": "249",
             "scryfallId": "9ace282a-5901-4d36-ad21-17eb88bc5138"
-          }
-        ]
-      }
-    },
-    "sunset saboteur": {
-      "name": "Sunset Saboteur",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "116",
-            "scryfallId": "396bca07-82ba-49b7-b79e-7784b3a06d48"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
-            "isFoil": false,
-            "collectorNumber": "116",
-            "scryfallId": "396bca07-82ba-49b7-b79e-7784b3a06d48"
           }
         ]
       }
@@ -212694,21 +212699,6 @@
         ]
       }
     },
-    "sundown pass": {
-      "name": "Sundown Pass",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "264",
-            "scryfallId": "b34000e9-ff20-4fb4-9d0b-03a172a92457"
-          }
-        ]
-      }
-    },
     "kang, temporal tyrant": {
       "name": "Kang, Temporal Tyrant",
       "owners": {
@@ -212769,21 +212759,6 @@
         ]
       }
     },
-    "photon blast barrage": {
-      "name": "Photon Blast Barrage",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "msh",
-            "setName": "Marvel Super Heroes",
-            "isFoil": false,
-            "collectorNumber": "147",
-            "scryfallId": "f85a77d2-e11e-44bc-a1e7-d783cd49d714"
-          }
-        ]
-      }
-    },
     "worlds within worlds": {
       "name": "Worlds Within Worlds",
       "owners": {
@@ -212795,6 +212770,21 @@
             "isFoil": false,
             "collectorNumber": "241",
             "scryfallId": "4765e39c-cbf2-4605-9bf1-3baad7d92cfb"
+          }
+        ]
+      }
+    },
+    "photon blast barrage": {
+      "name": "Photon Blast Barrage",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "147",
+            "scryfallId": "f85a77d2-e11e-44bc-a1e7-d783cd49d714"
           }
         ]
       }
@@ -213234,6 +213224,21 @@
         ]
       }
     },
+    "crimson operative": {
+      "name": "Crimson Operative",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "126",
+            "scryfallId": "c4bc077c-f220-47a5-aaf4-5324ca23d0c5"
+          }
+        ]
+      }
+    },
     "vibranium energy daggers": {
       "name": "Vibranium Energy Daggers",
       "owners": {
@@ -213564,6 +213569,21 @@
         ]
       }
     },
+    "bullseye, death dealer": {
+      "name": "Bullseye, Death Dealer",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "msh",
+            "setName": "Marvel Super Heroes",
+            "isFoil": false,
+            "collectorNumber": "209",
+            "scryfallId": "fd1f0b5f-5e0e-4da1-ab54-a62db5af3591"
+          }
+        ]
+      }
+    },
     "powerful broker": {
       "name": "Powerful Broker",
       "owners": {
@@ -213609,21 +213629,6 @@
         ]
       }
     },
-    "bullseye, death dealer": {
-      "name": "Bullseye, Death Dealer",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "msh",
-            "setName": "Marvel Super Heroes",
-            "isFoil": false,
-            "collectorNumber": "209",
-            "scryfallId": "fd1f0b5f-5e0e-4da1-ab54-a62db5af3591"
-          }
-        ]
-      }
-    },
     "decoy ploy": {
       "name": "Decoy Ploy",
       "owners": {
@@ -213635,21 +213640,6 @@
             "isFoil": false,
             "collectorNumber": "94",
             "scryfallId": "d8719b74-48ef-4f68-b59a-949edd644ddc"
-          }
-        ]
-      }
-    },
-    "crimson operative": {
-      "name": "Crimson Operative",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "msh",
-            "setName": "Marvel Super Heroes",
-            "isFoil": false,
-            "collectorNumber": "126",
-            "scryfallId": "c4bc077c-f220-47a5-aaf4-5324ca23d0c5"
           }
         ]
       }
@@ -213824,6 +213814,21 @@
         ]
       }
     },
+    "tree of redemption": {
+      "name": "Tree of Redemption",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 2,
+            "set": "isd",
+            "setName": "Innistrad",
+            "isFoil": false,
+            "collectorNumber": "207",
+            "scryfallId": "c6110bba-5c2d-4183-9dd0-d85a4cc42753"
+          }
+        ]
+      }
+    },
     "arcades, the strategist": {
       "name": "Arcades, the Strategist",
       "owners": {
@@ -213870,21 +213875,6 @@
             "isFoil": false,
             "collectorNumber": "32",
             "scryfallId": "5cfc0f46-4df4-4ae3-bfe6-391916eb590f"
-          }
-        ]
-      }
-    },
-    "tree of redemption": {
-      "name": "Tree of Redemption",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 2,
-            "set": "isd",
-            "setName": "Innistrad",
-            "isFoil": false,
-            "collectorNumber": "207",
-            "scryfallId": "c6110bba-5c2d-4183-9dd0-d85a4cc42753"
           }
         ]
       }

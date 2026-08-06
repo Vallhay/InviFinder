@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T08:32:03.031Z",
+  "lastUpdated": "2026-08-06T08:31:34.933Z",
   "owners": [
     {
       "name": "Fausto",
@@ -44,7 +44,7 @@
     {
       "name": "Guille A.",
       "phone": "+5493435186084",
-      "cardCount": 644
+      "cardCount": 643
     },
     {
       "name": "Franco Fatala",
@@ -180099,566 +180099,6 @@
         ]
       }
     },
-    "oltec cloud guard": {
-      "name": "Oltec Cloud Guard",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "28",
-            "scryfallId": "02d68a38-2e0b-401b-b67d-a55e2af5b18d"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": true,
-            "collectorNumber": "28",
-            "scryfallId": "02d68a38-2e0b-401b-b67d-a55e2af5b18d"
-          }
-        ]
-      }
-    },
-    "didact echo": {
-      "name": "Didact Echo",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "53",
-            "scryfallId": "3c068b2e-17cc-4fb8-bd79-b775a4713d74"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "53",
-            "scryfallId": "3c068b2e-17cc-4fb8-bd79-b775a4713d74"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "53",
-            "scryfallId": "3c068b2e-17cc-4fb8-bd79-b775a4713d74"
-          }
-        ]
-      }
-    },
-    "song of stupefaction": {
-      "name": "Song of Stupefaction",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "77",
-            "scryfallId": "ab8f7a75-df5e-43b3-8c33-328ad0dc3c40"
-          }
-        ]
-      }
-    },
-    "mischievous pup": {
-      "name": "Mischievous Pup",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "25",
-            "scryfallId": "7c219861-f808-456f-b551-37512764062d"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "144",
-            "scryfallId": "7214d984-6400-44d7-bde6-57d96b606e78"
-          }
-        ]
-      }
-    },
-    "compass gnome": {
-      "name": "Compass Gnome",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "250",
-            "scryfallId": "10e1030e-2b95-4807-9111-e495a2fc8813"
-          }
-        ]
-      }
-    },
-    "colossadactyl": {
-      "name": "Colossadactyl",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "180",
-            "scryfallId": "8702e776-be2c-48a9-9bc5-bb8ea514333b"
-          }
-        ]
-      }
-    },
-    "merfolk cave-diver": {
-      "name": "Merfolk Cave-Diver",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "65",
-            "scryfallId": "6e0fe81c-b8ef-49ff-8743-f03d0220cb9e"
-          }
-        ],
-        "Alex": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "65",
-            "scryfallId": "6e0fe81c-b8ef-49ff-8743-f03d0220cb9e"
-          }
-        ]
-      }
-    },
-    "triumphant chomp": {
-      "name": "Triumphant Chomp",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "170",
-            "scryfallId": "06b28139-efa7-4818-a012-cf8150692b43"
-          }
-        ]
-      }
-    },
-    "quicksand whirlpool": {
-      "name": "Quicksand Whirlpool",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "31",
-            "scryfallId": "a74ddccb-ebbd-4fad-a9b6-6b9e9bafae31"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 3,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "31",
-            "scryfallId": "a74ddccb-ebbd-4fad-a9b6-6b9e9bafae31"
-          }
-        ]
-      }
-    },
-    "thousand moons crackshot": {
-      "name": "Thousand Moons Crackshot",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "37",
-            "scryfallId": "741a7439-965d-49f2-b43e-053f29196e6b"
-          }
-        ]
-      }
-    },
-    "tinker's tote": {
-      "name": "Tinker's Tote",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "40",
-            "scryfallId": "8321857e-7977-46dd-8357-d732312e5261"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "40",
-            "scryfallId": "8321857e-7977-46dd-8357-d732312e5261"
-          }
-        ]
-      }
-    },
-    "tithing blade // consuming sepulcher": {
-      "name": "Tithing Blade // Consuming Sepulcher",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "128",
-            "scryfallId": "dbaa9a2d-e9fd-4746-a26c-f99ae731f024"
-          }
-        ],
-        "Ruso": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "128",
-            "scryfallId": "dbaa9a2d-e9fd-4746-a26c-f99ae731f024"
-          }
-        ]
-      }
-    },
-    "another chance": {
-      "name": "Another Chance",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "90",
-            "scryfallId": "20d9eb9f-2fcc-49f0-99c1-bad748239466"
-          }
-        ]
-      }
-    },
-    "brazen blademaster": {
-      "name": "Brazen Blademaster",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "136",
-            "scryfallId": "8e9e0c66-f64a-428c-be13-a52691833df1"
-          }
-        ]
-      }
-    },
-    "walk with the ancestors": {
-      "name": "Walk with the Ancestors",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "218",
-            "scryfallId": "71a6f85b-5ef8-4526-9c86-7cb71508b4c0"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "218",
-            "scryfallId": "71a6f85b-5ef8-4526-9c86-7cb71508b4c0"
-          }
-        ]
-      }
-    },
-    "river herald guide": {
-      "name": "River Herald Guide",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "209",
-            "scryfallId": "9ea7e323-f329-4928-b25a-c0b44c5ac058"
-          }
-        ]
-      }
-    },
-    "staggering size": {
-      "name": "Staggering Size",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "214",
-            "scryfallId": "e34c4946-6c21-4ae1-9595-35933d38da52"
-          }
-        ]
-      }
-    },
-    "unlucky drop": {
-      "name": "Unlucky Drop",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "82",
-            "scryfallId": "76ebb2df-8891-434e-9cd0-f25b848cb754"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "82",
-            "scryfallId": "76ebb2df-8891-434e-9cd0-f25b848cb754"
-          }
-        ]
-      }
-    },
-    "screaming phantom": {
-      "name": "Screaming Phantom",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "118",
-            "scryfallId": "bc2f3efb-1526-48c0-842a-374af63ea467"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "118",
-            "scryfallId": "bc2f3efb-1526-48c0-842a-374af63ea467"
-          }
-        ]
-      }
-    },
-    "extract a confession": {
-      "name": "Extract a Confession",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "84",
-            "scryfallId": "256c8b6e-4031-458b-8eb9-bbfe58405a0c"
-          }
-        ]
-      }
-    },
-    "bite down on crime": {
-      "name": "Bite Down on Crime",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "154",
-            "scryfallId": "29bbfe93-8225-444c-835b-33ffa006ef66"
-          }
-        ]
-      }
-    },
-    "public thoroughfare": {
-      "name": "Public Thoroughfare",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "265",
-            "scryfallId": "1f8b915f-3e82-4b05-b963-01ebff7a8f7b"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "265",
-            "scryfallId": "1f8b915f-3e82-4b05-b963-01ebff7a8f7b"
-          }
-        ]
-      }
-    },
-    "ripchain razorkin": {
-      "name": "Ripchain Razorkin",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "dsk",
-            "setName": "Duskmourn: House of Horror",
-            "isFoil": false,
-            "collectorNumber": "154",
-            "scryfallId": "effad662-3309-434c-addc-4394db1f359c"
-          }
-        ]
-      }
-    },
-    "wanderwine farewell": {
-      "name": "Wanderwine Farewell",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "83",
-            "scryfallId": "473123a0-1366-406b-9b9e-154c0e9c224f"
-          }
-        ]
-      }
-    },
-    "shore lurker": {
-      "name": "Shore Lurker",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "34",
-            "scryfallId": "bb353c27-e311-4677-9277-cab6820562ce"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "34",
-            "scryfallId": "681bea91-1ad3-4f91-aebf-f9fa6ae11911"
-          }
-        ]
-      }
-    },
-    "meanders guide": {
-      "name": "Meanders Guide",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "25",
-            "scryfallId": "8c41a0ad-138e-4eef-8f7f-35017e3b086f"
-          }
-        ]
-      }
-    },
-    "spiral into solitude": {
-      "name": "Spiral into Solitude",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "36",
-            "scryfallId": "e7a12664-a930-4159-8311-19862488fb05"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "36",
-            "scryfallId": "b680d47b-23dc-48ef-81f1-5839be72788d"
-          }
-        ]
-      }
-    },
-    "moon-vigil adherents": {
-      "name": "Moon-Vigil Adherents",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "184",
-            "scryfallId": "60621c37-62e1-4261-ae76-3946b4a0cfa3"
-          }
-        ]
-      }
-    },
     "goatnap": {
       "name": "Goatnap",
       "owners": {
@@ -180670,41 +180110,6 @@
             "isFoil": false,
             "collectorNumber": "126",
             "scryfallId": "709d4928-e976-4c7c-ba09-cce95d1797b2"
-          }
-        ]
-      }
-    },
-    "springleaf drum": {
-      "name": "Springleaf Drum",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "260",
-            "scryfallId": "e15ab0aa-4059-4923-9816-6f7a9e5b5a18"
-          }
-        ],
-        "Lucho": [
-          {
-            "qty": 1,
-            "set": "lrw",
-            "setName": "Lorwyn",
-            "isFoil": false,
-            "collectorNumber": "261",
-            "scryfallId": "fa8b09d0-fbd2-4441-9d87-02450412e0db"
-          }
-        ],
-        "Ruso": [
-          {
-            "qty": 1,
-            "set": "2xm",
-            "setName": "Double Masters",
-            "isFoil": false,
-            "collectorNumber": "291",
-            "scryfallId": "f3b3869b-6da1-4b01-a2e7-2018d478b6e5"
           }
         ]
       }
@@ -180889,31 +180294,6 @@
         ]
       }
     },
-    "likeness looter": {
-      "name": "Likeness Looter",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pwoe",
-            "setName": "Wilds of Eldraine Promos",
-            "isFoil": false,
-            "collectorNumber": "208p",
-            "scryfallId": "f8fb79ed-638e-4a88-852f-048ecee507f6"
-          }
-        ],
-        "Jona": [
-          {
-            "qty": 2,
-            "set": "woe",
-            "setName": "Wilds of Eldraine",
-            "isFoil": false,
-            "collectorNumber": "208",
-            "scryfallId": "2957472a-825e-4904-b7e8-62bef1cb432d"
-          }
-        ]
-      }
-    },
     "grand ball guest": {
       "name": "Grand Ball Guest",
       "owners": {
@@ -181090,6 +180470,31 @@
             "isFoil": false,
             "collectorNumber": "46",
             "scryfallId": "646d604f-b187-4122-bd4b-67634654b6f1"
+          }
+        ]
+      }
+    },
+    "likeness looter": {
+      "name": "Likeness Looter",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pwoe",
+            "setName": "Wilds of Eldraine Promos",
+            "isFoil": false,
+            "collectorNumber": "208p",
+            "scryfallId": "f8fb79ed-638e-4a88-852f-048ecee507f6"
+          }
+        ],
+        "Jona": [
+          {
+            "qty": 2,
+            "set": "woe",
+            "setName": "Wilds of Eldraine",
+            "isFoil": false,
+            "collectorNumber": "208",
+            "scryfallId": "2957472a-825e-4904-b7e8-62bef1cb432d"
           }
         ]
       }
@@ -182514,21 +181919,6 @@
         ]
       }
     },
-    "fae flight": {
-      "name": "Fae Flight",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": false,
-            "collectorNumber": "56",
-            "scryfallId": "d9caa4eb-ed8c-4d05-8029-2a42163938a7"
-          }
-        ]
-      }
-    },
     "basilica stalker": {
       "name": "Basilica Stalker",
       "owners": {
@@ -182544,8 +181934,8 @@
         ]
       }
     },
-    "makeshift binding": {
-      "name": "Makeshift Binding",
+    "fae flight": {
+      "name": "Fae Flight",
       "owners": {
         "Guillo": [
           {
@@ -182553,8 +181943,8 @@
             "set": "mkm",
             "setName": "Murders at Karlov Manor",
             "isFoil": false,
-            "collectorNumber": "23",
-            "scryfallId": "72d5a33a-fb8e-435d-8389-0025d1019e84"
+            "collectorNumber": "56",
+            "scryfallId": "d9caa4eb-ed8c-4d05-8029-2a42163938a7"
           }
         ]
       }
@@ -182760,6 +182150,21 @@
             "isFoil": false,
             "collectorNumber": "113",
             "scryfallId": "2a15e06c-2608-4e7a-a16c-d35417669d86"
+          }
+        ]
+      }
+    },
+    "makeshift binding": {
+      "name": "Makeshift Binding",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "23",
+            "scryfallId": "72d5a33a-fb8e-435d-8389-0025d1019e84"
           }
         ]
       }
@@ -183579,6 +182984,41 @@
         ]
       }
     },
+    "springleaf drum": {
+      "name": "Springleaf Drum",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "260",
+            "scryfallId": "e15ab0aa-4059-4923-9816-6f7a9e5b5a18"
+          }
+        ],
+        "Lucho": [
+          {
+            "qty": 1,
+            "set": "lrw",
+            "setName": "Lorwyn",
+            "isFoil": false,
+            "collectorNumber": "261",
+            "scryfallId": "fa8b09d0-fbd2-4441-9d87-02450412e0db"
+          }
+        ],
+        "Ruso": [
+          {
+            "qty": 1,
+            "set": "2xm",
+            "setName": "Double Masters",
+            "isFoil": false,
+            "collectorNumber": "291",
+            "scryfallId": "f3b3869b-6da1-4b01-a2e7-2018d478b6e5"
+          }
+        ]
+      }
+    },
     "celestial reunion": {
       "name": "Celestial Reunion",
       "owners": {
@@ -183590,21 +183030,6 @@
             "isFoil": false,
             "collectorNumber": "170",
             "scryfallId": "583b2863-aca1-4dab-9196-ea453b5d9454"
-          }
-        ]
-      }
-    },
-    "pestered wellguard": {
-      "name": "Pestered Wellguard",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "63",
-            "scryfallId": "f9cafc9e-c4b4-471d-96d3-63a3ea6224f7"
           }
         ]
       }
@@ -183809,31 +183234,6 @@
         ]
       }
     },
-    "deepchannel duelist": {
-      "name": "Deepchannel Duelist",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "213",
-            "scryfallId": "1b742172-7118-45e7-9945-62bd77d94e85"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "333",
-            "scryfallId": "0fe0730e-a549-427d-99be-68d6fded5ac5"
-          }
-        ]
-      }
-    },
     "bogslither's embrace": {
       "name": "Bogslither's Embrace",
       "owners": {
@@ -183860,6 +183260,31 @@
             "isFoil": false,
             "collectorNumber": "64",
             "scryfallId": "a9a425f4-2103-4f96-88a0-91fe554037d7"
+          }
+        ]
+      }
+    },
+    "deepchannel duelist": {
+      "name": "Deepchannel Duelist",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "213",
+            "scryfallId": "1b742172-7118-45e7-9945-62bd77d94e85"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "333",
+            "scryfallId": "0fe0730e-a549-427d-99be-68d6fded5ac5"
           }
         ]
       }
@@ -183955,6 +183380,581 @@
             "isFoil": false,
             "collectorNumber": "96",
             "scryfallId": "8aae3bd6-a935-44a5-aa4d-a525b00cbf50"
+          }
+        ]
+      }
+    },
+    "pestered wellguard": {
+      "name": "Pestered Wellguard",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "63",
+            "scryfallId": "f9cafc9e-c4b4-471d-96d3-63a3ea6224f7"
+          }
+        ]
+      }
+    },
+    "oltec cloud guard": {
+      "name": "Oltec Cloud Guard",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "28",
+            "scryfallId": "02d68a38-2e0b-401b-b67d-a55e2af5b18d"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": true,
+            "collectorNumber": "28",
+            "scryfallId": "02d68a38-2e0b-401b-b67d-a55e2af5b18d"
+          }
+        ]
+      }
+    },
+    "didact echo": {
+      "name": "Didact Echo",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "53",
+            "scryfallId": "3c068b2e-17cc-4fb8-bd79-b775a4713d74"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "53",
+            "scryfallId": "3c068b2e-17cc-4fb8-bd79-b775a4713d74"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "53",
+            "scryfallId": "3c068b2e-17cc-4fb8-bd79-b775a4713d74"
+          }
+        ]
+      }
+    },
+    "song of stupefaction": {
+      "name": "Song of Stupefaction",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "77",
+            "scryfallId": "ab8f7a75-df5e-43b3-8c33-328ad0dc3c40"
+          }
+        ]
+      }
+    },
+    "mischievous pup": {
+      "name": "Mischievous Pup",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "25",
+            "scryfallId": "7c219861-f808-456f-b551-37512764062d"
+          }
+        ],
+        "Guille A.": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "144",
+            "scryfallId": "7214d984-6400-44d7-bde6-57d96b606e78"
+          }
+        ]
+      }
+    },
+    "compass gnome": {
+      "name": "Compass Gnome",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "250",
+            "scryfallId": "10e1030e-2b95-4807-9111-e495a2fc8813"
+          }
+        ]
+      }
+    },
+    "colossadactyl": {
+      "name": "Colossadactyl",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "180",
+            "scryfallId": "8702e776-be2c-48a9-9bc5-bb8ea514333b"
+          }
+        ]
+      }
+    },
+    "merfolk cave-diver": {
+      "name": "Merfolk Cave-Diver",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "65",
+            "scryfallId": "6e0fe81c-b8ef-49ff-8743-f03d0220cb9e"
+          }
+        ],
+        "Alex": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "65",
+            "scryfallId": "6e0fe81c-b8ef-49ff-8743-f03d0220cb9e"
+          }
+        ]
+      }
+    },
+    "triumphant chomp": {
+      "name": "Triumphant Chomp",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "170",
+            "scryfallId": "06b28139-efa7-4818-a012-cf8150692b43"
+          }
+        ]
+      }
+    },
+    "quicksand whirlpool": {
+      "name": "Quicksand Whirlpool",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "31",
+            "scryfallId": "a74ddccb-ebbd-4fad-a9b6-6b9e9bafae31"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 3,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "31",
+            "scryfallId": "a74ddccb-ebbd-4fad-a9b6-6b9e9bafae31"
+          }
+        ]
+      }
+    },
+    "thousand moons crackshot": {
+      "name": "Thousand Moons Crackshot",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "37",
+            "scryfallId": "741a7439-965d-49f2-b43e-053f29196e6b"
+          }
+        ]
+      }
+    },
+    "tinker's tote": {
+      "name": "Tinker's Tote",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "40",
+            "scryfallId": "8321857e-7977-46dd-8357-d732312e5261"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "40",
+            "scryfallId": "8321857e-7977-46dd-8357-d732312e5261"
+          }
+        ]
+      }
+    },
+    "tithing blade // consuming sepulcher": {
+      "name": "Tithing Blade // Consuming Sepulcher",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "128",
+            "scryfallId": "dbaa9a2d-e9fd-4746-a26c-f99ae731f024"
+          }
+        ],
+        "Ruso": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "128",
+            "scryfallId": "dbaa9a2d-e9fd-4746-a26c-f99ae731f024"
+          }
+        ]
+      }
+    },
+    "another chance": {
+      "name": "Another Chance",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "90",
+            "scryfallId": "20d9eb9f-2fcc-49f0-99c1-bad748239466"
+          }
+        ]
+      }
+    },
+    "brazen blademaster": {
+      "name": "Brazen Blademaster",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "136",
+            "scryfallId": "8e9e0c66-f64a-428c-be13-a52691833df1"
+          }
+        ]
+      }
+    },
+    "walk with the ancestors": {
+      "name": "Walk with the Ancestors",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "218",
+            "scryfallId": "71a6f85b-5ef8-4526-9c86-7cb71508b4c0"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "218",
+            "scryfallId": "71a6f85b-5ef8-4526-9c86-7cb71508b4c0"
+          }
+        ]
+      }
+    },
+    "river herald guide": {
+      "name": "River Herald Guide",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "209",
+            "scryfallId": "9ea7e323-f329-4928-b25a-c0b44c5ac058"
+          }
+        ]
+      }
+    },
+    "staggering size": {
+      "name": "Staggering Size",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "214",
+            "scryfallId": "e34c4946-6c21-4ae1-9595-35933d38da52"
+          }
+        ]
+      }
+    },
+    "unlucky drop": {
+      "name": "Unlucky Drop",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "82",
+            "scryfallId": "76ebb2df-8891-434e-9cd0-f25b848cb754"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "82",
+            "scryfallId": "76ebb2df-8891-434e-9cd0-f25b848cb754"
+          }
+        ]
+      }
+    },
+    "screaming phantom": {
+      "name": "Screaming Phantom",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "bc2f3efb-1526-48c0-842a-374af63ea467"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "bc2f3efb-1526-48c0-842a-374af63ea467"
+          }
+        ]
+      }
+    },
+    "extract a confession": {
+      "name": "Extract a Confession",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "84",
+            "scryfallId": "256c8b6e-4031-458b-8eb9-bbfe58405a0c"
+          }
+        ]
+      }
+    },
+    "bite down on crime": {
+      "name": "Bite Down on Crime",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "154",
+            "scryfallId": "29bbfe93-8225-444c-835b-33ffa006ef66"
+          }
+        ]
+      }
+    },
+    "public thoroughfare": {
+      "name": "Public Thoroughfare",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "265",
+            "scryfallId": "1f8b915f-3e82-4b05-b963-01ebff7a8f7b"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": false,
+            "collectorNumber": "265",
+            "scryfallId": "1f8b915f-3e82-4b05-b963-01ebff7a8f7b"
+          }
+        ]
+      }
+    },
+    "ripchain razorkin": {
+      "name": "Ripchain Razorkin",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "dsk",
+            "setName": "Duskmourn: House of Horror",
+            "isFoil": false,
+            "collectorNumber": "154",
+            "scryfallId": "effad662-3309-434c-addc-4394db1f359c"
+          }
+        ]
+      }
+    },
+    "wanderwine farewell": {
+      "name": "Wanderwine Farewell",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "83",
+            "scryfallId": "473123a0-1366-406b-9b9e-154c0e9c224f"
+          }
+        ]
+      }
+    },
+    "shore lurker": {
+      "name": "Shore Lurker",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "34",
+            "scryfallId": "bb353c27-e311-4677-9277-cab6820562ce"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "34",
+            "scryfallId": "681bea91-1ad3-4f91-aebf-f9fa6ae11911"
+          }
+        ]
+      }
+    },
+    "meanders guide": {
+      "name": "Meanders Guide",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "25",
+            "scryfallId": "8c41a0ad-138e-4eef-8f7f-35017e3b086f"
+          }
+        ]
+      }
+    },
+    "spiral into solitude": {
+      "name": "Spiral into Solitude",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "e7a12664-a930-4159-8311-19862488fb05"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "b680d47b-23dc-48ef-81f1-5839be72788d"
+          }
+        ]
+      }
+    },
+    "moon-vigil adherents": {
+      "name": "Moon-Vigil Adherents",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": false,
+            "collectorNumber": "184",
+            "scryfallId": "60621c37-62e1-4261-ae76-3946b4a0cfa3"
           }
         ]
       }
@@ -217033,21 +217033,6 @@
             "isFoil": false,
             "collectorNumber": "285",
             "scryfallId": "72cc64b9-f5b9-42d3-9921-564c4c9f2c77"
-          }
-        ]
-      }
-    },
-    "door of destinies": {
-      "name": "Door of Destinies",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "m14",
-            "setName": "Magic 2014",
-            "isFoil": false,
-            "collectorNumber": "208",
-            "scryfallId": "68a6bf1a-7152-496f-a4c7-e720ef4294d8"
           }
         ]
       }

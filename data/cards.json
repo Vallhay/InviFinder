@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T07:20:54.357Z",
+  "lastUpdated": "2026-08-13T07:23:41.999Z",
   "owners": [
     {
       "name": "Fausto",
@@ -39,7 +39,7 @@
     {
       "name": "Rodrigo Deganutti",
       "phone": "+5493434723142",
-      "cardCount": 798
+      "cardCount": 797
     },
     {
       "name": "Guille A.",
@@ -74,7 +74,7 @@
     {
       "name": "Manuel Venturini (Sta Fe)",
       "phone": "+5493425119581",
-      "cardCount": 614
+      "cardCount": 610
     }
   ],
   "cards": {
@@ -8822,16 +8822,6 @@
             "collectorNumber": "5",
             "scryfallId": "ef9c2b8a-148c-4393-b691-e333ad11c44e"
           }
-        ],
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "ktk",
-            "setName": "Khans of Tarkir",
-            "isFoil": false,
-            "collectorNumber": "5",
-            "scryfallId": "ef9c2b8a-148c-4393-b691-e333ad11c44e"
-          }
         ]
       }
     },
@@ -10691,16 +10681,6 @@
             "isFoil": false,
             "collectorNumber": "67",
             "scryfallId": "9cddd843-78c6-4d47-8137-cd17e559ddd2"
-          }
-        ],
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "avr",
-            "setName": "Avacyn Restored",
-            "isFoil": false,
-            "collectorNumber": "10",
-            "scryfallId": "78154978-9e7d-44e9-a03f-c578072a8ff7"
           }
         ]
       }
@@ -46454,19 +46434,19 @@
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 1,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "AKH-233",
-            "scryfallId": "01bdc760-a5c9-45a9-9d83-dd3780f8ed6f"
-          },
-          {
-            "qty": 1,
             "set": "akh",
             "setName": "Amonkhet",
             "isFoil": true,
             "collectorNumber": "233",
             "scryfallId": "104503a6-bca5-48d7-88b1-424f98985d75"
+          },
+          {
+            "qty": 1,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "AKH-233",
+            "scryfallId": "01bdc760-a5c9-45a9-9d83-dd3780f8ed6f"
           }
         ]
       }
@@ -62846,7 +62826,7 @@
         ],
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 3,
+            "qty": 2,
             "set": "exo",
             "setName": "Exodus",
             "isFoil": false,
@@ -81960,14 +81940,6 @@
         ],
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 7,
-            "set": "ala",
-            "setName": "Shards of Alara",
-            "isFoil": false,
-            "collectorNumber": "220",
-            "scryfallId": "6edc0681-4252-4d3d-baf3-f03c22af1208"
-          },
-          {
             "qty": 3,
             "set": "mm3",
             "setName": "Modern Masters 2017",
@@ -81982,6 +81954,14 @@
             "isFoil": false,
             "collectorNumber": "281",
             "scryfallId": "d15c35b2-ecec-4b63-afd5-25392bf58486"
+          },
+          {
+            "qty": 7,
+            "set": "ala",
+            "setName": "Shards of Alara",
+            "isFoil": false,
+            "collectorNumber": "220",
+            "scryfallId": "6edc0681-4252-4d3d-baf3-f03c22af1208"
           }
         ]
       }
@@ -125620,20 +125600,20 @@
         ],
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 1,
-            "set": "rna",
-            "setName": "Ravnica Allegiance",
-            "isFoil": true,
-            "collectorNumber": "189",
-            "scryfallId": "c497d496-1232-4614-93b0-9864fa93c29f"
-          },
-          {
             "qty": 3,
             "set": "prna",
             "setName": "Ravnica Allegiance Promos",
             "isFoil": true,
             "collectorNumber": "189",
             "scryfallId": "37361166-330b-475e-b300-1e89cc1afaff"
+          },
+          {
+            "qty": 1,
+            "set": "rna",
+            "setName": "Ravnica Allegiance",
+            "isFoil": true,
+            "collectorNumber": "189",
+            "scryfallId": "c497d496-1232-4614-93b0-9864fa93c29f"
           }
         ]
       }
@@ -142981,19 +142961,19 @@
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 2,
-            "set": "a25",
-            "setName": "Masters 25",
-            "isFoil": false,
-            "collectorNumber": "186",
-            "scryfallId": "8a4d8527-af29-408d-a3a3-6781db0cf439"
-          },
-          {
-            "qty": 2,
             "set": "ulg",
             "setName": "Urza's Legacy",
             "isFoil": false,
             "collectorNumber": "110",
             "scryfallId": "59e256c2-38df-4012-9308-ce17dd889e5f"
+          },
+          {
+            "qty": 2,
+            "set": "a25",
+            "setName": "Masters 25",
+            "isFoil": false,
+            "collectorNumber": "186",
+            "scryfallId": "8a4d8527-af29-408d-a3a3-6781db0cf439"
           }
         ]
       }
@@ -144408,14 +144388,6 @@
             "isFoil": true,
             "collectorNumber": "254",
             "scryfallId": "63aa9614-7440-4aab-bdfe-2ffdd026968c"
-          },
-          {
-            "qty": 1,
-            "set": "m19",
-            "setName": "Core Set 2019",
-            "isFoil": false,
-            "collectorNumber": "254",
-            "scryfallId": "81766fd6-c7e0-4527-a63e-512d126c0421"
           }
         ]
       }
@@ -147996,20 +147968,20 @@
         ],
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 1,
-            "set": "cmd",
-            "setName": "Commander 2011",
-            "isFoil": false,
-            "collectorNumber": "169",
-            "scryfallId": "b9fa85f6-2a97-470e-88bb-b5ada6d64e80"
-          },
-          {
             "qty": 3,
             "set": "chk",
             "setName": "Champions of Kamigawa",
             "isFoil": false,
             "collectorNumber": "239",
             "scryfallId": "91c7707a-bae0-4196-bf26-d276f57b7369"
+          },
+          {
+            "qty": 1,
+            "set": "cmd",
+            "setName": "Commander 2011",
+            "isFoil": false,
+            "collectorNumber": "169",
+            "scryfallId": "b9fa85f6-2a97-470e-88bb-b5ada6d64e80"
           }
         ]
       }
@@ -175662,21 +175634,6 @@
         ]
       }
     },
-    "meandering towershell": {
-      "name": "Meandering Towershell",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "KTK-141",
-            "scryfallId": "a637fbe8-a2c3-4477-9da2-c3b0bebc892d"
-          }
-        ]
-      }
-    },
     "urban evolution": {
       "name": "Urban Evolution",
       "owners": {
@@ -175917,31 +175874,6 @@
         ]
       }
     },
-    "tower defense": {
-      "name": "Tower Defense",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "gtc",
-            "setName": "Gatecrash",
-            "isFoil": false,
-            "collectorNumber": "137",
-            "scryfallId": "857e1eb2-f3f2-4c7f-9965-da9d7e385223"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "rna",
-            "setName": "Ravnica Allegiance",
-            "isFoil": true,
-            "collectorNumber": "147",
-            "scryfallId": "195e94a4-a698-4c66-9428-5cc8a40d42c6"
-          }
-        ]
-      }
-    },
     "divinity of pride": {
       "name": "Divinity of Pride",
       "owners": {
@@ -175968,21 +175900,6 @@
             "isFoil": false,
             "collectorNumber": "34",
             "scryfallId": "0f749639-a16a-4865-afdb-f415324f2ed7"
-          }
-        ]
-      }
-    },
-    "ruinous path": {
-      "name": "Ruinous Path",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pbfz",
-            "setName": "Battle for Zendikar Promos",
-            "isFoil": true,
-            "collectorNumber": "123",
-            "scryfallId": "8a41a241-ee56-486a-9b4d-fb355b5f65b2"
           }
         ]
       }
@@ -176207,21 +176124,6 @@
         ]
       }
     },
-    "paradox engine": {
-      "name": "Paradox Engine",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "aer",
-            "setName": "Aether Revolt",
-            "isFoil": false,
-            "collectorNumber": "169",
-            "scryfallId": "fd8ccd81-9e11-47fa-8e16-064c52c24506"
-          }
-        ]
-      }
-    },
     "mizzium mortars": {
       "name": "Mizzium Mortars",
       "owners": {
@@ -176233,21 +176135,6 @@
             "isFoil": false,
             "collectorNumber": "101",
             "scryfallId": "708557e2-c1b4-4e45-b568-17763b7a9924"
-          }
-        ]
-      }
-    },
-    "brood butcher": {
-      "name": "Brood Butcher",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "bfz",
-            "setName": "Battle for Zendikar",
-            "isFoil": false,
-            "collectorNumber": "199",
-            "scryfallId": "2f60fdd6-bc18-4c04-83d8-c204f2b35ff1"
           }
         ]
       }
@@ -176328,21 +176215,6 @@
             "isFoil": false,
             "collectorNumber": "203",
             "scryfallId": "b080ed31-db68-4e3c-8bf6-48b53d3ba622"
-          }
-        ]
-      }
-    },
-    "drowner of hope": {
-      "name": "Drowner of Hope",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 3,
-            "set": "bfz",
-            "setName": "Battle for Zendikar",
-            "isFoil": false,
-            "collectorNumber": "57",
-            "scryfallId": "0fd5b48c-6850-47d4-8106-297be6c8f708"
           }
         ]
       }
@@ -176547,31 +176419,6 @@
         ]
       }
     },
-    "oracle's vault": {
-      "name": "Oracle's Vault",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pakh",
-            "setName": "Amonkhet Promos",
-            "isFoil": true,
-            "collectorNumber": "234",
-            "scryfallId": "027e3eef-d121-4a72-9395-043f57b023c7"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "pakh",
-            "setName": "Amonkhet Promos",
-            "isFoil": true,
-            "collectorNumber": "234",
-            "scryfallId": "027e3eef-d121-4a72-9395-043f57b023c7"
-          }
-        ]
-      }
-    },
     "trueheart duelist": {
       "name": "Trueheart Duelist",
       "owners": {
@@ -176678,36 +176525,6 @@
             "isFoil": false,
             "collectorNumber": "9",
             "scryfallId": "2b7eed1e-7b28-4900-a6ac-67f167476c11"
-          }
-        ]
-      }
-    },
-    "yasova dragonclaw": {
-      "name": "Yasova Dragonclaw",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "frf",
-            "setName": "Fate Reforged",
-            "isFoil": true,
-            "collectorNumber": "148",
-            "scryfallId": "490994c6-9fef-482b-835d-a64350bfaa8d"
-          }
-        ]
-      }
-    },
-    "suspension field": {
-      "name": "Suspension Field",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "f15",
-            "setName": "Friday Night Magic 2015",
-            "isFoil": true,
-            "collectorNumber": "4",
-            "scryfallId": "dbeb9475-64d8-4c9a-98e6-c473075ee343"
           }
         ]
       }
@@ -176882,36 +176699,6 @@
         ]
       }
     },
-    "sarkhan's unsealing": {
-      "name": "Sarkhan's Unsealing",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "jmp",
-            "setName": "Jumpstart",
-            "isFoil": false,
-            "collectorNumber": "361",
-            "scryfallId": "bb9c6068-cfd8-4371-b549-e474d573e52e"
-          }
-        ]
-      }
-    },
-    "ajani vengeant": {
-      "name": "Ajani Vengeant",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pala",
-            "setName": "Shards of Alara Promos",
-            "isFoil": true,
-            "collectorNumber": "154★",
-            "scryfallId": "c6ffd45c-2353-4292-b6f6-29d8f7e031ca"
-          }
-        ]
-      }
-    },
     "death grasp": {
       "name": "Death Grasp",
       "owners": {
@@ -177043,41 +176830,6 @@
             "isFoil": false,
             "collectorNumber": "216",
             "scryfallId": "219ab03a-2b3b-4eef-8a42-2cbe793d2f33"
-          }
-        ]
-      }
-    },
-    "shadowborn apostle": {
-      "name": "Shadowborn Apostle",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 3,
-            "set": "m14",
-            "setName": "Magic 2014",
-            "isFoil": false,
-            "collectorNumber": "114",
-            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 4,
-            "set": "m14",
-            "setName": "Magic 2014",
-            "isFoil": false,
-            "collectorNumber": "114",
-            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "m14",
-            "setName": "Magic 2014",
-            "isFoil": false,
-            "collectorNumber": "114",
-            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
           }
         ]
       }
@@ -177332,46 +177084,6 @@
         ]
       }
     },
-    "rakshasa vizier": {
-      "name": "Rakshasa Vizier",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ktk",
-            "setName": "Khans of Tarkir",
-            "isFoil": false,
-            "collectorNumber": "193",
-            "scryfallId": "cb39e674-919d-4db6-9ac1-cfa1cca02207"
-          }
-        ]
-      }
-    },
-    "retribution of the ancients": {
-      "name": "Retribution of the Ancients",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "ktk",
-            "setName": "Khans of Tarkir",
-            "isFoil": false,
-            "collectorNumber": "85",
-            "scryfallId": "0d3ee29d-b374-471d-80c3-bcad7a4226e6"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "ktk",
-            "setName": "Khans of Tarkir",
-            "isFoil": false,
-            "collectorNumber": "85",
-            "scryfallId": "0d3ee29d-b374-471d-80c3-bcad7a4226e6"
-          }
-        ]
-      }
-    },
     "scab-clan berserker": {
       "name": "Scab-Clan Berserker",
       "owners": {
@@ -177487,31 +177199,6 @@
         ]
       }
     },
-    "spatial contortion": {
-      "name": "Spatial Contortion",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 3,
-            "set": "ogw",
-            "setName": "Oath of the Gatewatch",
-            "isFoil": false,
-            "collectorNumber": "8",
-            "scryfallId": "4e2acf70-7625-4b77-83c1-0e08436da31f"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "f16",
-            "setName": "Friday Night Magic 2016",
-            "isFoil": true,
-            "collectorNumber": "7",
-            "scryfallId": "acaee41d-5f7c-481d-8591-f9dc47c784e4"
-          }
-        ]
-      }
-    },
     "world breaker": {
       "name": "World Breaker",
       "owners": {
@@ -177587,41 +177274,6 @@
         ]
       }
     },
-    "dynavolt tower": {
-      "name": "Dynavolt Tower",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "kld",
-            "setName": "Kaladesh",
-            "isFoil": false,
-            "collectorNumber": "208",
-            "scryfallId": "c45fd2ae-0f91-47ca-99bd-22ddf946df9f"
-          }
-        ],
-        "Carmelo": [
-          {
-            "qty": 1,
-            "set": "kld",
-            "setName": "Kaladesh",
-            "isFoil": false,
-            "collectorNumber": "208",
-            "scryfallId": "c45fd2ae-0f91-47ca-99bd-22ddf946df9f"
-          }
-        ],
-        "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "kld",
-            "setName": "Kaladesh",
-            "isFoil": false,
-            "collectorNumber": "208",
-            "scryfallId": "c45fd2ae-0f91-47ca-99bd-22ddf946df9f"
-          }
-        ]
-      }
-    },
     "multiform wonder": {
       "name": "Multiform Wonder",
       "owners": {
@@ -177658,31 +177310,6 @@
             "isFoil": false,
             "collectorNumber": "174",
             "scryfallId": "9fedd63c-22e4-4c36-8a7a-a167a070678f"
-          }
-        ]
-      }
-    },
-    "shanna, sisay's legacy": {
-      "name": "Shanna, Sisay's Legacy",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pdom",
-            "setName": "Dominaria Promos",
-            "isFoil": true,
-            "collectorNumber": "204",
-            "scryfallId": "2c86aae8-08bb-4acc-b39b-10e5b2ac40d9"
-          }
-        ],
-        "Angie": [
-          {
-            "qty": 1,
-            "set": "mul",
-            "setName": "Multiverse Legends",
-            "isFoil": false,
-            "collectorNumber": "59",
-            "scryfallId": "40c00370-0160-48a9-87ac-07a3b2bbd459"
           }
         ]
       }
@@ -177743,21 +177370,6 @@
             "isFoil": false,
             "collectorNumber": "92",
             "scryfallId": "875832f4-e541-4c87-8479-731e0eab2cc6"
-          }
-        ]
-      }
-    },
-    "sphinx's decree": {
-      "name": "Sphinx's Decree",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "rix",
-            "setName": "Rivals of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "24",
-            "scryfallId": "5058a729-9739-4548-b420-deebbc0950b7"
           }
         ]
       }
@@ -177843,51 +177455,6 @@
             "isFoil": false,
             "collectorNumber": "239",
             "scryfallId": "8d63d4b7-5378-4ba9-9a5f-3ab385d83568"
-          }
-        ]
-      }
-    },
-    "clash of wills": {
-      "name": "Clash of Wills",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "f16",
-            "setName": "Friday Night Magic 2016",
-            "isFoil": true,
-            "collectorNumber": "2",
-            "scryfallId": "1c67ab53-9489-4658-859e-9dd8a6e0f20d"
-          }
-        ]
-      }
-    },
-    "smash to smithereens": {
-      "name": "Smash to Smithereens",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "f16",
-            "setName": "Friday Night Magic 2016",
-            "isFoil": true,
-            "collectorNumber": "3",
-            "scryfallId": "4daccff6-8395-4b11-a4ce-3576aa38bc09"
-          }
-        ]
-      }
-    },
-    "supplant form": {
-      "name": "Supplant Form",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "pfrf",
-            "setName": "Fate Reforged Promos",
-            "isFoil": true,
-            "collectorNumber": "54",
-            "scryfallId": "14ade2bb-3838-4cac-b986-21e7c5213a25"
           }
         ]
       }
@@ -178327,21 +177894,6 @@
         ]
       }
     },
-    "endbringer": {
-      "name": "Endbringer",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 2,
-            "set": "j22",
-            "setName": "Jumpstart 2022",
-            "isFoil": false,
-            "collectorNumber": "748",
-            "scryfallId": "22ee3947-e147-4d04-bb01-161a72ffdf0e"
-          }
-        ]
-      }
-    },
     "gruff triplets": {
       "name": "Gruff Triplets",
       "owners": {
@@ -178428,39 +177980,6 @@
             "isFoil": false,
             "collectorNumber": "78",
             "scryfallId": "41e54343-95e5-4dc4-9f18-e4a415fe5e0a"
-          }
-        ]
-      }
-    },
-    "sanguine evangelist": {
-      "name": "Sanguine Evangelist",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": true,
-            "collectorNumber": "34",
-            "scryfallId": "269ddd84-fdc4-4c94-b183-32ecec56967c"
-          },
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "34",
-            "scryfallId": "269ddd84-fdc4-4c94-b183-32ecec56967c"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "34",
-            "scryfallId": "269ddd84-fdc4-4c94-b183-32ecec56967c"
           }
         ]
       }
@@ -178740,31 +178259,6 @@
         ]
       }
     },
-    "nowhere to run": {
-      "name": "Nowhere to Run",
-      "owners": {
-        "Guillo": [
-          {
-            "qty": 4,
-            "set": "pw26",
-            "setName": "Wizards Play Network 2026",
-            "isFoil": false,
-            "collectorNumber": "1",
-            "scryfallId": "ded0147d-220f-411d-8950-fd8a47786f6f"
-          }
-        ],
-        "Lucho": [
-          {
-            "qty": 4,
-            "set": "dsk",
-            "setName": "Duskmourn: House of Horror",
-            "isFoil": false,
-            "collectorNumber": "111",
-            "scryfallId": "fee60e9d-9ee7-444a-88f3-c1929e1888fb"
-          }
-        ]
-      }
-    },
     "goblin bombardment": {
       "name": "Goblin Bombardment",
       "owners": {
@@ -178796,6 +178290,484 @@
             "isFoil": false,
             "collectorNumber": "45",
             "scryfallId": "18a9fb7b-780c-46c7-9a5f-f9abb3c353df"
+          }
+        ]
+      }
+    },
+    "meandering towershell": {
+      "name": "Meandering Towershell",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "KTK-141",
+            "scryfallId": "a637fbe8-a2c3-4477-9da2-c3b0bebc892d"
+          }
+        ]
+      }
+    },
+    "tower defense": {
+      "name": "Tower Defense",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "gtc",
+            "setName": "Gatecrash",
+            "isFoil": false,
+            "collectorNumber": "137",
+            "scryfallId": "857e1eb2-f3f2-4c7f-9965-da9d7e385223"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "rna",
+            "setName": "Ravnica Allegiance",
+            "isFoil": true,
+            "collectorNumber": "147",
+            "scryfallId": "195e94a4-a698-4c66-9428-5cc8a40d42c6"
+          }
+        ]
+      }
+    },
+    "paradox engine": {
+      "name": "Paradox Engine",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "aer",
+            "setName": "Aether Revolt",
+            "isFoil": false,
+            "collectorNumber": "169",
+            "scryfallId": "fd8ccd81-9e11-47fa-8e16-064c52c24506"
+          }
+        ]
+      }
+    },
+    "brood butcher": {
+      "name": "Brood Butcher",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "bfz",
+            "setName": "Battle for Zendikar",
+            "isFoil": false,
+            "collectorNumber": "199",
+            "scryfallId": "2f60fdd6-bc18-4c04-83d8-c204f2b35ff1"
+          }
+        ]
+      }
+    },
+    "sarkhan's unsealing": {
+      "name": "Sarkhan's Unsealing",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "jmp",
+            "setName": "Jumpstart",
+            "isFoil": false,
+            "collectorNumber": "361",
+            "scryfallId": "bb9c6068-cfd8-4371-b549-e474d573e52e"
+          }
+        ]
+      }
+    },
+    "rakshasa vizier": {
+      "name": "Rakshasa Vizier",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ktk",
+            "setName": "Khans of Tarkir",
+            "isFoil": false,
+            "collectorNumber": "193",
+            "scryfallId": "cb39e674-919d-4db6-9ac1-cfa1cca02207"
+          }
+        ]
+      }
+    },
+    "retribution of the ancients": {
+      "name": "Retribution of the Ancients",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "ktk",
+            "setName": "Khans of Tarkir",
+            "isFoil": false,
+            "collectorNumber": "85",
+            "scryfallId": "0d3ee29d-b374-471d-80c3-bcad7a4226e6"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "ktk",
+            "setName": "Khans of Tarkir",
+            "isFoil": false,
+            "collectorNumber": "85",
+            "scryfallId": "0d3ee29d-b374-471d-80c3-bcad7a4226e6"
+          }
+        ]
+      }
+    },
+    "dynavolt tower": {
+      "name": "Dynavolt Tower",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "kld",
+            "setName": "Kaladesh",
+            "isFoil": false,
+            "collectorNumber": "208",
+            "scryfallId": "c45fd2ae-0f91-47ca-99bd-22ddf946df9f"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 1,
+            "set": "kld",
+            "setName": "Kaladesh",
+            "isFoil": false,
+            "collectorNumber": "208",
+            "scryfallId": "c45fd2ae-0f91-47ca-99bd-22ddf946df9f"
+          }
+        ],
+        "Franco Fatala": [
+          {
+            "qty": 1,
+            "set": "kld",
+            "setName": "Kaladesh",
+            "isFoil": false,
+            "collectorNumber": "208",
+            "scryfallId": "c45fd2ae-0f91-47ca-99bd-22ddf946df9f"
+          }
+        ]
+      }
+    },
+    "sphinx's decree": {
+      "name": "Sphinx's Decree",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "rix",
+            "setName": "Rivals of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "24",
+            "scryfallId": "5058a729-9739-4548-b420-deebbc0950b7"
+          }
+        ]
+      }
+    },
+    "endbringer": {
+      "name": "Endbringer",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 2,
+            "set": "j22",
+            "setName": "Jumpstart 2022",
+            "isFoil": false,
+            "collectorNumber": "748",
+            "scryfallId": "22ee3947-e147-4d04-bb01-161a72ffdf0e"
+          }
+        ]
+      }
+    },
+    "nowhere to run": {
+      "name": "Nowhere to Run",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 4,
+            "set": "pw26",
+            "setName": "Wizards Play Network 2026",
+            "isFoil": false,
+            "collectorNumber": "1",
+            "scryfallId": "ded0147d-220f-411d-8950-fd8a47786f6f"
+          }
+        ],
+        "Lucho": [
+          {
+            "qty": 4,
+            "set": "dsk",
+            "setName": "Duskmourn: House of Horror",
+            "isFoil": false,
+            "collectorNumber": "111",
+            "scryfallId": "fee60e9d-9ee7-444a-88f3-c1929e1888fb"
+          }
+        ]
+      }
+    },
+    "ruinous path": {
+      "name": "Ruinous Path",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pbfz",
+            "setName": "Battle for Zendikar Promos",
+            "isFoil": true,
+            "collectorNumber": "123",
+            "scryfallId": "8a41a241-ee56-486a-9b4d-fb355b5f65b2"
+          }
+        ]
+      }
+    },
+    "oracle's vault": {
+      "name": "Oracle's Vault",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pakh",
+            "setName": "Amonkhet Promos",
+            "isFoil": true,
+            "collectorNumber": "234",
+            "scryfallId": "027e3eef-d121-4a72-9395-043f57b023c7"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "pakh",
+            "setName": "Amonkhet Promos",
+            "isFoil": true,
+            "collectorNumber": "234",
+            "scryfallId": "027e3eef-d121-4a72-9395-043f57b023c7"
+          }
+        ]
+      }
+    },
+    "yasova dragonclaw": {
+      "name": "Yasova Dragonclaw",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "frf",
+            "setName": "Fate Reforged",
+            "isFoil": true,
+            "collectorNumber": "148",
+            "scryfallId": "490994c6-9fef-482b-835d-a64350bfaa8d"
+          }
+        ]
+      }
+    },
+    "suspension field": {
+      "name": "Suspension Field",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "f15",
+            "setName": "Friday Night Magic 2015",
+            "isFoil": true,
+            "collectorNumber": "4",
+            "scryfallId": "dbeb9475-64d8-4c9a-98e6-c473075ee343"
+          }
+        ]
+      }
+    },
+    "ajani vengeant": {
+      "name": "Ajani Vengeant",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pala",
+            "setName": "Shards of Alara Promos",
+            "isFoil": true,
+            "collectorNumber": "154★",
+            "scryfallId": "c6ffd45c-2353-4292-b6f6-29d8f7e031ca"
+          }
+        ]
+      }
+    },
+    "shanna, sisay's legacy": {
+      "name": "Shanna, Sisay's Legacy",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pdom",
+            "setName": "Dominaria Promos",
+            "isFoil": true,
+            "collectorNumber": "204",
+            "scryfallId": "2c86aae8-08bb-4acc-b39b-10e5b2ac40d9"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "mul",
+            "setName": "Multiverse Legends",
+            "isFoil": false,
+            "collectorNumber": "59",
+            "scryfallId": "40c00370-0160-48a9-87ac-07a3b2bbd459"
+          }
+        ]
+      }
+    },
+    "clash of wills": {
+      "name": "Clash of Wills",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "f16",
+            "setName": "Friday Night Magic 2016",
+            "isFoil": true,
+            "collectorNumber": "2",
+            "scryfallId": "1c67ab53-9489-4658-859e-9dd8a6e0f20d"
+          }
+        ]
+      }
+    },
+    "smash to smithereens": {
+      "name": "Smash to Smithereens",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "f16",
+            "setName": "Friday Night Magic 2016",
+            "isFoil": true,
+            "collectorNumber": "3",
+            "scryfallId": "4daccff6-8395-4b11-a4ce-3576aa38bc09"
+          }
+        ]
+      }
+    },
+    "supplant form": {
+      "name": "Supplant Form",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "pfrf",
+            "setName": "Fate Reforged Promos",
+            "isFoil": true,
+            "collectorNumber": "54",
+            "scryfallId": "14ade2bb-3838-4cac-b986-21e7c5213a25"
+          }
+        ]
+      }
+    },
+    "sanguine evangelist": {
+      "name": "Sanguine Evangelist",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": true,
+            "collectorNumber": "34",
+            "scryfallId": "269ddd84-fdc4-4c94-b183-32ecec56967c"
+          },
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "34",
+            "scryfallId": "269ddd84-fdc4-4c94-b183-32ecec56967c"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "34",
+            "scryfallId": "269ddd84-fdc4-4c94-b183-32ecec56967c"
+          }
+        ]
+      }
+    },
+    "drowner of hope": {
+      "name": "Drowner of Hope",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 3,
+            "set": "bfz",
+            "setName": "Battle for Zendikar",
+            "isFoil": false,
+            "collectorNumber": "57",
+            "scryfallId": "0fd5b48c-6850-47d4-8106-297be6c8f708"
+          }
+        ]
+      }
+    },
+    "shadowborn apostle": {
+      "name": "Shadowborn Apostle",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 3,
+            "set": "m14",
+            "setName": "Magic 2014",
+            "isFoil": false,
+            "collectorNumber": "114",
+            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
+          }
+        ],
+        "Carmelo": [
+          {
+            "qty": 4,
+            "set": "m14",
+            "setName": "Magic 2014",
+            "isFoil": false,
+            "collectorNumber": "114",
+            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "m14",
+            "setName": "Magic 2014",
+            "isFoil": false,
+            "collectorNumber": "114",
+            "scryfallId": "202c2323-6589-457a-af51-5528a98e7b30"
+          }
+        ]
+      }
+    },
+    "spatial contortion": {
+      "name": "Spatial Contortion",
+      "owners": {
+        "Guillo": [
+          {
+            "qty": 3,
+            "set": "ogw",
+            "setName": "Oath of the Gatewatch",
+            "isFoil": false,
+            "collectorNumber": "8",
+            "scryfallId": "4e2acf70-7625-4b77-83c1-0e08436da31f"
+          }
+        ],
+        "Angie": [
+          {
+            "qty": 1,
+            "set": "f16",
+            "setName": "Friday Night Magic 2016",
+            "isFoil": true,
+            "collectorNumber": "7",
+            "scryfallId": "acaee41d-5f7c-481d-8591-f9dc47c784e4"
           }
         ]
       }
@@ -193533,7 +193505,7 @@
             "qty": 1,
             "set": "xln",
             "setName": "Ixalan",
-            "isFoil": true,
+            "isFoil": false,
             "collectorNumber": "227",
             "scryfallId": "d6a322c5-aa4c-4a99-a3ca-48c1353104f0"
           },
@@ -193541,7 +193513,7 @@
             "qty": 1,
             "set": "xln",
             "setName": "Ixalan",
-            "isFoil": false,
+            "isFoil": true,
             "collectorNumber": "227",
             "scryfallId": "d6a322c5-aa4c-4a99-a3ca-48c1353104f0"
           }
@@ -195569,19 +195541,19 @@
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 1,
-            "set": "m11",
-            "setName": "Magic 2011",
-            "isFoil": false,
-            "collectorNumber": "224",
-            "scryfallId": "ddb09397-c3cc-4ecc-aef7-bee4dfa6957f"
-          },
-          {
-            "qty": 1,
             "set": "e01",
             "setName": "Archenemy: Nicol Bolas",
             "isFoil": false,
             "collectorNumber": "94",
             "scryfallId": "2d3a1881-aa9c-4b0e-8350-e033b0367035"
+          },
+          {
+            "qty": 1,
+            "set": "m11",
+            "setName": "Magic 2011",
+            "isFoil": false,
+            "collectorNumber": "224",
+            "scryfallId": "ddb09397-c3cc-4ecc-aef7-bee4dfa6957f"
           }
         ]
       }
@@ -207392,31 +207364,6 @@
             "isFoil": false,
             "collectorNumber": "149",
             "scryfallId": "9d795f79-c3a5-4ea1-a5cf-1ce73d6837b6"
-          }
-        ]
-      }
-    },
-    "dauthi voidwalker": {
-      "name": "Dauthi Voidwalker",
-      "owners": {
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "mh2",
-            "setName": "Modern Horizons 2",
-            "isFoil": false,
-            "collectorNumber": "81",
-            "scryfallId": "dce5db87-4a78-4b8d-b5c2-918ccd1ba4e3"
-          }
-        ],
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "mh2",
-            "setName": "Modern Horizons 2",
-            "isFoil": false,
-            "collectorNumber": "81",
-            "scryfallId": "dce5db87-4a78-4b8d-b5c2-918ccd1ba4e3"
           }
         ]
       }
@@ -231797,18 +231744,18 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 2,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "33",
-            "scryfallId": "ec3de5f4-bb55-4ab9-995f-f3e0dc22c1bb"
-          },
-          {
             "qty": 1,
             "set": "tdm",
             "setName": "Tarkir: Dragonstorm",
             "isFoil": true,
+            "collectorNumber": "33",
+            "scryfallId": "ec3de5f4-bb55-4ab9-995f-f3e0dc22c1bb"
+          },
+          {
+            "qty": 2,
+            "set": "tdm",
+            "setName": "Tarkir: Dragonstorm",
+            "isFoil": false,
             "collectorNumber": "33",
             "scryfallId": "ec3de5f4-bb55-4ab9-995f-f3e0dc22c1bb"
           }
@@ -232075,20 +232022,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 2,
-            "set": "10e",
-            "setName": "Tenth Edition",
-            "isFoil": false,
-            "collectorNumber": "118",
-            "scryfallId": "3c878780-f666-44ab-a60e-c9985f628fc3"
-          },
-          {
             "qty": 1,
             "set": "ody",
             "setName": "Odyssey",
             "isFoil": false,
             "collectorNumber": "108",
             "scryfallId": "d4c3d626-880c-422a-ac09-a79a52847477"
+          },
+          {
+            "qty": 2,
+            "set": "10e",
+            "setName": "Tenth Edition",
+            "isFoil": false,
+            "collectorNumber": "118",
+            "scryfallId": "3c878780-f666-44ab-a60e-c9985f628fc3"
           }
         ]
       }
@@ -232194,21 +232141,6 @@
             "isFoil": false,
             "collectorNumber": "262",
             "scryfallId": "e472d4f5-add4-4de3-8718-31a47a35277c"
-          }
-        ]
-      }
-    },
-    "the serpent society": {
-      "name": "The Serpent Society",
-      "owners": {
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "msh",
-            "setName": "Marvel Super Heroes",
-            "isFoil": false,
-            "collectorNumber": "226",
-            "scryfallId": "209855ee-d531-4b58-926b-8da171d46619"
           }
         ]
       }
@@ -232593,7 +232525,7 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 4,
+            "qty": 3,
             "set": "m10",
             "setName": "Magic 2010",
             "isFoil": false,
@@ -232946,18 +232878,18 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 1,
-            "set": "dom",
-            "setName": "Dominaria",
-            "isFoil": true,
-            "collectorNumber": "35",
-            "scryfallId": "db827ee7-6f2e-4e10-aac0-120fc2b69fbd"
-          },
-          {
             "qty": 3,
             "set": "dom",
             "setName": "Dominaria",
             "isFoil": false,
+            "collectorNumber": "35",
+            "scryfallId": "db827ee7-6f2e-4e10-aac0-120fc2b69fbd"
+          },
+          {
+            "qty": 1,
+            "set": "dom",
+            "setName": "Dominaria",
+            "isFoil": true,
             "collectorNumber": "35",
             "scryfallId": "db827ee7-6f2e-4e10-aac0-120fc2b69fbd"
           }
@@ -233278,18 +233210,18 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 1,
-            "set": "dom",
-            "setName": "Dominaria",
-            "isFoil": true,
-            "collectorNumber": "101",
-            "scryfallId": "4f618e07-f06f-45d2-8512-e6cef88c0434"
-          },
-          {
             "qty": 11,
             "set": "dom",
             "setName": "Dominaria",
             "isFoil": false,
+            "collectorNumber": "101",
+            "scryfallId": "4f618e07-f06f-45d2-8512-e6cef88c0434"
+          },
+          {
+            "qty": 1,
+            "set": "dom",
+            "setName": "Dominaria",
+            "isFoil": true,
             "collectorNumber": "101",
             "scryfallId": "4f618e07-f06f-45d2-8512-e6cef88c0434"
           }
@@ -233474,20 +233406,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 2,
-            "set": "m10",
-            "setName": "Magic 2010",
-            "isFoil": false,
-            "collectorNumber": "67",
-            "scryfallId": "83d274f4-452b-4ff2-b026-83667e9ba98f"
-          },
-          {
             "qty": 1,
             "set": "6ed",
             "setName": "Classic Sixth Edition",
             "isFoil": false,
             "collectorNumber": "86",
             "scryfallId": "e35b8c9b-40d0-4986-9457-ef1263fdfae1"
+          },
+          {
+            "qty": 2,
+            "set": "m10",
+            "setName": "Magic 2010",
+            "isFoil": false,
+            "collectorNumber": "67",
+            "scryfallId": "83d274f4-452b-4ff2-b026-83667e9ba98f"
           }
         ]
       }
@@ -234579,19 +234511,19 @@
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 1,
-            "set": "dom",
-            "setName": "Dominaria",
-            "isFoil": false,
-            "collectorNumber": "132",
-            "scryfallId": "fa25fedc-6038-48c8-b42a-817ac186492e"
-          },
-          {
-            "qty": 1,
             "set": "pdom",
             "setName": "Dominaria Promos",
             "isFoil": true,
             "collectorNumber": "132s",
             "scryfallId": "007f1787-0d40-4fbd-b774-df891a0e5620"
+          },
+          {
+            "qty": 1,
+            "set": "dom",
+            "setName": "Dominaria",
+            "isFoil": false,
+            "collectorNumber": "132",
+            "scryfallId": "fa25fedc-6038-48c8-b42a-817ac186492e"
           }
         ]
       }
@@ -235396,20 +235328,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 1,
-            "set": "m10",
-            "setName": "Magic 2010",
-            "isFoil": false,
-            "collectorNumber": "52",
-            "scryfallId": "6f75d8c9-c15d-4474-9d3f-d35f49e46477"
-          },
-          {
             "qty": 6,
             "set": "hop",
             "setName": "Planechase",
             "isFoil": false,
             "collectorNumber": "9",
             "scryfallId": "44e49332-b1e1-4b88-b508-516b55c67a1d"
+          },
+          {
+            "qty": 1,
+            "set": "m10",
+            "setName": "Magic 2010",
+            "isFoil": false,
+            "collectorNumber": "52",
+            "scryfallId": "6f75d8c9-c15d-4474-9d3f-d35f49e46477"
           }
         ]
       }
@@ -235809,20 +235741,35 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 3,
-            "set": "m19",
-            "setName": "Core Set 2019",
-            "isFoil": false,
-            "collectorNumber": "90",
-            "scryfallId": "c9699446-b6f5-4e6a-a263-059cbf6e4b7e"
-          },
-          {
             "qty": 1,
             "set": "m19",
             "setName": "Core Set 2019",
             "isFoil": true,
             "collectorNumber": "90",
             "scryfallId": "c9699446-b6f5-4e6a-a263-059cbf6e4b7e"
+          },
+          {
+            "qty": 3,
+            "set": "m19",
+            "setName": "Core Set 2019",
+            "isFoil": false,
+            "collectorNumber": "90",
+            "scryfallId": "c9699446-b6f5-4e6a-a263-059cbf6e4b7e"
+          }
+        ]
+      }
+    },
+    "dauthi voidwalker": {
+      "name": "Dauthi Voidwalker",
+      "owners": {
+        "Manuel Venturini (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "mh2",
+            "setName": "Modern Horizons 2",
+            "isFoil": false,
+            "collectorNumber": "81",
+            "scryfallId": "dce5db87-4a78-4b8d-b5c2-918ccd1ba4e3"
           }
         ]
       }
@@ -235862,20 +235809,20 @@
       "owners": {
         "Manuel Venturini (Sta Fe)": [
           {
-            "qty": 4,
-            "set": "mmq",
-            "setName": "Mercadian Masques",
-            "isFoil": false,
-            "collectorNumber": "129",
-            "scryfallId": "a6aacc3e-fe37-4a08-83e6-7ee8c0c0af74"
-          },
-          {
             "qty": 1,
             "set": "tmp",
             "setName": "Tempest",
             "isFoil": false,
             "collectorNumber": "118",
             "scryfallId": "bf4708e8-2149-4990-987c-2ea55fc6c508"
+          },
+          {
+            "qty": 4,
+            "set": "mmq",
+            "setName": "Mercadian Masques",
+            "isFoil": false,
+            "collectorNumber": "129",
+            "scryfallId": "a6aacc3e-fe37-4a08-83e6-7ee8c0c0af74"
           }
         ]
       }

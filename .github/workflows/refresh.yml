@@ -37,6 +37,7 @@ jobs:
           PHONE_ALEX: ${{ secrets.PHONE_ALEX }}
           PHONE_EZE_POSADA: ${{ secrets.PHONE_EZE_POSADA }}
           PHONE_MANUEL_VENTURINI: ${{ secrets.PHONE_MANUEL_VENTURINI }}
+          PHONE_BRUNO: ${{ secrets.PHONE_BRUNO }}
           # ── add more phones here as you add people ──
           # PHONE_FRIEND2:  ${{ secrets.PHONE_FRIEND2 }}
 

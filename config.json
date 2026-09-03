@@ -91,6 +91,19 @@
       "urls": [
         "https://moxfield.com/binders/f8_VAgMAgE280877zPzepQ"
       ]
+    },
+    {
+      "owner": "Bruno (Sta Fe)",
+      "urls": [
+        "https://moxfield.com/binders/13ZD0aUtFUKgwoFpjTUD8g",
+        "https://moxfield.com/binders/i8oia5HZbUyhtj8IphHRMw",
+        "https://moxfield.com/binders/UyZ4MXZ4aEKIL7Ty_pMjSw",
+        "https://moxfield.com/binders/OyIUU0Rgy0WcVmmxrjPdhA",
+        "https://moxfield.com/binders/FfwRyQSKQkuZ94tynq4N6w",
+        "https://moxfield.com/binders/-6brCJRclka8hGlr99w6vw",
+        "https://moxfield.com/binders/9NAmnGodA0qc52BsU1eb0g",
+        "https://moxfield.com/binders/-_ir2zzH3km8nCibMg8brw"
+      ]
     }
   ],
 
@@ -109,6 +122,7 @@
     "Ruso": "PHONE_RUSO",
     "Alex": "PHONE_ALEX",
     "Eze Posadas (Sta Fe)": "PHONE_EZE_POSADA",
-    "Manuel Venturini (Sta Fe)": "PHONE_MANUEL_VENTURINI"
+    "Manuel Venturini (Sta Fe)": "PHONE_MANUEL_VENTURINI",
+    "Bruno (Sta Fe)": "PHONE_BRUNO"
   }
 }

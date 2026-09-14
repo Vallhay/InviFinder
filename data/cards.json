@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T11:04:51.026Z",
+  "lastUpdated": "2026-09-14T11:41:12.074Z",
   "owners": [
     {
       "name": "Fausto",
@@ -29,12 +29,12 @@
     {
       "name": "Licha",
       "phone": "+5493434760157",
-      "cardCount": 63
+      "cardCount": 68
     },
     {
       "name": "Lucho",
       "phone": "+5493434514582",
-      "cardCount": 996
+      "cardCount": 997
     },
     {
       "name": "Rodrigo Deganutti",
@@ -79,7 +79,7 @@
     {
       "name": "Bruno (Sta Fe)",
       "phone": "+5493425578095",
-      "cardCount": 3117
+      "cardCount": 3120
     }
   ],
   "cards": {
@@ -2219,19 +2219,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "m20",
-            "setName": "Core Set 2020",
-            "isFoil": false,
-            "collectorNumber": "3",
-            "scryfallId": "2ba18114-af6c-48cd-82c9-eb6541d566bf"
-          },
-          {
-            "qty": 1,
             "set": "cmr",
             "setName": "Commander Legends",
             "isFoil": false,
             "collectorNumber": "5",
             "scryfallId": "ff8461c3-6e80-403a-b3eb-01882c841d7a"
+          },
+          {
+            "qty": 1,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "3",
+            "scryfallId": "2ba18114-af6c-48cd-82c9-eb6541d566bf"
           }
         ]
       }
@@ -32485,19 +32485,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "C17-151",
-            "scryfallId": "4a8c8b67-a07b-4316-acc1-b3597b0e774b"
-          },
-          {
-            "qty": 1,
             "set": "cmr",
             "setName": "Commander Legends",
             "isFoil": false,
             "collectorNumber": "427",
             "scryfallId": "159e0372-de5e-4830-b690-f5154ed1036c"
+          },
+          {
+            "qty": 1,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "C17-151",
+            "scryfallId": "4a8c8b67-a07b-4316-acc1-b3597b0e774b"
           }
         ],
         "Alex": [
@@ -41133,6 +41133,16 @@
         "Angie": [
           {
             "qty": 3,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "227",
+            "scryfallId": "6a0b230b-d391-4998-a3f7-7b158a0ec2cd"
+          }
+        ],
+        "Licha": [
+          {
+            "qty": 1,
             "set": "fdn",
             "setName": "Foundations",
             "isFoil": false,
@@ -56846,19 +56856,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "thb",
-            "setName": "Theros Beyond Death",
-            "isFoil": false,
-            "collectorNumber": "34",
-            "scryfallId": "9dbb9f86-f487-44b1-815f-30d87868b531"
-          },
-          {
-            "qty": 1,
             "set": "som",
             "setName": "Scars of Mirrodin",
             "isFoil": false,
             "collectorNumber": "18",
             "scryfallId": "18ae62f9-361c-4849-b0af-2b08fc0421c8"
+          },
+          {
+            "qty": 1,
+            "set": "thb",
+            "setName": "Theros Beyond Death",
+            "isFoil": false,
+            "collectorNumber": "34",
+            "scryfallId": "9dbb9f86-f487-44b1-815f-30d87868b531"
           }
         ],
         "Rodrigo Deganutti": [
@@ -105975,20 +105985,20 @@
         ],
         "Lucho": [
           {
-            "qty": 3,
-            "set": "hou",
-            "setName": "Hour of Devastation",
-            "isFoil": false,
-            "collectorNumber": "11",
-            "scryfallId": "03f005de-7971-4f22-ad1f-5d0667f68113"
-          },
-          {
             "qty": 1,
             "set": "plst",
             "setName": "The List",
             "isFoil": false,
             "collectorNumber": "HOU-11",
             "scryfallId": "ae24cd84-23b0-4e45-835f-1752e8d1c719"
+          },
+          {
+            "qty": 3,
+            "set": "hou",
+            "setName": "Hour of Devastation",
+            "isFoil": false,
+            "collectorNumber": "11",
+            "scryfallId": "03f005de-7971-4f22-ad1f-5d0667f68113"
           }
         ]
       }
@@ -119511,19 +119521,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "uma",
-            "setName": "Ultimate Masters",
-            "isFoil": false,
-            "collectorNumber": "18",
-            "scryfallId": "8d95d57f-daaf-49d2-b26f-2058c065f0fe"
-          },
-          {
-            "qty": 1,
             "set": "clu",
             "setName": "Ravnica: Clue Edition",
             "isFoil": false,
             "collectorNumber": "63",
             "scryfallId": "138f0e49-71d5-4582-92be-797e753f0f42"
+          },
+          {
+            "qty": 1,
+            "set": "uma",
+            "setName": "Ultimate Masters",
+            "isFoil": false,
+            "collectorNumber": "18",
+            "scryfallId": "8d95d57f-daaf-49d2-b26f-2058c065f0fe"
           }
         ]
       }
@@ -161023,20 +161033,20 @@
         ],
         "Lucho": [
           {
-            "qty": 1,
-            "set": "dmu",
-            "setName": "Dominaria United",
-            "isFoil": false,
-            "collectorNumber": "64",
-            "scryfallId": "9d933bf1-14f0-4150-a0d2-6b845b9624cf"
-          },
-          {
             "qty": 3,
             "set": "blb",
             "setName": "Bloomburrow",
             "isFoil": false,
             "collectorNumber": "69",
             "scryfallId": "4dc3b49e-3674-494c-bdea-4374cefd10f4"
+          },
+          {
+            "qty": 1,
+            "set": "dmu",
+            "setName": "Dominaria United",
+            "isFoil": false,
+            "collectorNumber": "64",
+            "scryfallId": "9d933bf1-14f0-4150-a0d2-6b845b9624cf"
           }
         ]
       }
@@ -188991,16 +189001,6 @@
             "scryfallId": "ded0147d-220f-411d-8950-fd8a47786f6f"
           }
         ],
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "pw26",
-            "setName": "Wizards Play Network 2026",
-            "isFoil": false,
-            "collectorNumber": "1",
-            "scryfallId": "ded0147d-220f-411d-8950-fd8a47786f6f"
-          }
-        ],
         "Lucho": [
           {
             "qty": 4,
@@ -196970,6 +196970,16 @@
             "collectorNumber": "52",
             "scryfallId": "c7d7db76-0a0c-444f-96f1-559838450549"
           }
+        ],
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "pfdn",
+            "setName": "Foundations Promos",
+            "isFoil": false,
+            "collectorNumber": "216p",
+            "scryfallId": "13f23845-87c2-467c-90b8-a170ec4ded97"
+          }
         ]
       }
     },
@@ -202026,6 +202036,16 @@
             "collectorNumber": "97",
             "scryfallId": "1eb34f51-0bd2-43c3-af95-2ce8dabcc7bb"
           }
+        ],
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "pfdn",
+            "setName": "Foundations Promos",
+            "isFoil": false,
+            "collectorNumber": "97p",
+            "scryfallId": "aa72c2fd-53dd-4a34-95e1-89e2b2d2ac72"
+          }
         ]
       }
     },
@@ -203310,20 +203330,20 @@
         ],
         "Lucho": [
           {
-            "qty": 3,
-            "set": "cmm",
-            "setName": "Commander Masters",
-            "isFoil": false,
-            "collectorNumber": "816",
-            "scryfallId": "6d7ea506-262b-415f-86f2-d70ddfd15a8d"
-          },
-          {
             "qty": 1,
             "set": "c20",
             "setName": "Commander 2020",
             "isFoil": false,
             "collectorNumber": "79",
             "scryfallId": "1bf09533-3849-4756-8ccf-143196cc17d9"
+          },
+          {
+            "qty": 3,
+            "set": "cmm",
+            "setName": "Commander Masters",
+            "isFoil": false,
+            "collectorNumber": "816",
+            "scryfallId": "6d7ea506-262b-415f-86f2-d70ddfd15a8d"
           }
         ],
         "Guille A.": [
@@ -205545,6 +205565,16 @@
             "isFoil": false,
             "collectorNumber": "M20-94",
             "scryfallId": "a1f0a051-325f-4853-9529-7206f02787e3"
+          }
+        ],
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "m20",
+            "setName": "Core Set 2020",
+            "isFoil": false,
+            "collectorNumber": "94",
+            "scryfallId": "f03109b9-54a8-4d68-97c2-e42c7d5c2d41"
           }
         ]
       }
@@ -209161,21 +209191,6 @@
         ]
       }
     },
-    "archfiend of the dross": {
-      "name": "Archfiend of the Dross",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "one",
-            "setName": "Phyrexia: All Will Be One",
-            "isFoil": false,
-            "collectorNumber": "304",
-            "scryfallId": "5a4aad94-5b0e-4644-b331-39dae2a7e937"
-          }
-        ]
-      }
-    },
     "darkbore pathway // slitherbore pathway": {
       "name": "Darkbore Pathway // Slitherbore Pathway",
       "owners": {
@@ -209217,6 +209232,66 @@
             "isFoil": false,
             "collectorNumber": "571",
             "scryfallId": "d174cb01-b1cf-444c-a893-cc61ddf88b8c"
+          }
+        ]
+      }
+    },
+    "aetherize": {
+      "name": "Aetherize",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "151",
+            "scryfallId": "1e5530fc-0291-4a17-b048-c5d24e6f51d8"
+          }
+        ],
+        "Alex": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "151",
+            "scryfallId": "1e5530fc-0291-4a17-b048-c5d24e6f51d8"
+          }
+        ],
+        "Manuel Venturini (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "gtc",
+            "setName": "Gatecrash",
+            "isFoil": false,
+            "collectorNumber": "29",
+            "scryfallId": "33303859-c6e0-4ebd-bb5f-44be7f5d7459"
+          }
+        ]
+      }
+    },
+    "thousand-year storm": {
+      "name": "Thousand-Year Storm",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "248",
+            "scryfallId": "76c48a67-1410-40f1-9b93-0172d85e4688"
+          }
+        ],
+        "Manuel Venturini (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "grn",
+            "setName": "Guilds of Ravnica",
+            "isFoil": true,
+            "collectorNumber": "207",
+            "scryfallId": "270a0863-7d07-43f0-925d-a8ce0383a1cb"
           }
         ]
       }
@@ -209311,6 +209386,31 @@
         ]
       }
     },
+    "wildgrowth archaic": {
+      "name": "Wildgrowth Archaic",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "psos",
+            "setName": "Secrets of Strixhaven Promos",
+            "isFoil": false,
+            "collectorNumber": "168p",
+            "scryfallId": "d1cf5878-afb5-4eaf-9fd0-3f9062183968"
+          }
+        ],
+        "Franco Fatala": [
+          {
+            "qty": 1,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "168",
+            "scryfallId": "0e6e2188-7203-4d10-a838-27233f283cd5"
+          }
+        ]
+      }
+    },
     "the dawning archaic": {
       "name": "The Dawning Archaic",
       "owners": {
@@ -209326,21 +209426,6 @@
         ]
       }
     },
-    "mister fantastic, reed richards": {
-      "name": "Mister Fantastic, Reed Richards",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "msh",
-            "setName": "Marvel Super Heroes",
-            "isFoil": false,
-            "collectorNumber": "66",
-            "scryfallId": "17ef068b-61fc-443d-97b0-1e41f2622425"
-          }
-        ]
-      }
-    },
     "abomination, terrifying titan": {
       "name": "Abomination, Terrifying Titan",
       "owners": {
@@ -209352,6 +209437,21 @@
             "isFoil": false,
             "collectorNumber": "333",
             "scryfallId": "d1fb5d54-8232-4888-9d51-5aca90a7b6eb"
+          }
+        ]
+      }
+    },
+    "mister fantastic, reed richards": {
+      "name": "Mister Fantastic, Reed Richards",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "pw26",
+            "setName": "Wizards Play Network 2026",
+            "isFoil": false,
+            "collectorNumber": "10",
+            "scryfallId": "a07db360-ccf5-451c-be5e-a9b43992dc4e"
           }
         ]
       }
@@ -211171,6 +211271,21 @@
         ]
       }
     },
+    "decorum dissertation": {
+      "name": "Decorum Dissertation",
+      "owners": {
+        "Lucho": [
+          {
+            "qty": 1,
+            "set": "sos",
+            "setName": "Secrets of Strixhaven",
+            "isFoil": false,
+            "collectorNumber": "78",
+            "scryfallId": "f4ab2d9b-c73d-478d-aac7-4d3bb24296d2"
+          }
+        ]
+      }
+    },
     "decree of justice": {
       "name": "Decree of Justice",
       "owners": {
@@ -211847,19 +211962,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "afc",
-            "setName": "Forgotten Realms Commander",
-            "isFoil": false,
-            "collectorNumber": "66",
-            "scryfallId": "0f57fc0c-cab1-4eb0-a58a-0c7a762f1572"
-          },
-          {
-            "qty": 1,
             "set": "c13",
             "setName": "Commander 2013",
             "isFoil": false,
             "collectorNumber": "10",
             "scryfallId": "2a57191e-58a8-4ba9-8b5d-5a4e5a08b404"
+          },
+          {
+            "qty": 1,
+            "set": "afc",
+            "setName": "Forgotten Realms Commander",
+            "isFoil": false,
+            "collectorNumber": "66",
+            "scryfallId": "0f57fc0c-cab1-4eb0-a58a-0c7a762f1572"
           }
         ]
       }
@@ -215718,20 +215833,20 @@
       "owners": {
         "Lucho": [
           {
-            "qty": 2,
-            "set": "dsc",
-            "setName": "Duskmourn: House of Horror Commander",
-            "isFoil": false,
-            "collectorNumber": "196",
-            "scryfallId": "398ebc01-19db-4418-abda-cc401539db93"
-          },
-          {
             "qty": 1,
             "set": "fdn",
             "setName": "Foundations",
             "isFoil": false,
             "collectorNumber": "232",
             "scryfallId": "8c504c23-1e9a-411b-9cfe-4180d0c744f6"
+          },
+          {
+            "qty": 2,
+            "set": "dsc",
+            "setName": "Duskmourn: House of Horror Commander",
+            "isFoil": false,
+            "collectorNumber": "196",
+            "scryfallId": "398ebc01-19db-4418-abda-cc401539db93"
           }
         ],
         "Guille A.": [
@@ -216553,19 +216668,19 @@
         "Lucho": [
           {
             "qty": 1,
-            "set": "j22",
-            "setName": "Jumpstart 2022",
-            "isFoil": false,
-            "collectorNumber": "350",
-            "scryfallId": "b4858a8d-a31a-471f-a740-6c6774ec7dac"
-          },
-          {
-            "qty": 1,
             "set": "iko",
             "setName": "Ikoria: Lair of Behemoths",
             "isFoil": false,
             "collectorNumber": "68",
             "scryfallId": "a12680db-957f-48c1-9062-2edd9115ba26"
+          },
+          {
+            "qty": 1,
+            "set": "j22",
+            "setName": "Jumpstart 2022",
+            "isFoil": false,
+            "collectorNumber": "350",
+            "scryfallId": "b4858a8d-a31a-471f-a740-6c6774ec7dac"
           }
         ]
       }
@@ -231456,21 +231571,6 @@
         ]
       }
     },
-    "wildgrowth archaic": {
-      "name": "Wildgrowth Archaic",
-      "owners": {
-        "Franco Fatala": [
-          {
-            "qty": 1,
-            "set": "sos",
-            "setName": "Secrets of Strixhaven",
-            "isFoil": false,
-            "collectorNumber": "168",
-            "scryfallId": "0e6e2188-7203-4d10-a838-27233f283cd5"
-          }
-        ]
-      }
-    },
     "steam vents": {
       "name": "Steam Vents",
       "owners": {
@@ -243781,31 +243881,6 @@
         ]
       }
     },
-    "aetherize": {
-      "name": "Aetherize",
-      "owners": {
-        "Alex": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "151",
-            "scryfallId": "1e5530fc-0291-4a17-b048-c5d24e6f51d8"
-          }
-        ],
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "gtc",
-            "setName": "Gatecrash",
-            "isFoil": false,
-            "collectorNumber": "29",
-            "scryfallId": "33303859-c6e0-4ebd-bb5f-44be7f5d7459"
-          }
-        ]
-      }
-    },
     "aerith, last ancient": {
       "name": "Aerith, Last Ancient",
       "owners": {
@@ -244486,21 +244561,6 @@
             "isFoil": false,
             "collectorNumber": "108",
             "scryfallId": "c12a0717-e9ea-4be3-a29f-179671ed4489"
-          }
-        ]
-      }
-    },
-    "thousand-year storm": {
-      "name": "Thousand-Year Storm",
-      "owners": {
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "grn",
-            "setName": "Guilds of Ravnica",
-            "isFoil": true,
-            "collectorNumber": "207",
-            "scryfallId": "270a0863-7d07-43f0-925d-a8ce0383a1cb"
           }
         ]
       }
@@ -263221,20 +263281,20 @@
       "owners": {
         "Bruno (Sta Fe)": [
           {
-            "qty": 3,
-            "set": "mor",
-            "setName": "Morningtide",
-            "isFoil": false,
-            "collectorNumber": "127",
-            "scryfallId": "093f039a-47af-4284-a7ab-67971c2bc5b2"
-          },
-          {
             "qty": 1,
             "set": "c14",
             "setName": "Commander 2014",
             "isFoil": false,
             "collectorNumber": "200",
             "scryfallId": "1ba26e3e-905d-4b8b-bab6-0109697f5a1d"
+          },
+          {
+            "qty": 3,
+            "set": "mor",
+            "setName": "Morningtide",
+            "isFoil": false,
+            "collectorNumber": "127",
+            "scryfallId": "093f039a-47af-4284-a7ab-67971c2bc5b2"
           }
         ]
       }
@@ -263408,6 +263468,21 @@
             "isFoil": false,
             "collectorNumber": "104",
             "scryfallId": "4ca76e9a-672f-49eb-86c6-00fac60d3065"
+          }
+        ]
+      }
+    },
+    "greenhilt trainee": {
+      "name": "Greenhilt Trainee",
+      "owners": {
+        "Bruno (Sta Fe)": [
+          {
+            "qty": 5,
+            "set": "nph",
+            "setName": "New Phyrexia",
+            "isFoil": false,
+            "collectorNumber": "112",
+            "scryfallId": "370f8ef5-c809-43cc-903a-077fad33cd30"
           }
         ]
       }

@@ -81,7 +81,7 @@ async function fetchDeck(id) {
   const data = await fetchViaCF(`${MOX_API}/v2/decks/all/${id}`);
 
   const cards = [];
-  const sections = ['mainboard', 'sideboard', 'commanders', 'considering', 'maybeboard'];
+  const sections = ['mainboard', 'sideboard', 'commanders', 'maybeboard'];
   for (const sec of sections) {
     const obj = data[sec];
     if (!obj || typeof obj !== 'object') continue;

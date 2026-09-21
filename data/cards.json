@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T10:35:49.031Z",
+  "lastUpdated": "2026-09-21T11:55:06.083Z",
   "owners": [
     {
       "name": "Fausto",
@@ -29,7 +29,7 @@
     {
       "name": "Licha",
       "phone": "+5493434760157",
-      "cardCount": 74
+      "cardCount": 73
     },
     {
       "name": "Lucho",
@@ -39,7 +39,7 @@
     {
       "name": "Rodrigo Deganutti",
       "phone": "+5493434723142",
-      "cardCount": 1011
+      "cardCount": 1013
     },
     {
       "name": "Guille A.",
@@ -40958,16 +40958,6 @@
             "scryfallId": "6a0b230b-d391-4998-a3f7-7b158a0ec2cd"
           }
         ],
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "227",
-            "scryfallId": "6a0b230b-d391-4998-a3f7-7b158a0ec2cd"
-          }
-        ],
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 1,
@@ -55071,6 +55061,16 @@
             "isFoil": false,
             "collectorNumber": "231",
             "scryfallId": "1918ea65-ab7f-4d40-97fd-a656c892a2a1"
+          }
+        ],
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "340",
+            "scryfallId": "af3f0764-9d80-4e15-a402-1f93e652bcbb"
           }
         ],
         "Lucho": [
@@ -123761,16 +123761,6 @@
             "scryfallId": "90de84c9-941b-4056-8501-ce8a948b9643"
           }
         ],
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "otj",
-            "setName": "Outlaws of Thunder Junction",
-            "isFoil": false,
-            "collectorNumber": "16",
-            "scryfallId": "90de84c9-941b-4056-8501-ce8a948b9643"
-          }
-        ],
         "Rodrigo Deganutti": [
           {
             "qty": 1,
@@ -126591,6 +126581,16 @@
             "isFoil": false,
             "collectorNumber": "310",
             "scryfallId": "be938240-214d-4726-ba2a-aaedc5bbe7ba"
+          }
+        ],
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "226",
+            "scryfallId": "3e241642-5172-4437-b694-f6aa159d5cd9"
           }
         ],
         "Guille A.": [
@@ -141481,16 +141481,6 @@
             "isFoil": false,
             "collectorNumber": "71",
             "scryfallId": "f9f21681-fd36-4106-8395-3153599a08a6"
-          }
-        ],
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "a25",
-            "setName": "Masters 25",
-            "isFoil": false,
-            "collectorNumber": "182",
-            "scryfallId": "3f290ed2-d1a8-4a90-a3a7-8240652dc109"
           }
         ]
       }
@@ -199525,16 +199515,6 @@
             "collectorNumber": "231",
             "scryfallId": "c11cb0eb-819e-4905-ad95-e43618d3c81e"
           }
-        ],
-        "Licha": [
-          {
-            "qty": 2,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": false,
-            "collectorNumber": "231",
-            "scryfallId": "c11cb0eb-819e-4905-ad95-e43618d3c81e"
-          }
         ]
       }
     },
@@ -208277,6 +208257,246 @@
         ]
       }
     },
+    "selfless savior": {
+      "name": "Selfless Savior",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "m21",
+            "setName": "Core Set 2021",
+            "isFoil": false,
+            "collectorNumber": "36",
+            "scryfallId": "6911759c-7177-402c-a95a-f9f46efaf521"
+          }
+        ]
+      }
+    },
+    "ooze flux": {
+      "name": "Ooze Flux",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "gtc",
+            "setName": "Gatecrash",
+            "isFoil": false,
+            "collectorNumber": "128",
+            "scryfallId": "e9554369-7961-4cea-9da0-a1235805a26a"
+          }
+        ]
+      }
+    },
+    "thalia's lieutenant": {
+      "name": "Thalia's Lieutenant",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "soi",
+            "setName": "Shadows over Innistrad",
+            "isFoil": false,
+            "collectorNumber": "43",
+            "scryfallId": "fe162594-2332-4816-a9e1-57eb19b12651"
+          }
+        ]
+      }
+    },
+    "soul-scar mage": {
+      "name": "Soul-Scar Mage",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "akh",
+            "setName": "Amonkhet",
+            "isFoil": false,
+            "collectorNumber": "148",
+            "scryfallId": "a8003786-6e2a-4e2d-a915-f23293c7273a"
+          }
+        ]
+      }
+    },
+    "hateful eidolon": {
+      "name": "Hateful Eidolon",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 4,
+            "set": "thb",
+            "setName": "Theros Beyond Death",
+            "isFoil": false,
+            "collectorNumber": "101",
+            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "thb",
+            "setName": "Theros Beyond Death",
+            "isFoil": false,
+            "collectorNumber": "101",
+            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
+          }
+        ]
+      }
+    },
+    "primal bellow": {
+      "name": "Primal Bellow",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "zen",
+            "setName": "Zendikar",
+            "isFoil": false,
+            "collectorNumber": "176",
+            "scryfallId": "23b0c6a9-a7c0-4518-8580-653712062265"
+          }
+        ]
+      }
+    },
+    "bloodchief's thirst": {
+      "name": "Bloodchief's Thirst",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "znr",
+            "setName": "Zendikar Rising",
+            "isFoil": false,
+            "collectorNumber": "94",
+            "scryfallId": "059e8447-6b1c-4651-a734-a8fea2cbf7b2"
+          }
+        ]
+      }
+    },
+    "prosperous innkeeper": {
+      "name": "Prosperous Innkeeper",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 2,
+            "set": "afr",
+            "setName": "Adventures in the Forgotten Realms",
+            "isFoil": false,
+            "collectorNumber": "402",
+            "scryfallId": "ea414698-5f87-461b-b1b2-b317b929280f"
+          }
+        ]
+      }
+    },
+    "adeline, resplendent cathar": {
+      "name": "Adeline, Resplendent Cathar",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "pmid",
+            "setName": "Innistrad: Midnight Hunt Promos",
+            "isFoil": false,
+            "collectorNumber": "1p",
+            "scryfallId": "b615facd-6276-4896-bdf6-e5c006f55c5f"
+          }
+        ]
+      }
+    },
+    "darkbore pathway // slitherbore pathway": {
+      "name": "Darkbore Pathway // Slitherbore Pathway",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "KHM-254",
+            "scryfallId": "885528e5-42a2-4ae3-accd-02bfd7173b7a"
+          }
+        ]
+      }
+    },
+    "ruin-lurker bat": {
+      "name": "Ruin-Lurker Bat",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "lci",
+            "setName": "The Lost Caverns of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "33",
+            "scryfallId": "d6bedf13-c2bc-4e5d-aba3-3c0d5495a9bb"
+          }
+        ]
+      }
+    },
+    "wojek investigator": {
+      "name": "Wojek Investigator",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 2,
+            "set": "mkm",
+            "setName": "Murders at Karlov Manor",
+            "isFoil": true,
+            "collectorNumber": "429",
+            "scryfallId": "58eccc85-bdfe-48f4-a79e-76d9ef122815"
+          }
+        ]
+      }
+    },
+    "leyline of hope": {
+      "name": "Leyline of Hope",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "dsk",
+            "setName": "Duskmourn: House of Horror",
+            "isFoil": false,
+            "collectorNumber": "18",
+            "scryfallId": "40960e47-3065-485e-aede-29a62411034e"
+          }
+        ]
+      }
+    },
+    "slippery bogle": {
+      "name": "Slippery Bogle",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 3,
+            "set": "plst",
+            "setName": "The List",
+            "isFoil": false,
+            "collectorNumber": "EVE-160",
+            "scryfallId": "505eccd0-472e-41db-a336-0583960ac85a"
+          }
+        ],
+        "Manuel Venturini (Sta Fe)": [
+          {
+            "qty": 4,
+            "set": "eve",
+            "setName": "Eventide",
+            "isFoil": false,
+            "collectorNumber": "160",
+            "scryfallId": "19714d6c-2bfa-4ee0-aa2f-5ccc196bc5d8"
+          }
+        ],
+        "Bruno (Sta Fe)": [
+          {
+            "qty": 1,
+            "set": "eve",
+            "setName": "Eventide",
+            "isFoil": false,
+            "collectorNumber": "160",
+            "scryfallId": "19714d6c-2bfa-4ee0-aa2f-5ccc196bc5d8"
+          }
+        ]
+      }
+    },
     "devout decree": {
       "name": "Devout Decree",
       "owners": {
@@ -208327,32 +208547,67 @@
         ]
       }
     },
-    "ooze flux": {
-      "name": "Ooze Flux",
+    "youthful valkyrie": {
+      "name": "Youthful Valkyrie",
       "owners": {
         "Licha": [
           {
             "qty": 1,
-            "set": "gtc",
-            "setName": "Gatecrash",
+            "set": "fdn",
+            "setName": "Foundations",
             "isFoil": false,
-            "collectorNumber": "128",
-            "scryfallId": "e9554369-7961-4cea-9da0-a1235805a26a"
+            "collectorNumber": "149",
+            "scryfallId": "9d795f79-c3a5-4ea1-a5cf-1ce73d6837b6"
+          }
+        ],
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "149",
+            "scryfallId": "9d795f79-c3a5-4ea1-a5cf-1ce73d6837b6"
           }
         ]
       }
     },
-    "thalia's lieutenant": {
-      "name": "Thalia's Lieutenant",
+    "ghalta, primal hunger": {
+      "name": "Ghalta, Primal Hunger",
       "owners": {
         "Licha": [
           {
             "qty": 1,
-            "set": "soi",
-            "setName": "Shadows over Innistrad",
+            "set": "fdn",
+            "setName": "Foundations",
             "isFoil": false,
-            "collectorNumber": "43",
-            "scryfallId": "fe162594-2332-4816-a9e1-57eb19b12651"
+            "collectorNumber": "222",
+            "scryfallId": "6a9c39e4-a8cf-42dd-8d0e-45634b335546"
+          }
+        ],
+        "Manuel Venturini (Sta Fe)": [
+          {
+            "qty": 4,
+            "set": "rix",
+            "setName": "Rivals of Ixalan",
+            "isFoil": false,
+            "collectorNumber": "130",
+            "scryfallId": "0104b5b3-9376-4ad7-9a77-3e564e9c42e6"
+          }
+        ]
+      }
+    },
+    "sylvan scavenging": {
+      "name": "Sylvan Scavenging",
+      "owners": {
+        "Licha": [
+          {
+            "qty": 1,
+            "set": "fdn",
+            "setName": "Foundations",
+            "isFoil": false,
+            "collectorNumber": "113",
+            "scryfallId": "c35b683c-d3b2-46a1-876a-81b34e8ba2fc"
           }
         ]
       }
@@ -208382,68 +208637,8 @@
         ]
       }
     },
-    "soul-scar mage": {
-      "name": "Soul-Scar Mage",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "akh",
-            "setName": "Amonkhet",
-            "isFoil": false,
-            "collectorNumber": "148",
-            "scryfallId": "a8003786-6e2a-4e2d-a915-f23293c7273a"
-          }
-        ]
-      }
-    },
-    "primal bellow": {
-      "name": "Primal Bellow",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "zen",
-            "setName": "Zendikar",
-            "isFoil": false,
-            "collectorNumber": "176",
-            "scryfallId": "23b0c6a9-a7c0-4518-8580-653712062265"
-          }
-        ]
-      }
-    },
-    "bloodchief's thirst": {
-      "name": "Bloodchief's Thirst",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "znr",
-            "setName": "Zendikar Rising",
-            "isFoil": false,
-            "collectorNumber": "94",
-            "scryfallId": "059e8447-6b1c-4651-a734-a8fea2cbf7b2"
-          }
-        ]
-      }
-    },
-    "darkbore pathway // slitherbore pathway": {
-      "name": "Darkbore Pathway // Slitherbore Pathway",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "KHM-254",
-            "scryfallId": "885528e5-42a2-4ae3-accd-02bfd7173b7a"
-          }
-        ]
-      }
-    },
-    "youthful valkyrie": {
-      "name": "Youthful Valkyrie",
+    "boltwave": {
+      "name": "Boltwave",
       "owners": {
         "Licha": [
           {
@@ -208451,63 +208646,8 @@
             "set": "fdn",
             "setName": "Foundations",
             "isFoil": false,
-            "collectorNumber": "149",
-            "scryfallId": "9d795f79-c3a5-4ea1-a5cf-1ce73d6837b6"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "fdn",
-            "setName": "Foundations",
-            "isFoil": false,
-            "collectorNumber": "149",
-            "scryfallId": "9d795f79-c3a5-4ea1-a5cf-1ce73d6837b6"
-          }
-        ]
-      }
-    },
-    "guardian of faith": {
-      "name": "Guardian of Faith",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "soc",
-            "setName": "Secrets of Strixhaven Commander",
-            "isFoil": false,
-            "collectorNumber": "148",
-            "scryfallId": "037739cd-e05c-4aae-9123-f924e420010c"
-          }
-        ]
-      }
-    },
-    "adeline, resplendent cathar": {
-      "name": "Adeline, Resplendent Cathar",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "pmid",
-            "setName": "Innistrad: Midnight Hunt Promos",
-            "isFoil": false,
-            "collectorNumber": "1p",
-            "scryfallId": "b615facd-6276-4896-bdf6-e5c006f55c5f"
-          }
-        ]
-      }
-    },
-    "leyline of hope": {
-      "name": "Leyline of Hope",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "dsk",
-            "setName": "Duskmourn: House of Horror",
-            "isFoil": false,
-            "collectorNumber": "18",
-            "scryfallId": "40960e47-3065-485e-aede-29a62411034e"
+            "collectorNumber": "79",
+            "scryfallId": "8d1ec351-5e70-4eb2-b590-6bff94ef8178"
           }
         ]
       }
@@ -208542,62 +208682,57 @@
         ]
       }
     },
-    "genemorph imago": {
-      "name": "Genemorph Imago",
+    "silvergill mentor": {
+      "name": "Silvergill Mentor",
       "owners": {
         "Licha": [
           {
             "qty": 1,
-            "set": "eoe",
-            "setName": "Edge of Eternities",
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
+            "isFoil": true,
+            "collectorNumber": "403",
+            "scryfallId": "3841d32f-4e41-409a-b1ec-3db9390d61a1"
+          }
+        ],
+        "Alex": [
+          {
+            "qty": 1,
+            "set": "ecl",
+            "setName": "Lorwyn Eclipsed",
             "isFoil": false,
-            "collectorNumber": "217",
-            "scryfallId": "40f0ecf7-f49e-46ff-aa5b-9ff5361b72c5"
+            "collectorNumber": "69",
+            "scryfallId": "e6e37fe8-459c-4992-8ae9-f782cddab2fe"
           }
         ]
       }
     },
-    "jackal, genius geneticist": {
-      "name": "Jackal, Genius Geneticist",
+    "leyline axe": {
+      "name": "Leyline Axe",
       "owners": {
         "Licha": [
           {
             "qty": 1,
-            "set": "spm",
-            "setName": "Marvel's Spider-Man",
+            "set": "pfdn",
+            "setName": "Foundations Promos",
             "isFoil": false,
-            "collectorNumber": "131",
-            "scryfallId": "c0ab07d6-b7c3-4129-9aef-cfdcfabec4b2"
+            "collectorNumber": "129p",
+            "scryfallId": "e27b5fa0-af26-48ea-9f82-5032a6208999"
           }
         ]
       }
     },
-    "the dawning archaic": {
-      "name": "The Dawning Archaic",
+    "guardian of faith": {
+      "name": "Guardian of Faith",
       "owners": {
         "Licha": [
           {
             "qty": 1,
-            "set": "psos",
-            "setName": "Secrets of Strixhaven Promos",
+            "set": "soc",
+            "setName": "Secrets of Strixhaven Commander",
             "isFoil": false,
-            "collectorNumber": "1p",
-            "scryfallId": "8613f27f-fc9e-4efc-93f9-3dc644e6b692"
-          }
-        ]
-      }
-    },
-    "traumatic critique": {
-      "name": "Traumatic Critique",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 1,
-            "set": "psos",
-            "setName": "Secrets of Strixhaven Promos",
-            "isFoil": false,
-            "collectorNumber": "239p",
-            "scryfallId": "e4b0dbef-154a-40f0-9645-bdc195de9261"
+            "collectorNumber": "148",
+            "scryfallId": "037739cd-e05c-4aae-9123-f924e420010c"
           }
         ]
       }
@@ -208627,27 +208762,17 @@
         ]
       }
     },
-    "mister fantastic, reed richards": {
-      "name": "Mister Fantastic, Reed Richards",
+    "the dawning archaic": {
+      "name": "The Dawning Archaic",
       "owners": {
         "Licha": [
           {
             "qty": 1,
-            "set": "pw26",
-            "setName": "Wizards Play Network 2026",
+            "set": "psos",
+            "setName": "Secrets of Strixhaven Promos",
             "isFoil": false,
-            "collectorNumber": "10",
-            "scryfallId": "a07db360-ccf5-451c-be5e-a9b43992dc4e"
-          }
-        ],
-        "Lucho": [
-          {
-            "qty": 1,
-            "set": "pw26",
-            "setName": "Wizards Play Network 2026",
-            "isFoil": false,
-            "collectorNumber": "10",
-            "scryfallId": "a07db360-ccf5-451c-be5e-a9b43992dc4e"
+            "collectorNumber": "1p",
+            "scryfallId": "8613f27f-fc9e-4efc-93f9-3dc644e6b692"
           }
         ]
       }
@@ -208677,147 +208802,27 @@
         ]
       }
     },
-    "hateful eidolon": {
-      "name": "Hateful Eidolon",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 4,
-            "set": "thb",
-            "setName": "Theros Beyond Death",
-            "isFoil": false,
-            "collectorNumber": "101",
-            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
-          }
-        ],
-        "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "thb",
-            "setName": "Theros Beyond Death",
-            "isFoil": false,
-            "collectorNumber": "101",
-            "scryfallId": "812d0f15-f738-4644-9d29-2589d7e66915"
-          }
-        ]
-      }
-    },
-    "prosperous innkeeper": {
-      "name": "Prosperous Innkeeper",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 2,
-            "set": "afr",
-            "setName": "Adventures in the Forgotten Realms",
-            "isFoil": false,
-            "collectorNumber": "402",
-            "scryfallId": "ea414698-5f87-461b-b1b2-b317b929280f"
-          }
-        ]
-      }
-    },
-    "selfless savior": {
-      "name": "Selfless Savior",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "m21",
-            "setName": "Core Set 2021",
-            "isFoil": false,
-            "collectorNumber": "36",
-            "scryfallId": "6911759c-7177-402c-a95a-f9f46efaf521"
-          }
-        ]
-      }
-    },
-    "slippery bogle": {
-      "name": "Slippery Bogle",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "plst",
-            "setName": "The List",
-            "isFoil": false,
-            "collectorNumber": "EVE-160",
-            "scryfallId": "505eccd0-472e-41db-a336-0583960ac85a"
-          }
-        ],
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 4,
-            "set": "eve",
-            "setName": "Eventide",
-            "isFoil": false,
-            "collectorNumber": "160",
-            "scryfallId": "19714d6c-2bfa-4ee0-aa2f-5ccc196bc5d8"
-          }
-        ],
-        "Bruno (Sta Fe)": [
-          {
-            "qty": 1,
-            "set": "eve",
-            "setName": "Eventide",
-            "isFoil": false,
-            "collectorNumber": "160",
-            "scryfallId": "19714d6c-2bfa-4ee0-aa2f-5ccc196bc5d8"
-          }
-        ]
-      }
-    },
-    "ruin-lurker bat": {
-      "name": "Ruin-Lurker Bat",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 3,
-            "set": "lci",
-            "setName": "The Lost Caverns of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "33",
-            "scryfallId": "d6bedf13-c2bc-4e5d-aba3-3c0d5495a9bb"
-          }
-        ]
-      }
-    },
-    "silvergill mentor": {
-      "name": "Silvergill Mentor",
+    "mister fantastic, reed richards": {
+      "name": "Mister Fantastic, Reed Richards",
       "owners": {
         "Licha": [
           {
             "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
-            "isFoil": true,
-            "collectorNumber": "403",
-            "scryfallId": "3841d32f-4e41-409a-b1ec-3db9390d61a1"
+            "set": "pw26",
+            "setName": "Wizards Play Network 2026",
+            "isFoil": false,
+            "collectorNumber": "10",
+            "scryfallId": "a07db360-ccf5-451c-be5e-a9b43992dc4e"
           }
         ],
-        "Alex": [
+        "Lucho": [
           {
             "qty": 1,
-            "set": "ecl",
-            "setName": "Lorwyn Eclipsed",
+            "set": "pw26",
+            "setName": "Wizards Play Network 2026",
             "isFoil": false,
-            "collectorNumber": "69",
-            "scryfallId": "e6e37fe8-459c-4992-8ae9-f782cddab2fe"
-          }
-        ]
-      }
-    },
-    "wojek investigator": {
-      "name": "Wojek Investigator",
-      "owners": {
-        "Licha": [
-          {
-            "qty": 2,
-            "set": "mkm",
-            "setName": "Murders at Karlov Manor",
-            "isFoil": true,
-            "collectorNumber": "429",
-            "scryfallId": "58eccc85-bdfe-48f4-a79e-76d9ef122815"
+            "collectorNumber": "10",
+            "scryfallId": "a07db360-ccf5-451c-be5e-a9b43992dc4e"
           }
         ]
       }
@@ -224149,6 +224154,21 @@
         ]
       }
     },
+    "bilbo, thief in the night": {
+      "name": "Bilbo, Thief in the Night",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "hob",
+            "setName": "The Hobbit",
+            "isFoil": false,
+            "collectorNumber": "33",
+            "scryfallId": "484c7f83-8339-4ae1-8350-68ce1f7d05a3"
+          }
+        ]
+      }
+    },
     "burn, burn, tree and fern": {
       "name": "Burn, Burn, Tree and Fern",
       "owners": {
@@ -224175,6 +224195,21 @@
             "isFoil": false,
             "collectorNumber": "22",
             "scryfallId": "68f4893d-e9a5-4f89-ade3-9ab78a834ad5"
+          }
+        ]
+      }
+    },
+    "gandalf, spark starter": {
+      "name": "Gandalf, Spark Starter",
+      "owners": {
+        "Rodrigo Deganutti": [
+          {
+            "qty": 1,
+            "set": "hob",
+            "setName": "The Hobbit",
+            "isFoil": false,
+            "collectorNumber": "203",
+            "scryfallId": "ccf2923e-5358-4e40-bc64-2953ac2d1692"
           }
         ]
       }
@@ -246912,21 +246947,6 @@
             "isFoil": false,
             "collectorNumber": "162",
             "scryfallId": "8b118200-55e0-4d06-9e7e-ecde2814d24e"
-          }
-        ]
-      }
-    },
-    "ghalta, primal hunger": {
-      "name": "Ghalta, Primal Hunger",
-      "owners": {
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 4,
-            "set": "rix",
-            "setName": "Rivals of Ixalan",
-            "isFoil": false,
-            "collectorNumber": "130",
-            "scryfallId": "0104b5b3-9376-4ad7-9a77-3e564e9c42e6"
           }
         ]
       }

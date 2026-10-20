@@ -35,6 +35,7 @@ jobs:
           PHONE_JONA: ${{ secrets.PHONE_JONA }}
           PHONE_RUSO: ${{ secrets.PHONE_RUSO }}
           PHONE_ALEX: ${{ secrets.PHONE_ALEX }}
+          PHONE_NICO_D: ${{ secrets.PHONE_NICO_D }}
           PHONE_EZE_POSADA: ${{ secrets.PHONE_EZE_POSADA }}
           PHONE_MANUEL_VENTURINI: ${{ secrets.PHONE_MANUEL_VENTURINI }}
           PHONE_BRUNO: ${{ secrets.PHONE_BRUNO }}

@@ -302,7 +302,7 @@ Lightning Bolt
 // cardDB: Map<lowerName, { name, owners: Map<lowerOwner, {display, qty}>, scryfallData }>
 const cardDB  = new Map();
 
-// owners: [ { name, phone, cardCount } ]
+// owners: [ { name, hasPhone, cardCount } ]
 let owners = [];
 
 // cart: Map<ownerName, Map<cardName, Map<printingKey, { qty, printing }>>>
@@ -1006,8 +1006,6 @@ function renderCart() {
   
   for (const [ownerName, ownerCart] of cart) {
     const owner = owners.find(o => o.name === ownerName);
-    const phone = owner?.phone || '';
-    
     html += `<div class="cart-owner-section">
       <div class="cart-owner-header">
         <div class="cart-owner-name">${esc(ownerName)}</div>
@@ -1039,9 +1037,11 @@ function renderCart() {
   body.innerHTML = html;
 }
 
+const WA_REDIRECT = 'https://moxfield-proxy.faguaz.workers.dev/wa';
+
 function sendWhatsApp(ownerName) {
   const owner = owners.find(o => o.name === ownerName);
-  if (!owner || !owner.phone) {
+  if (!owner || !owner.hasPhone) {
     alert('No hay número de teléfono registrado para ' + ownerName);
     return;
   }
@@ -1060,8 +1060,8 @@ function sendWhatsApp(ownerName) {
     }
   }
   
-  const cleanPhone = owner.phone.replace(/\D/g, '');
-  const url = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(msg)}`;
+  // The number never reaches the browser until the Worker redirects to wa.me
+  const url = `${WA_REDIRECT}?owner=${encodeURIComponent(ownerName)}&text=${encodeURIComponent(msg)}`;
   
   window.open(url, '_blank');
 }

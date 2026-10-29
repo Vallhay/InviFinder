@@ -81,7 +81,7 @@ async function fetchDeck(id) {
   const data = await fetchViaCF(`${MOX_API}/v2/decks/all/${id}`);
 
   const cards = [];
-  const sections = ['mainboard', 'sideboard', 'commanders', 'maybeboard'];
+  const sections = ['mainboard', 'sideboard', 'commanders', 'considering', 'maybeboard'];
   for (const sec of sections) {
     const obj = data[sec];
     if (!obj || typeof obj !== 'object') continue;
@@ -249,7 +249,7 @@ async function main() {
   //     }
   //   }
 
-  const ownersMap = {};   // owner → { name, phone, cardCount }
+  const ownersMap = {};   // owner → { name, hasPhone, cardCount }
   const cardsMap  = {};   // lowerName → { name, owners: { ownerName: [printings] } }
 
   for (const src of config.sources) {
@@ -257,9 +257,9 @@ async function main() {
 
     // ensure owner exists
     if (!ownersMap[src.owner]) {
-      const secretKey = config.phoneSecretNames?.[src.owner];
-      const phone     = secretKey ? (process.env[secretKey] || '') : '';
-      ownersMap[src.owner] = { name: src.owner, phone, cardCount: 0 };
+      // Phones live ONLY in the Cloudflare Worker (PHONES secret). Never write them here.
+      // If an owner is missing from PHONES, the Worker answers 404 when WhatsApp is clicked.
+      ownersMap[src.owner] = { name: src.owner, hasPhone: true, cardCount: 0 };
     }
 
     // handle both old format (single "url") and new format (array of "urls")

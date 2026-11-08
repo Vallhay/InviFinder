@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T12:24:31.595Z",
+  "lastUpdated": "2026-11-08T12:44:30.317Z",
   "owners": [
     {
       "name": "Fausto",
@@ -44,7 +44,7 @@
     {
       "name": "Guille A.",
       "hasPhone": true,
-      "cardCount": 585
+      "cardCount": 543
     },
     {
       "name": "Franco Fatala",
@@ -1079,16 +1079,6 @@
             "isFoil": false,
             "collectorNumber": "148",
             "scryfallId": "1c1aa6f8-2d34-4f4b-9184-0eab2e4745f7"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "eoc",
-            "setName": "Edge of Eternities Commander",
-            "isFoil": false,
-            "collectorNumber": "91",
-            "scryfallId": "66f135b4-8cb3-4a4e-86ae-81a3cf4b7259"
           }
         ]
       }
@@ -2609,16 +2599,6 @@
           }
         ],
         "Nacho": [
-          {
-            "qty": 1,
-            "set": "m11",
-            "setName": "Magic 2011",
-            "isFoil": true,
-            "collectorNumber": "4",
-            "scryfallId": "71f05793-9e6f-4815-9a13-f791cb4b6aa0"
-          }
-        ],
-        "Guille A.": [
           {
             "qty": 1,
             "set": "m11",
@@ -13756,16 +13736,6 @@
             "scryfallId": "56f8fd3b-5b1c-4d8c-86c7-ee3ba7de69c7"
           }
         ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "j22",
-            "setName": "Jumpstart 2022",
-            "isFoil": false,
-            "collectorNumber": "87",
-            "scryfallId": "4fd1764f-9b62-4977-9fee-1266f0ea01aa"
-          }
-        ],
         "Manuel Venturini (Sta Fe)": [
           {
             "qty": 1,
@@ -20751,16 +20721,6 @@
       "name": "Drider",
       "owners": {
         "Fausto": [
-          {
-            "qty": 1,
-            "set": "afr",
-            "setName": "Adventures in the Forgotten Realms",
-            "isFoil": false,
-            "collectorNumber": "98",
-            "scryfallId": "bbc06a88-1eb6-4edb-8f03-d8274560cc41"
-          }
-        ],
-        "Guille A.": [
           {
             "qty": 1,
             "set": "afr",
@@ -28928,16 +28888,6 @@
             "isFoil": false,
             "collectorNumber": "175",
             "scryfallId": "5eaa6257-614b-4f39-b7fa-ea5f12f94b64"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "blc",
-            "setName": "Bloomburrow Commander",
-            "isFoil": false,
-            "collectorNumber": "218",
-            "scryfallId": "109dee37-5de5-40fa-9405-8645be6c5076"
           }
         ],
         "Bruno (Sta Fe)": [
@@ -64568,16 +64518,6 @@
             "collectorNumber": "143",
             "scryfallId": "6562dfd9-dfa3-4aa0-b851-c2678c62bced"
           }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "mic",
-            "setName": "Midnight Hunt Commander",
-            "isFoil": false,
-            "collectorNumber": "143",
-            "scryfallId": "6562dfd9-dfa3-4aa0-b851-c2678c62bced"
-          }
         ]
       }
     },
@@ -89072,16 +89012,6 @@
             "collectorNumber": "191",
             "scryfallId": "1624a5f4-f5bc-47c9-85de-c5520ee234ce"
           }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "otj",
-            "setName": "Outlaws of Thunder Junction",
-            "isFoil": false,
-            "collectorNumber": "191",
-            "scryfallId": "1624a5f4-f5bc-47c9-85de-c5520ee234ce"
-          }
         ]
       }
     },
@@ -92245,16 +92175,6 @@
       "name": "Bane of Progress",
       "owners": {
         "Nacho": [
-          {
-            "qty": 1,
-            "set": "fic",
-            "setName": "Final Fantasy Commander",
-            "isFoil": false,
-            "collectorNumber": "299",
-            "scryfallId": "5fc6876d-7441-42ac-b9a1-c10a0f6a387a"
-          }
-        ],
-        "Guille A.": [
           {
             "qty": 1,
             "set": "fic",
@@ -130600,16 +130520,6 @@
             "collectorNumber": "180",
             "scryfallId": "75955b0e-12d6-40ba-aab5-b7b7e2bde121"
           }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "m3c",
-            "setName": "Modern Horizons 3 Commander",
-            "isFoil": false,
-            "collectorNumber": "267",
-            "scryfallId": "95a3dfe3-88ab-4820-ae5e-2f5edd4d6f2f"
-          }
         ]
       }
     },
@@ -142802,16 +142712,6 @@
             "collectorNumber": "243",
             "scryfallId": "51710b19-68e3-4853-901f-e618bde61161"
           }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "2x2",
-            "setName": "Double Masters 2022",
-            "isFoil": false,
-            "collectorNumber": "258",
-            "scryfallId": "c4125bb0-b104-438e-a6a2-97f9d141243c"
-          }
         ]
       }
     },
@@ -153804,16 +153704,6 @@
             "collectorNumber": "201",
             "scryfallId": "9e91efc6-0e6a-4a9e-a486-adf53e53d3f1"
           }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "lcc",
-            "setName": "The Lost Caverns of Ixalan Commander",
-            "isFoil": false,
-            "collectorNumber": "249",
-            "scryfallId": "7d4f04bc-30ee-4948-9905-774f532ac811"
-          }
         ]
       }
     },
@@ -155896,16 +155786,6 @@
           }
         ],
         "Rodrigo Deganutti": [
-          {
-            "qty": 1,
-            "set": "stx",
-            "setName": "Strixhaven: School of Mages",
-            "isFoil": false,
-            "collectorNumber": "224",
-            "scryfallId": "7aa0e762-0fec-4f6b-b3d7-ad8295bf557d"
-          }
-        ],
-        "Guille A.": [
           {
             "qty": 1,
             "set": "stx",
@@ -171916,16 +171796,6 @@
             "collectorNumber": "835",
             "scryfallId": "2d3c6325-450d-47f3-a69b-cdfc25ae65e6"
           }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "cmr",
-            "setName": "Commander Legends",
-            "isFoil": false,
-            "collectorNumber": "260",
-            "scryfallId": "3fd331b3-43cd-421a-964d-d3b35bb8abcb"
-          }
         ]
       }
     },
@@ -178217,16 +178087,6 @@
             "isFoil": false,
             "collectorNumber": "3",
             "scryfallId": "3336593c-c83c-48e7-9173-2c2b74b94d3b"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "j22",
-            "setName": "Jumpstart 2022",
-            "isFoil": false,
-            "collectorNumber": "259",
-            "scryfallId": "6e05f939-f5bb-4813-b2fe-ed79df1818ec"
           }
         ]
       }
@@ -201073,16 +200933,6 @@
             "collectorNumber": "200",
             "scryfallId": "a2caf73e-c3eb-4fa8-996a-d3d18b2ffaeb"
           }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "pvow",
-            "setName": "Innistrad: Crimson Vow Promos",
-            "isFoil": false,
-            "collectorNumber": "200p",
-            "scryfallId": "84582d2f-7f3e-403c-9512-99cd212fa7b9"
-          }
         ]
       }
     },
@@ -204011,7 +203861,7 @@
         ],
         "Guille A.": [
           {
-            "qty": 2,
+            "qty": 1,
             "set": "fin",
             "setName": "Final Fantasy",
             "isFoil": false,
@@ -209332,16 +209182,6 @@
             "collectorNumber": "92",
             "scryfallId": "56d7e5fa-6521-4a00-afa5-de8867a1192e"
           }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "jmp",
-            "setName": "Jumpstart",
-            "isFoil": false,
-            "collectorNumber": "257",
-            "scryfallId": "d9dc87b3-60b2-4cf8-b620-334700db1aa9"
-          }
         ]
       }
     },
@@ -209761,16 +209601,6 @@
             "isFoil": false,
             "collectorNumber": "156",
             "scryfallId": "b20a1d49-699d-413e-985b-7890f3e7115e"
-          }
-        ],
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "dsc",
-            "setName": "Duskmourn: House of Horror Commander",
-            "isFoil": false,
-            "collectorNumber": "83",
-            "scryfallId": "714ba062-f8ae-4ae6-a1c2-8fa093cc0fb2"
           }
         ],
         "Bruno (Sta Fe)": [
@@ -211708,16 +211538,6 @@
       "name": "Outcaster Trailblazer",
       "owners": {
         "Carmelo": [
-          {
-            "qty": 1,
-            "set": "otj",
-            "setName": "Outlaws of Thunder Junction",
-            "isFoil": false,
-            "collectorNumber": "173",
-            "scryfallId": "33b9cd6c-d75c-4905-aa38-ff03a9c4b398"
-          }
-        ],
-        "Guille A.": [
           {
             "qty": 1,
             "set": "otj",
@@ -230623,21 +230443,6 @@
         ]
       }
     },
-    "arasta of the endless web": {
-      "name": "Arasta of the Endless Web",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "tdc",
-            "setName": "Tarkir: Dragonstorm Commander",
-            "isFoil": false,
-            "collectorNumber": "244",
-            "scryfallId": "95a87b4e-f0ea-457c-9517-4acf313c4ca6"
-          }
-        ]
-      }
-    },
     "haktos the unscarred": {
       "name": "Haktos the Unscarred",
       "owners": {
@@ -230868,21 +230673,6 @@
         ]
       }
     },
-    "tatyova, benthic druid": {
-      "name": "Tatyova, Benthic Druid",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "dsc",
-            "setName": "Duskmourn: House of Horror Commander",
-            "isFoil": false,
-            "collectorNumber": "235",
-            "scryfallId": "13a902f7-2711-4769-9866-762195c3d0fb"
-          }
-        ]
-      }
-    },
     "thran golem": {
       "name": "Thran Golem",
       "owners": {
@@ -230919,21 +230709,6 @@
             "isFoil": false,
             "collectorNumber": "49",
             "scryfallId": "d3bc7176-abe0-47cf-a242-cf22a1f590be"
-          }
-        ]
-      }
-    },
-    "indulging patrician": {
-      "name": "Indulging Patrician",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "tdc",
-            "setName": "Tarkir: Dragonstorm Commander",
-            "isFoil": false,
-            "collectorNumber": "292",
-            "scryfallId": "a2c1765c-0054-4c9f-a6b3-5e54189b44c3"
           }
         ]
       }
@@ -231329,21 +231104,6 @@
             "isFoil": false,
             "collectorNumber": "233",
             "scryfallId": "d9947547-5f16-4972-ba1e-33bed3e49d34"
-          }
-        ]
-      }
-    },
-    "oran-rief hydra": {
-      "name": "Oran-Rief Hydra",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "bfz",
-            "setName": "Battle for Zendikar",
-            "isFoil": false,
-            "collectorNumber": "181",
-            "scryfallId": "74c3276b-2cbc-4266-b16a-bf72c044d95b"
           }
         ]
       }
@@ -231937,21 +231697,6 @@
         ]
       }
     },
-    "simic guildmage": {
-      "name": "Simic Guildmage",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "rvr",
-            "setName": "Ravnica Remastered",
-            "isFoil": false,
-            "collectorNumber": "223",
-            "scryfallId": "6f0656a7-ec7c-4fc2-983b-efd902752690"
-          }
-        ]
-      }
-    },
     "henge of ramos": {
       "name": "Henge of Ramos",
       "owners": {
@@ -232053,21 +231798,6 @@
             "isFoil": false,
             "collectorNumber": "199",
             "scryfallId": "900c9dfd-ece1-4b09-a801-0fa05e1994b9"
-          }
-        ]
-      }
-    },
-    "capricopian": {
-      "name": "Capricopian",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "c20",
-            "setName": "Commander 2020",
-            "isFoil": false,
-            "collectorNumber": "58",
-            "scryfallId": "0b81f82a-f004-44f3-9dad-1675941fe57b"
           }
         ]
       }
@@ -232663,21 +232393,6 @@
         ]
       }
     },
-    "anafenza, kin-tree spirit": {
-      "name": "Anafenza, Kin-Tree Spirit",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "cmm",
-            "setName": "Commander Masters",
-            "isFoil": false,
-            "collectorNumber": "11",
-            "scryfallId": "1717da7b-9e87-4694-873b-abd4e3bcd5e2"
-          }
-        ]
-      }
-    },
     "kolaghan forerunners": {
       "name": "Kolaghan Forerunners",
       "owners": {
@@ -232739,31 +232454,6 @@
             "isFoil": false,
             "collectorNumber": "67",
             "scryfallId": "2256e07f-a35a-4393-9744-045564d5770b"
-          }
-        ]
-      }
-    },
-    "runic armasaur": {
-      "name": "Runic Armasaur",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "lcc",
-            "setName": "The Lost Caverns of Ixalan Commander",
-            "isFoil": false,
-            "collectorNumber": "256",
-            "scryfallId": "17913fb0-ef73-4b20-8625-b84d4e62178a"
-          }
-        ],
-        "Manuel Venturini (Sta Fe)": [
-          {
-            "qty": 3,
-            "set": "m19",
-            "setName": "Core Set 2019",
-            "isFoil": false,
-            "collectorNumber": "200",
-            "scryfallId": "b445a0f0-2cca-4223-bd27-940d2cb6d29c"
           }
         ]
       }
@@ -233151,21 +232841,6 @@
         ]
       }
     },
-    "stoic farmer": {
-      "name": "Stoic Farmer",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "khc",
-            "setName": "Kaldheim Commander",
-            "isFoil": false,
-            "collectorNumber": "5",
-            "scryfallId": "f53f39e9-f07e-444f-8420-4545e56253e5"
-          }
-        ]
-      }
-    },
     "augmenter pugilist // echoing equation": {
       "name": "Augmenter Pugilist // Echoing Equation",
       "owners": {
@@ -233357,36 +233032,6 @@
             "isFoil": false,
             "collectorNumber": "185",
             "scryfallId": "485d6a5a-2054-47d5-91b8-71ce308ed4dc"
-          }
-        ]
-      }
-    },
-    "curse of clinging webs": {
-      "name": "Curse of Clinging Webs",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "mic",
-            "setName": "Midnight Hunt Commander",
-            "isFoil": false,
-            "collectorNumber": "25",
-            "scryfallId": "5e2d349e-fe5f-4627-84b7-2f01982603d2"
-          }
-        ]
-      }
-    },
-    "arvinox, the mind flail": {
-      "name": "Arvinox, the Mind Flail",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "dsc",
-            "setName": "Duskmourn: House of Horror Commander",
-            "isFoil": false,
-            "collectorNumber": "130",
-            "scryfallId": "f81e3110-857c-4074-9c55-7e87c22051c9"
           }
         ]
       }
@@ -233701,21 +233346,6 @@
         ]
       }
     },
-    "broodlord": {
-      "name": "Broodlord",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "40k",
-            "setName": "Warhammer 40,000 Commander",
-            "isFoil": false,
-            "collectorNumber": "89",
-            "scryfallId": "a5e700b9-ea2f-47a0-8a18-6231c8f2e1e9"
-          }
-        ]
-      }
-    },
     "winged hive tyrant": {
       "name": "Winged Hive Tyrant",
       "owners": {
@@ -233746,21 +233376,6 @@
         ]
       }
     },
-    "termagant swarm": {
-      "name": "Termagant Swarm",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "40k",
-            "setName": "Warhammer 40,000 Commander",
-            "isFoil": false,
-            "collectorNumber": "99",
-            "scryfallId": "31079fcb-49bf-41a2-a9b4-07c96f93399d"
-          }
-        ]
-      }
-    },
     "tyranid prime": {
       "name": "Tyranid Prime",
       "owners": {
@@ -233772,21 +233387,6 @@
             "isFoil": false,
             "collectorNumber": "145",
             "scryfallId": "6f6546f2-0db3-4969-b7d9-2e2138997155"
-          }
-        ]
-      }
-    },
-    "canoptek tomb sentinel": {
-      "name": "Canoptek Tomb Sentinel",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "40k",
-            "setName": "Warhammer 40,000 Commander",
-            "isFoil": false,
-            "collectorNumber": "152",
-            "scryfallId": "aec9ba42-4c58-4e40-a8c5-63da81c44616"
           }
         ]
       }
@@ -234101,21 +233701,6 @@
         ]
       }
     },
-    "timber paladin": {
-      "name": "Timber Paladin",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "woc",
-            "setName": "Wilds of Eldraine Commander",
-            "isFoil": false,
-            "collectorNumber": "20",
-            "scryfallId": "1edfd4d2-c492-4bec-9bb0-c5b7cb01818f"
-          }
-        ]
-      }
-    },
     "archive dragon": {
       "name": "Archive Dragon",
       "owners": {
@@ -234227,21 +233812,6 @@
             "isFoil": false,
             "collectorNumber": "24",
             "scryfallId": "ec424c72-547a-4157-ad84-632216e53006"
-          }
-        ]
-      }
-    },
-    "scion of calamity": {
-      "name": "Scion of Calamity",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "lcc",
-            "setName": "The Lost Caverns of Ixalan Commander",
-            "isFoil": false,
-            "collectorNumber": "93",
-            "scryfallId": "75db3c02-7a03-4de5-a70e-220777227dd3"
           }
         ]
       }
@@ -234666,21 +234236,6 @@
         ]
       }
     },
-    "shriekwood devourer": {
-      "name": "Shriekwood Devourer",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "dsc",
-            "setName": "Duskmourn: House of Horror Commander",
-            "isFoil": false,
-            "collectorNumber": "35",
-            "scryfallId": "bd73c214-f6b6-49e9-b6e8-af6b1f1fb0f0"
-          }
-        ]
-      }
-    },
     "fear of abduction": {
       "name": "Fear of Abduction",
       "owners": {
@@ -234707,21 +234262,6 @@
             "isFoil": false,
             "collectorNumber": "204",
             "scryfallId": "7d4ba274-3c6f-4e12-ba2c-a81c3da3f7e2"
-          }
-        ]
-      }
-    },
-    "coordinated clobbering": {
-      "name": "Coordinated Clobbering",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "dsk",
-            "setName": "Duskmourn: House of Horror",
-            "isFoil": false,
-            "collectorNumber": "173",
-            "scryfallId": "d498cd5d-5807-4297-bc8a-c0941f2f5ce2"
           }
         ]
       }
@@ -234916,36 +234456,6 @@
         ]
       }
     },
-    "teval, arbiter of virtue": {
-      "name": "Teval, Arbiter of Virtue",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "230",
-            "scryfallId": "27a93f5b-7b32-49f0-a179-b897828fe49a"
-          }
-        ]
-      }
-    },
-    "the sibsig ceremony": {
-      "name": "The Sibsig Ceremony",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "91",
-            "scryfallId": "5a9f2a62-1c61-4d2e-86d9-18cd84c31748"
-          }
-        ]
-      }
-    },
     "runescale stormbrood // chilling screech": {
       "name": "Runescale Stormbrood // Chilling Screech",
       "owners": {
@@ -235101,21 +234611,6 @@
         ]
       }
     },
-    "become the avalanche": {
-      "name": "Become the Avalanche",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "tdc",
-            "setName": "Tarkir: Dragonstorm Commander",
-            "isFoil": false,
-            "collectorNumber": "83",
-            "scryfallId": "b5e1921a-5d75-4b9d-8293-3e78dfa664cc"
-          }
-        ]
-      }
-    },
     "zurgo's vanguard": {
       "name": "Zurgo's Vanguard",
       "owners": {
@@ -235127,21 +234622,6 @@
             "isFoil": false,
             "collectorNumber": "133",
             "scryfallId": "a1aa3501-5738-4063-a7f4-51d2600b0041"
-          }
-        ]
-      }
-    },
-    "rainveil rejuvenator": {
-      "name": "Rainveil Rejuvenator",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "tdm",
-            "setName": "Tarkir: Dragonstorm",
-            "isFoil": false,
-            "collectorNumber": "152",
-            "scryfallId": "9bc5c316-6a41-48ba-864b-da3030dd3e0e"
           }
         ]
       }
@@ -235167,21 +234647,6 @@
             "isFoil": false,
             "collectorNumber": "42",
             "scryfallId": "30db372e-0b4c-4e16-9667-bf3fda666f72"
-          }
-        ]
-      }
-    },
-    "alisaie leveilleur": {
-      "name": "Alisaie Leveilleur",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "fic",
-            "setName": "Final Fantasy Commander",
-            "isFoil": false,
-            "collectorNumber": "9",
-            "scryfallId": "ba96f831-02cb-4a74-a2e4-7f76444e3cd7"
           }
         ]
       }
@@ -235562,21 +235027,6 @@
             "isFoil": true,
             "collectorNumber": "121★",
             "scryfallId": "9e42027a-af95-4af7-8222-e6fd00d46b10"
-          }
-        ]
-      }
-    },
-    "clamavus": {
-      "name": "Clamavus",
-      "owners": {
-        "Guille A.": [
-          {
-            "qty": 1,
-            "set": "40k",
-            "setName": "Warhammer 40,000 Commander",
-            "isFoil": true,
-            "collectorNumber": "90★",
-            "scryfallId": "06b0d9da-01c9-4af7-a77a-8d7e65061626"
           }
         ]
       }
@@ -253535,6 +252985,21 @@
             "isFoil": true,
             "collectorNumber": "253",
             "scryfallId": "2207467a-b82a-47ae-8867-15a859328fe9"
+          }
+        ]
+      }
+    },
+    "runic armasaur": {
+      "name": "Runic Armasaur",
+      "owners": {
+        "Manuel Venturini (Sta Fe)": [
+          {
+            "qty": 3,
+            "set": "m19",
+            "setName": "Core Set 2019",
+            "isFoil": false,
+            "collectorNumber": "200",
+            "scryfallId": "b445a0f0-2cca-4223-bd27-940d2cb6d29c"
           }
         ]
       }
